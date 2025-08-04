@@ -298,25 +298,25 @@ class EnhancedWebForecaster:
         precipitation = weather_data.get('precipitation', 0)
         condition = weather_data.get('condition', '').lower()
         
-        # Temperature adjustment (optimal range 70-80°F)
+        # Temperature adjustment - IDENTICAL to local script
         if 70 <= temp_high <= 80:
             temp_adj = 1.0
         elif temp_high < 50:
-            temp_adj = 0.85  # Very cold reduces activity
+            temp_adj = 0.85
         elif temp_high > 95:
-            temp_adj = 0.90  # Very hot reduces activity
+            temp_adj = 0.90
         elif temp_high < 70:
-            temp_adj = 0.95  # Cool weather slight reduction
-        else:  # temp_high > 80
-            temp_adj = 0.98  # Warm weather slight reduction
-        
-        # Precipitation adjustment
-        if precipitation > 0.5:
-            precip_adj = 0.80  # Heavy rain/snow significantly reduces parking
-        elif precipitation > 0.1:
-            precip_adj = 0.90  # Light precipitation reduces parking
+            temp_adj = 0.95
         else:
-            precip_adj = 1.0   # No precipitation
+            temp_adj = 0.97  # Changed from 0.98 to match local
+        
+        # Precipitation adjustment - IDENTICAL to local script
+        if precipitation > 0.5:
+            precip_adj = 0.85  # Changed from 0.80 to match local
+        elif precipitation > 0.1:
+            precip_adj = 0.95  # Changed from 0.90 to match local
+        else:
+            precip_adj = 1.0
         
         # Condition adjustment
         if 'storm' in condition or 'heavy' in condition:
