@@ -1,0 +1,14 @@
+{
+  "standard_multipliers": {},
+  "lollapalooza_day_specific": {
+    "Thursday": 2.49,
+    "Friday": 2.12,
+    "Saturday": 1.8,
+    "Sunday": 2.24
+  },
+  "analysis_summary": {
+    "total_records": 3137,
+    "lollapalooza_samples": 4,
+    "event_categories_analyzed": 0
+  }
+}
