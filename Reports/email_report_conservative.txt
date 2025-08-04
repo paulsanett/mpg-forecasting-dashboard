@@ -1,0 +1,37 @@
+
+PARKING REVENUE FORECAST (Conservative Mode)
+Period: 2025-08-02 to 2025-08-08
+Generated: 2025-08-01 19:08
+
+EXECUTIVE SUMMARY
+💰 Total 7-Day Revenue: $484,895
+📈 Event Impact: +$88,392
+📅 Monthly Projection: $2,078,123
+
+TOP EVENT DAYS:
+1. 08/02 (Saturday): $102,659 (1.37x)
+   Events: Beauty & The Beast, Lollapolooza
+2. 08/03 (Sunday): $97,747 (1.37x)
+   Events: Lollapolooza, Live On the Lake!
+3. 08/04 (Monday): $60,935 (1.26x)
+   Events: Millennium Park Summer Music Series:
+Orc, Barack Obama Day (observed)
+
+GARAGE PERFORMANCE (7-Day Totals):
+Grant Park North: $156,621
+Grant Park South: $63,521
+Millennium: $36,852
+Lakeside: $93,585
+
+DAILY BREAKDOWN:
+08/02 (Sat): $102,659 - 7 events
+08/03 (Sun): $97,747 - 2 events
+08/04 (Mon): $60,935 - 2 events
+08/05 (Tue): $45,935 - 3 events
+08/06 (Wed): $55,592 - 6 events
+08/07 (Thu): $57,757 - 3 events
+08/08 (Fri): $64,272 - 3 events
+
+---
+This forecast uses historically-validated event multipliers based on 3,126 historical records.
+System: Production Parking Revenue Forecasting v2.0

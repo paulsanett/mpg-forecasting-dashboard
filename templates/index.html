@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millennium Parking Revenue Forecasting Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        
+        .summary-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+        
+        .summary-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        
+        .summary-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .chart-container {
+            padding: 30px;
+            background: white;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 400px;
+            margin-bottom: 30px;
+        }
+        
+        .forecast-table {
+            padding: 30px;
+            background: white;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .currency {
+            font-weight: 600;
+            color: #28a745;
+        }
+        
+        .weather-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .events-list {
+            font-size: 0.9em;
+            color: #495057;
+            max-width: 200px;
+        }
+        
+        .multiplier {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            border: 1px solid #f5c6cb;
+        }
+        
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .control-group {
+                justify-content: center;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .summary {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container" style="margin-bottom: 20px;">
+                <img src="/static/Millennium_Logo_Horiz_Color.png" alt="Millennium Parking Garages" style="max-height: 80px; max-width: 400px; height: auto;">
+            </div>
+            <h1>Revenue Forecasting Dashboard</h1>
+            <p>Advanced Weather & Events Integration System</p>
+        </div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="days">Forecast Period:</label>
+                <select id="days" style="padding: 8px; border-radius: 5px; border: 1px solid #ddd;">
+                    <option value="7">7 Days</option>
+                    <option value="14">14 Days</option>
+                    <option value="30">30 Days</option>
+                </select>
+                <button class="btn" onclick="generateForecast()">🔮 Generate Forecast</button>
+            </div>
+            <div class="control-group">
+                <button class="btn btn-secondary" onclick="downloadCSV()">📊 Download CSV</button>
+                <button class="btn btn-secondary" onclick="refreshData()">🔄 Refresh Data</button>
+            </div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Generating forecast with live weather and events data...</p>
+        </div>
+        
+        <div id="results" style="display: none;">
+            <div class="summary" id="summary">
+                <!-- Summary cards will be populated here -->
+            </div>
+            
+            <div class="chart-container">
+                <h2 style="margin-bottom: 20px; color: #2c3e50;">📈 Revenue Forecast Chart</h2>
+                <div class="chart-wrapper">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="forecast-table">
+                <h2 style="margin-bottom: 20px; color: #2c3e50;">📋 Detailed Forecast Table</h2>
+                <div class="table-wrapper">
+                    <table id="forecastTable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Day</th>
+                                <th>Events</th>
+                                <th>Weather</th>
+                                <th>Event Mult.</th>
+                                <th>Weather Mult.</th>
+                                <th>Total Revenue</th>
+                                <th>Grant Park North</th>
+                                <th>Lakeside</th>
+                                <th>Grant Park South</th>
+                                <th>Millennium</th>
+                            </tr>
+                        </thead>
+                        <tbody id="forecastTableBody">
+                            <!-- Table rows will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div id="error" class="error" style="display: none;">
+            <!-- Error messages will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        let currentChart = null;
+        
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+        }
+        
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+        
+        function showError(message) {
+            document.getElementById('error').innerHTML = message;
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+        }
+        
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+        
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { 
+                weekday: 'short', 
+                month: 'short', 
+                day: 'numeric' 
+            });
+        }
+        
+        function generateForecast() {
+            showLoading();
+            const days = document.getElementById('days').value;
+            
+            fetch(`/api/forecast?days=${days}`)
+                .then(response => response.json())
+                .then(data => {
+                    hideLoading();
+                    displayResults(data);
+                })
+                .catch(error => {
+                    hideLoading();
+                    showError('Error generating forecast: ' + error.message);
+                });
+        }
+        
+        function displayResults(data) {
+            displaySummary(data);
+            displayChart(data);
+            displayTable(data);
+            document.getElementById('results').style.display = 'block';
+        }
+        
+        function displaySummary(data) {
+            const summaryHtml = `
+                <div class="summary-card">
+                    <h3>Total Revenue</h3>
+                    <div class="value">${formatCurrency(data.total_revenue)}</div>
+                    <small>${data.forecast_data.length} days</small>
+                </div>
+                <div class="summary-card">
+                    <h3>Average Daily</h3>
+                    <div class="value">${formatCurrency(data.average_daily)}</div>
+                    <small>Per day</small>
+                </div>
+                <div class="summary-card">
+                    <h3>Monthly Projection</h3>
+                    <div class="value">${formatCurrency(data.monthly_projection)}</div>
+                    <small>30-day estimate</small>
+                </div>
+                <div class="summary-card">
+                    <h3>Generated</h3>
+                    <div class="value" style="font-size: 1.2em;">📊</div>
+                    <small>${new Date(data.generated_at).toLocaleString()}</small>
+                </div>
+            `;
+            document.getElementById('summary').innerHTML = summaryHtml;
+        }
+        
+        function displayChart(data) {
+            const ctx = document.getElementById('revenueChart').getContext('2d');
+            
+            if (currentChart) {
+                currentChart.destroy();
+            }
+            
+            const labels = data.forecast_data.map(d => formatDate(d.date));
+            const revenues = data.forecast_data.map(d => d.final_revenue);
+            
+            currentChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Daily Revenue',
+                        data: revenues,
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: '#667eea',
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return formatCurrency(value);
+                                }
+                            }
+                        }
+                    },
+                    elements: {
+                        point: {
+                            hoverRadius: 8
+                        }
+                    }
+                }
+            });
+        }
+        
+        function displayTable(data) {
+            const tbody = document.getElementById('forecastTableBody');
+            tbody.innerHTML = '';
+            
+            data.forecast_data.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><strong>${formatDate(row.date)}</strong></td>
+                    <td>${row.day}</td>
+                    <td class="events-list">
+                        ${row.event_count > 0 ? 
+                            `<strong>${row.event_count} events</strong><br>${row.events.join('<br>')}` : 
+                            'No major events'
+                        }
+                    </td>
+                    <td class="weather-info">
+                        ${row.weather_high ? 
+                            `${Math.round(row.weather_high)}°F/${Math.round(row.weather_low)}°F<br>${row.weather_condition}` : 
+                            'No data'
+                        }
+                    </td>
+                    <td><span class="multiplier">${row.event_multiplier.toFixed(2)}x</span></td>
+                    <td><span class="multiplier">${row.weather_multiplier.toFixed(3)}x</span></td>
+                    <td class="currency"><strong>${formatCurrency(row.final_revenue)}</strong></td>
+                    <td class="currency">${formatCurrency(row.garages['Grant Park North'] || 0)}</td>
+                    <td class="currency">${formatCurrency(row.garages['Lakeside'] || 0)}</td>
+                    <td class="currency">${formatCurrency(row.garages['Grant Park South'] || 0)}</td>
+                    <td class="currency">${formatCurrency(row.garages['Millennium'] || 0)}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+        
+        function downloadCSV() {
+            const days = document.getElementById('days').value;
+            window.open(`/api/download-csv?days=${days}`, '_blank');
+        }
+        
+        function refreshData() {
+            generateForecast();
+        }
+        
+        // Generate initial forecast on page load
+        window.onload = function() {
+            generateForecast();
+        };
+    </script>
+</body>
+</html>
