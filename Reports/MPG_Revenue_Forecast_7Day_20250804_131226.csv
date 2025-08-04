@@ -1,0 +1,8 @@
+Date,Day,Events,Weather_High,Weather_Low,Weather_Condition,Event_Multiplier,Weather_Multiplier,Total_Revenue,Grant_Park_North,Grant_Park_South,Millennium,Lakeside
+2025-08-04,Monday,No major events,80.29,71.6,broken clouds,1.00,0.970,46910,15152,6145,3565,9054
+2025-08-05,Tuesday,Chicago Cubs vs Cardinals,82.56,64.18,overcast clouds,1.30,0.873,52132,16839,6829,3962,10061
+2025-08-06,Wednesday,No major events,85.68,69.8,clear sky,1.00,0.970,46089,14887,6038,3503,8895
+2025-08-07,Thursday,No major events,89.24,72.57,scattered clouds,1.00,0.970,51874,16755,6795,3942,10012
+2025-08-08,Friday,Grant Park Summer Concert,92.43,75.09,broken clouds,1.20,0.970,63942,20653,8376,4860,12341
+2025-08-09,Saturday,Chicago Bears Preseason Game,91.2,74.86,broken clouds,1.30,0.970,94492,30521,12378,7181,18237
+2025-08-10,Sunday,Millennium Park Festival,80,66,partly cloudy,1.25,1.000,89185,28807,11683,6778,17213

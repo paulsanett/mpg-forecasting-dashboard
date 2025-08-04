@@ -1,0 +1,8 @@
+Date,Day,Events,Weather_High,Weather_Low,Weather_Condition,Event_Multiplier,Weather_Multiplier,Total_Revenue,Grant_Park_North,Grant_Park_South,Millennium,Lakeside
+2025-08-04,Monday,No major events,80.29,72.01,overcast clouds,1.00,0.873,42219,13637,5531,3209,8148
+2025-08-05,Tuesday,No major events,82.56,65.03,broken clouds,1.00,0.970,44557,14392,5837,3386,8599
+2025-08-06,Wednesday,No major events,85.68,69.8,clear sky,1.00,0.970,46089,14887,6038,3503,8895
+2025-08-07,Thursday,No major events,89.24,72.57,scattered clouds,1.00,0.970,51874,16755,6795,3942,10012
+2025-08-08,Friday,No major events,92.43,75.09,broken clouds,1.00,0.970,53285,17211,6980,4050,10284
+2025-08-09,Saturday,No major events,91.2,74.86,broken clouds,1.00,0.970,72686,23478,9522,5524,14028
+2025-08-10,Sunday,No major events,80,66,partly cloudy,1.00,1.000,71348,23045,9347,5422,13770

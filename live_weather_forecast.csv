@@ -1,0 +1,8 @@
+Date,Day,Base_Forecast,High_Temp,Low_Temp,Condition,Precipitation,Weather_Adj,Final_Prediction
+2025-07-30,Wednesday,72953.4,,,,,1.0,72953.4
+2025-07-31,Thursday,80092.28,,,,,1.0,80092.28
+2025-08-01,Friday,88831.04,,,,,1.0,88831.04
+2025-08-02,Saturday,136892.28,,,,,1.0,136892.28
+2025-08-03,Sunday,116592.44,,,,,1.0,116592.44
+2025-08-04,Monday,75114.33,79,72,cloudy,0,0.997,74926.54
+2025-08-05,Tuesday,67311.49,83,65,cloudy,0,0.997,67143.21
