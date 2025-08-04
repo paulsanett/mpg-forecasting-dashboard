@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 import csv
 import json
 import urllib.request
+import os
 
 class EnhancedForecaster:
     def __init__(self):
@@ -88,22 +89,24 @@ class EnhancedForecaster:
             weather_by_date = {}
         
         # Extend with seasonal averages
-        current_date = datetime.now()
+        # Chicago seasonal weather averages - IDENTICAL to web app
         august_avg = {'temp_high': 83, 'temp_low': 68, 'condition': 'partly cloudy', 'precipitation': 0.1}
         september_avg = {'temp_high': 76, 'temp_low': 60, 'condition': 'partly cloudy', 'precipitation': 0.1}
         
+        current_date = datetime.now()
         for i in range(days):
             forecast_date = current_date + timedelta(days=i)
             date_str = forecast_date.strftime('%Y-%m-%d')
             
             if date_str not in weather_by_date:
+                # Use appropriate seasonal average - IDENTICAL logic to web app
                 if forecast_date.month == 8:
                     avg_weather = august_avg
                 else:
                     avg_weather = september_avg
                 
                 weather_by_date[date_str] = {
-                    'temp_high': avg_weather['temp_high'] + (i % 3 - 1) * 3,
+                    'temp_high': avg_weather['temp_high'] + (i % 3 - 1) * 3,  # Add some variation
                     'temp_low': avg_weather['temp_low'] + (i % 3 - 1) * 2,
                     'condition': avg_weather['condition'],
                     'precipitation': avg_weather['precipitation']
@@ -111,43 +114,99 @@ class EnhancedForecaster:
         
         return weather_by_date
     
+    def load_events_from_csv(self):
+        """Load events from CSV file - IDENTICAL to web app logic"""
+        events_by_date = {}
+        
+        # Try to load from CSV file
+        possible_paths = [
+            'MG Event Calendar 2025.csv',
+            './MG Event Calendar 2025.csv',
+            os.path.join(os.path.dirname(__file__), 'MG Event Calendar 2025.csv')
+        ]
+        
+        for file_path in possible_paths:
+            try:
+                with open(file_path, 'r', encoding='utf-8-sig') as file:
+                    print(f"📁 Loading events from: {file_path}")
+                    reader = csv.DictReader(file)
+                    for row in reader:
+                        date_str = row.get('Start Date', '').strip()
+                        if date_str:
+                            try:
+                                # Parse date in M/D/YY format
+                                date_obj = datetime.strptime(date_str, '%m/%d/%y')
+                                date_key = date_obj.strftime('%Y-%m-%d')
+                                
+                                if date_key not in events_by_date:
+                                    events_by_date[date_key] = []
+                                
+                                event_name = row.get('Event', '').strip()
+                                if event_name and event_name != '-':
+                                    # Categorize events
+                                    category = self.categorize_event(event_name)
+                                    day_of_week = date_obj.strftime('%A')
+                                    multiplier = self.get_event_multiplier(event_name, category, day_of_week)
+                                    
+                                    events_by_date[date_key].append({
+                                        'name': event_name,
+                                        'category': category,
+                                        'multiplier': multiplier
+                                    })
+                            except ValueError:
+                                continue
+                break
+            except FileNotFoundError:
+                continue
+        
+        return events_by_date
+    
     def get_hardcoded_events(self):
-        """Get hardcoded events including day-specific Lollapalooza"""
+        """Get minimal hardcoded events - only Lollapalooza for fallback"""
         events = {}
         
-        # Lollapalooza 2025 (July 31 - Aug 3, 2025) - just passed
-        lolla_dates = [
-            '2025-07-31',  # Thursday
-            '2025-08-01',  # Friday  
-            '2025-08-02',  # Saturday
-            '2025-08-03'   # Sunday
-        ]
+        # Only Lollapalooza with day-specific multipliers (for fallback)
+        lolla_events = {
+            '2025-07-31': {'name': 'Lollapalooza', 'category': 'mega_festival', 'multiplier': 2.49},  # Thursday
+            '2025-08-01': {'name': 'Lollapalooza', 'category': 'mega_festival', 'multiplier': 2.12},  # Friday
+            '2025-08-02': {'name': 'Lollapalooza', 'category': 'mega_festival', 'multiplier': 1.80},  # Saturday
+            '2025-08-03': {'name': 'Lollapalooza', 'category': 'mega_festival', 'multiplier': 2.24}   # Sunday
+        }
         
-        for date_str in lolla_dates:
-            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-            day_name = date_obj.strftime('%A')
-            events[date_str] = [{
-                'name': 'Lollapalooza',
-                'category': 'mega_festival',
-                'multiplier': self.lollapalooza_day_multipliers.get(day_name, 2.0)
-            }]
-        
-        # Add some upcoming events
-        upcoming_events = [
-            ('2025-08-15', 'Chicago Cubs vs Cardinals', 'sports'),
-            ('2025-08-29', 'Chicago Bears Preseason', 'sports'),
-            ('2025-09-07', 'Chicago Bears vs Packers', 'sports'),
-            ('2025-09-12', 'Grant Park Music Festival', 'festival'),
-        ]
-        
-        for date_str, event_name, category in upcoming_events:
-            events[date_str] = [{
-                'name': event_name,
-                'category': category,
-                'multiplier': self.event_multipliers[category]
-            }]
+        for date_str, event_info in lolla_events.items():
+            events[date_str] = [event_info]
         
         return events
+    
+    def categorize_event(self, event_name):
+        """Categorize events based on name - IDENTICAL to web app"""
+        event_lower = event_name.lower()
+        
+        if 'lollapalooza' in event_lower:
+            return 'mega_festival'
+        elif any(sport in event_lower for sport in ['bears', 'bulls', 'blackhawks', 'cubs', 'sox', 'fire']):
+            return 'sports'
+        elif any(term in event_lower for term in ['festival', 'fest']):
+            return 'festival'
+        elif any(term in event_lower for term in ['broadway', 'symphony', 'opera', 'ballet']):
+            return 'major_performance'
+        elif any(term in event_lower for term in ['concert', 'music', 'performance', 'show']):
+            return 'performance'
+        elif any(term in event_lower for term in ['holiday', 'christmas', 'thanksgiving', 'july 4']):
+            return 'holiday'
+        else:
+            return 'other'
+    
+    def get_event_multiplier(self, event_name, category, day_of_week):
+        """Get the appropriate multiplier for an event - IDENTICAL to web app"""
+        event_lower = event_name.lower()
+        
+        # Check for Lollapalooza with day-specific multipliers
+        if 'lollapalooza' in event_lower:
+            return self.lollapalooza_day_multipliers.get(day_of_week, self.event_multipliers['mega_festival'])
+        
+        # Use standard category multipliers for other events
+        return self.event_multipliers.get(category, 1.0)
     
     def calculate_weather_adjustment(self, weather_data):
         """Calculate weather adjustment multiplier"""
@@ -198,7 +257,20 @@ class EnhancedForecaster:
         
         # Get data
         weather_data = self.get_weather_data(days)
-        events_data = self.get_hardcoded_events()
+        
+        # Load events from CSV first, fallback to hardcoded
+        print("🎪 Loading events data...")
+        events_data = self.load_events_from_csv()
+        if not events_data:
+            print("⚠️ No CSV events found, using hardcoded fallback")
+            events_data = self.get_hardcoded_events()
+        else:
+            print(f"✅ Loaded {len(events_data)} event dates from CSV")
+            # Merge with hardcoded Lollapalooza events
+            hardcoded = self.get_hardcoded_events()
+            for date, events in hardcoded.items():
+                if date not in events_data:
+                    events_data[date] = events
         
         # Generate forecast starting from today
         start_date = datetime.now()
@@ -330,7 +402,8 @@ class EnhancedForecaster:
     
     def generate_csv_report(self, forecast_data, days):
         """Generate CSV report file"""
-        filename = f"forecast_report_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filename = f"Reports/MPG_Revenue_Forecast_{days}Day_{timestamp}.csv"
         
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
@@ -367,7 +440,8 @@ class EnhancedForecaster:
     
     def generate_text_report(self, forecast_data, total_revenue, days):
         """Generate detailed text report file"""
-        filename = f"forecast_report_{datetime.now().strftime('%Y%m%d_%H%M')}.txt"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filename = f"Reports/MPG_Revenue_Forecast_{days}Day_{timestamp}.txt"
         
         with open(filename, 'w', encoding='utf-8') as f:
             f.write("MILLENNIUM PARKING GARAGES\n")
