@@ -57,7 +57,10 @@ class EnhancedWebForecaster:
     
     def get_weather_data(self, days=7):
         """Get weather forecast data with extended forecast beyond API limits"""
+        print(f"🌤️ Getting weather data for {days} days...")
         weather_by_date = {}
+        api_success = False
+        
         try:
             url = f"http://api.openweathermap.org/data/2.5/forecast?q=Chicago,IL,US&appid={self.api_key}&units=imperial"
             response = urllib.request.urlopen(url)
@@ -84,36 +87,44 @@ class EnhancedWebForecaster:
                         item['main']['temp_min']
                     )
             
-            # Extend forecast beyond API limit using seasonal averages
-            if days > 5:
-                last_date = max(weather_by_date.keys()) if weather_by_date else datetime.now().strftime('%Y-%m-%d')
-                last_date_obj = datetime.strptime(last_date, '%Y-%m-%d')
-                
-                # Chicago August weather averages
-                august_avg = {'temp_high': 83, 'temp_low': 68, 'condition': 'partly cloudy', 'precipitation': 0.1}
-                september_avg = {'temp_high': 76, 'temp_low': 60, 'condition': 'partly cloudy', 'precipitation': 0.1}
-                
-                for i in range(1, days - len(weather_by_date) + 1):
-                    extended_date = last_date_obj + timedelta(days=i)
-                    date_str = extended_date.strftime('%Y-%m-%d')
-                    
-                    # Use appropriate seasonal average
-                    if extended_date.month == 8:
-                        avg_weather = august_avg
-                    else:
-                        avg_weather = september_avg
-                    
-                    weather_by_date[date_str] = {
-                        'temp_high': avg_weather['temp_high'] + (i % 3 - 1) * 3,  # Add some variation
-                        'temp_low': avg_weather['temp_low'] + (i % 3 - 1) * 2,
-                        'condition': avg_weather['condition'],
-                        'precipitation': avg_weather['precipitation']
-                    }
+            api_success = True
+            print(f"✅ API provided weather for {len(weather_by_date)} days")
             
-            return weather_by_date
         except Exception as e:
-            print(f"Weather API error: {e}")
-            return self.get_fallback_weather(days)
+            print(f"⚠️ Weather API error: {e}")
+            weather_by_date = {}
+        
+        # Always extend forecast beyond API limit OR provide full fallback
+        current_date = datetime.now()
+        
+        # Chicago seasonal weather averages
+        august_avg = {'temp_high': 83, 'temp_low': 68, 'condition': 'partly cloudy', 'precipitation': 0.1}
+        september_avg = {'temp_high': 76, 'temp_low': 60, 'condition': 'partly cloudy', 'precipitation': 0.1}
+        october_avg = {'temp_high': 70, 'temp_low': 52, 'condition': 'partly cloudy', 'precipitation': 0.15}
+        
+        for i in range(days):
+            forecast_date = current_date + timedelta(days=i)
+            date_str = forecast_date.strftime('%Y-%m-%d')
+            
+            # If we don't have API data for this date, use seasonal averages
+            if date_str not in weather_by_date:
+                # Use appropriate seasonal average
+                if forecast_date.month == 8:
+                    avg_weather = august_avg
+                elif forecast_date.month == 9:
+                    avg_weather = september_avg
+                else:
+                    avg_weather = october_avg
+                
+                weather_by_date[date_str] = {
+                    'temp_high': avg_weather['temp_high'] + (i % 3 - 1) * 3,  # Add some variation
+                    'temp_low': avg_weather['temp_low'] + (i % 3 - 1) * 2,
+                    'condition': avg_weather['condition'],
+                    'precipitation': avg_weather['precipitation']
+                }
+        
+        print(f"🎯 Total weather data: {len(weather_by_date)} days (API: {api_success})")
+        return weather_by_date
     
     def get_fallback_weather(self, days):
         """Fallback weather data when API is unavailable"""
@@ -145,21 +156,24 @@ class EnhancedWebForecaster:
     
     def load_events(self):
         """Load events from calendar"""
-        events_by_date = {}
+        print("🎪 Loading events data...")
         
-        # Try multiple possible file paths
+        # For Heroku deployment, always use hardcoded events as primary source
+        # since CSV files may not be accessible in production
+        events_by_date = self.get_hardcoded_events()
+        print(f"✅ Loaded {len(events_by_date)} hardcoded event dates")
+        
+        # Try to supplement with CSV file if available (local development)
         possible_paths = [
             'MG Event Calendar 2025.csv',
             './MG Event Calendar 2025.csv',
             os.path.join(os.path.dirname(__file__), 'MG Event Calendar 2025.csv')
         ]
         
-        file_found = False
         for file_path in possible_paths:
             try:
                 with open(file_path, 'r', encoding='utf-8-sig') as file:
-                    file_found = True
-                    print(f"Successfully loaded events from: {file_path}")
+                    print(f"📁 Found additional events file: {file_path}")
                 reader = csv.DictReader(file)
                 for row in reader:
                     date_str = row.get('Start Date', '').strip()
@@ -183,17 +197,12 @@ class EnhancedWebForecaster:
                                 })
                         except ValueError:
                             continue
+                    print(f"📈 Added {len([k for k in events_by_date.keys() if k not in self.get_hardcoded_events()])} additional events from CSV")
                     break  # Exit the file path loop if successful
             except FileNotFoundError:
                 continue  # Try next file path
         
-        if not file_found:
-            print("Event calendar not found in any of the expected locations")
-            print(f"Tried paths: {possible_paths}")
-            # Add some hardcoded events for demonstration
-            events_by_date = self.get_hardcoded_events()
-        
-        print(f"Loaded {len(events_by_date)} event dates")
+        print(f"🎯 Total loaded: {len(events_by_date)} event dates")
         return events_by_date
     
     def get_hardcoded_events(self):
