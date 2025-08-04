@@ -318,13 +318,11 @@ class EnhancedWebForecaster:
         else:
             precip_adj = 1.0
         
-        # Condition adjustment
-        if 'storm' in condition or 'heavy' in condition:
-            condition_adj = 0.75
-        elif 'rain' in condition or 'snow' in condition:
+        # Condition adjustment - IDENTICAL to local script
+        if any(bad in condition for bad in ['storm', 'heavy rain', 'snow']):
+            condition_adj = 0.80
+        elif any(poor in condition for poor in ['rain', 'drizzle', 'overcast']):
             condition_adj = 0.90
-        elif 'cloud' in condition:
-            condition_adj = 0.997  # Slight reduction for cloudy
         else:
             condition_adj = 1.0
         
@@ -336,8 +334,8 @@ class EnhancedWebForecaster:
         weather_data = self.get_weather_data(days)
         events_data = self.load_events()
         
-        # Generate forecast starting tomorrow
-        start_date = datetime.now() + timedelta(days=1)
+        # Generate forecast starting from today - IDENTICAL to local script
+        start_date = datetime.now()
         forecast_data = []
         total_revenue = 0
         
