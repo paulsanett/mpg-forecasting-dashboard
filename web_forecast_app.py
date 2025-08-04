@@ -155,15 +155,13 @@ class EnhancedWebForecaster:
         return weather_by_date
     
     def load_events(self):
-        """Load events from calendar"""
+        """Load events from calendar - CSV FIRST, then hardcoded fallback"""
         print("🎪 Loading events data...")
         
-        # For Heroku deployment, always use hardcoded events as primary source
-        # since CSV files may not be accessible in production
-        events_by_date = self.get_hardcoded_events()
-        print(f"✅ Loaded {len(events_by_date)} hardcoded event dates")
+        # Try to load from CSV file FIRST (same as local script)
+        events_by_date = {}
+        csv_loaded = False
         
-        # Try to supplement with CSV file if available (local development)
         possible_paths = [
             'MG Event Calendar 2025.csv',
             './MG Event Calendar 2025.csv',
@@ -173,34 +171,46 @@ class EnhancedWebForecaster:
         for file_path in possible_paths:
             try:
                 with open(file_path, 'r', encoding='utf-8-sig') as file:
-                    print(f"📁 Found additional events file: {file_path}")
-                reader = csv.DictReader(file)
-                for row in reader:
-                    date_str = row.get('Start Date', '').strip()
-                    if date_str:
-                        try:
-                            # Parse date in M/D/YY format
-                            date_obj = datetime.strptime(date_str, '%m/%d/%y')
-                            date_key = date_obj.strftime('%Y-%m-%d')
-                            
-                            if date_key not in events_by_date:
-                                events_by_date[date_key] = []
-                            
-                            event_name = row.get('Event', '').strip()
-                            if event_name and event_name != '-':
-                                # Categorize events
-                                category = self.categorize_event(event_name)
-                                events_by_date[date_key].append({
-                                    'name': event_name,
-                                    'category': category,
-                                    'multiplier': self.get_event_multiplier(event_name, category, date_obj.strftime('%A'))
-                                })
-                        except ValueError:
-                            continue
-                    print(f"📈 Added {len([k for k in events_by_date.keys() if k not in self.get_hardcoded_events()])} additional events from CSV")
-                    break  # Exit the file path loop if successful
+                    print(f"📁 Loading events from: {file_path}")
+                    reader = csv.DictReader(file)
+                    for row in reader:
+                        date_str = row.get('Start Date', '').strip()
+                        if date_str:
+                            try:
+                                # Parse date in M/D/YY format
+                                date_obj = datetime.strptime(date_str, '%m/%d/%y')
+                                date_key = date_obj.strftime('%Y-%m-%d')
+                                
+                                if date_key not in events_by_date:
+                                    events_by_date[date_key] = []
+                                
+                                event_name = row.get('Event', '').strip()
+                                if event_name and event_name != '-':
+                                    # Categorize events
+                                    category = self.categorize_event(event_name)
+                                    events_by_date[date_key].append({
+                                        'name': event_name,
+                                        'category': category,
+                                        'multiplier': self.get_event_multiplier(event_name, category, date_obj.strftime('%A'))
+                                    })
+                            except ValueError:
+                                continue
+                    csv_loaded = True
+                    print(f"✅ Loaded {len(events_by_date)} event dates from CSV")
+                break
             except FileNotFoundError:
-                continue  # Try next file path
+                continue
+        
+        # If no CSV data loaded, use hardcoded fallback
+        if not csv_loaded:
+            print("⚠️ No CSV events found, using hardcoded fallback")
+            events_by_date = self.get_hardcoded_events()
+        else:
+            # Merge with hardcoded Lollapalooza events
+            hardcoded = self.get_hardcoded_events()
+            for date, events in hardcoded.items():
+                if date not in events_by_date:
+                    events_by_date[date] = events
         
         print(f"🎯 Total loaded: {len(events_by_date)} event dates")
         return events_by_date
