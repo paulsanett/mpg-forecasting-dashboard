@@ -1,0 +1,6002 @@
+[
+  {
+    "date": "2025-08-04",
+    "day_of_week": "MON",
+    "total_revenue": 138165.12,
+    "date_obj": "2025-08-04T00:00:00"
+  },
+  {
+    "date": "2025-08-03",
+    "day_of_week": "SUN",
+    "total_revenue": 160052.28,
+    "date_obj": "2025-08-03T00:00:00"
+  },
+  {
+    "date": "2025-08-02",
+    "day_of_week": "SAT",
+    "total_revenue": 134982.18,
+    "date_obj": "2025-08-02T00:00:00"
+  },
+  {
+    "date": "2025-08-01",
+    "day_of_week": "FRI",
+    "total_revenue": 116299.54,
+    "date_obj": "2025-08-01T00:00:00"
+  },
+  {
+    "date": "2025-07-31",
+    "day_of_week": "THU",
+    "total_revenue": 133167.8,
+    "date_obj": "2025-07-31T00:00:00"
+  },
+  {
+    "date": "2025-07-30",
+    "day_of_week": "WED",
+    "total_revenue": 86431.19,
+    "date_obj": "2025-07-30T00:00:00"
+  },
+  {
+    "date": "2025-07-29",
+    "day_of_week": "TUE",
+    "total_revenue": 74168.33,
+    "date_obj": "2025-07-29T00:00:00"
+  },
+  {
+    "date": "2025-07-28",
+    "day_of_week": "MON",
+    "total_revenue": 80937.08,
+    "date_obj": "2025-07-28T00:00:00"
+  },
+  {
+    "date": "2025-07-27",
+    "day_of_week": "SUN",
+    "total_revenue": 115986.69,
+    "date_obj": "2025-07-27T00:00:00"
+  },
+  {
+    "date": "2025-07-26",
+    "day_of_week": "SAT",
+    "total_revenue": 128621.65,
+    "date_obj": "2025-07-26T00:00:00"
+  },
+  {
+    "date": "2025-07-25",
+    "day_of_week": "FRI",
+    "total_revenue": 94022.12,
+    "date_obj": "2025-07-25T00:00:00"
+  },
+  {
+    "date": "2025-07-24",
+    "day_of_week": "THU",
+    "total_revenue": 85414.8,
+    "date_obj": "2025-07-24T00:00:00"
+  },
+  {
+    "date": "2025-07-23",
+    "day_of_week": "WED",
+    "total_revenue": 89534.82,
+    "date_obj": "2025-07-23T00:00:00"
+  },
+  {
+    "date": "2025-07-22",
+    "day_of_week": "TUE",
+    "total_revenue": 89523.53,
+    "date_obj": "2025-07-22T00:00:00"
+  },
+  {
+    "date": "2025-07-21",
+    "day_of_week": "MON",
+    "total_revenue": 92260.52,
+    "date_obj": "2025-07-21T00:00:00"
+  },
+  {
+    "date": "2025-07-20",
+    "day_of_week": "SUN",
+    "total_revenue": 119729.96,
+    "date_obj": "2025-07-20T00:00:00"
+  },
+  {
+    "date": "2025-07-19",
+    "day_of_week": "SAT",
+    "total_revenue": 163143.95,
+    "date_obj": "2025-07-19T00:00:00"
+  },
+  {
+    "date": "2025-07-18",
+    "day_of_week": "FRI",
+    "total_revenue": 126593.8,
+    "date_obj": "2025-07-18T00:00:00"
+  },
+  {
+    "date": "2025-07-17",
+    "day_of_week": "THU",
+    "total_revenue": 100973.85,
+    "date_obj": "2025-07-17T00:00:00"
+  },
+  {
+    "date": "2025-07-16",
+    "day_of_week": "WED",
+    "total_revenue": 79893.95,
+    "date_obj": "2025-07-16T00:00:00"
+  },
+  {
+    "date": "2025-07-15",
+    "day_of_week": "TUE",
+    "total_revenue": 73239.52,
+    "date_obj": "2025-07-15T00:00:00"
+  },
+  {
+    "date": "2025-07-14",
+    "day_of_week": "MON",
+    "total_revenue": 81222.11,
+    "date_obj": "2025-07-14T00:00:00"
+  },
+  {
+    "date": "2025-07-13",
+    "day_of_week": "SUN",
+    "total_revenue": 115376.62,
+    "date_obj": "2025-07-13T00:00:00"
+  },
+  {
+    "date": "2025-07-12",
+    "day_of_week": "SAT",
+    "total_revenue": 137796.81,
+    "date_obj": "2025-07-12T00:00:00"
+  },
+  {
+    "date": "2025-07-11",
+    "day_of_week": "FRI",
+    "total_revenue": 85612.87,
+    "date_obj": "2025-07-11T00:00:00"
+  },
+  {
+    "date": "2025-07-10",
+    "day_of_week": "THU",
+    "total_revenue": 82917.0,
+    "date_obj": "2025-07-10T00:00:00"
+  },
+  {
+    "date": "2025-07-09",
+    "day_of_week": "WED",
+    "total_revenue": 86128.28,
+    "date_obj": "2025-07-09T00:00:00"
+  },
+  {
+    "date": "2025-07-08",
+    "day_of_week": "TUE",
+    "total_revenue": 65019.03,
+    "date_obj": "2025-07-08T00:00:00"
+  },
+  {
+    "date": "2025-07-07",
+    "day_of_week": "MON",
+    "total_revenue": 74742.39,
+    "date_obj": "2025-07-07T00:00:00"
+  },
+  {
+    "date": "2025-07-06",
+    "day_of_week": "SUN",
+    "total_revenue": 103925.9,
+    "date_obj": "2025-07-06T00:00:00"
+  },
+  {
+    "date": "2025-07-05",
+    "day_of_week": "SAT",
+    "total_revenue": 105658.31,
+    "date_obj": "2025-07-05T00:00:00"
+  },
+  {
+    "date": "2025-07-04",
+    "day_of_week": "FRI",
+    "total_revenue": 66825.96,
+    "date_obj": "2025-07-04T00:00:00"
+  },
+  {
+    "date": "2025-07-03",
+    "day_of_week": "THU",
+    "total_revenue": 61844.35,
+    "date_obj": "2025-07-03T00:00:00"
+  },
+  {
+    "date": "2025-07-02",
+    "day_of_week": "WED",
+    "total_revenue": 76801.88,
+    "date_obj": "2025-07-02T00:00:00"
+  },
+  {
+    "date": "2025-07-01",
+    "day_of_week": "TUE",
+    "total_revenue": 69266.36,
+    "date_obj": "2025-07-01T00:00:00"
+  },
+  {
+    "date": "2025-06-30",
+    "day_of_week": "MON",
+    "total_revenue": 77669.67,
+    "date_obj": "2025-06-30T00:00:00"
+  },
+  {
+    "date": "2025-06-29",
+    "day_of_week": "SUN",
+    "total_revenue": 100333.91,
+    "date_obj": "2025-06-29T00:00:00"
+  },
+  {
+    "date": "2025-06-28",
+    "day_of_week": "SAT",
+    "total_revenue": 129583.9,
+    "date_obj": "2025-06-28T00:00:00"
+  },
+  {
+    "date": "2025-06-27",
+    "day_of_week": "FRI",
+    "total_revenue": 92421.17,
+    "date_obj": "2025-06-27T00:00:00"
+  },
+  {
+    "date": "2025-06-26",
+    "day_of_week": "THU",
+    "total_revenue": 97593.11,
+    "date_obj": "2025-06-26T00:00:00"
+  },
+  {
+    "date": "2025-06-25",
+    "day_of_week": "WED",
+    "total_revenue": 79802.37,
+    "date_obj": "2025-06-25T00:00:00"
+  },
+  {
+    "date": "2025-06-24",
+    "day_of_week": "TUE",
+    "total_revenue": 64967.12,
+    "date_obj": "2025-06-24T00:00:00"
+  },
+  {
+    "date": "2025-06-23",
+    "day_of_week": "MON",
+    "total_revenue": 65249.57,
+    "date_obj": "2025-06-23T00:00:00"
+  },
+  {
+    "date": "2025-06-22",
+    "day_of_week": "SUN",
+    "total_revenue": 110591.38,
+    "date_obj": "2025-06-22T00:00:00"
+  },
+  {
+    "date": "2025-06-21",
+    "day_of_week": "SAT",
+    "total_revenue": 167042.43,
+    "date_obj": "2025-06-21T00:00:00"
+  },
+  {
+    "date": "2025-06-20",
+    "day_of_week": "FRI",
+    "total_revenue": 94405.5,
+    "date_obj": "2025-06-20T00:00:00"
+  },
+  {
+    "date": "2025-06-19",
+    "day_of_week": "THU",
+    "total_revenue": 88209.31,
+    "date_obj": "2025-06-19T00:00:00"
+  },
+  {
+    "date": "2025-06-18",
+    "day_of_week": "WED",
+    "total_revenue": 65459.68,
+    "date_obj": "2025-06-18T00:00:00"
+  },
+  {
+    "date": "2025-06-17",
+    "day_of_week": "TUE",
+    "total_revenue": 67776.92,
+    "date_obj": "2025-06-17T00:00:00"
+  },
+  {
+    "date": "2025-06-16",
+    "day_of_week": "MON",
+    "total_revenue": 69674.72,
+    "date_obj": "2025-06-16T00:00:00"
+  },
+  {
+    "date": "2025-06-15",
+    "day_of_week": "SUN",
+    "total_revenue": 80307.72,
+    "date_obj": "2025-06-15T00:00:00"
+  },
+  {
+    "date": "2025-06-14",
+    "day_of_week": "SAT",
+    "total_revenue": 92185.65,
+    "date_obj": "2025-06-14T00:00:00"
+  },
+  {
+    "date": "2025-06-13",
+    "day_of_week": "FRI",
+    "total_revenue": 75202.17,
+    "date_obj": "2025-06-13T00:00:00"
+  },
+  {
+    "date": "2025-06-12",
+    "day_of_week": "THU",
+    "total_revenue": 76819.24,
+    "date_obj": "2025-06-12T00:00:00"
+  },
+  {
+    "date": "2025-06-11",
+    "day_of_week": "WED",
+    "total_revenue": 83961.1,
+    "date_obj": "2025-06-11T00:00:00"
+  },
+  {
+    "date": "2025-06-10",
+    "day_of_week": "TUE",
+    "total_revenue": 64771.7,
+    "date_obj": "2025-06-10T00:00:00"
+  },
+  {
+    "date": "2025-06-09",
+    "day_of_week": "MON",
+    "total_revenue": 77220.05,
+    "date_obj": "2025-06-09T00:00:00"
+  },
+  {
+    "date": "2025-06-08",
+    "day_of_week": "SUN",
+    "total_revenue": 140920.48,
+    "date_obj": "2025-06-08T00:00:00"
+  },
+  {
+    "date": "2025-06-07",
+    "day_of_week": "SAT",
+    "total_revenue": 200352.23,
+    "date_obj": "2025-06-07T00:00:00"
+  },
+  {
+    "date": "2025-06-06",
+    "day_of_week": "FRI",
+    "total_revenue": 107561.71,
+    "date_obj": "2025-06-06T00:00:00"
+  },
+  {
+    "date": "2025-06-05",
+    "day_of_week": "THU",
+    "total_revenue": 84925.55,
+    "date_obj": "2025-06-05T00:00:00"
+  },
+  {
+    "date": "2025-06-04",
+    "day_of_week": "WED",
+    "total_revenue": 61597.91,
+    "date_obj": "2025-06-04T00:00:00"
+  },
+  {
+    "date": "2025-06-03",
+    "day_of_week": "TUE",
+    "total_revenue": 66564.46,
+    "date_obj": "2025-06-03T00:00:00"
+  },
+  {
+    "date": "2025-06-02",
+    "day_of_week": "MON",
+    "total_revenue": 67489.09,
+    "date_obj": "2025-06-02T00:00:00"
+  },
+  {
+    "date": "2025-06-01",
+    "day_of_week": "SUN",
+    "total_revenue": 112675.89,
+    "date_obj": "2025-06-01T00:00:00"
+  },
+  {
+    "date": "2025-05-31",
+    "day_of_week": "SAT",
+    "total_revenue": 127963.38,
+    "date_obj": "2025-05-31T00:00:00"
+  },
+  {
+    "date": "2025-05-30",
+    "day_of_week": "FRI",
+    "total_revenue": 80638.14,
+    "date_obj": "2025-05-30T00:00:00"
+  },
+  {
+    "date": "2025-05-29",
+    "day_of_week": "THU",
+    "total_revenue": 73420.93,
+    "date_obj": "2025-05-29T00:00:00"
+  },
+  {
+    "date": "2025-05-28",
+    "day_of_week": "WED",
+    "total_revenue": 63128.18,
+    "date_obj": "2025-05-28T00:00:00"
+  },
+  {
+    "date": "2025-05-27",
+    "day_of_week": "TUE",
+    "total_revenue": 64070.31,
+    "date_obj": "2025-05-27T00:00:00"
+  },
+  {
+    "date": "2025-05-26",
+    "day_of_week": "MON",
+    "total_revenue": 101302.56,
+    "date_obj": "2025-05-26T00:00:00"
+  },
+  {
+    "date": "2025-05-25",
+    "day_of_week": "SUN",
+    "total_revenue": 203798.91,
+    "date_obj": "2025-05-25T00:00:00"
+  },
+  {
+    "date": "2025-05-24",
+    "day_of_week": "SAT",
+    "total_revenue": 179445.45,
+    "date_obj": "2025-05-24T00:00:00"
+  },
+  {
+    "date": "2025-05-23",
+    "day_of_week": "FRI",
+    "total_revenue": 80071.74,
+    "date_obj": "2025-05-23T00:00:00"
+  },
+  {
+    "date": "2025-05-22",
+    "day_of_week": "THU",
+    "total_revenue": 63699.01,
+    "date_obj": "2025-05-22T00:00:00"
+  },
+  {
+    "date": "2025-05-21",
+    "day_of_week": "WED",
+    "total_revenue": 66697.68,
+    "date_obj": "2025-05-21T00:00:00"
+  },
+  {
+    "date": "2025-05-20",
+    "day_of_week": "TUE",
+    "total_revenue": 52848.9,
+    "date_obj": "2025-05-20T00:00:00"
+  },
+  {
+    "date": "2025-05-19",
+    "day_of_week": "MON",
+    "total_revenue": 76118.58,
+    "date_obj": "2025-05-19T00:00:00"
+  },
+  {
+    "date": "2025-05-18",
+    "day_of_week": "SUN",
+    "total_revenue": 144899.19,
+    "date_obj": "2025-05-18T00:00:00"
+  },
+  {
+    "date": "2025-05-17",
+    "day_of_week": "SAT",
+    "total_revenue": 121732.78,
+    "date_obj": "2025-05-17T00:00:00"
+  },
+  {
+    "date": "2025-05-16",
+    "day_of_week": "FRI",
+    "total_revenue": 88628.32,
+    "date_obj": "2025-05-16T00:00:00"
+  },
+  {
+    "date": "2025-05-15",
+    "day_of_week": "THU",
+    "total_revenue": 71721.5,
+    "date_obj": "2025-05-15T00:00:00"
+  },
+  {
+    "date": "2025-05-14",
+    "day_of_week": "WED",
+    "total_revenue": 67030.97,
+    "date_obj": "2025-05-14T00:00:00"
+  },
+  {
+    "date": "2025-05-13",
+    "day_of_week": "TUE",
+    "total_revenue": 56672.03,
+    "date_obj": "2025-05-13T00:00:00"
+  },
+  {
+    "date": "2025-05-12",
+    "day_of_week": "MON",
+    "total_revenue": 57798.4,
+    "date_obj": "2025-05-12T00:00:00"
+  },
+  {
+    "date": "2025-05-11",
+    "day_of_week": "SUN",
+    "total_revenue": 96516.43,
+    "date_obj": "2025-05-11T00:00:00"
+  },
+  {
+    "date": "2025-05-10",
+    "day_of_week": "SAT",
+    "total_revenue": 119817.15,
+    "date_obj": "2025-05-10T00:00:00"
+  },
+  {
+    "date": "2025-05-09",
+    "day_of_week": "FRI",
+    "total_revenue": 93601.57,
+    "date_obj": "2025-05-09T00:00:00"
+  },
+  {
+    "date": "2025-05-08",
+    "day_of_week": "THU",
+    "total_revenue": 89769.82,
+    "date_obj": "2025-05-08T00:00:00"
+  },
+  {
+    "date": "2025-05-07",
+    "day_of_week": "WED",
+    "total_revenue": 69112.9,
+    "date_obj": "2025-05-07T00:00:00"
+  },
+  {
+    "date": "2025-05-06",
+    "day_of_week": "TUE",
+    "total_revenue": 66161.12,
+    "date_obj": "2025-05-06T00:00:00"
+  },
+  {
+    "date": "2025-05-05",
+    "day_of_week": "MON",
+    "total_revenue": 54801.51,
+    "date_obj": "2025-05-05T00:00:00"
+  },
+  {
+    "date": "2025-05-04",
+    "day_of_week": "SUN",
+    "total_revenue": 70638.65,
+    "date_obj": "2025-05-04T00:00:00"
+  },
+  {
+    "date": "2025-05-03",
+    "day_of_week": "SAT",
+    "total_revenue": 106255.89,
+    "date_obj": "2025-05-03T00:00:00"
+  },
+  {
+    "date": "2025-05-02",
+    "day_of_week": "FRI",
+    "total_revenue": 69218.39,
+    "date_obj": "2025-05-02T00:00:00"
+  },
+  {
+    "date": "2025-05-01",
+    "day_of_week": "THU",
+    "total_revenue": 63891.22,
+    "date_obj": "2025-05-01T00:00:00"
+  },
+  {
+    "date": "2025-04-30",
+    "day_of_week": "WED",
+    "total_revenue": 59244.44,
+    "date_obj": "2025-04-30T00:00:00"
+  },
+  {
+    "date": "2025-04-29",
+    "day_of_week": "TUE",
+    "total_revenue": 55301.86,
+    "date_obj": "2025-04-29T00:00:00"
+  },
+  {
+    "date": "2025-04-28",
+    "day_of_week": "MON",
+    "total_revenue": 63332.41,
+    "date_obj": "2025-04-28T00:00:00"
+  },
+  {
+    "date": "2025-04-27",
+    "day_of_week": "SUN",
+    "total_revenue": 94647.75,
+    "date_obj": "2025-04-27T00:00:00"
+  },
+  {
+    "date": "2025-04-26",
+    "day_of_week": "SAT",
+    "total_revenue": 102702.61,
+    "date_obj": "2025-04-26T00:00:00"
+  },
+  {
+    "date": "2025-04-25",
+    "day_of_week": "FRI",
+    "total_revenue": 65178.22,
+    "date_obj": "2025-04-25T00:00:00"
+  },
+  {
+    "date": "2025-04-24",
+    "day_of_week": "THU",
+    "total_revenue": 79956.04,
+    "date_obj": "2025-04-24T00:00:00"
+  },
+  {
+    "date": "2025-04-23",
+    "day_of_week": "WED",
+    "total_revenue": 68477.33,
+    "date_obj": "2025-04-23T00:00:00"
+  },
+  {
+    "date": "2025-04-22",
+    "day_of_week": "TUE",
+    "total_revenue": 62696.79,
+    "date_obj": "2025-04-22T00:00:00"
+  },
+  {
+    "date": "2025-04-21",
+    "day_of_week": "MON",
+    "total_revenue": 55259.69,
+    "date_obj": "2025-04-21T00:00:00"
+  },
+  {
+    "date": "2025-04-20",
+    "day_of_week": "SUN",
+    "total_revenue": 52697.07,
+    "date_obj": "2025-04-20T00:00:00"
+  },
+  {
+    "date": "2025-04-19",
+    "day_of_week": "SAT",
+    "total_revenue": 98837.22,
+    "date_obj": "2025-04-19T00:00:00"
+  },
+  {
+    "date": "2025-04-18",
+    "day_of_week": "FRI",
+    "total_revenue": 85298.76,
+    "date_obj": "2025-04-18T00:00:00"
+  },
+  {
+    "date": "2025-04-17",
+    "day_of_week": "THU",
+    "total_revenue": 69551.66,
+    "date_obj": "2025-04-17T00:00:00"
+  },
+  {
+    "date": "2025-04-16",
+    "day_of_week": "WED",
+    "total_revenue": 62247.33,
+    "date_obj": "2025-04-16T00:00:00"
+  },
+  {
+    "date": "2025-04-15",
+    "day_of_week": "TUE",
+    "total_revenue": 61622.85,
+    "date_obj": "2025-04-15T00:00:00"
+  },
+  {
+    "date": "2025-04-14",
+    "day_of_week": "MON",
+    "total_revenue": 57133.3,
+    "date_obj": "2025-04-14T00:00:00"
+  },
+  {
+    "date": "2025-04-13",
+    "day_of_week": "SUN",
+    "total_revenue": 122761.97,
+    "date_obj": "2025-04-13T00:00:00"
+  },
+  {
+    "date": "2025-04-12",
+    "day_of_week": "SAT",
+    "total_revenue": 100009.88,
+    "date_obj": "2025-04-12T00:00:00"
+  },
+  {
+    "date": "2025-04-11",
+    "day_of_week": "FRI",
+    "total_revenue": 69825.41,
+    "date_obj": "2025-04-11T00:00:00"
+  },
+  {
+    "date": "2025-04-10",
+    "day_of_week": "THU",
+    "total_revenue": 67216.99,
+    "date_obj": "2025-04-10T00:00:00"
+  },
+  {
+    "date": "2025-04-09",
+    "day_of_week": "WED",
+    "total_revenue": 53109.06,
+    "date_obj": "2025-04-09T00:00:00"
+  },
+  {
+    "date": "2025-04-08",
+    "day_of_week": "TUE",
+    "total_revenue": 55656.91,
+    "date_obj": "2025-04-08T00:00:00"
+  },
+  {
+    "date": "2025-04-07",
+    "day_of_week": "MON",
+    "total_revenue": 49134.58,
+    "date_obj": "2025-04-07T00:00:00"
+  },
+  {
+    "date": "2025-04-06",
+    "day_of_week": "SUN",
+    "total_revenue": 75274.98,
+    "date_obj": "2025-04-06T00:00:00"
+  },
+  {
+    "date": "2025-04-05",
+    "day_of_week": "SAT",
+    "total_revenue": 103982.41,
+    "date_obj": "2025-04-05T00:00:00"
+  },
+  {
+    "date": "2025-04-04",
+    "day_of_week": "FRI",
+    "total_revenue": 74433.64,
+    "date_obj": "2025-04-04T00:00:00"
+  },
+  {
+    "date": "2025-04-03",
+    "day_of_week": "THU",
+    "total_revenue": 72376.55,
+    "date_obj": "2025-04-03T00:00:00"
+  },
+  {
+    "date": "2025-04-02",
+    "day_of_week": "WED",
+    "total_revenue": 51590.56,
+    "date_obj": "2025-04-02T00:00:00"
+  },
+  {
+    "date": "2025-04-01",
+    "day_of_week": "TUE",
+    "total_revenue": 57037.05,
+    "date_obj": "2025-04-01T00:00:00"
+  },
+  {
+    "date": "2025-03-31",
+    "day_of_week": "MON",
+    "total_revenue": 51068.89,
+    "date_obj": "2025-03-31T00:00:00"
+  },
+  {
+    "date": "2025-03-30",
+    "day_of_week": "SUN",
+    "total_revenue": 60569.28,
+    "date_obj": "2025-03-30T00:00:00"
+  },
+  {
+    "date": "2025-03-29",
+    "day_of_week": "SAT",
+    "total_revenue": 91642.53,
+    "date_obj": "2025-03-29T00:00:00"
+  },
+  {
+    "date": "2025-03-28",
+    "day_of_week": "FRI",
+    "total_revenue": 80300.74,
+    "date_obj": "2025-03-28T00:00:00"
+  },
+  {
+    "date": "2025-03-27",
+    "day_of_week": "THU",
+    "total_revenue": 69961.23,
+    "date_obj": "2025-03-27T00:00:00"
+  },
+  {
+    "date": "2025-03-26",
+    "day_of_week": "WED",
+    "total_revenue": 64050.81,
+    "date_obj": "2025-03-26T00:00:00"
+  },
+  {
+    "date": "2025-03-25",
+    "day_of_week": "TUE",
+    "total_revenue": 57354.59,
+    "date_obj": "2025-03-25T00:00:00"
+  },
+  {
+    "date": "2025-03-24",
+    "day_of_week": "MON",
+    "total_revenue": 60171.72,
+    "date_obj": "2025-03-24T00:00:00"
+  },
+  {
+    "date": "2025-03-23",
+    "day_of_week": "SUN",
+    "total_revenue": 142471.45,
+    "date_obj": "2025-03-23T00:00:00"
+  },
+  {
+    "date": "2025-03-22",
+    "day_of_week": "SAT",
+    "total_revenue": 113025.01,
+    "date_obj": "2025-03-22T00:00:00"
+  },
+  {
+    "date": "2025-03-21",
+    "day_of_week": "FRI",
+    "total_revenue": 75878.65,
+    "date_obj": "2025-03-21T00:00:00"
+  },
+  {
+    "date": "2025-03-20",
+    "day_of_week": "THU",
+    "total_revenue": 63572.42,
+    "date_obj": "2025-03-20T00:00:00"
+  },
+  {
+    "date": "2025-03-19",
+    "day_of_week": "WED",
+    "total_revenue": 56219.37,
+    "date_obj": "2025-03-19T00:00:00"
+  },
+  {
+    "date": "2025-03-18",
+    "day_of_week": "TUE",
+    "total_revenue": 72140.69,
+    "date_obj": "2025-03-18T00:00:00"
+  },
+  {
+    "date": "2025-03-17",
+    "day_of_week": "MON",
+    "total_revenue": 71876.58,
+    "date_obj": "2025-03-17T00:00:00"
+  },
+  {
+    "date": "2025-03-16",
+    "day_of_week": "SUN",
+    "total_revenue": 74069.56,
+    "date_obj": "2025-03-16T00:00:00"
+  },
+  {
+    "date": "2025-03-15",
+    "day_of_week": "SAT",
+    "total_revenue": 117888.37,
+    "date_obj": "2025-03-15T00:00:00"
+  },
+  {
+    "date": "2025-03-14",
+    "day_of_week": "FRI",
+    "total_revenue": 83976.08,
+    "date_obj": "2025-03-14T00:00:00"
+  },
+  {
+    "date": "2025-03-13",
+    "day_of_week": "THU",
+    "total_revenue": 75016.2,
+    "date_obj": "2025-03-13T00:00:00"
+  },
+  {
+    "date": "2025-03-12",
+    "day_of_week": "WED",
+    "total_revenue": 63472.12,
+    "date_obj": "2025-03-12T00:00:00"
+  },
+  {
+    "date": "2025-03-11",
+    "day_of_week": "TUE",
+    "total_revenue": 57309.58,
+    "date_obj": "2025-03-11T00:00:00"
+  },
+  {
+    "date": "2025-03-10",
+    "day_of_week": "MON",
+    "total_revenue": 63437.68,
+    "date_obj": "2025-03-10T00:00:00"
+  },
+  {
+    "date": "2025-03-09",
+    "day_of_week": "SUN",
+    "total_revenue": 69800.12,
+    "date_obj": "2025-03-09T00:00:00"
+  },
+  {
+    "date": "2025-03-08",
+    "day_of_week": "SAT",
+    "total_revenue": 89940.5,
+    "date_obj": "2025-03-08T00:00:00"
+  },
+  {
+    "date": "2025-03-07",
+    "day_of_week": "FRI",
+    "total_revenue": 51872.69,
+    "date_obj": "2025-03-07T00:00:00"
+  },
+  {
+    "date": "2025-03-06",
+    "day_of_week": "THU",
+    "total_revenue": 65197.09,
+    "date_obj": "2025-03-06T00:00:00"
+  },
+  {
+    "date": "2025-03-05",
+    "day_of_week": "WED",
+    "total_revenue": 51248.74,
+    "date_obj": "2025-03-05T00:00:00"
+  },
+  {
+    "date": "2025-03-04",
+    "day_of_week": "TUE",
+    "total_revenue": 48154.31,
+    "date_obj": "2025-03-04T00:00:00"
+  },
+  {
+    "date": "2025-03-03",
+    "day_of_week": "MON",
+    "total_revenue": 49226.05,
+    "date_obj": "2025-03-03T00:00:00"
+  },
+  {
+    "date": "2025-03-02",
+    "day_of_week": "SUN",
+    "total_revenue": 51404.9,
+    "date_obj": "2025-03-02T00:00:00"
+  },
+  {
+    "date": "2025-03-01",
+    "day_of_week": "SAT",
+    "total_revenue": 60351.86,
+    "date_obj": "2025-03-01T00:00:00"
+  },
+  {
+    "date": "2025-02-28",
+    "day_of_week": "FRI",
+    "total_revenue": 63582.17,
+    "date_obj": "2025-02-28T00:00:00"
+  },
+  {
+    "date": "2025-02-27",
+    "day_of_week": "THU",
+    "total_revenue": 64463.04,
+    "date_obj": "2025-02-27T00:00:00"
+  },
+  {
+    "date": "2025-02-26",
+    "day_of_week": "WED",
+    "total_revenue": 53065.36,
+    "date_obj": "2025-02-26T00:00:00"
+  },
+  {
+    "date": "2025-02-25",
+    "day_of_week": "TUE",
+    "total_revenue": 57350.62,
+    "date_obj": "2025-02-25T00:00:00"
+  },
+  {
+    "date": "2025-02-24",
+    "day_of_week": "MON",
+    "total_revenue": 46803.84,
+    "date_obj": "2025-02-24T00:00:00"
+  },
+  {
+    "date": "2025-02-23",
+    "day_of_week": "SUN",
+    "total_revenue": 55433.98,
+    "date_obj": "2025-02-23T00:00:00"
+  },
+  {
+    "date": "2025-02-22",
+    "day_of_week": "SAT",
+    "total_revenue": 62290.33,
+    "date_obj": "2025-02-22T00:00:00"
+  },
+  {
+    "date": "2025-02-21",
+    "day_of_week": "FRI",
+    "total_revenue": 59723.74,
+    "date_obj": "2025-02-21T00:00:00"
+  },
+  {
+    "date": "2025-02-20",
+    "day_of_week": "THU",
+    "total_revenue": 49560.54,
+    "date_obj": "2025-02-20T00:00:00"
+  },
+  {
+    "date": "2025-02-19",
+    "day_of_week": "WED",
+    "total_revenue": 50332.84,
+    "date_obj": "2025-02-19T00:00:00"
+  },
+  {
+    "date": "2025-02-18",
+    "day_of_week": "TUE",
+    "total_revenue": 45760.38,
+    "date_obj": "2025-02-18T00:00:00"
+  },
+  {
+    "date": "2025-02-17",
+    "day_of_week": "MON",
+    "total_revenue": 53229.34,
+    "date_obj": "2025-02-17T00:00:00"
+  },
+  {
+    "date": "2025-02-16",
+    "day_of_week": "SUN",
+    "total_revenue": 63712.99,
+    "date_obj": "2025-02-16T00:00:00"
+  },
+  {
+    "date": "2025-02-15",
+    "day_of_week": "SAT",
+    "total_revenue": 71938.56,
+    "date_obj": "2025-02-15T00:00:00"
+  },
+  {
+    "date": "2025-02-14",
+    "day_of_week": "FRI",
+    "total_revenue": 64304.56,
+    "date_obj": "2025-02-14T00:00:00"
+  },
+  {
+    "date": "2025-02-13",
+    "day_of_week": "THU",
+    "total_revenue": 49199.59,
+    "date_obj": "2025-02-13T00:00:00"
+  },
+  {
+    "date": "2025-02-12",
+    "day_of_week": "WED",
+    "total_revenue": 27096.64,
+    "date_obj": "2025-02-12T00:00:00"
+  },
+  {
+    "date": "2025-02-11",
+    "day_of_week": "TUE",
+    "total_revenue": 47844.49,
+    "date_obj": "2025-02-11T00:00:00"
+  },
+  {
+    "date": "2025-02-10",
+    "day_of_week": "MON",
+    "total_revenue": 41009.01,
+    "date_obj": "2025-02-10T00:00:00"
+  },
+  {
+    "date": "2025-02-09",
+    "day_of_week": "SUN",
+    "total_revenue": 34062.17,
+    "date_obj": "2025-02-09T00:00:00"
+  },
+  {
+    "date": "2025-02-08",
+    "day_of_week": "SAT",
+    "total_revenue": 51618.86,
+    "date_obj": "2025-02-08T00:00:00"
+  },
+  {
+    "date": "2025-02-07",
+    "day_of_week": "FRI",
+    "total_revenue": 58022.6,
+    "date_obj": "2025-02-07T00:00:00"
+  },
+  {
+    "date": "2025-02-06",
+    "day_of_week": "THU",
+    "total_revenue": 49712.15,
+    "date_obj": "2025-02-06T00:00:00"
+  },
+  {
+    "date": "2025-02-05",
+    "day_of_week": "WED",
+    "total_revenue": 46156.21,
+    "date_obj": "2025-02-05T00:00:00"
+  },
+  {
+    "date": "2025-02-04",
+    "day_of_week": "TUE",
+    "total_revenue": 46038.01,
+    "date_obj": "2025-02-04T00:00:00"
+  },
+  {
+    "date": "2025-02-03",
+    "day_of_week": "MON",
+    "total_revenue": 41521.74,
+    "date_obj": "2025-02-03T00:00:00"
+  },
+  {
+    "date": "2025-02-02",
+    "day_of_week": "SUN",
+    "total_revenue": 51865.28,
+    "date_obj": "2025-02-02T00:00:00"
+  },
+  {
+    "date": "2025-02-01",
+    "day_of_week": "SAT",
+    "total_revenue": 54784.81,
+    "date_obj": "2025-02-01T00:00:00"
+  },
+  {
+    "date": "2025-01-31",
+    "day_of_week": "FRI",
+    "total_revenue": 46907.34,
+    "date_obj": "2025-01-31T00:00:00"
+  },
+  {
+    "date": "2025-01-30",
+    "day_of_week": "THU",
+    "total_revenue": 54112.13,
+    "date_obj": "2025-01-30T00:00:00"
+  },
+  {
+    "date": "2025-01-29",
+    "day_of_week": "WED",
+    "total_revenue": 50025.6,
+    "date_obj": "2025-01-29T00:00:00"
+  },
+  {
+    "date": "2025-01-28",
+    "day_of_week": "TUE",
+    "total_revenue": 48387.69,
+    "date_obj": "2025-01-28T00:00:00"
+  },
+  {
+    "date": "2025-01-27",
+    "day_of_week": "MON",
+    "total_revenue": 41744.6,
+    "date_obj": "2025-01-27T00:00:00"
+  },
+  {
+    "date": "2025-01-26",
+    "day_of_week": "SUN",
+    "total_revenue": 55746.44,
+    "date_obj": "2025-01-26T00:00:00"
+  },
+  {
+    "date": "2025-01-25",
+    "day_of_week": "SAT",
+    "total_revenue": 66290.91,
+    "date_obj": "2025-01-25T00:00:00"
+  },
+  {
+    "date": "2025-01-24",
+    "day_of_week": "FRI",
+    "total_revenue": 52615.84,
+    "date_obj": "2025-01-24T00:00:00"
+  },
+  {
+    "date": "2025-01-23",
+    "day_of_week": "THU",
+    "total_revenue": 52877.5,
+    "date_obj": "2025-01-23T00:00:00"
+  },
+  {
+    "date": "2025-01-22",
+    "day_of_week": "WED",
+    "total_revenue": 48290.97,
+    "date_obj": "2025-01-22T00:00:00"
+  },
+  {
+    "date": "2025-01-21",
+    "day_of_week": "TUE",
+    "total_revenue": 33450.39,
+    "date_obj": "2025-01-21T00:00:00"
+  },
+  {
+    "date": "2025-01-20",
+    "day_of_week": "MON",
+    "total_revenue": 41293.95,
+    "date_obj": "2025-01-20T00:00:00"
+  },
+  {
+    "date": "2025-01-19",
+    "day_of_week": "SUN",
+    "total_revenue": 47781.91,
+    "date_obj": "2025-01-19T00:00:00"
+  },
+  {
+    "date": "2025-01-18",
+    "day_of_week": "SAT",
+    "total_revenue": 86232.26,
+    "date_obj": "2025-01-18T00:00:00"
+  },
+  {
+    "date": "2025-01-17",
+    "day_of_week": "FRI",
+    "total_revenue": 53948.81,
+    "date_obj": "2025-01-17T00:00:00"
+  },
+  {
+    "date": "2025-01-16",
+    "day_of_week": "THU",
+    "total_revenue": 50898.02,
+    "date_obj": "2025-01-16T00:00:00"
+  },
+  {
+    "date": "2025-01-15",
+    "day_of_week": "WED",
+    "total_revenue": 47235.53,
+    "date_obj": "2025-01-15T00:00:00"
+  },
+  {
+    "date": "2025-01-14",
+    "day_of_week": "TUE",
+    "total_revenue": 44338.61,
+    "date_obj": "2025-01-14T00:00:00"
+  },
+  {
+    "date": "2025-01-13",
+    "day_of_week": "MON",
+    "total_revenue": 40443.37,
+    "date_obj": "2025-01-13T00:00:00"
+  },
+  {
+    "date": "2025-01-12",
+    "day_of_week": "SUN",
+    "total_revenue": 38752.09,
+    "date_obj": "2025-01-12T00:00:00"
+  },
+  {
+    "date": "2025-01-11",
+    "day_of_week": "SAT",
+    "total_revenue": 64846.61,
+    "date_obj": "2025-01-11T00:00:00"
+  },
+  {
+    "date": "2025-01-10",
+    "day_of_week": "FRI",
+    "total_revenue": 45545.51,
+    "date_obj": "2025-01-10T00:00:00"
+  },
+  {
+    "date": "2025-01-09",
+    "day_of_week": "THU",
+    "total_revenue": 53799.72,
+    "date_obj": "2025-01-09T00:00:00"
+  },
+  {
+    "date": "2025-01-08",
+    "day_of_week": "WED",
+    "total_revenue": 46915.11,
+    "date_obj": "2025-01-08T00:00:00"
+  },
+  {
+    "date": "2025-01-07",
+    "day_of_week": "TUE",
+    "total_revenue": 46964.62,
+    "date_obj": "2025-01-07T00:00:00"
+  },
+  {
+    "date": "2025-01-06",
+    "day_of_week": "MON",
+    "total_revenue": 38299.02,
+    "date_obj": "2025-01-06T00:00:00"
+  },
+  {
+    "date": "2025-01-05",
+    "day_of_week": "SUN",
+    "total_revenue": 45117.45,
+    "date_obj": "2025-01-05T00:00:00"
+  },
+  {
+    "date": "2025-01-04",
+    "day_of_week": "SAT",
+    "total_revenue": 70587.33,
+    "date_obj": "2025-01-04T00:00:00"
+  },
+  {
+    "date": "2025-01-03",
+    "day_of_week": "FRI",
+    "total_revenue": 63946.09,
+    "date_obj": "2025-01-03T00:00:00"
+  },
+  {
+    "date": "2025-01-02",
+    "day_of_week": "THU",
+    "total_revenue": 79535.96,
+    "date_obj": "2025-01-02T00:00:00"
+  },
+  {
+    "date": "2025-01-01",
+    "day_of_week": "WED",
+    "total_revenue": 106966.28,
+    "date_obj": "2025-01-01T00:00:00"
+  },
+  {
+    "date": "2024-12-31",
+    "day_of_week": "TUE",
+    "total_revenue": 43956.13,
+    "date_obj": "2024-12-31T00:00:00"
+  },
+  {
+    "date": "2024-12-30",
+    "day_of_week": "MON",
+    "total_revenue": 118051.32,
+    "date_obj": "2024-12-30T00:00:00"
+  },
+  {
+    "date": "2024-12-29",
+    "day_of_week": "SUN",
+    "total_revenue": 75504.42,
+    "date_obj": "2024-12-29T00:00:00"
+  },
+  {
+    "date": "2024-12-28",
+    "day_of_week": "SAT",
+    "total_revenue": 157608.69,
+    "date_obj": "2024-12-28T00:00:00"
+  },
+  {
+    "date": "2024-12-27",
+    "day_of_week": "FRI",
+    "total_revenue": 94689.09,
+    "date_obj": "2024-12-27T00:00:00"
+  },
+  {
+    "date": "2024-12-26",
+    "day_of_week": "THU",
+    "total_revenue": 131465.41,
+    "date_obj": "2024-12-26T00:00:00"
+  },
+  {
+    "date": "2024-12-25",
+    "day_of_week": "WED",
+    "total_revenue": 71683.28,
+    "date_obj": "2024-12-25T00:00:00"
+  },
+  {
+    "date": "2024-12-24",
+    "day_of_week": "TUE",
+    "total_revenue": 57325.1,
+    "date_obj": "2024-12-24T00:00:00"
+  },
+  {
+    "date": "2024-12-23",
+    "day_of_week": "MON",
+    "total_revenue": 106670.76,
+    "date_obj": "2024-12-23T00:00:00"
+  },
+  {
+    "date": "2024-12-22",
+    "day_of_week": "SUN",
+    "total_revenue": 159497.41,
+    "date_obj": "2024-12-22T00:00:00"
+  },
+  {
+    "date": "2024-12-21",
+    "day_of_week": "SAT",
+    "total_revenue": 120207.06,
+    "date_obj": "2024-12-21T00:00:00"
+  },
+  {
+    "date": "2024-12-20",
+    "day_of_week": "FRI",
+    "total_revenue": 75474.07,
+    "date_obj": "2024-12-20T00:00:00"
+  },
+  {
+    "date": "2024-12-19",
+    "day_of_week": "THU",
+    "total_revenue": 75205.14,
+    "date_obj": "2024-12-19T00:00:00"
+  },
+  {
+    "date": "2024-12-18",
+    "day_of_week": "WED",
+    "total_revenue": 68153.52,
+    "date_obj": "2024-12-18T00:00:00"
+  },
+  {
+    "date": "2024-12-17",
+    "day_of_week": "TUE",
+    "total_revenue": 68459.22,
+    "date_obj": "2024-12-17T00:00:00"
+  },
+  {
+    "date": "2024-12-16",
+    "day_of_week": "MON",
+    "total_revenue": 59177.36,
+    "date_obj": "2024-12-16T00:00:00"
+  },
+  {
+    "date": "2024-12-15",
+    "day_of_week": "SUN",
+    "total_revenue": 89161.93,
+    "date_obj": "2024-12-15T00:00:00"
+  },
+  {
+    "date": "2024-12-14",
+    "day_of_week": "SAT",
+    "total_revenue": 91429.24,
+    "date_obj": "2024-12-14T00:00:00"
+  },
+  {
+    "date": "2024-12-13",
+    "day_of_week": "FRI",
+    "total_revenue": 80284.47,
+    "date_obj": "2024-12-13T00:00:00"
+  },
+  {
+    "date": "2024-12-12",
+    "day_of_week": "THU",
+    "total_revenue": 63412.27,
+    "date_obj": "2024-12-12T00:00:00"
+  },
+  {
+    "date": "2024-12-11",
+    "day_of_week": "WED",
+    "total_revenue": 57505.34,
+    "date_obj": "2024-12-11T00:00:00"
+  },
+  {
+    "date": "2024-12-10",
+    "day_of_week": "TUE",
+    "total_revenue": 61412.57,
+    "date_obj": "2024-12-10T00:00:00"
+  },
+  {
+    "date": "2024-12-09",
+    "day_of_week": "MON",
+    "total_revenue": 62605.49,
+    "date_obj": "2024-12-09T00:00:00"
+  },
+  {
+    "date": "2024-12-08",
+    "day_of_week": "SUN",
+    "total_revenue": 119062.1,
+    "date_obj": "2024-12-08T00:00:00"
+  },
+  {
+    "date": "2024-12-07",
+    "day_of_week": "SAT",
+    "total_revenue": 108655.52,
+    "date_obj": "2024-12-07T00:00:00"
+  },
+  {
+    "date": "2024-12-06",
+    "day_of_week": "FRI",
+    "total_revenue": 72820.68,
+    "date_obj": "2024-12-06T00:00:00"
+  },
+  {
+    "date": "2024-12-05",
+    "day_of_week": "THU",
+    "total_revenue": 58400.0,
+    "date_obj": "2024-12-05T00:00:00"
+  },
+  {
+    "date": "2024-12-04",
+    "day_of_week": "WED",
+    "total_revenue": 51170.8,
+    "date_obj": "2024-12-04T00:00:00"
+  },
+  {
+    "date": "2024-12-03",
+    "day_of_week": "TUE",
+    "total_revenue": 51371.52,
+    "date_obj": "2024-12-03T00:00:00"
+  },
+  {
+    "date": "2024-12-02",
+    "day_of_week": "MON",
+    "total_revenue": 45369.45,
+    "date_obj": "2024-12-02T00:00:00"
+  },
+  {
+    "date": "2024-12-01",
+    "day_of_week": "SUN",
+    "total_revenue": 74940.6,
+    "date_obj": "2024-12-01T00:00:00"
+  },
+  {
+    "date": "2024-11-30",
+    "day_of_week": "SAT",
+    "total_revenue": 132471.15,
+    "date_obj": "2024-11-30T00:00:00"
+  },
+  {
+    "date": "2024-11-29",
+    "day_of_week": "FRI",
+    "total_revenue": 109340.18,
+    "date_obj": "2024-11-29T00:00:00"
+  },
+  {
+    "date": "2024-11-28",
+    "day_of_week": "THU",
+    "total_revenue": 62965.1,
+    "date_obj": "2024-11-28T00:00:00"
+  },
+  {
+    "date": "2024-11-27",
+    "day_of_week": "WED",
+    "total_revenue": 69944.22,
+    "date_obj": "2024-11-27T00:00:00"
+  },
+  {
+    "date": "2024-11-26",
+    "day_of_week": "TUE",
+    "total_revenue": 76353.17,
+    "date_obj": "2024-11-26T00:00:00"
+  },
+  {
+    "date": "2024-11-25",
+    "day_of_week": "MON",
+    "total_revenue": 76203.99,
+    "date_obj": "2024-11-25T00:00:00"
+  },
+  {
+    "date": "2024-11-24",
+    "day_of_week": "SUN",
+    "total_revenue": 151039.79,
+    "date_obj": "2024-11-24T00:00:00"
+  },
+  {
+    "date": "2024-11-23",
+    "day_of_week": "SAT",
+    "total_revenue": 168508.88,
+    "date_obj": "2024-11-23T00:00:00"
+  },
+  {
+    "date": "2024-11-22",
+    "day_of_week": "FRI",
+    "total_revenue": 125879.31,
+    "date_obj": "2024-11-22T00:00:00"
+  },
+  {
+    "date": "2024-11-21",
+    "day_of_week": "THU",
+    "total_revenue": 54606.9,
+    "date_obj": "2024-11-21T00:00:00"
+  },
+  {
+    "date": "2024-11-20",
+    "day_of_week": "WED",
+    "total_revenue": 53079.88,
+    "date_obj": "2024-11-20T00:00:00"
+  },
+  {
+    "date": "2024-11-19",
+    "day_of_week": "TUE",
+    "total_revenue": 54246.32,
+    "date_obj": "2024-11-19T00:00:00"
+  },
+  {
+    "date": "2024-11-18",
+    "day_of_week": "MON",
+    "total_revenue": 53739.26,
+    "date_obj": "2024-11-18T00:00:00"
+  },
+  {
+    "date": "2024-11-17",
+    "day_of_week": "SUN",
+    "total_revenue": 131276.8,
+    "date_obj": "2024-11-17T00:00:00"
+  },
+  {
+    "date": "2024-11-16",
+    "day_of_week": "SAT",
+    "total_revenue": 89619.83,
+    "date_obj": "2024-11-16T00:00:00"
+  },
+  {
+    "date": "2024-11-15",
+    "day_of_week": "FRI",
+    "total_revenue": 64196.75,
+    "date_obj": "2024-11-15T00:00:00"
+  },
+  {
+    "date": "2024-11-14",
+    "day_of_week": "THU",
+    "total_revenue": 62012.31,
+    "date_obj": "2024-11-14T00:00:00"
+  },
+  {
+    "date": "2024-11-13",
+    "day_of_week": "WED",
+    "total_revenue": 51287.16,
+    "date_obj": "2024-11-13T00:00:00"
+  },
+  {
+    "date": "2024-11-12",
+    "day_of_week": "TUE",
+    "total_revenue": 52662.6,
+    "date_obj": "2024-11-12T00:00:00"
+  },
+  {
+    "date": "2024-11-11",
+    "day_of_week": "MON",
+    "total_revenue": 50202.46,
+    "date_obj": "2024-11-11T00:00:00"
+  },
+  {
+    "date": "2024-11-10",
+    "day_of_week": "SUN",
+    "total_revenue": 116727.28,
+    "date_obj": "2024-11-10T00:00:00"
+  },
+  {
+    "date": "2024-11-09",
+    "day_of_week": "SAT",
+    "total_revenue": 89478.5,
+    "date_obj": "2024-11-09T00:00:00"
+  },
+  {
+    "date": "2024-11-08",
+    "day_of_week": "FRI",
+    "total_revenue": 67075.44,
+    "date_obj": "2024-11-08T00:00:00"
+  },
+  {
+    "date": "2024-11-07",
+    "day_of_week": "THU",
+    "total_revenue": 62601.52,
+    "date_obj": "2024-11-07T00:00:00"
+  },
+  {
+    "date": "2024-11-06",
+    "day_of_week": "WED",
+    "total_revenue": 53534.63,
+    "date_obj": "2024-11-06T00:00:00"
+  },
+  {
+    "date": "2024-11-05",
+    "day_of_week": "TUE",
+    "total_revenue": 41129.79,
+    "date_obj": "2024-11-05T00:00:00"
+  },
+  {
+    "date": "2024-11-04",
+    "day_of_week": "MON",
+    "total_revenue": 50378.64,
+    "date_obj": "2024-11-04T00:00:00"
+  },
+  {
+    "date": "2024-11-03",
+    "day_of_week": "SUN",
+    "total_revenue": 168073.04,
+    "date_obj": "2024-11-03T00:00:00"
+  },
+  {
+    "date": "2024-11-02",
+    "day_of_week": "SAT",
+    "total_revenue": 99623.77,
+    "date_obj": "2024-11-02T00:00:00"
+  },
+  {
+    "date": "2024-11-01",
+    "day_of_week": "FRI",
+    "total_revenue": 54827.28,
+    "date_obj": "2024-11-01T00:00:00"
+  },
+  {
+    "date": "2024-10-31",
+    "day_of_week": "THU",
+    "total_revenue": 53586.25,
+    "date_obj": "2024-10-31T00:00:00"
+  },
+  {
+    "date": "2024-10-30",
+    "day_of_week": "WED",
+    "total_revenue": 56638.41,
+    "date_obj": "2024-10-30T00:00:00"
+  },
+  {
+    "date": "2024-10-29",
+    "day_of_week": "TUE",
+    "total_revenue": 61790.43,
+    "date_obj": "2024-10-29T00:00:00"
+  },
+  {
+    "date": "2024-10-28",
+    "day_of_week": "MON",
+    "total_revenue": 54561.78,
+    "date_obj": "2024-10-28T00:00:00"
+  },
+  {
+    "date": "2024-10-27",
+    "day_of_week": "SUN",
+    "total_revenue": 80130.26,
+    "date_obj": "2024-10-27T00:00:00"
+  },
+  {
+    "date": "2024-10-26",
+    "day_of_week": "SAT",
+    "total_revenue": 92399.85,
+    "date_obj": "2024-10-26T00:00:00"
+  },
+  {
+    "date": "2024-10-25",
+    "day_of_week": "FRI",
+    "total_revenue": 73636.28,
+    "date_obj": "2024-10-25T00:00:00"
+  },
+  {
+    "date": "2024-10-24",
+    "day_of_week": "THU",
+    "total_revenue": 68152.9,
+    "date_obj": "2024-10-24T00:00:00"
+  },
+  {
+    "date": "2024-10-23",
+    "day_of_week": "WED",
+    "total_revenue": 55105.36,
+    "date_obj": "2024-10-23T00:00:00"
+  },
+  {
+    "date": "2024-10-22",
+    "day_of_week": "TUE",
+    "total_revenue": 62976.6,
+    "date_obj": "2024-10-22T00:00:00"
+  },
+  {
+    "date": "2024-10-21",
+    "day_of_week": "MON",
+    "total_revenue": 56317.36,
+    "date_obj": "2024-10-21T00:00:00"
+  },
+  {
+    "date": "2024-10-20",
+    "day_of_week": "SUN",
+    "total_revenue": 92302.65,
+    "date_obj": "2024-10-20T00:00:00"
+  },
+  {
+    "date": "2024-10-19",
+    "day_of_week": "SAT",
+    "total_revenue": 144072.45,
+    "date_obj": "2024-10-19T00:00:00"
+  },
+  {
+    "date": "2024-10-18",
+    "day_of_week": "FRI",
+    "total_revenue": 72132.27,
+    "date_obj": "2024-10-18T00:00:00"
+  },
+  {
+    "date": "2024-10-17",
+    "day_of_week": "THU",
+    "total_revenue": 69258.75,
+    "date_obj": "2024-10-17T00:00:00"
+  },
+  {
+    "date": "2024-10-16",
+    "day_of_week": "WED",
+    "total_revenue": 67027.26,
+    "date_obj": "2024-10-16T00:00:00"
+  },
+  {
+    "date": "2024-10-15",
+    "day_of_week": "TUE",
+    "total_revenue": 54417.53,
+    "date_obj": "2024-10-15T00:00:00"
+  },
+  {
+    "date": "2024-10-14",
+    "day_of_week": "MON",
+    "total_revenue": 77342.47,
+    "date_obj": "2024-10-14T00:00:00"
+  },
+  {
+    "date": "2024-10-13",
+    "day_of_week": "SUN",
+    "total_revenue": 102592.12,
+    "date_obj": "2024-10-13T00:00:00"
+  },
+  {
+    "date": "2024-10-12",
+    "day_of_week": "SAT",
+    "total_revenue": 105268.81,
+    "date_obj": "2024-10-12T00:00:00"
+  },
+  {
+    "date": "2024-10-11",
+    "day_of_week": "FRI",
+    "total_revenue": 80800.46,
+    "date_obj": "2024-10-11T00:00:00"
+  },
+  {
+    "date": "2024-10-10",
+    "day_of_week": "THU",
+    "total_revenue": 75260.82,
+    "date_obj": "2024-10-10T00:00:00"
+  },
+  {
+    "date": "2024-10-09",
+    "day_of_week": "WED",
+    "total_revenue": 59195.89,
+    "date_obj": "2024-10-09T00:00:00"
+  },
+  {
+    "date": "2024-10-08",
+    "day_of_week": "TUE",
+    "total_revenue": 64665.78,
+    "date_obj": "2024-10-08T00:00:00"
+  },
+  {
+    "date": "2024-10-07",
+    "day_of_week": "MON",
+    "total_revenue": 55052.53,
+    "date_obj": "2024-10-07T00:00:00"
+  },
+  {
+    "date": "2024-10-06",
+    "day_of_week": "SUN",
+    "total_revenue": 147802.63,
+    "date_obj": "2024-10-06T00:00:00"
+  },
+  {
+    "date": "2024-10-05",
+    "day_of_week": "SAT",
+    "total_revenue": 104127.71,
+    "date_obj": "2024-10-05T00:00:00"
+  },
+  {
+    "date": "2024-10-04",
+    "day_of_week": "FRI",
+    "total_revenue": 66479.08,
+    "date_obj": "2024-10-04T00:00:00"
+  },
+  {
+    "date": "2024-10-03",
+    "day_of_week": "THU",
+    "total_revenue": 57356.09,
+    "date_obj": "2024-10-03T00:00:00"
+  },
+  {
+    "date": "2024-10-02",
+    "day_of_week": "WED",
+    "total_revenue": 52380.54,
+    "date_obj": "2024-10-02T00:00:00"
+  },
+  {
+    "date": "2024-10-01",
+    "day_of_week": "TUE",
+    "total_revenue": 52767.51,
+    "date_obj": "2024-10-01T00:00:00"
+  },
+  {
+    "date": "2024-09-30",
+    "day_of_week": "MON",
+    "total_revenue": 53253.42,
+    "date_obj": "2024-09-30T00:00:00"
+  },
+  {
+    "date": "2024-09-29",
+    "day_of_week": "SUN",
+    "total_revenue": 135856.67,
+    "date_obj": "2024-09-29T00:00:00"
+  },
+  {
+    "date": "2024-09-28",
+    "day_of_week": "SAT",
+    "total_revenue": 91944.37,
+    "date_obj": "2024-09-28T00:00:00"
+  },
+  {
+    "date": "2024-09-27",
+    "day_of_week": "FRI",
+    "total_revenue": 73701.87,
+    "date_obj": "2024-09-27T00:00:00"
+  },
+  {
+    "date": "2024-09-26",
+    "day_of_week": "THU",
+    "total_revenue": 73539.02,
+    "date_obj": "2024-09-26T00:00:00"
+  },
+  {
+    "date": "2024-09-25",
+    "day_of_week": "WED",
+    "total_revenue": 58827.08,
+    "date_obj": "2024-09-25T00:00:00"
+  },
+  {
+    "date": "2024-09-24",
+    "day_of_week": "TUE",
+    "total_revenue": 49332.06,
+    "date_obj": "2024-09-24T00:00:00"
+  },
+  {
+    "date": "2024-09-23",
+    "day_of_week": "MON",
+    "total_revenue": 61948.77,
+    "date_obj": "2024-09-23T00:00:00"
+  },
+  {
+    "date": "2024-09-22",
+    "day_of_week": "SUN",
+    "total_revenue": 64924.29,
+    "date_obj": "2024-09-22T00:00:00"
+  },
+  {
+    "date": "2024-09-21",
+    "day_of_week": "SAT",
+    "total_revenue": 118373.48,
+    "date_obj": "2024-09-21T00:00:00"
+  },
+  {
+    "date": "2024-09-20",
+    "day_of_week": "FRI",
+    "total_revenue": 76516.16,
+    "date_obj": "2024-09-20T00:00:00"
+  },
+  {
+    "date": "2024-09-19",
+    "day_of_week": "THU",
+    "total_revenue": 74599.84,
+    "date_obj": "2024-09-19T00:00:00"
+  },
+  {
+    "date": "2024-09-18",
+    "day_of_week": "WED",
+    "total_revenue": 58460.67,
+    "date_obj": "2024-09-18T00:00:00"
+  },
+  {
+    "date": "2024-09-17",
+    "day_of_week": "TUE",
+    "total_revenue": 61948.33,
+    "date_obj": "2024-09-17T00:00:00"
+  },
+  {
+    "date": "2024-09-16",
+    "day_of_week": "MON",
+    "total_revenue": 61563.81,
+    "date_obj": "2024-09-16T00:00:00"
+  },
+  {
+    "date": "2024-09-15",
+    "day_of_week": "SUN",
+    "total_revenue": 102089.56,
+    "date_obj": "2024-09-15T00:00:00"
+  },
+  {
+    "date": "2024-09-14",
+    "day_of_week": "SAT",
+    "total_revenue": 104477.16,
+    "date_obj": "2024-09-14T00:00:00"
+  },
+  {
+    "date": "2024-09-13",
+    "day_of_week": "FRI",
+    "total_revenue": 63262.21,
+    "date_obj": "2024-09-13T00:00:00"
+  },
+  {
+    "date": "2024-09-12",
+    "day_of_week": "THU",
+    "total_revenue": 70419.94,
+    "date_obj": "2024-09-12T00:00:00"
+  },
+  {
+    "date": "2024-09-11",
+    "day_of_week": "WED",
+    "total_revenue": 56508.99,
+    "date_obj": "2024-09-11T00:00:00"
+  },
+  {
+    "date": "2024-09-10",
+    "day_of_week": "TUE",
+    "total_revenue": 56503.98,
+    "date_obj": "2024-09-10T00:00:00"
+  },
+  {
+    "date": "2024-09-09",
+    "day_of_week": "MON",
+    "total_revenue": 59035.31,
+    "date_obj": "2024-09-09T00:00:00"
+  },
+  {
+    "date": "2024-09-08",
+    "day_of_week": "SUN",
+    "total_revenue": 176696.46,
+    "date_obj": "2024-09-08T00:00:00"
+  },
+  {
+    "date": "2024-09-07",
+    "day_of_week": "SAT",
+    "total_revenue": 168797.22,
+    "date_obj": "2024-09-07T00:00:00"
+  },
+  {
+    "date": "2024-09-06",
+    "day_of_week": "FRI",
+    "total_revenue": 95860.56,
+    "date_obj": "2024-09-06T00:00:00"
+  },
+  {
+    "date": "2024-09-05",
+    "day_of_week": "THU",
+    "total_revenue": 66229.61,
+    "date_obj": "2024-09-05T00:00:00"
+  },
+  {
+    "date": "2024-09-04",
+    "day_of_week": "WED",
+    "total_revenue": 53620.26,
+    "date_obj": "2024-09-04T00:00:00"
+  },
+  {
+    "date": "2024-09-03",
+    "day_of_week": "TUE",
+    "total_revenue": 54848.49,
+    "date_obj": "2024-09-03T00:00:00"
+  },
+  {
+    "date": "2024-09-02",
+    "day_of_week": "MON",
+    "total_revenue": 105925.06,
+    "date_obj": "2024-09-02T00:00:00"
+  },
+  {
+    "date": "2024-09-01",
+    "day_of_week": "SUN",
+    "total_revenue": 207732.17,
+    "date_obj": "2024-09-01T00:00:00"
+  },
+  {
+    "date": "2024-08-31",
+    "day_of_week": "SAT",
+    "total_revenue": 174646.01,
+    "date_obj": "2024-08-31T00:00:00"
+  },
+  {
+    "date": "2024-08-30",
+    "day_of_week": "FRI",
+    "total_revenue": 74862.02,
+    "date_obj": "2024-08-30T00:00:00"
+  },
+  {
+    "date": "2024-08-29",
+    "day_of_week": "THU",
+    "total_revenue": 70088.37,
+    "date_obj": "2024-08-29T00:00:00"
+  },
+  {
+    "date": "2024-08-28",
+    "day_of_week": "WED",
+    "total_revenue": 62418.97,
+    "date_obj": "2024-08-28T00:00:00"
+  },
+  {
+    "date": "2024-08-27",
+    "day_of_week": "TUE",
+    "total_revenue": 54854.75,
+    "date_obj": "2024-08-27T00:00:00"
+  },
+  {
+    "date": "2024-08-26",
+    "day_of_week": "MON",
+    "total_revenue": 58731.49,
+    "date_obj": "2024-08-26T00:00:00"
+  },
+  {
+    "date": "2024-08-25",
+    "day_of_week": "SUN",
+    "total_revenue": 153149.12,
+    "date_obj": "2024-08-25T00:00:00"
+  },
+  {
+    "date": "2024-08-24",
+    "day_of_week": "SAT",
+    "total_revenue": 118131.72,
+    "date_obj": "2024-08-24T00:00:00"
+  },
+  {
+    "date": "2024-08-23",
+    "day_of_week": "FRI",
+    "total_revenue": 76610.58,
+    "date_obj": "2024-08-23T00:00:00"
+  },
+  {
+    "date": "2024-08-22",
+    "day_of_week": "THU",
+    "total_revenue": 52515.39,
+    "date_obj": "2024-08-22T00:00:00"
+  },
+  {
+    "date": "2024-08-21",
+    "day_of_week": "WED",
+    "total_revenue": 44115.17,
+    "date_obj": "2024-08-21T00:00:00"
+  },
+  {
+    "date": "2024-08-20",
+    "day_of_week": "TUE",
+    "total_revenue": 47061.41,
+    "date_obj": "2024-08-20T00:00:00"
+  },
+  {
+    "date": "2024-08-19",
+    "day_of_week": "MON",
+    "total_revenue": 41654.58,
+    "date_obj": "2024-08-19T00:00:00"
+  },
+  {
+    "date": "2024-08-18",
+    "day_of_week": "SUN",
+    "total_revenue": 84508.78,
+    "date_obj": "2024-08-18T00:00:00"
+  },
+  {
+    "date": "2024-08-17",
+    "day_of_week": "SAT",
+    "total_revenue": 169491.17,
+    "date_obj": "2024-08-17T00:00:00"
+  },
+  {
+    "date": "2024-08-16",
+    "day_of_week": "FRI",
+    "total_revenue": 80299.44,
+    "date_obj": "2024-08-16T00:00:00"
+  },
+  {
+    "date": "2024-08-15",
+    "day_of_week": "THU",
+    "total_revenue": 64993.93,
+    "date_obj": "2024-08-15T00:00:00"
+  },
+  {
+    "date": "2024-08-14",
+    "day_of_week": "WED",
+    "total_revenue": 80519.29,
+    "date_obj": "2024-08-14T00:00:00"
+  },
+  {
+    "date": "2024-08-13",
+    "day_of_week": "TUE",
+    "total_revenue": 68985.53,
+    "date_obj": "2024-08-13T00:00:00"
+  },
+  {
+    "date": "2024-08-12",
+    "day_of_week": "MON",
+    "total_revenue": 109567.2,
+    "date_obj": "2024-08-12T00:00:00"
+  },
+  {
+    "date": "2024-08-11",
+    "day_of_week": "SUN",
+    "total_revenue": 169548.18,
+    "date_obj": "2024-08-11T00:00:00"
+  },
+  {
+    "date": "2024-08-10",
+    "day_of_week": "SAT",
+    "total_revenue": 176976.26,
+    "date_obj": "2024-08-10T00:00:00"
+  },
+  {
+    "date": "2024-08-09",
+    "day_of_week": "FRI",
+    "total_revenue": 105416.28,
+    "date_obj": "2024-08-09T00:00:00"
+  },
+  {
+    "date": "2024-08-08",
+    "day_of_week": "THU",
+    "total_revenue": 98415.07,
+    "date_obj": "2024-08-08T00:00:00"
+  },
+  {
+    "date": "2024-08-07",
+    "day_of_week": "WED",
+    "total_revenue": 92587.19,
+    "date_obj": "2024-08-07T00:00:00"
+  },
+  {
+    "date": "2024-08-06",
+    "day_of_week": "TUE",
+    "total_revenue": 69431.96,
+    "date_obj": "2024-08-06T00:00:00"
+  },
+  {
+    "date": "2024-08-05",
+    "day_of_week": "MON",
+    "total_revenue": 184470.46,
+    "date_obj": "2024-08-05T00:00:00"
+  },
+  {
+    "date": "2024-08-04",
+    "day_of_week": "SUN",
+    "total_revenue": 165705.62,
+    "date_obj": "2024-08-04T00:00:00"
+  },
+  {
+    "date": "2024-08-03",
+    "day_of_week": "SAT",
+    "total_revenue": 141141.71,
+    "date_obj": "2024-08-03T00:00:00"
+  },
+  {
+    "date": "2024-08-02",
+    "day_of_week": "FRI",
+    "total_revenue": 127573.81,
+    "date_obj": "2024-08-02T00:00:00"
+  },
+  {
+    "date": "2024-08-01",
+    "day_of_week": "THU",
+    "total_revenue": 114415.04,
+    "date_obj": "2024-08-01T00:00:00"
+  },
+  {
+    "date": "2024-07-31",
+    "day_of_week": "WED",
+    "total_revenue": 109812.69,
+    "date_obj": "2024-07-31T00:00:00"
+  },
+  {
+    "date": "2024-07-30",
+    "day_of_week": "TUE",
+    "total_revenue": 77781.51,
+    "date_obj": "2024-07-30T00:00:00"
+  },
+  {
+    "date": "2024-07-29",
+    "day_of_week": "MON",
+    "total_revenue": 77016.11,
+    "date_obj": "2024-07-29T00:00:00"
+  },
+  {
+    "date": "2024-07-28",
+    "day_of_week": "SUN",
+    "total_revenue": 95743.49,
+    "date_obj": "2024-07-28T00:00:00"
+  },
+  {
+    "date": "2024-07-27",
+    "day_of_week": "SAT",
+    "total_revenue": 144821.66,
+    "date_obj": "2024-07-27T00:00:00"
+  },
+  {
+    "date": "2024-07-26",
+    "day_of_week": "FRI",
+    "total_revenue": 86722.61,
+    "date_obj": "2024-07-26T00:00:00"
+  },
+  {
+    "date": "2024-07-25",
+    "day_of_week": "THU",
+    "total_revenue": 83702.57,
+    "date_obj": "2024-07-25T00:00:00"
+  },
+  {
+    "date": "2024-07-24",
+    "day_of_week": "WED",
+    "total_revenue": 82084.44,
+    "date_obj": "2024-07-24T00:00:00"
+  },
+  {
+    "date": "2024-07-23",
+    "day_of_week": "TUE",
+    "total_revenue": 77535.92,
+    "date_obj": "2024-07-23T00:00:00"
+  },
+  {
+    "date": "2024-07-22",
+    "day_of_week": "MON",
+    "total_revenue": 88532.61,
+    "date_obj": "2024-07-22T00:00:00"
+  },
+  {
+    "date": "2024-07-21",
+    "day_of_week": "SUN",
+    "total_revenue": 125543.7,
+    "date_obj": "2024-07-21T00:00:00"
+  },
+  {
+    "date": "2024-07-20",
+    "day_of_week": "SAT",
+    "total_revenue": 171112.6,
+    "date_obj": "2024-07-20T00:00:00"
+  },
+  {
+    "date": "2024-07-19",
+    "day_of_week": "FRI",
+    "total_revenue": 107013.88,
+    "date_obj": "2024-07-19T00:00:00"
+  },
+  {
+    "date": "2024-07-18",
+    "day_of_week": "THU",
+    "total_revenue": 91002.09,
+    "date_obj": "2024-07-18T00:00:00"
+  },
+  {
+    "date": "2024-07-17",
+    "day_of_week": "WED",
+    "total_revenue": 77891.76,
+    "date_obj": "2024-07-17T00:00:00"
+  },
+  {
+    "date": "2024-07-16",
+    "day_of_week": "TUE",
+    "total_revenue": 75701.78,
+    "date_obj": "2024-07-16T00:00:00"
+  },
+  {
+    "date": "2024-07-15",
+    "day_of_week": "MON",
+    "total_revenue": 71062.7,
+    "date_obj": "2024-07-15T00:00:00"
+  },
+  {
+    "date": "2024-07-14",
+    "day_of_week": "SUN",
+    "total_revenue": 90250.78,
+    "date_obj": "2024-07-14T00:00:00"
+  },
+  {
+    "date": "2024-07-13",
+    "day_of_week": "SAT",
+    "total_revenue": 113187.83,
+    "date_obj": "2024-07-13T00:00:00"
+  },
+  {
+    "date": "2024-07-12",
+    "day_of_week": "FRI",
+    "total_revenue": 84037.62,
+    "date_obj": "2024-07-12T00:00:00"
+  },
+  {
+    "date": "2024-07-11",
+    "day_of_week": "THU",
+    "total_revenue": 80249.15,
+    "date_obj": "2024-07-11T00:00:00"
+  },
+  {
+    "date": "2024-07-10",
+    "day_of_week": "WED",
+    "total_revenue": 68667.25,
+    "date_obj": "2024-07-10T00:00:00"
+  },
+  {
+    "date": "2024-07-09",
+    "day_of_week": "TUE",
+    "total_revenue": 54214.03,
+    "date_obj": "2024-07-09T00:00:00"
+  },
+  {
+    "date": "2024-07-08",
+    "day_of_week": "MON",
+    "total_revenue": 76994.06,
+    "date_obj": "2024-07-08T00:00:00"
+  },
+  {
+    "date": "2024-07-07",
+    "day_of_week": "SUN",
+    "total_revenue": 91623.82,
+    "date_obj": "2024-07-07T00:00:00"
+  },
+  {
+    "date": "2024-07-06",
+    "day_of_week": "SAT",
+    "total_revenue": 102402.03,
+    "date_obj": "2024-07-06T00:00:00"
+  },
+  {
+    "date": "2024-07-05",
+    "day_of_week": "FRI",
+    "total_revenue": 82152.97,
+    "date_obj": "2024-07-05T00:00:00"
+  },
+  {
+    "date": "2024-07-04",
+    "day_of_week": "THU",
+    "total_revenue": 82353.78,
+    "date_obj": "2024-07-04T00:00:00"
+  },
+  {
+    "date": "2024-07-03",
+    "day_of_week": "WED",
+    "total_revenue": 75441.58,
+    "date_obj": "2024-07-03T00:00:00"
+  },
+  {
+    "date": "2024-07-02",
+    "day_of_week": "TUE",
+    "total_revenue": 61987.43,
+    "date_obj": "2024-07-02T00:00:00"
+  },
+  {
+    "date": "2024-07-01",
+    "day_of_week": "MON",
+    "total_revenue": 90865.1,
+    "date_obj": "2024-07-01T00:00:00"
+  },
+  {
+    "date": "2024-06-30",
+    "day_of_week": "SUN",
+    "total_revenue": 120544.61,
+    "date_obj": "2024-06-30T00:00:00"
+  },
+  {
+    "date": "2024-06-29",
+    "day_of_week": "SAT",
+    "total_revenue": 114489.04,
+    "date_obj": "2024-06-29T00:00:00"
+  },
+  {
+    "date": "2024-06-28",
+    "day_of_week": "FRI",
+    "total_revenue": 72009.18,
+    "date_obj": "2024-06-28T00:00:00"
+  },
+  {
+    "date": "2024-06-27",
+    "day_of_week": "THU",
+    "total_revenue": 86794.6,
+    "date_obj": "2024-06-27T00:00:00"
+  },
+  {
+    "date": "2024-06-26",
+    "day_of_week": "WED",
+    "total_revenue": 72506.26,
+    "date_obj": "2024-06-26T00:00:00"
+  },
+  {
+    "date": "2024-06-25",
+    "day_of_week": "TUE",
+    "total_revenue": 61552.5,
+    "date_obj": "2024-06-25T00:00:00"
+  },
+  {
+    "date": "2024-06-24",
+    "day_of_week": "MON",
+    "total_revenue": 73785.56,
+    "date_obj": "2024-06-24T00:00:00"
+  },
+  {
+    "date": "2024-06-23",
+    "day_of_week": "SUN",
+    "total_revenue": 164710.43,
+    "date_obj": "2024-06-23T00:00:00"
+  },
+  {
+    "date": "2024-06-22",
+    "day_of_week": "SAT",
+    "total_revenue": 143595.37,
+    "date_obj": "2024-06-22T00:00:00"
+  },
+  {
+    "date": "2024-06-21",
+    "day_of_week": "FRI",
+    "total_revenue": 78085.29,
+    "date_obj": "2024-06-21T00:00:00"
+  },
+  {
+    "date": "2024-06-20",
+    "day_of_week": "THU",
+    "total_revenue": 74031.64,
+    "date_obj": "2024-06-20T00:00:00"
+  },
+  {
+    "date": "2024-06-19",
+    "day_of_week": "WED",
+    "total_revenue": 49946.15,
+    "date_obj": "2024-06-19T00:00:00"
+  },
+  {
+    "date": "2024-06-18",
+    "day_of_week": "TUE",
+    "total_revenue": 60054.62,
+    "date_obj": "2024-06-18T00:00:00"
+  },
+  {
+    "date": "2024-06-17",
+    "day_of_week": "MON",
+    "total_revenue": 60514.98,
+    "date_obj": "2024-06-17T00:00:00"
+  },
+  {
+    "date": "2024-06-16",
+    "day_of_week": "SUN",
+    "total_revenue": 100596.28,
+    "date_obj": "2024-06-16T00:00:00"
+  },
+  {
+    "date": "2024-06-15",
+    "day_of_week": "SAT",
+    "total_revenue": 107915.52,
+    "date_obj": "2024-06-15T00:00:00"
+  },
+  {
+    "date": "2024-06-14",
+    "day_of_week": "FRI",
+    "total_revenue": 65948.29,
+    "date_obj": "2024-06-14T00:00:00"
+  },
+  {
+    "date": "2024-06-13",
+    "day_of_week": "THU",
+    "total_revenue": 74374.89,
+    "date_obj": "2024-06-13T00:00:00"
+  },
+  {
+    "date": "2024-06-12",
+    "day_of_week": "WED",
+    "total_revenue": 69071.37,
+    "date_obj": "2024-06-12T00:00:00"
+  },
+  {
+    "date": "2024-06-11",
+    "day_of_week": "TUE",
+    "total_revenue": 67928.08,
+    "date_obj": "2024-06-11T00:00:00"
+  },
+  {
+    "date": "2024-06-10",
+    "day_of_week": "MON",
+    "total_revenue": 64902.16,
+    "date_obj": "2024-06-10T00:00:00"
+  },
+  {
+    "date": "2024-06-09",
+    "day_of_week": "SUN",
+    "total_revenue": 142862.29,
+    "date_obj": "2024-06-09T00:00:00"
+  },
+  {
+    "date": "2024-06-08",
+    "day_of_week": "SAT",
+    "total_revenue": 84923.5,
+    "date_obj": "2024-06-08T00:00:00"
+  },
+  {
+    "date": "2024-06-07",
+    "day_of_week": "FRI",
+    "total_revenue": 76843.49,
+    "date_obj": "2024-06-07T00:00:00"
+  },
+  {
+    "date": "2024-06-06",
+    "day_of_week": "THU",
+    "total_revenue": 71212.5,
+    "date_obj": "2024-06-06T00:00:00"
+  },
+  {
+    "date": "2024-06-05",
+    "day_of_week": "WED",
+    "total_revenue": 58827.4,
+    "date_obj": "2024-06-05T00:00:00"
+  },
+  {
+    "date": "2024-06-04",
+    "day_of_week": "TUE",
+    "total_revenue": 60367.36,
+    "date_obj": "2024-06-04T00:00:00"
+  },
+  {
+    "date": "2024-06-03",
+    "day_of_week": "MON",
+    "total_revenue": 60568.83,
+    "date_obj": "2024-06-03T00:00:00"
+  },
+  {
+    "date": "2024-06-02",
+    "day_of_week": "SUN",
+    "total_revenue": 134588.46,
+    "date_obj": "2024-06-02T00:00:00"
+  },
+  {
+    "date": "2024-06-01",
+    "day_of_week": "SAT",
+    "total_revenue": 88480.01,
+    "date_obj": "2024-06-01T00:00:00"
+  },
+  {
+    "date": "2024-05-31",
+    "day_of_week": "FRI",
+    "total_revenue": 80131.78,
+    "date_obj": "2024-05-31T00:00:00"
+  },
+  {
+    "date": "2024-05-30",
+    "day_of_week": "THU",
+    "total_revenue": 71183.83,
+    "date_obj": "2024-05-30T00:00:00"
+  },
+  {
+    "date": "2024-05-29",
+    "day_of_week": "WED",
+    "total_revenue": 64806.58,
+    "date_obj": "2024-05-29T00:00:00"
+  },
+  {
+    "date": "2024-05-28",
+    "day_of_week": "TUE",
+    "total_revenue": 58070.88,
+    "date_obj": "2024-05-28T00:00:00"
+  },
+  {
+    "date": "2024-05-27",
+    "day_of_week": "MON",
+    "total_revenue": 120632.67,
+    "date_obj": "2024-05-27T00:00:00"
+  },
+  {
+    "date": "2024-05-26",
+    "day_of_week": "SUN",
+    "total_revenue": 141853.67,
+    "date_obj": "2024-05-26T00:00:00"
+  },
+  {
+    "date": "2024-05-25",
+    "day_of_week": "SAT",
+    "total_revenue": 171862.98,
+    "date_obj": "2024-05-25T00:00:00"
+  },
+  {
+    "date": "2024-05-24",
+    "day_of_week": "FRI",
+    "total_revenue": 58613.67,
+    "date_obj": "2024-05-24T00:00:00"
+  },
+  {
+    "date": "2024-05-23",
+    "day_of_week": "THU",
+    "total_revenue": 71761.62,
+    "date_obj": "2024-05-23T00:00:00"
+  },
+  {
+    "date": "2024-05-22",
+    "day_of_week": "WED",
+    "total_revenue": 55989.59,
+    "date_obj": "2024-05-22T00:00:00"
+  },
+  {
+    "date": "2024-05-21",
+    "day_of_week": "TUE",
+    "total_revenue": 58990.22,
+    "date_obj": "2024-05-21T00:00:00"
+  },
+  {
+    "date": "2024-05-20",
+    "day_of_week": "MON",
+    "total_revenue": 55544.48,
+    "date_obj": "2024-05-20T00:00:00"
+  },
+  {
+    "date": "2024-05-19",
+    "day_of_week": "SUN",
+    "total_revenue": 120098.49,
+    "date_obj": "2024-05-19T00:00:00"
+  },
+  {
+    "date": "2024-05-18",
+    "day_of_week": "SAT",
+    "total_revenue": 99635.89,
+    "date_obj": "2024-05-18T00:00:00"
+  },
+  {
+    "date": "2024-05-17",
+    "day_of_week": "FRI",
+    "total_revenue": 80917.31,
+    "date_obj": "2024-05-17T00:00:00"
+  },
+  {
+    "date": "2024-05-16",
+    "day_of_week": "THU",
+    "total_revenue": 77834.91,
+    "date_obj": "2024-05-16T00:00:00"
+  },
+  {
+    "date": "2024-05-15",
+    "day_of_week": "WED",
+    "total_revenue": 59265.38,
+    "date_obj": "2024-05-15T00:00:00"
+  },
+  {
+    "date": "2024-05-14",
+    "day_of_week": "TUE",
+    "total_revenue": 58674.91,
+    "date_obj": "2024-05-14T00:00:00"
+  },
+  {
+    "date": "2024-05-13",
+    "day_of_week": "MON",
+    "total_revenue": 50820.66,
+    "date_obj": "2024-05-13T00:00:00"
+  },
+  {
+    "date": "2024-05-12",
+    "day_of_week": "SUN",
+    "total_revenue": 70949.26,
+    "date_obj": "2024-05-12T00:00:00"
+  },
+  {
+    "date": "2024-05-11",
+    "day_of_week": "SAT",
+    "total_revenue": 89909.86,
+    "date_obj": "2024-05-11T00:00:00"
+  },
+  {
+    "date": "2024-05-10",
+    "day_of_week": "FRI",
+    "total_revenue": 70087.84,
+    "date_obj": "2024-05-10T00:00:00"
+  },
+  {
+    "date": "2024-05-09",
+    "day_of_week": "THU",
+    "total_revenue": 61955.26,
+    "date_obj": "2024-05-09T00:00:00"
+  },
+  {
+    "date": "2024-05-08",
+    "day_of_week": "WED",
+    "total_revenue": 60556.59,
+    "date_obj": "2024-05-08T00:00:00"
+  },
+  {
+    "date": "2024-05-07",
+    "day_of_week": "TUE",
+    "total_revenue": 50622.94,
+    "date_obj": "2024-05-07T00:00:00"
+  },
+  {
+    "date": "2024-05-06",
+    "day_of_week": "MON",
+    "total_revenue": 50559.29,
+    "date_obj": "2024-05-06T00:00:00"
+  },
+  {
+    "date": "2024-05-05",
+    "day_of_week": "SUN",
+    "total_revenue": 61795.66,
+    "date_obj": "2024-05-05T00:00:00"
+  },
+  {
+    "date": "2024-05-04",
+    "day_of_week": "SAT",
+    "total_revenue": 88013.02,
+    "date_obj": "2024-05-04T00:00:00"
+  },
+  {
+    "date": "2024-05-03",
+    "day_of_week": "FRI",
+    "total_revenue": 54767.4,
+    "date_obj": "2024-05-03T00:00:00"
+  },
+  {
+    "date": "2024-05-02",
+    "day_of_week": "THU",
+    "total_revenue": 65724.07,
+    "date_obj": "2024-05-02T00:00:00"
+  },
+  {
+    "date": "2024-05-01",
+    "day_of_week": "WED",
+    "total_revenue": 52485.25,
+    "date_obj": "2024-05-01T00:00:00"
+  },
+  {
+    "date": "2024-04-30",
+    "day_of_week": "TUE",
+    "total_revenue": 51718.32,
+    "date_obj": "2024-04-30T00:00:00"
+  },
+  {
+    "date": "2024-04-29",
+    "day_of_week": "MON",
+    "total_revenue": 46890.69,
+    "date_obj": "2024-04-29T00:00:00"
+  },
+  {
+    "date": "2024-04-28",
+    "day_of_week": "SUN",
+    "total_revenue": 57091.68,
+    "date_obj": "2024-04-28T00:00:00"
+  },
+  {
+    "date": "2024-04-27",
+    "day_of_week": "SAT",
+    "total_revenue": 77327.45,
+    "date_obj": "2024-04-27T00:00:00"
+  },
+  {
+    "date": "2024-04-26",
+    "day_of_week": "FRI",
+    "total_revenue": 48441.74,
+    "date_obj": "2024-04-26T00:00:00"
+  },
+  {
+    "date": "2024-04-25",
+    "day_of_week": "THU",
+    "total_revenue": 63204.14,
+    "date_obj": "2024-04-25T00:00:00"
+  },
+  {
+    "date": "2024-04-24",
+    "day_of_week": "WED",
+    "total_revenue": 56513.25,
+    "date_obj": "2024-04-24T00:00:00"
+  },
+  {
+    "date": "2024-04-23",
+    "day_of_week": "TUE",
+    "total_revenue": 50306.88,
+    "date_obj": "2024-04-23T00:00:00"
+  },
+  {
+    "date": "2024-04-22",
+    "day_of_week": "MON",
+    "total_revenue": 45486.55,
+    "date_obj": "2024-04-22T00:00:00"
+  },
+  {
+    "date": "2024-04-21",
+    "day_of_week": "SUN",
+    "total_revenue": 67415.43,
+    "date_obj": "2024-04-21T00:00:00"
+  },
+  {
+    "date": "2024-04-20",
+    "day_of_week": "SAT",
+    "total_revenue": 66370.85,
+    "date_obj": "2024-04-20T00:00:00"
+  },
+  {
+    "date": "2024-04-19",
+    "day_of_week": "FRI",
+    "total_revenue": 58069.72,
+    "date_obj": "2024-04-19T00:00:00"
+  },
+  {
+    "date": "2024-04-18",
+    "day_of_week": "THU",
+    "total_revenue": 61291.28,
+    "date_obj": "2024-04-18T00:00:00"
+  },
+  {
+    "date": "2024-04-17",
+    "day_of_week": "WED",
+    "total_revenue": 53012.49,
+    "date_obj": "2024-04-17T00:00:00"
+  },
+  {
+    "date": "2024-04-16",
+    "day_of_week": "TUE",
+    "total_revenue": 50685.34,
+    "date_obj": "2024-04-16T00:00:00"
+  },
+  {
+    "date": "2024-04-15",
+    "day_of_week": "MON",
+    "total_revenue": 49904.36,
+    "date_obj": "2024-04-15T00:00:00"
+  },
+  {
+    "date": "2024-04-14",
+    "day_of_week": "SUN",
+    "total_revenue": 79346.07,
+    "date_obj": "2024-04-14T00:00:00"
+  },
+  {
+    "date": "2024-04-13",
+    "day_of_week": "SAT",
+    "total_revenue": 89995.98,
+    "date_obj": "2024-04-13T00:00:00"
+  },
+  {
+    "date": "2024-04-12",
+    "day_of_week": "FRI",
+    "total_revenue": 49937.7,
+    "date_obj": "2024-04-12T00:00:00"
+  },
+  {
+    "date": "2024-04-11",
+    "day_of_week": "THU",
+    "total_revenue": 56488.78,
+    "date_obj": "2024-04-11T00:00:00"
+  },
+  {
+    "date": "2024-04-10",
+    "day_of_week": "WED",
+    "total_revenue": 53729.93,
+    "date_obj": "2024-04-10T00:00:00"
+  },
+  {
+    "date": "2024-04-09",
+    "day_of_week": "TUE",
+    "total_revenue": 53634.75,
+    "date_obj": "2024-04-09T00:00:00"
+  },
+  {
+    "date": "2024-04-08",
+    "day_of_week": "MON",
+    "total_revenue": 48059.7,
+    "date_obj": "2024-04-08T00:00:00"
+  },
+  {
+    "date": "2024-04-07",
+    "day_of_week": "SUN",
+    "total_revenue": 47297.95,
+    "date_obj": "2024-04-07T00:00:00"
+  },
+  {
+    "date": "2024-04-06",
+    "day_of_week": "SAT",
+    "total_revenue": 81033.69,
+    "date_obj": "2024-04-06T00:00:00"
+  },
+  {
+    "date": "2024-04-05",
+    "day_of_week": "FRI",
+    "total_revenue": 61600.9,
+    "date_obj": "2024-04-05T00:00:00"
+  },
+  {
+    "date": "2024-04-04",
+    "day_of_week": "THU",
+    "total_revenue": 66802.84,
+    "date_obj": "2024-04-04T00:00:00"
+  },
+  {
+    "date": "2024-04-03",
+    "day_of_week": "WED",
+    "total_revenue": 48214.66,
+    "date_obj": "2024-04-03T00:00:00"
+  },
+  {
+    "date": "2024-04-02",
+    "day_of_week": "TUE",
+    "total_revenue": 51877.11,
+    "date_obj": "2024-04-02T00:00:00"
+  },
+  {
+    "date": "2024-04-01",
+    "day_of_week": "MON",
+    "total_revenue": 43169.17,
+    "date_obj": "2024-04-01T00:00:00"
+  },
+  {
+    "date": "2024-03-31",
+    "day_of_week": "SUN",
+    "total_revenue": 45379.19,
+    "date_obj": "2024-03-31T00:00:00"
+  },
+  {
+    "date": "2024-03-30",
+    "day_of_week": "SAT",
+    "total_revenue": 75091.18,
+    "date_obj": "2024-03-30T00:00:00"
+  },
+  {
+    "date": "2024-03-29",
+    "day_of_week": "FRI",
+    "total_revenue": 67242.09,
+    "date_obj": "2024-03-29T00:00:00"
+  },
+  {
+    "date": "2024-03-28",
+    "day_of_week": "THU",
+    "total_revenue": 72894.67,
+    "date_obj": "2024-03-28T00:00:00"
+  },
+  {
+    "date": "2024-03-27",
+    "day_of_week": "WED",
+    "total_revenue": 53348.67,
+    "date_obj": "2024-03-27T00:00:00"
+  },
+  {
+    "date": "2024-03-26",
+    "day_of_week": "TUE",
+    "total_revenue": 53842.22,
+    "date_obj": "2024-03-26T00:00:00"
+  },
+  {
+    "date": "2024-03-25",
+    "day_of_week": "MON",
+    "total_revenue": 58916.2,
+    "date_obj": "2024-03-25T00:00:00"
+  },
+  {
+    "date": "2024-03-24",
+    "day_of_week": "SUN",
+    "total_revenue": 131023.22,
+    "date_obj": "2024-03-24T00:00:00"
+  },
+  {
+    "date": "2024-03-23",
+    "day_of_week": "SAT",
+    "total_revenue": 88169.63,
+    "date_obj": "2024-03-23T00:00:00"
+  },
+  {
+    "date": "2024-03-22",
+    "day_of_week": "FRI",
+    "total_revenue": 52852.51,
+    "date_obj": "2024-03-22T00:00:00"
+  },
+  {
+    "date": "2024-03-21",
+    "day_of_week": "THU",
+    "total_revenue": 67045.32,
+    "date_obj": "2024-03-21T00:00:00"
+  },
+  {
+    "date": "2024-03-20",
+    "day_of_week": "WED",
+    "total_revenue": 57007.43,
+    "date_obj": "2024-03-20T00:00:00"
+  },
+  {
+    "date": "2024-03-19",
+    "day_of_week": "TUE",
+    "total_revenue": 54026.73,
+    "date_obj": "2024-03-19T00:00:00"
+  },
+  {
+    "date": "2024-03-18",
+    "day_of_week": "MON",
+    "total_revenue": 49854.78,
+    "date_obj": "2024-03-18T00:00:00"
+  },
+  {
+    "date": "2024-03-17",
+    "day_of_week": "SUN",
+    "total_revenue": 64873.82,
+    "date_obj": "2024-03-17T00:00:00"
+  },
+  {
+    "date": "2024-03-16",
+    "day_of_week": "SAT",
+    "total_revenue": 109172.77,
+    "date_obj": "2024-03-16T00:00:00"
+  },
+  {
+    "date": "2024-03-15",
+    "day_of_week": "FRI",
+    "total_revenue": 59528.57,
+    "date_obj": "2024-03-15T00:00:00"
+  },
+  {
+    "date": "2024-03-14",
+    "day_of_week": "THU",
+    "total_revenue": 60581.78,
+    "date_obj": "2024-03-14T00:00:00"
+  },
+  {
+    "date": "2024-03-13",
+    "day_of_week": "WED",
+    "total_revenue": 56229.94,
+    "date_obj": "2024-03-13T00:00:00"
+  },
+  {
+    "date": "2024-03-12",
+    "day_of_week": "TUE",
+    "total_revenue": 59186.67,
+    "date_obj": "2024-03-12T00:00:00"
+  },
+  {
+    "date": "2024-03-11",
+    "day_of_week": "MON",
+    "total_revenue": 62586.73,
+    "date_obj": "2024-03-11T00:00:00"
+  },
+  {
+    "date": "2024-03-10",
+    "day_of_week": "SUN",
+    "total_revenue": 48375.37,
+    "date_obj": "2024-03-10T00:00:00"
+  },
+  {
+    "date": "2024-03-09",
+    "day_of_week": "SAT",
+    "total_revenue": 61028.12,
+    "date_obj": "2024-03-09T00:00:00"
+  },
+  {
+    "date": "2024-03-08",
+    "day_of_week": "FRI",
+    "total_revenue": 44186.25,
+    "date_obj": "2024-03-08T00:00:00"
+  },
+  {
+    "date": "2024-03-07",
+    "day_of_week": "THU",
+    "total_revenue": 58933.1,
+    "date_obj": "2024-03-07T00:00:00"
+  },
+  {
+    "date": "2024-03-06",
+    "day_of_week": "WED",
+    "total_revenue": 51805.12,
+    "date_obj": "2024-03-06T00:00:00"
+  },
+  {
+    "date": "2024-03-05",
+    "day_of_week": "TUE",
+    "total_revenue": 48990.64,
+    "date_obj": "2024-03-05T00:00:00"
+  },
+  {
+    "date": "2024-03-04",
+    "day_of_week": "MON",
+    "total_revenue": 42929.12,
+    "date_obj": "2024-03-04T00:00:00"
+  },
+  {
+    "date": "2024-03-03",
+    "day_of_week": "SUN",
+    "total_revenue": 55821.48,
+    "date_obj": "2024-03-03T00:00:00"
+  },
+  {
+    "date": "2024-03-02",
+    "day_of_week": "SAT",
+    "total_revenue": 65590.56,
+    "date_obj": "2024-03-02T00:00:00"
+  },
+  {
+    "date": "2024-03-01",
+    "day_of_week": "FRI",
+    "total_revenue": 51532.72,
+    "date_obj": "2024-03-01T00:00:00"
+  },
+  {
+    "date": "2024-02-29",
+    "day_of_week": "THU",
+    "total_revenue": 51718.87,
+    "date_obj": "2024-02-29T00:00:00"
+  },
+  {
+    "date": "2024-02-28",
+    "day_of_week": "WED",
+    "total_revenue": 46067.71,
+    "date_obj": "2024-02-28T00:00:00"
+  },
+  {
+    "date": "2024-02-27",
+    "day_of_week": "TUE",
+    "total_revenue": 55838.29,
+    "date_obj": "2024-02-27T00:00:00"
+  },
+  {
+    "date": "2024-02-26",
+    "day_of_week": "MON",
+    "total_revenue": 46157.59,
+    "date_obj": "2024-02-26T00:00:00"
+  },
+  {
+    "date": "2024-02-25",
+    "day_of_week": "SUN",
+    "total_revenue": 56494.02,
+    "date_obj": "2024-02-25T00:00:00"
+  },
+  {
+    "date": "2024-02-24",
+    "day_of_week": "SAT",
+    "total_revenue": 61696.53,
+    "date_obj": "2024-02-24T00:00:00"
+  },
+  {
+    "date": "2024-02-23",
+    "day_of_week": "FRI",
+    "total_revenue": 53652.48,
+    "date_obj": "2024-02-23T00:00:00"
+  },
+  {
+    "date": "2024-02-22",
+    "day_of_week": "THU",
+    "total_revenue": 52581.38,
+    "date_obj": "2024-02-22T00:00:00"
+  },
+  {
+    "date": "2024-02-21",
+    "day_of_week": "WED",
+    "total_revenue": 50243.84,
+    "date_obj": "2024-02-21T00:00:00"
+  },
+  {
+    "date": "2024-02-20",
+    "day_of_week": "TUE",
+    "total_revenue": 48192.28,
+    "date_obj": "2024-02-20T00:00:00"
+  },
+  {
+    "date": "2024-02-19",
+    "day_of_week": "MON",
+    "total_revenue": 54149.66,
+    "date_obj": "2024-02-19T00:00:00"
+  },
+  {
+    "date": "2024-02-18",
+    "day_of_week": "SUN",
+    "total_revenue": 60409.62,
+    "date_obj": "2024-02-18T00:00:00"
+  },
+  {
+    "date": "2024-02-17",
+    "day_of_week": "SAT",
+    "total_revenue": 75383.66,
+    "date_obj": "2024-02-17T00:00:00"
+  },
+  {
+    "date": "2024-02-16",
+    "day_of_week": "FRI",
+    "total_revenue": 48386.57,
+    "date_obj": "2024-02-16T00:00:00"
+  },
+  {
+    "date": "2024-02-15",
+    "day_of_week": "THU",
+    "total_revenue": 55511.03,
+    "date_obj": "2024-02-15T00:00:00"
+  },
+  {
+    "date": "2024-02-14",
+    "day_of_week": "WED",
+    "total_revenue": 49871.43,
+    "date_obj": "2024-02-14T00:00:00"
+  },
+  {
+    "date": "2024-02-13",
+    "day_of_week": "TUE",
+    "total_revenue": 48128.2,
+    "date_obj": "2024-02-13T00:00:00"
+  },
+  {
+    "date": "2024-02-12",
+    "day_of_week": "MON",
+    "total_revenue": 39786.1,
+    "date_obj": "2024-02-12T00:00:00"
+  },
+  {
+    "date": "2024-02-11",
+    "day_of_week": "SUN",
+    "total_revenue": 32714.38,
+    "date_obj": "2024-02-11T00:00:00"
+  },
+  {
+    "date": "2024-02-10",
+    "day_of_week": "SAT",
+    "total_revenue": 58833.75,
+    "date_obj": "2024-02-10T00:00:00"
+  },
+  {
+    "date": "2024-02-09",
+    "day_of_week": "FRI",
+    "total_revenue": 53329.85,
+    "date_obj": "2024-02-09T00:00:00"
+  },
+  {
+    "date": "2024-02-08",
+    "day_of_week": "THU",
+    "total_revenue": 57147.39,
+    "date_obj": "2024-02-08T00:00:00"
+  },
+  {
+    "date": "2024-02-07",
+    "day_of_week": "WED",
+    "total_revenue": 46342.13,
+    "date_obj": "2024-02-07T00:00:00"
+  },
+  {
+    "date": "2024-02-06",
+    "day_of_week": "TUE",
+    "total_revenue": 47950.53,
+    "date_obj": "2024-02-06T00:00:00"
+  },
+  {
+    "date": "2024-02-05",
+    "day_of_week": "MON",
+    "total_revenue": 36247.66,
+    "date_obj": "2024-02-05T00:00:00"
+  },
+  {
+    "date": "2024-02-04",
+    "day_of_week": "SUN",
+    "total_revenue": 44804.1,
+    "date_obj": "2024-02-04T00:00:00"
+  },
+  {
+    "date": "2024-02-03",
+    "day_of_week": "SAT",
+    "total_revenue": 60936.32,
+    "date_obj": "2024-02-03T00:00:00"
+  },
+  {
+    "date": "2024-02-02",
+    "day_of_week": "FRI",
+    "total_revenue": 42356.93,
+    "date_obj": "2024-02-02T00:00:00"
+  },
+  {
+    "date": "2024-02-01",
+    "day_of_week": "THU",
+    "total_revenue": 47872.35,
+    "date_obj": "2024-02-01T00:00:00"
+  },
+  {
+    "date": "2024-01-31",
+    "day_of_week": "WED",
+    "total_revenue": 43125.94,
+    "date_obj": "2024-01-31T00:00:00"
+  },
+  {
+    "date": "2024-01-30",
+    "day_of_week": "TUE",
+    "total_revenue": 42631.07,
+    "date_obj": "2024-01-30T00:00:00"
+  },
+  {
+    "date": "2024-01-29",
+    "day_of_week": "MON",
+    "total_revenue": 40585.18,
+    "date_obj": "2024-01-29T00:00:00"
+  },
+  {
+    "date": "2024-01-28",
+    "day_of_week": "SUN",
+    "total_revenue": 34327.11,
+    "date_obj": "2024-01-28T00:00:00"
+  },
+  {
+    "date": "2024-01-27",
+    "day_of_week": "SAT",
+    "total_revenue": 45746.16,
+    "date_obj": "2024-01-27T00:00:00"
+  },
+  {
+    "date": "2024-01-26",
+    "day_of_week": "FRI",
+    "total_revenue": 39210.54,
+    "date_obj": "2024-01-26T00:00:00"
+  },
+  {
+    "date": "2024-01-25",
+    "day_of_week": "THU",
+    "total_revenue": 47700.95,
+    "date_obj": "2024-01-25T00:00:00"
+  },
+  {
+    "date": "2024-01-24",
+    "day_of_week": "WED",
+    "total_revenue": 46347.24,
+    "date_obj": "2024-01-24T00:00:00"
+  },
+  {
+    "date": "2024-01-23",
+    "day_of_week": "TUE",
+    "total_revenue": 39348.97,
+    "date_obj": "2024-01-23T00:00:00"
+  },
+  {
+    "date": "2024-01-22",
+    "day_of_week": "MON",
+    "total_revenue": 36148.28,
+    "date_obj": "2024-01-22T00:00:00"
+  },
+  {
+    "date": "2024-01-21",
+    "day_of_week": "SUN",
+    "total_revenue": 32760.55,
+    "date_obj": "2024-01-21T00:00:00"
+  },
+  {
+    "date": "2024-01-20",
+    "day_of_week": "SAT",
+    "total_revenue": 39560.46,
+    "date_obj": "2024-01-20T00:00:00"
+  },
+  {
+    "date": "2024-01-19",
+    "day_of_week": "FRI",
+    "total_revenue": 36737.8,
+    "date_obj": "2024-01-19T00:00:00"
+  },
+  {
+    "date": "2024-01-18",
+    "day_of_week": "THU",
+    "total_revenue": 48247.89,
+    "date_obj": "2024-01-18T00:00:00"
+  },
+  {
+    "date": "2024-01-17",
+    "day_of_week": "WED",
+    "total_revenue": 44805.48,
+    "date_obj": "2024-01-17T00:00:00"
+  },
+  {
+    "date": "2024-01-16",
+    "day_of_week": "TUE",
+    "total_revenue": 27451.48,
+    "date_obj": "2024-01-16T00:00:00"
+  },
+  {
+    "date": "2024-01-15",
+    "day_of_week": "MON",
+    "total_revenue": 26724.16,
+    "date_obj": "2024-01-15T00:00:00"
+  },
+  {
+    "date": "2024-01-14",
+    "day_of_week": "SUN",
+    "total_revenue": 17630.01,
+    "date_obj": "2024-01-14T00:00:00"
+  },
+  {
+    "date": "2024-01-13",
+    "day_of_week": "SAT",
+    "total_revenue": 27003.73,
+    "date_obj": "2024-01-13T00:00:00"
+  },
+  {
+    "date": "2024-01-12",
+    "day_of_week": "FRI",
+    "total_revenue": 12686.05,
+    "date_obj": "2024-01-12T00:00:00"
+  },
+  {
+    "date": "2024-01-11",
+    "day_of_week": "THU",
+    "total_revenue": 49738.49,
+    "date_obj": "2024-01-11T00:00:00"
+  },
+  {
+    "date": "2024-01-10",
+    "day_of_week": "WED",
+    "total_revenue": 44163.78,
+    "date_obj": "2024-01-10T00:00:00"
+  },
+  {
+    "date": "2024-01-09",
+    "day_of_week": "TUE",
+    "total_revenue": 29801.77,
+    "date_obj": "2024-01-09T00:00:00"
+  },
+  {
+    "date": "2024-01-08",
+    "day_of_week": "MON",
+    "total_revenue": 47108.98,
+    "date_obj": "2024-01-08T00:00:00"
+  },
+  {
+    "date": "2024-01-07",
+    "day_of_week": "SUN",
+    "total_revenue": 45015.93,
+    "date_obj": "2024-01-07T00:00:00"
+  },
+  {
+    "date": "2024-01-06",
+    "day_of_week": "SAT",
+    "total_revenue": 44894.21,
+    "date_obj": "2024-01-06T00:00:00"
+  },
+  {
+    "date": "2024-01-05",
+    "day_of_week": "FRI",
+    "total_revenue": 49226.39,
+    "date_obj": "2024-01-05T00:00:00"
+  },
+  {
+    "date": "2024-01-04",
+    "day_of_week": "THU",
+    "total_revenue": 60429.58,
+    "date_obj": "2024-01-04T00:00:00"
+  },
+  {
+    "date": "2024-01-03",
+    "day_of_week": "WED",
+    "total_revenue": 51124.74,
+    "date_obj": "2024-01-03T00:00:00"
+  },
+  {
+    "date": "2024-01-02",
+    "day_of_week": "TUE",
+    "total_revenue": 56108.21,
+    "date_obj": "2024-01-02T00:00:00"
+  },
+  {
+    "date": "2024-01-01",
+    "day_of_week": "MON",
+    "total_revenue": 87388.4,
+    "date_obj": "2024-01-01T00:00:00"
+  },
+  {
+    "date": "2023-12-31",
+    "day_of_week": "SUN",
+    "total_revenue": 100246.26,
+    "date_obj": "2023-12-31T00:00:00"
+  },
+  {
+    "date": "2023-12-30",
+    "day_of_week": "SAT",
+    "total_revenue": 98707.84,
+    "date_obj": "2023-12-30T00:00:00"
+  },
+  {
+    "date": "2023-12-29",
+    "day_of_week": "FRI",
+    "total_revenue": 72941.01,
+    "date_obj": "2023-12-29T00:00:00"
+  },
+  {
+    "date": "2023-12-28",
+    "day_of_week": "THU",
+    "total_revenue": 73992.36,
+    "date_obj": "2023-12-28T00:00:00"
+  },
+  {
+    "date": "2023-12-27",
+    "day_of_week": "WED",
+    "total_revenue": 72061.41,
+    "date_obj": "2023-12-27T00:00:00"
+  },
+  {
+    "date": "2023-12-26",
+    "day_of_week": "TUE",
+    "total_revenue": 64186.34,
+    "date_obj": "2023-12-26T00:00:00"
+  },
+  {
+    "date": "2023-12-25",
+    "day_of_week": "MON",
+    "total_revenue": 37052.99,
+    "date_obj": "2023-12-25T00:00:00"
+  },
+  {
+    "date": "2023-12-24",
+    "day_of_week": "SUN",
+    "total_revenue": 98718.19,
+    "date_obj": "2023-12-24T00:00:00"
+  },
+  {
+    "date": "2023-12-23",
+    "day_of_week": "SAT",
+    "total_revenue": 101237.13,
+    "date_obj": "2023-12-23T00:00:00"
+  },
+  {
+    "date": "2023-12-22",
+    "day_of_week": "FRI",
+    "total_revenue": 64627.02,
+    "date_obj": "2023-12-22T00:00:00"
+  },
+  {
+    "date": "2023-12-21",
+    "day_of_week": "THU",
+    "total_revenue": 74421.78,
+    "date_obj": "2023-12-21T00:00:00"
+  },
+  {
+    "date": "2023-12-20",
+    "day_of_week": "WED",
+    "total_revenue": 62710.41,
+    "date_obj": "2023-12-20T00:00:00"
+  },
+  {
+    "date": "2023-12-19",
+    "day_of_week": "TUE",
+    "total_revenue": 63096.05,
+    "date_obj": "2023-12-19T00:00:00"
+  },
+  {
+    "date": "2023-12-18",
+    "day_of_week": "MON",
+    "total_revenue": 55691.51,
+    "date_obj": "2023-12-18T00:00:00"
+  },
+  {
+    "date": "2023-12-17",
+    "day_of_week": "SUN",
+    "total_revenue": 91535.31,
+    "date_obj": "2023-12-17T00:00:00"
+  },
+  {
+    "date": "2023-12-16",
+    "day_of_week": "SAT",
+    "total_revenue": 66581.98,
+    "date_obj": "2023-12-16T00:00:00"
+  },
+  {
+    "date": "2023-12-15",
+    "day_of_week": "FRI",
+    "total_revenue": 72073.41,
+    "date_obj": "2023-12-15T00:00:00"
+  },
+  {
+    "date": "2023-12-14",
+    "day_of_week": "THU",
+    "total_revenue": 68558.69,
+    "date_obj": "2023-12-14T00:00:00"
+  },
+  {
+    "date": "2023-12-13",
+    "day_of_week": "WED",
+    "total_revenue": 57292.81,
+    "date_obj": "2023-12-13T00:00:00"
+  },
+  {
+    "date": "2023-12-12",
+    "day_of_week": "TUE",
+    "total_revenue": 51531.93,
+    "date_obj": "2023-12-12T00:00:00"
+  },
+  {
+    "date": "2023-12-11",
+    "day_of_week": "MON",
+    "total_revenue": 49636.06,
+    "date_obj": "2023-12-11T00:00:00"
+  },
+  {
+    "date": "2023-12-10",
+    "day_of_week": "SUN",
+    "total_revenue": 107794.2,
+    "date_obj": "2023-12-10T00:00:00"
+  },
+  {
+    "date": "2023-12-09",
+    "day_of_week": "SAT",
+    "total_revenue": 98923.74,
+    "date_obj": "2023-12-09T00:00:00"
+  },
+  {
+    "date": "2023-12-08",
+    "day_of_week": "FRI",
+    "total_revenue": 72348.0,
+    "date_obj": "2023-12-08T00:00:00"
+  },
+  {
+    "date": "2023-12-07",
+    "day_of_week": "THU",
+    "total_revenue": 67628.62,
+    "date_obj": "2023-12-07T00:00:00"
+  },
+  {
+    "date": "2023-12-06",
+    "day_of_week": "WED",
+    "total_revenue": 52852.73,
+    "date_obj": "2023-12-06T00:00:00"
+  },
+  {
+    "date": "2023-12-05",
+    "day_of_week": "TUE",
+    "total_revenue": 49932.26,
+    "date_obj": "2023-12-05T00:00:00"
+  },
+  {
+    "date": "2023-12-04",
+    "day_of_week": "MON",
+    "total_revenue": 46135.94,
+    "date_obj": "2023-12-04T00:00:00"
+  },
+  {
+    "date": "2023-12-03",
+    "day_of_week": "SUN",
+    "total_revenue": 57088.68,
+    "date_obj": "2023-12-03T00:00:00"
+  },
+  {
+    "date": "2023-12-02",
+    "day_of_week": "SAT",
+    "total_revenue": 87112.41,
+    "date_obj": "2023-12-02T00:00:00"
+  },
+  {
+    "date": "2023-12-01",
+    "day_of_week": "FRI",
+    "total_revenue": 46673.2,
+    "date_obj": "2023-12-01T00:00:00"
+  },
+  {
+    "date": "2023-11-30",
+    "day_of_week": "THU",
+    "total_revenue": 61590.42,
+    "date_obj": "2023-11-30T00:00:00"
+  },
+  {
+    "date": "2023-11-29",
+    "day_of_week": "WED",
+    "total_revenue": 48456.41,
+    "date_obj": "2023-11-29T00:00:00"
+  },
+  {
+    "date": "2023-11-28",
+    "day_of_week": "TUE",
+    "total_revenue": 51789.45,
+    "date_obj": "2023-11-28T00:00:00"
+  },
+  {
+    "date": "2023-11-27",
+    "day_of_week": "MON",
+    "total_revenue": 41230.85,
+    "date_obj": "2023-11-27T00:00:00"
+  },
+  {
+    "date": "2023-11-26",
+    "day_of_week": "SUN",
+    "total_revenue": 53787.85,
+    "date_obj": "2023-11-26T00:00:00"
+  },
+  {
+    "date": "2023-11-25",
+    "day_of_week": "SAT",
+    "total_revenue": 109858.62,
+    "date_obj": "2023-11-25T00:00:00"
+  },
+  {
+    "date": "2023-11-24",
+    "day_of_week": "FRI",
+    "total_revenue": 91054.63,
+    "date_obj": "2023-11-24T00:00:00"
+  },
+  {
+    "date": "2023-11-23",
+    "day_of_week": "THU",
+    "total_revenue": 47257.31,
+    "date_obj": "2023-11-23T00:00:00"
+  },
+  {
+    "date": "2023-11-22",
+    "day_of_week": "WED",
+    "total_revenue": 53821.34,
+    "date_obj": "2023-11-22T00:00:00"
+  },
+  {
+    "date": "2023-11-21",
+    "day_of_week": "TUE",
+    "total_revenue": 48794.15,
+    "date_obj": "2023-11-21T00:00:00"
+  },
+  {
+    "date": "2023-11-20",
+    "day_of_week": "MON",
+    "total_revenue": 52060.46,
+    "date_obj": "2023-11-20T00:00:00"
+  },
+  {
+    "date": "2023-11-19",
+    "day_of_week": "SUN",
+    "total_revenue": 93324.06,
+    "date_obj": "2023-11-19T00:00:00"
+  },
+  {
+    "date": "2023-11-18",
+    "day_of_week": "SAT",
+    "total_revenue": 110737.83,
+    "date_obj": "2023-11-18T00:00:00"
+  },
+  {
+    "date": "2023-11-17",
+    "day_of_week": "FRI",
+    "total_revenue": 111297.88,
+    "date_obj": "2023-11-17T00:00:00"
+  },
+  {
+    "date": "2023-11-16",
+    "day_of_week": "THU",
+    "total_revenue": 59333.17,
+    "date_obj": "2023-11-16T00:00:00"
+  },
+  {
+    "date": "2023-11-15",
+    "day_of_week": "WED",
+    "total_revenue": 55907.86,
+    "date_obj": "2023-11-15T00:00:00"
+  },
+  {
+    "date": "2023-11-14",
+    "day_of_week": "TUE",
+    "total_revenue": 52220.67,
+    "date_obj": "2023-11-14T00:00:00"
+  },
+  {
+    "date": "2023-11-13",
+    "day_of_week": "MON",
+    "total_revenue": 45307.89,
+    "date_obj": "2023-11-13T00:00:00"
+  },
+  {
+    "date": "2023-11-12",
+    "day_of_week": "SUN",
+    "total_revenue": 56936.47,
+    "date_obj": "2023-11-12T00:00:00"
+  },
+  {
+    "date": "2023-11-11",
+    "day_of_week": "SAT",
+    "total_revenue": 65785.22,
+    "date_obj": "2023-11-11T00:00:00"
+  },
+  {
+    "date": "2023-11-10",
+    "day_of_week": "FRI",
+    "total_revenue": 61797.8,
+    "date_obj": "2023-11-10T00:00:00"
+  },
+  {
+    "date": "2023-11-09",
+    "day_of_week": "THU",
+    "total_revenue": 78374.73,
+    "date_obj": "2023-11-09T00:00:00"
+  },
+  {
+    "date": "2023-11-08",
+    "day_of_week": "WED",
+    "total_revenue": 43933.3,
+    "date_obj": "2023-11-08T00:00:00"
+  },
+  {
+    "date": "2023-11-07",
+    "day_of_week": "TUE",
+    "total_revenue": 53412.23,
+    "date_obj": "2023-11-07T00:00:00"
+  },
+  {
+    "date": "2023-11-06",
+    "day_of_week": "MON",
+    "total_revenue": 41257.17,
+    "date_obj": "2023-11-06T00:00:00"
+  },
+  {
+    "date": "2023-11-05",
+    "day_of_week": "SUN",
+    "total_revenue": 121117.9,
+    "date_obj": "2023-11-05T00:00:00"
+  },
+  {
+    "date": "2023-11-04",
+    "day_of_week": "SAT",
+    "total_revenue": 71694.54,
+    "date_obj": "2023-11-04T00:00:00"
+  },
+  {
+    "date": "2023-11-03",
+    "day_of_week": "FRI",
+    "total_revenue": 49670.91,
+    "date_obj": "2023-11-03T00:00:00"
+  },
+  {
+    "date": "2023-11-02",
+    "day_of_week": "THU",
+    "total_revenue": 57065.66,
+    "date_obj": "2023-11-02T00:00:00"
+  },
+  {
+    "date": "2023-11-01",
+    "day_of_week": "WED",
+    "total_revenue": 46928.02,
+    "date_obj": "2023-11-01T00:00:00"
+  },
+  {
+    "date": "2023-10-31",
+    "day_of_week": "TUE",
+    "total_revenue": 35383.37,
+    "date_obj": "2023-10-31T00:00:00"
+  },
+  {
+    "date": "2023-10-30",
+    "day_of_week": "MON",
+    "total_revenue": 41127.4,
+    "date_obj": "2023-10-30T00:00:00"
+  },
+  {
+    "date": "2023-10-29",
+    "day_of_week": "SUN",
+    "total_revenue": 38092.18,
+    "date_obj": "2023-10-29T00:00:00"
+  },
+  {
+    "date": "2023-10-28",
+    "day_of_week": "SAT",
+    "total_revenue": 60987.59,
+    "date_obj": "2023-10-28T00:00:00"
+  },
+  {
+    "date": "2023-10-27",
+    "day_of_week": "FRI",
+    "total_revenue": 51822.87,
+    "date_obj": "2023-10-27T00:00:00"
+  },
+  {
+    "date": "2023-10-26",
+    "day_of_week": "THU",
+    "total_revenue": 53119.61,
+    "date_obj": "2023-10-26T00:00:00"
+  },
+  {
+    "date": "2023-10-25",
+    "day_of_week": "WED",
+    "total_revenue": 48065.6,
+    "date_obj": "2023-10-25T00:00:00"
+  },
+  {
+    "date": "2023-10-24",
+    "day_of_week": "TUE",
+    "total_revenue": 54494.96,
+    "date_obj": "2023-10-24T00:00:00"
+  },
+  {
+    "date": "2023-10-23",
+    "day_of_week": "MON",
+    "total_revenue": 46693.13,
+    "date_obj": "2023-10-23T00:00:00"
+  },
+  {
+    "date": "2023-10-22",
+    "day_of_week": "SUN",
+    "total_revenue": 101996.05,
+    "date_obj": "2023-10-22T00:00:00"
+  },
+  {
+    "date": "2023-10-21",
+    "day_of_week": "SAT",
+    "total_revenue": 90139.81,
+    "date_obj": "2023-10-21T00:00:00"
+  },
+  {
+    "date": "2023-10-20",
+    "day_of_week": "FRI",
+    "total_revenue": 56144.74,
+    "date_obj": "2023-10-20T00:00:00"
+  },
+  {
+    "date": "2023-10-19",
+    "day_of_week": "THU",
+    "total_revenue": 55319.0,
+    "date_obj": "2023-10-19T00:00:00"
+  },
+  {
+    "date": "2023-10-18",
+    "day_of_week": "WED",
+    "total_revenue": 51905.36,
+    "date_obj": "2023-10-18T00:00:00"
+  },
+  {
+    "date": "2023-10-17",
+    "day_of_week": "TUE",
+    "total_revenue": 48753.71,
+    "date_obj": "2023-10-17T00:00:00"
+  },
+  {
+    "date": "2023-10-16",
+    "day_of_week": "MON",
+    "total_revenue": 47616.78,
+    "date_obj": "2023-10-16T00:00:00"
+  },
+  {
+    "date": "2023-10-15",
+    "day_of_week": "SUN",
+    "total_revenue": 110321.71,
+    "date_obj": "2023-10-15T00:00:00"
+  },
+  {
+    "date": "2023-10-14",
+    "day_of_week": "SAT",
+    "total_revenue": 69947.21,
+    "date_obj": "2023-10-14T00:00:00"
+  },
+  {
+    "date": "2023-10-13",
+    "day_of_week": "FRI",
+    "total_revenue": 49683.25,
+    "date_obj": "2023-10-13T00:00:00"
+  },
+  {
+    "date": "2023-10-12",
+    "day_of_week": "THU",
+    "total_revenue": 57854.77,
+    "date_obj": "2023-10-12T00:00:00"
+  },
+  {
+    "date": "2023-10-11",
+    "day_of_week": "WED",
+    "total_revenue": 54642.73,
+    "date_obj": "2023-10-11T00:00:00"
+  },
+  {
+    "date": "2023-10-10",
+    "day_of_week": "TUE",
+    "total_revenue": 54354.0,
+    "date_obj": "2023-10-10T00:00:00"
+  },
+  {
+    "date": "2023-10-09",
+    "day_of_week": "MON",
+    "total_revenue": 60730.91,
+    "date_obj": "2023-10-09T00:00:00"
+  },
+  {
+    "date": "2023-10-08",
+    "day_of_week": "SUN",
+    "total_revenue": 77877.82,
+    "date_obj": "2023-10-08T00:00:00"
+  },
+  {
+    "date": "2023-10-07",
+    "day_of_week": "SAT",
+    "total_revenue": 68356.27,
+    "date_obj": "2023-10-07T00:00:00"
+  },
+  {
+    "date": "2023-10-06",
+    "day_of_week": "FRI",
+    "total_revenue": 51553.82,
+    "date_obj": "2023-10-06T00:00:00"
+  },
+  {
+    "date": "2023-10-05",
+    "day_of_week": "THU",
+    "total_revenue": 57280.39,
+    "date_obj": "2023-10-05T00:00:00"
+  },
+  {
+    "date": "2023-10-04",
+    "day_of_week": "WED",
+    "total_revenue": 67864.82,
+    "date_obj": "2023-10-04T00:00:00"
+  },
+  {
+    "date": "2023-10-03",
+    "day_of_week": "TUE",
+    "total_revenue": 51995.95,
+    "date_obj": "2023-10-03T00:00:00"
+  },
+  {
+    "date": "2023-10-02",
+    "day_of_week": "MON",
+    "total_revenue": 47999.29,
+    "date_obj": "2023-10-02T00:00:00"
+  },
+  {
+    "date": "2023-10-01",
+    "day_of_week": "SUN",
+    "total_revenue": 119437.04,
+    "date_obj": "2023-10-01T00:00:00"
+  },
+  {
+    "date": "2023-09-30",
+    "day_of_week": "SAT",
+    "total_revenue": 86556.16,
+    "date_obj": "2023-09-30T00:00:00"
+  },
+  {
+    "date": "2023-09-29",
+    "day_of_week": "FRI",
+    "total_revenue": 56101.12,
+    "date_obj": "2023-09-29T00:00:00"
+  },
+  {
+    "date": "2023-09-28",
+    "day_of_week": "THU",
+    "total_revenue": 61269.9,
+    "date_obj": "2023-09-28T00:00:00"
+  },
+  {
+    "date": "2023-09-27",
+    "day_of_week": "WED",
+    "total_revenue": 52193.53,
+    "date_obj": "2023-09-27T00:00:00"
+  },
+  {
+    "date": "2023-09-26",
+    "day_of_week": "TUE",
+    "total_revenue": 54998.38,
+    "date_obj": "2023-09-26T00:00:00"
+  },
+  {
+    "date": "2023-09-25",
+    "day_of_week": "MON",
+    "total_revenue": 46422.82,
+    "date_obj": "2023-09-25T00:00:00"
+  },
+  {
+    "date": "2023-09-24",
+    "day_of_week": "SUN",
+    "total_revenue": 65816.37,
+    "date_obj": "2023-09-24T00:00:00"
+  },
+  {
+    "date": "2023-09-23",
+    "day_of_week": "SAT",
+    "total_revenue": 85841.18,
+    "date_obj": "2023-09-23T00:00:00"
+  },
+  {
+    "date": "2023-09-22",
+    "day_of_week": "FRI",
+    "total_revenue": 62366.31,
+    "date_obj": "2023-09-22T00:00:00"
+  },
+  {
+    "date": "2023-09-21",
+    "day_of_week": "THU",
+    "total_revenue": 62111.93,
+    "date_obj": "2023-09-21T00:00:00"
+  },
+  {
+    "date": "2023-09-20",
+    "day_of_week": "WED",
+    "total_revenue": 52744.17,
+    "date_obj": "2023-09-20T00:00:00"
+  },
+  {
+    "date": "2023-09-19",
+    "day_of_week": "TUE",
+    "total_revenue": 47018.57,
+    "date_obj": "2023-09-19T00:00:00"
+  },
+  {
+    "date": "2023-09-18",
+    "day_of_week": "MON",
+    "total_revenue": 55630.11,
+    "date_obj": "2023-09-18T00:00:00"
+  },
+  {
+    "date": "2023-09-17",
+    "day_of_week": "SUN",
+    "total_revenue": 44354.98,
+    "date_obj": "2023-09-17T00:00:00"
+  },
+  {
+    "date": "2023-09-16",
+    "day_of_week": "SAT",
+    "total_revenue": 62374.9,
+    "date_obj": "2023-09-16T00:00:00"
+  },
+  {
+    "date": "2023-09-15",
+    "day_of_week": "FRI",
+    "total_revenue": 48912.29,
+    "date_obj": "2023-09-15T00:00:00"
+  },
+  {
+    "date": "2023-09-14",
+    "day_of_week": "THU",
+    "total_revenue": 56559.43,
+    "date_obj": "2023-09-14T00:00:00"
+  },
+  {
+    "date": "2023-09-13",
+    "day_of_week": "WED",
+    "total_revenue": 54327.06,
+    "date_obj": "2023-09-13T00:00:00"
+  },
+  {
+    "date": "2023-09-12",
+    "day_of_week": "TUE",
+    "total_revenue": 55123.47,
+    "date_obj": "2023-09-12T00:00:00"
+  },
+  {
+    "date": "2023-09-11",
+    "day_of_week": "MON",
+    "total_revenue": 52435.58,
+    "date_obj": "2023-09-11T00:00:00"
+  },
+  {
+    "date": "2023-09-10",
+    "day_of_week": "SUN",
+    "total_revenue": 154515.8,
+    "date_obj": "2023-09-10T00:00:00"
+  },
+  {
+    "date": "2023-09-09",
+    "day_of_week": "SAT",
+    "total_revenue": 153139.0,
+    "date_obj": "2023-09-09T00:00:00"
+  },
+  {
+    "date": "2023-09-08",
+    "day_of_week": "FRI",
+    "total_revenue": 65680.69,
+    "date_obj": "2023-09-08T00:00:00"
+  },
+  {
+    "date": "2023-09-07",
+    "day_of_week": "THU",
+    "total_revenue": 53128.13,
+    "date_obj": "2023-09-07T00:00:00"
+  },
+  {
+    "date": "2023-09-06",
+    "day_of_week": "WED",
+    "total_revenue": 62381.61,
+    "date_obj": "2023-09-06T00:00:00"
+  },
+  {
+    "date": "2023-09-05",
+    "day_of_week": "TUE",
+    "total_revenue": 47736.66,
+    "date_obj": "2023-09-05T00:00:00"
+  },
+  {
+    "date": "2023-09-04",
+    "day_of_week": "MON",
+    "total_revenue": 74027.58,
+    "date_obj": "2023-09-04T00:00:00"
+  },
+  {
+    "date": "2023-09-03",
+    "day_of_week": "SUN",
+    "total_revenue": 145727.41,
+    "date_obj": "2023-09-03T00:00:00"
+  },
+  {
+    "date": "2023-09-02",
+    "day_of_week": "SAT",
+    "total_revenue": 118906.33,
+    "date_obj": "2023-09-02T00:00:00"
+  },
+  {
+    "date": "2023-09-01",
+    "day_of_week": "FRI",
+    "total_revenue": 64259.99,
+    "date_obj": "2023-09-01T00:00:00"
+  },
+  {
+    "date": "2023-08-31",
+    "day_of_week": "THU",
+    "total_revenue": 66951.87,
+    "date_obj": "2023-08-31T00:00:00"
+  },
+  {
+    "date": "2023-08-30",
+    "day_of_week": "WED",
+    "total_revenue": 51480.86,
+    "date_obj": "2023-08-30T00:00:00"
+  },
+  {
+    "date": "2023-08-29",
+    "day_of_week": "TUE",
+    "total_revenue": 54443.93,
+    "date_obj": "2023-08-29T00:00:00"
+  },
+  {
+    "date": "2023-08-28",
+    "day_of_week": "MON",
+    "total_revenue": 49847.73,
+    "date_obj": "2023-08-28T00:00:00"
+  },
+  {
+    "date": "2023-08-27",
+    "day_of_week": "SUN",
+    "total_revenue": 110189.97,
+    "date_obj": "2023-08-27T00:00:00"
+  },
+  {
+    "date": "2023-08-26",
+    "day_of_week": "SAT",
+    "total_revenue": 150058.29,
+    "date_obj": "2023-08-26T00:00:00"
+  },
+  {
+    "date": "2023-08-25",
+    "day_of_week": "FRI",
+    "total_revenue": 61141.62,
+    "date_obj": "2023-08-25T00:00:00"
+  },
+  {
+    "date": "2023-08-24",
+    "day_of_week": "THU",
+    "total_revenue": 66388.98,
+    "date_obj": "2023-08-24T00:00:00"
+  },
+  {
+    "date": "2023-08-23",
+    "day_of_week": "WED",
+    "total_revenue": 52607.75,
+    "date_obj": "2023-08-23T00:00:00"
+  },
+  {
+    "date": "2023-08-22",
+    "day_of_week": "TUE",
+    "total_revenue": 58404.26,
+    "date_obj": "2023-08-22T00:00:00"
+  },
+  {
+    "date": "2023-08-21",
+    "day_of_week": "MON",
+    "total_revenue": 101310.91,
+    "date_obj": "2023-08-21T00:00:00"
+  },
+  {
+    "date": "2023-08-20",
+    "day_of_week": "SUN",
+    "total_revenue": 85897.86,
+    "date_obj": "2023-08-20T00:00:00"
+  },
+  {
+    "date": "2023-08-19",
+    "day_of_week": "SAT",
+    "total_revenue": 103632.67,
+    "date_obj": "2023-08-19T00:00:00"
+  },
+  {
+    "date": "2023-08-18",
+    "day_of_week": "FRI",
+    "total_revenue": 66509.48,
+    "date_obj": "2023-08-18T00:00:00"
+  },
+  {
+    "date": "2023-08-17",
+    "day_of_week": "THU",
+    "total_revenue": 77860.41,
+    "date_obj": "2023-08-17T00:00:00"
+  },
+  {
+    "date": "2023-08-16",
+    "day_of_week": "WED",
+    "total_revenue": 68128.62,
+    "date_obj": "2023-08-16T00:00:00"
+  },
+  {
+    "date": "2023-08-15",
+    "day_of_week": "TUE",
+    "total_revenue": 68178.39,
+    "date_obj": "2023-08-15T00:00:00"
+  },
+  {
+    "date": "2023-08-14",
+    "day_of_week": "MON",
+    "total_revenue": 58650.4,
+    "date_obj": "2023-08-14T00:00:00"
+  },
+  {
+    "date": "2023-08-13",
+    "day_of_week": "SUN",
+    "total_revenue": 108507.05,
+    "date_obj": "2023-08-13T00:00:00"
+  },
+  {
+    "date": "2023-08-12",
+    "day_of_week": "SAT",
+    "total_revenue": 145115.89,
+    "date_obj": "2023-08-12T00:00:00"
+  },
+  {
+    "date": "2023-08-11",
+    "day_of_week": "FRI",
+    "total_revenue": 74608.03,
+    "date_obj": "2023-08-11T00:00:00"
+  },
+  {
+    "date": "2023-08-10",
+    "day_of_week": "THU",
+    "total_revenue": 86663.31,
+    "date_obj": "2023-08-10T00:00:00"
+  },
+  {
+    "date": "2023-08-09",
+    "day_of_week": "WED",
+    "total_revenue": 74836.62,
+    "date_obj": "2023-08-09T00:00:00"
+  },
+  {
+    "date": "2023-08-08",
+    "day_of_week": "TUE",
+    "total_revenue": 72395.96,
+    "date_obj": "2023-08-08T00:00:00"
+  },
+  {
+    "date": "2023-08-07",
+    "day_of_week": "MON",
+    "total_revenue": 147091.96,
+    "date_obj": "2023-08-07T00:00:00"
+  },
+  {
+    "date": "2023-08-06",
+    "day_of_week": "SUN",
+    "total_revenue": 117560.43,
+    "date_obj": "2023-08-06T00:00:00"
+  },
+  {
+    "date": "2023-08-05",
+    "day_of_week": "SAT",
+    "total_revenue": 96879.71,
+    "date_obj": "2023-08-05T00:00:00"
+  },
+  {
+    "date": "2023-08-04",
+    "day_of_week": "FRI",
+    "total_revenue": 96027.66,
+    "date_obj": "2023-08-04T00:00:00"
+  },
+  {
+    "date": "2023-08-03",
+    "day_of_week": "THU",
+    "total_revenue": 95037.64,
+    "date_obj": "2023-08-03T00:00:00"
+  },
+  {
+    "date": "2023-08-02",
+    "day_of_week": "WED",
+    "total_revenue": 80706.84,
+    "date_obj": "2023-08-02T00:00:00"
+  },
+  {
+    "date": "2023-08-01",
+    "day_of_week": "TUE",
+    "total_revenue": 70888.75,
+    "date_obj": "2023-08-01T00:00:00"
+  },
+  {
+    "date": "2023-07-31",
+    "day_of_week": "MON",
+    "total_revenue": 74931.88,
+    "date_obj": "2023-07-31T00:00:00"
+  },
+  {
+    "date": "2023-07-30",
+    "day_of_week": "SUN",
+    "total_revenue": 110547.8,
+    "date_obj": "2023-07-30T00:00:00"
+  },
+  {
+    "date": "2023-07-29",
+    "day_of_week": "SAT",
+    "total_revenue": 131102.15,
+    "date_obj": "2023-07-29T00:00:00"
+  },
+  {
+    "date": "2023-07-28",
+    "day_of_week": "FRI",
+    "total_revenue": 70113.06,
+    "date_obj": "2023-07-28T00:00:00"
+  },
+  {
+    "date": "2023-07-27",
+    "day_of_week": "THU",
+    "total_revenue": 75590.11,
+    "date_obj": "2023-07-27T00:00:00"
+  },
+  {
+    "date": "2023-07-26",
+    "day_of_week": "WED",
+    "total_revenue": 73247.12,
+    "date_obj": "2023-07-26T00:00:00"
+  },
+  {
+    "date": "2023-07-25",
+    "day_of_week": "TUE",
+    "total_revenue": 72159.45,
+    "date_obj": "2023-07-25T00:00:00"
+  },
+  {
+    "date": "2023-07-24",
+    "day_of_week": "MON",
+    "total_revenue": 87241.88,
+    "date_obj": "2023-07-24T00:00:00"
+  },
+  {
+    "date": "2023-07-23",
+    "day_of_week": "SUN",
+    "total_revenue": 108597.02,
+    "date_obj": "2023-07-23T00:00:00"
+  },
+  {
+    "date": "2023-07-22",
+    "day_of_week": "SAT",
+    "total_revenue": 100497.08,
+    "date_obj": "2023-07-22T00:00:00"
+  },
+  {
+    "date": "2023-07-21",
+    "day_of_week": "FRI",
+    "total_revenue": 78197.24,
+    "date_obj": "2023-07-21T00:00:00"
+  },
+  {
+    "date": "2023-07-20",
+    "day_of_week": "THU",
+    "total_revenue": 91534.34,
+    "date_obj": "2023-07-20T00:00:00"
+  },
+  {
+    "date": "2023-07-19",
+    "day_of_week": "WED",
+    "total_revenue": 76160.5,
+    "date_obj": "2023-07-19T00:00:00"
+  },
+  {
+    "date": "2023-07-18",
+    "day_of_week": "TUE",
+    "total_revenue": 66009.99,
+    "date_obj": "2023-07-18T00:00:00"
+  },
+  {
+    "date": "2023-07-17",
+    "day_of_week": "MON",
+    "total_revenue": 76750.51,
+    "date_obj": "2023-07-17T00:00:00"
+  },
+  {
+    "date": "2023-07-16",
+    "day_of_week": "SUN",
+    "total_revenue": 104225.9,
+    "date_obj": "2023-07-16T00:00:00"
+  },
+  {
+    "date": "2023-07-15",
+    "day_of_week": "SAT",
+    "total_revenue": 112630.56,
+    "date_obj": "2023-07-15T00:00:00"
+  },
+  {
+    "date": "2023-07-14",
+    "day_of_week": "FRI",
+    "total_revenue": 75149.24,
+    "date_obj": "2023-07-14T00:00:00"
+  },
+  {
+    "date": "2023-07-13",
+    "day_of_week": "THU",
+    "total_revenue": 81225.54,
+    "date_obj": "2023-07-13T00:00:00"
+  },
+  {
+    "date": "2023-07-12",
+    "day_of_week": "WED",
+    "total_revenue": 57372.51,
+    "date_obj": "2023-07-12T00:00:00"
+  },
+  {
+    "date": "2023-07-11",
+    "day_of_week": "TUE",
+    "total_revenue": 61402.32,
+    "date_obj": "2023-07-11T00:00:00"
+  },
+  {
+    "date": "2023-07-10",
+    "day_of_week": "MON",
+    "total_revenue": 66354.9,
+    "date_obj": "2023-07-10T00:00:00"
+  },
+  {
+    "date": "2023-07-09",
+    "day_of_week": "SUN",
+    "total_revenue": 78892.1,
+    "date_obj": "2023-07-09T00:00:00"
+  },
+  {
+    "date": "2023-07-08",
+    "day_of_week": "SAT",
+    "total_revenue": 97474.58,
+    "date_obj": "2023-07-08T00:00:00"
+  },
+  {
+    "date": "2023-07-07",
+    "day_of_week": "FRI",
+    "total_revenue": 80371.21,
+    "date_obj": "2023-07-07T00:00:00"
+  },
+  {
+    "date": "2023-07-06",
+    "day_of_week": "THU",
+    "total_revenue": 89113.75,
+    "date_obj": "2023-07-06T00:00:00"
+  },
+  {
+    "date": "2023-07-05",
+    "day_of_week": "WED",
+    "total_revenue": 58685.38,
+    "date_obj": "2023-07-05T00:00:00"
+  },
+  {
+    "date": "2023-07-04",
+    "day_of_week": "TUE",
+    "total_revenue": 55232.01,
+    "date_obj": "2023-07-04T00:00:00"
+  },
+  {
+    "date": "2023-07-03",
+    "day_of_week": "MON",
+    "total_revenue": 74732.75,
+    "date_obj": "2023-07-03T00:00:00"
+  },
+  {
+    "date": "2023-07-02",
+    "day_of_week": "SUN",
+    "total_revenue": 72417.41,
+    "date_obj": "2023-07-02T00:00:00"
+  },
+  {
+    "date": "2023-07-01",
+    "day_of_week": "SAT",
+    "total_revenue": 44893.46,
+    "date_obj": "2023-07-01T00:00:00"
+  },
+  {
+    "date": "2023-06-30",
+    "day_of_week": "FRI",
+    "total_revenue": 34412.55,
+    "date_obj": "2023-06-30T00:00:00"
+  },
+  {
+    "date": "2023-06-29",
+    "day_of_week": "THU",
+    "total_revenue": 47150.71,
+    "date_obj": "2023-06-29T00:00:00"
+  },
+  {
+    "date": "2023-06-28",
+    "day_of_week": "WED",
+    "total_revenue": 47903.9,
+    "date_obj": "2023-06-28T00:00:00"
+  },
+  {
+    "date": "2023-06-27",
+    "day_of_week": "TUE",
+    "total_revenue": 61592.74,
+    "date_obj": "2023-06-27T00:00:00"
+  },
+  {
+    "date": "2023-06-26",
+    "day_of_week": "MON",
+    "total_revenue": 65683.61,
+    "date_obj": "2023-06-26T00:00:00"
+  },
+  {
+    "date": "2023-06-25",
+    "day_of_week": "SUN",
+    "total_revenue": 83189.85,
+    "date_obj": "2023-06-25T00:00:00"
+  },
+  {
+    "date": "2023-06-24",
+    "day_of_week": "SAT",
+    "total_revenue": 104394.17,
+    "date_obj": "2023-06-24T00:00:00"
+  },
+  {
+    "date": "2023-06-23",
+    "day_of_week": "FRI",
+    "total_revenue": 77089.02,
+    "date_obj": "2023-06-23T00:00:00"
+  },
+  {
+    "date": "2023-06-22",
+    "day_of_week": "THU",
+    "total_revenue": 77457.66,
+    "date_obj": "2023-06-22T00:00:00"
+  },
+  {
+    "date": "2023-06-21",
+    "day_of_week": "WED",
+    "total_revenue": 67503.71,
+    "date_obj": "2023-06-21T00:00:00"
+  },
+  {
+    "date": "2023-06-20",
+    "day_of_week": "TUE",
+    "total_revenue": 60584.15,
+    "date_obj": "2023-06-20T00:00:00"
+  },
+  {
+    "date": "2023-06-19",
+    "day_of_week": "MON",
+    "total_revenue": 62729.35,
+    "date_obj": "2023-06-19T00:00:00"
+  },
+  {
+    "date": "2023-06-18",
+    "day_of_week": "SUN",
+    "total_revenue": 94860.9,
+    "date_obj": "2023-06-18T00:00:00"
+  },
+  {
+    "date": "2023-06-17",
+    "day_of_week": "SAT",
+    "total_revenue": 110057.85,
+    "date_obj": "2023-06-17T00:00:00"
+  },
+  {
+    "date": "2023-06-16",
+    "day_of_week": "FRI",
+    "total_revenue": 70790.8,
+    "date_obj": "2023-06-16T00:00:00"
+  },
+  {
+    "date": "2023-06-15",
+    "day_of_week": "THU",
+    "total_revenue": 78807.23,
+    "date_obj": "2023-06-15T00:00:00"
+  },
+  {
+    "date": "2023-06-14",
+    "day_of_week": "WED",
+    "total_revenue": 69798.79,
+    "date_obj": "2023-06-14T00:00:00"
+  },
+  {
+    "date": "2023-06-13",
+    "day_of_week": "TUE",
+    "total_revenue": 52939.45,
+    "date_obj": "2023-06-13T00:00:00"
+  },
+  {
+    "date": "2023-06-12",
+    "day_of_week": "MON",
+    "total_revenue": 70550.58,
+    "date_obj": "2023-06-12T00:00:00"
+  },
+  {
+    "date": "2023-06-11",
+    "day_of_week": "SUN",
+    "total_revenue": 74807.47,
+    "date_obj": "2023-06-11T00:00:00"
+  },
+  {
+    "date": "2023-06-10",
+    "day_of_week": "SAT",
+    "total_revenue": 180637.76,
+    "date_obj": "2023-06-10T00:00:00"
+  },
+  {
+    "date": "2023-06-09",
+    "day_of_week": "FRI",
+    "total_revenue": 76967.22,
+    "date_obj": "2023-06-09T00:00:00"
+  },
+  {
+    "date": "2023-06-08",
+    "day_of_week": "THU",
+    "total_revenue": 82563.41,
+    "date_obj": "2023-06-08T00:00:00"
+  },
+  {
+    "date": "2023-06-07",
+    "day_of_week": "WED",
+    "total_revenue": 61051.61,
+    "date_obj": "2023-06-07T00:00:00"
+  },
+  {
+    "date": "2023-06-06",
+    "day_of_week": "TUE",
+    "total_revenue": 61205.12,
+    "date_obj": "2023-06-06T00:00:00"
+  },
+  {
+    "date": "2023-06-05",
+    "day_of_week": "MON",
+    "total_revenue": 107539.29,
+    "date_obj": "2023-06-05T00:00:00"
+  },
+  {
+    "date": "2023-06-04",
+    "day_of_week": "SUN",
+    "total_revenue": 145577.14,
+    "date_obj": "2023-06-04T00:00:00"
+  },
+  {
+    "date": "2023-06-03",
+    "day_of_week": "SAT",
+    "total_revenue": 177460.83,
+    "date_obj": "2023-06-03T00:00:00"
+  },
+  {
+    "date": "2023-06-02",
+    "day_of_week": "FRI",
+    "total_revenue": 75696.75,
+    "date_obj": "2023-06-02T00:00:00"
+  },
+  {
+    "date": "2023-06-01",
+    "day_of_week": "THU",
+    "total_revenue": 65466.77,
+    "date_obj": "2023-06-01T00:00:00"
+  },
+  {
+    "date": "2023-05-31",
+    "day_of_week": "WED",
+    "total_revenue": 56893.06,
+    "date_obj": "2023-05-31T00:00:00"
+  },
+  {
+    "date": "2023-05-30",
+    "day_of_week": "TUE",
+    "total_revenue": 59571.07,
+    "date_obj": "2023-05-30T00:00:00"
+  },
+  {
+    "date": "2023-05-29",
+    "day_of_week": "MON",
+    "total_revenue": 121465.83,
+    "date_obj": "2023-05-29T00:00:00"
+  },
+  {
+    "date": "2023-05-28",
+    "day_of_week": "SUN",
+    "total_revenue": 174307.3,
+    "date_obj": "2023-05-28T00:00:00"
+  },
+  {
+    "date": "2023-05-27",
+    "day_of_week": "SAT",
+    "total_revenue": 143626.43,
+    "date_obj": "2023-05-27T00:00:00"
+  },
+  {
+    "date": "2023-05-26",
+    "day_of_week": "FRI",
+    "total_revenue": 63982.77,
+    "date_obj": "2023-05-26T00:00:00"
+  },
+  {
+    "date": "2023-05-25",
+    "day_of_week": "THU",
+    "total_revenue": 71772.64,
+    "date_obj": "2023-05-25T00:00:00"
+  },
+  {
+    "date": "2023-05-24",
+    "day_of_week": "WED",
+    "total_revenue": 56042.48,
+    "date_obj": "2023-05-24T00:00:00"
+  },
+  {
+    "date": "2023-05-23",
+    "day_of_week": "TUE",
+    "total_revenue": 64465.91,
+    "date_obj": "2023-05-23T00:00:00"
+  },
+  {
+    "date": "2023-05-22",
+    "day_of_week": "MON",
+    "total_revenue": 62196.69,
+    "date_obj": "2023-05-22T00:00:00"
+  },
+  {
+    "date": "2023-05-21",
+    "day_of_week": "SUN",
+    "total_revenue": 117698.54,
+    "date_obj": "2023-05-21T00:00:00"
+  },
+  {
+    "date": "2023-05-20",
+    "day_of_week": "SAT",
+    "total_revenue": 91595.09,
+    "date_obj": "2023-05-20T00:00:00"
+  },
+  {
+    "date": "2023-05-19",
+    "day_of_week": "FRI",
+    "total_revenue": 70011.77,
+    "date_obj": "2023-05-19T00:00:00"
+  },
+  {
+    "date": "2023-05-18",
+    "day_of_week": "THU",
+    "total_revenue": 80597.4,
+    "date_obj": "2023-05-18T00:00:00"
+  },
+  {
+    "date": "2023-05-17",
+    "day_of_week": "WED",
+    "total_revenue": 53253.4,
+    "date_obj": "2023-05-17T00:00:00"
+  },
+  {
+    "date": "2023-05-16",
+    "day_of_week": "TUE",
+    "total_revenue": 60174.25,
+    "date_obj": "2023-05-16T00:00:00"
+  },
+  {
+    "date": "2023-05-15",
+    "day_of_week": "MON",
+    "total_revenue": 54258.67,
+    "date_obj": "2023-05-15T00:00:00"
+  },
+  {
+    "date": "2023-05-14",
+    "day_of_week": "SUN",
+    "total_revenue": 61008.54,
+    "date_obj": "2023-05-14T00:00:00"
+  },
+  {
+    "date": "2023-05-13",
+    "day_of_week": "SAT",
+    "total_revenue": 88816.9,
+    "date_obj": "2023-05-13T00:00:00"
+  },
+  {
+    "date": "2023-05-12",
+    "day_of_week": "FRI",
+    "total_revenue": 60169.57,
+    "date_obj": "2023-05-12T00:00:00"
+  },
+  {
+    "date": "2023-05-11",
+    "day_of_week": "THU",
+    "total_revenue": 70673.23,
+    "date_obj": "2023-05-11T00:00:00"
+  },
+  {
+    "date": "2023-05-10",
+    "day_of_week": "WED",
+    "total_revenue": 61337.65,
+    "date_obj": "2023-05-10T00:00:00"
+  },
+  {
+    "date": "2023-05-09",
+    "day_of_week": "TUE",
+    "total_revenue": 64003.8,
+    "date_obj": "2023-05-09T00:00:00"
+  },
+  {
+    "date": "2023-05-08",
+    "day_of_week": "MON",
+    "total_revenue": 47780.58,
+    "date_obj": "2023-05-08T00:00:00"
+  },
+  {
+    "date": "2023-05-07",
+    "day_of_week": "SUN",
+    "total_revenue": 82626.72,
+    "date_obj": "2023-05-07T00:00:00"
+  },
+  {
+    "date": "2023-05-06",
+    "day_of_week": "SAT",
+    "total_revenue": 97953.89,
+    "date_obj": "2023-05-06T00:00:00"
+  },
+  {
+    "date": "2023-05-05",
+    "day_of_week": "FRI",
+    "total_revenue": 67009.85,
+    "date_obj": "2023-05-05T00:00:00"
+  },
+  {
+    "date": "2023-05-04",
+    "day_of_week": "THU",
+    "total_revenue": 66658.17,
+    "date_obj": "2023-05-04T00:00:00"
+  },
+  {
+    "date": "2023-05-03",
+    "day_of_week": "WED",
+    "total_revenue": 52956.34,
+    "date_obj": "2023-05-03T00:00:00"
+  },
+  {
+    "date": "2023-05-02",
+    "day_of_week": "TUE",
+    "total_revenue": 55788.09,
+    "date_obj": "2023-05-02T00:00:00"
+  },
+  {
+    "date": "2023-05-01",
+    "day_of_week": "MON",
+    "total_revenue": 48449.69,
+    "date_obj": "2023-05-01T00:00:00"
+  },
+  {
+    "date": "2023-04-30",
+    "day_of_week": "SUN",
+    "total_revenue": 55834.7,
+    "date_obj": "2023-04-30T00:00:00"
+  },
+  {
+    "date": "2023-04-29",
+    "day_of_week": "SAT",
+    "total_revenue": 64582.56,
+    "date_obj": "2023-04-29T00:00:00"
+  },
+  {
+    "date": "2023-04-28",
+    "day_of_week": "FRI",
+    "total_revenue": 52632.85,
+    "date_obj": "2023-04-28T00:00:00"
+  },
+  {
+    "date": "2023-04-27",
+    "day_of_week": "THU",
+    "total_revenue": 56598.22,
+    "date_obj": "2023-04-27T00:00:00"
+  },
+  {
+    "date": "2023-04-26",
+    "day_of_week": "WED",
+    "total_revenue": 49491.09,
+    "date_obj": "2023-04-26T00:00:00"
+  },
+  {
+    "date": "2023-04-25",
+    "day_of_week": "TUE",
+    "total_revenue": 52199.64,
+    "date_obj": "2023-04-25T00:00:00"
+  },
+  {
+    "date": "2023-04-24",
+    "day_of_week": "MON",
+    "total_revenue": 47582.29,
+    "date_obj": "2023-04-24T00:00:00"
+  },
+  {
+    "date": "2023-04-23",
+    "day_of_week": "SUN",
+    "total_revenue": 58743.35,
+    "date_obj": "2023-04-23T00:00:00"
+  },
+  {
+    "date": "2023-04-22",
+    "day_of_week": "SAT",
+    "total_revenue": 62976.68,
+    "date_obj": "2023-04-22T00:00:00"
+  },
+  {
+    "date": "2023-04-21",
+    "day_of_week": "FRI",
+    "total_revenue": 51531.47,
+    "date_obj": "2023-04-21T00:00:00"
+  },
+  {
+    "date": "2023-04-20",
+    "day_of_week": "THU",
+    "total_revenue": 59109.91,
+    "date_obj": "2023-04-20T00:00:00"
+  },
+  {
+    "date": "2023-04-19",
+    "day_of_week": "WED",
+    "total_revenue": 49810.42,
+    "date_obj": "2023-04-19T00:00:00"
+  },
+  {
+    "date": "2023-04-18",
+    "day_of_week": "TUE",
+    "total_revenue": 51411.44,
+    "date_obj": "2023-04-18T00:00:00"
+  },
+  {
+    "date": "2023-04-17",
+    "day_of_week": "MON",
+    "total_revenue": 39648.02,
+    "date_obj": "2023-04-17T00:00:00"
+  },
+  {
+    "date": "2023-04-16",
+    "day_of_week": "SUN",
+    "total_revenue": 48586.39,
+    "date_obj": "2023-04-16T00:00:00"
+  },
+  {
+    "date": "2023-04-15",
+    "day_of_week": "SAT",
+    "total_revenue": 87823.94,
+    "date_obj": "2023-04-15T00:00:00"
+  },
+  {
+    "date": "2023-04-14",
+    "day_of_week": "FRI",
+    "total_revenue": 64657.17,
+    "date_obj": "2023-04-14T00:00:00"
+  },
+  {
+    "date": "2023-04-13",
+    "day_of_week": "THU",
+    "total_revenue": 62173.66,
+    "date_obj": "2023-04-13T00:00:00"
+  },
+  {
+    "date": "2023-04-12",
+    "day_of_week": "WED",
+    "total_revenue": 58747.96,
+    "date_obj": "2023-04-12T00:00:00"
+  },
+  {
+    "date": "2023-04-11",
+    "day_of_week": "TUE",
+    "total_revenue": 58780.32,
+    "date_obj": "2023-04-11T00:00:00"
+  },
+  {
+    "date": "2023-04-10",
+    "day_of_week": "MON",
+    "total_revenue": 50094.78,
+    "date_obj": "2023-04-10T00:00:00"
+  },
+  {
+    "date": "2023-04-09",
+    "day_of_week": "SUN",
+    "total_revenue": 63709.58,
+    "date_obj": "2023-04-09T00:00:00"
+  },
+  {
+    "date": "2023-04-08",
+    "day_of_week": "SAT",
+    "total_revenue": 90840.98,
+    "date_obj": "2023-04-08T00:00:00"
+  },
+  {
+    "date": "2023-04-07",
+    "day_of_week": "FRI",
+    "total_revenue": 69316.28,
+    "date_obj": "2023-04-07T00:00:00"
+  },
+  {
+    "date": "2023-04-06",
+    "day_of_week": "THU",
+    "total_revenue": 64147.63,
+    "date_obj": "2023-04-06T00:00:00"
+  },
+  {
+    "date": "2023-04-05",
+    "day_of_week": "WED",
+    "total_revenue": 51347.98,
+    "date_obj": "2023-04-05T00:00:00"
+  },
+  {
+    "date": "2023-04-04",
+    "day_of_week": "TUE",
+    "total_revenue": 50070.04,
+    "date_obj": "2023-04-04T00:00:00"
+  },
+  {
+    "date": "2023-04-03",
+    "day_of_week": "MON",
+    "total_revenue": 54558.38,
+    "date_obj": "2023-04-03T00:00:00"
+  },
+  {
+    "date": "2023-04-02",
+    "day_of_week": "SUN",
+    "total_revenue": 76155.68,
+    "date_obj": "2023-04-02T00:00:00"
+  },
+  {
+    "date": "2023-04-01",
+    "day_of_week": "SAT",
+    "total_revenue": 64076.41,
+    "date_obj": "2023-04-01T00:00:00"
+  },
+  {
+    "date": "2023-03-31",
+    "day_of_week": "FRI",
+    "total_revenue": 54747.19,
+    "date_obj": "2023-03-31T00:00:00"
+  },
+  {
+    "date": "2023-03-30",
+    "day_of_week": "THU",
+    "total_revenue": 70395.87,
+    "date_obj": "2023-03-30T00:00:00"
+  },
+  {
+    "date": "2023-03-29",
+    "day_of_week": "WED",
+    "total_revenue": 56558.06,
+    "date_obj": "2023-03-29T00:00:00"
+  },
+  {
+    "date": "2023-03-28",
+    "day_of_week": "TUE",
+    "total_revenue": 55908.19,
+    "date_obj": "2023-03-28T00:00:00"
+  },
+  {
+    "date": "2023-03-27",
+    "day_of_week": "MON",
+    "total_revenue": 86319.42,
+    "date_obj": "2023-03-27T00:00:00"
+  },
+  {
+    "date": "2023-03-26",
+    "day_of_week": "SUN",
+    "total_revenue": 97004.94,
+    "date_obj": "2023-03-26T00:00:00"
+  },
+  {
+    "date": "2023-03-25",
+    "day_of_week": "SAT",
+    "total_revenue": 78726.36,
+    "date_obj": "2023-03-25T00:00:00"
+  },
+  {
+    "date": "2023-03-24",
+    "day_of_week": "FRI",
+    "total_revenue": 65479.7,
+    "date_obj": "2023-03-24T00:00:00"
+  },
+  {
+    "date": "2023-03-23",
+    "day_of_week": "THU",
+    "total_revenue": 64407.31,
+    "date_obj": "2023-03-23T00:00:00"
+  },
+  {
+    "date": "2023-03-22",
+    "day_of_week": "WED",
+    "total_revenue": 49475.03,
+    "date_obj": "2023-03-22T00:00:00"
+  },
+  {
+    "date": "2023-03-21",
+    "day_of_week": "TUE",
+    "total_revenue": 53517.64,
+    "date_obj": "2023-03-21T00:00:00"
+  },
+  {
+    "date": "2023-03-20",
+    "day_of_week": "MON",
+    "total_revenue": 53051.22,
+    "date_obj": "2023-03-20T00:00:00"
+  },
+  {
+    "date": "2023-03-19",
+    "day_of_week": "SUN",
+    "total_revenue": 64508.79,
+    "date_obj": "2023-03-19T00:00:00"
+  },
+  {
+    "date": "2023-03-18",
+    "day_of_week": "SAT",
+    "total_revenue": 62434.86,
+    "date_obj": "2023-03-18T00:00:00"
+  },
+  {
+    "date": "2023-03-17",
+    "day_of_week": "FRI",
+    "total_revenue": 62472.53,
+    "date_obj": "2023-03-17T00:00:00"
+  },
+  {
+    "date": "2023-03-16",
+    "day_of_week": "THU",
+    "total_revenue": 71383.12,
+    "date_obj": "2023-03-16T00:00:00"
+  },
+  {
+    "date": "2023-03-15",
+    "day_of_week": "WED",
+    "total_revenue": 65185.28,
+    "date_obj": "2023-03-15T00:00:00"
+  },
+  {
+    "date": "2023-03-14",
+    "day_of_week": "TUE",
+    "total_revenue": 62953.16,
+    "date_obj": "2023-03-14T00:00:00"
+  },
+  {
+    "date": "2023-03-13",
+    "day_of_week": "MON",
+    "total_revenue": 55595.17,
+    "date_obj": "2023-03-13T00:00:00"
+  },
+  {
+    "date": "2023-03-12",
+    "day_of_week": "SUN",
+    "total_revenue": 63418.16,
+    "date_obj": "2023-03-12T00:00:00"
+  },
+  {
+    "date": "2023-03-11",
+    "day_of_week": "SAT",
+    "total_revenue": 82645.27,
+    "date_obj": "2023-03-11T00:00:00"
+  },
+  {
+    "date": "2023-03-10",
+    "day_of_week": "FRI",
+    "total_revenue": 47208.89,
+    "date_obj": "2023-03-10T00:00:00"
+  },
+  {
+    "date": "2023-03-09",
+    "day_of_week": "THU",
+    "total_revenue": 59062.09,
+    "date_obj": "2023-03-09T00:00:00"
+  },
+  {
+    "date": "2023-03-08",
+    "day_of_week": "WED",
+    "total_revenue": 50152.37,
+    "date_obj": "2023-03-08T00:00:00"
+  },
+  {
+    "date": "2023-03-07",
+    "day_of_week": "TUE",
+    "total_revenue": 50141.53,
+    "date_obj": "2023-03-07T00:00:00"
+  },
+  {
+    "date": "2023-03-06",
+    "day_of_week": "MON",
+    "total_revenue": 42446.84,
+    "date_obj": "2023-03-06T00:00:00"
+  },
+  {
+    "date": "2023-03-05",
+    "day_of_week": "SUN",
+    "total_revenue": 56597.58,
+    "date_obj": "2023-03-05T00:00:00"
+  },
+  {
+    "date": "2023-03-04",
+    "day_of_week": "SAT",
+    "total_revenue": 62448.72,
+    "date_obj": "2023-03-04T00:00:00"
+  },
+  {
+    "date": "2023-03-03",
+    "day_of_week": "FRI",
+    "total_revenue": 35999.54,
+    "date_obj": "2023-03-03T00:00:00"
+  },
+  {
+    "date": "2023-03-02",
+    "day_of_week": "THU",
+    "total_revenue": 49046.48,
+    "date_obj": "2023-03-02T00:00:00"
+  },
+  {
+    "date": "2023-03-01",
+    "day_of_week": "WED",
+    "total_revenue": 50602.83,
+    "date_obj": "2023-03-01T00:00:00"
+  },
+  {
+    "date": "2023-02-28",
+    "day_of_week": "TUE",
+    "total_revenue": 50356.47,
+    "date_obj": "2023-02-28T00:00:00"
+  },
+  {
+    "date": "2023-02-27",
+    "day_of_week": "MON",
+    "total_revenue": 42802.38,
+    "date_obj": "2023-02-27T00:00:00"
+  },
+  {
+    "date": "2023-02-26",
+    "day_of_week": "SUN",
+    "total_revenue": 57784.64,
+    "date_obj": "2023-02-26T00:00:00"
+  },
+  {
+    "date": "2023-02-25",
+    "day_of_week": "SAT",
+    "total_revenue": 69514.74,
+    "date_obj": "2023-02-25T00:00:00"
+  },
+  {
+    "date": "2023-02-24",
+    "day_of_week": "FRI",
+    "total_revenue": 51874.64,
+    "date_obj": "2023-02-24T00:00:00"
+  },
+  {
+    "date": "2023-02-23",
+    "day_of_week": "THU",
+    "total_revenue": 62097.78,
+    "date_obj": "2023-02-23T00:00:00"
+  },
+  {
+    "date": "2023-02-22",
+    "day_of_week": "WED",
+    "total_revenue": 40339.9,
+    "date_obj": "2023-02-22T00:00:00"
+  },
+  {
+    "date": "2023-02-21",
+    "day_of_week": "TUE",
+    "total_revenue": 49406.82,
+    "date_obj": "2023-02-21T00:00:00"
+  },
+  {
+    "date": "2023-02-20",
+    "day_of_week": "MON",
+    "total_revenue": 57861.69,
+    "date_obj": "2023-02-20T00:00:00"
+  },
+  {
+    "date": "2023-02-19",
+    "day_of_week": "SUN",
+    "total_revenue": 72161.8,
+    "date_obj": "2023-02-19T00:00:00"
+  },
+  {
+    "date": "2023-02-18",
+    "day_of_week": "SAT",
+    "total_revenue": 74939.67,
+    "date_obj": "2023-02-18T00:00:00"
+  },
+  {
+    "date": "2023-02-17",
+    "day_of_week": "FRI",
+    "total_revenue": 50091.01,
+    "date_obj": "2023-02-17T00:00:00"
+  },
+  {
+    "date": "2023-02-16",
+    "day_of_week": "THU",
+    "total_revenue": 42728.82,
+    "date_obj": "2023-02-16T00:00:00"
+  },
+  {
+    "date": "2023-02-15",
+    "day_of_week": "WED",
+    "total_revenue": 51084.24,
+    "date_obj": "2023-02-15T00:00:00"
+  },
+  {
+    "date": "2023-02-14",
+    "day_of_week": "TUE",
+    "total_revenue": 51948.94,
+    "date_obj": "2023-02-14T00:00:00"
+  },
+  {
+    "date": "2023-02-13",
+    "day_of_week": "MON",
+    "total_revenue": 42879.39,
+    "date_obj": "2023-02-13T00:00:00"
+  },
+  {
+    "date": "2023-02-12",
+    "day_of_week": "SUN",
+    "total_revenue": 49398.25,
+    "date_obj": "2023-02-12T00:00:00"
+  },
+  {
+    "date": "2023-02-11",
+    "day_of_week": "SAT",
+    "total_revenue": 66185.84,
+    "date_obj": "2023-02-11T00:00:00"
+  },
+  {
+    "date": "2023-02-10",
+    "day_of_week": "FRI",
+    "total_revenue": 48670.4,
+    "date_obj": "2023-02-10T00:00:00"
+  },
+  {
+    "date": "2023-02-09",
+    "day_of_week": "THU",
+    "total_revenue": 49310.77,
+    "date_obj": "2023-02-09T00:00:00"
+  },
+  {
+    "date": "2023-02-08",
+    "day_of_week": "WED",
+    "total_revenue": 52274.96,
+    "date_obj": "2023-02-08T00:00:00"
+  },
+  {
+    "date": "2023-02-07",
+    "day_of_week": "TUE",
+    "total_revenue": 45123.81,
+    "date_obj": "2023-02-07T00:00:00"
+  },
+  {
+    "date": "2023-02-06",
+    "day_of_week": "MON",
+    "total_revenue": 38370.61,
+    "date_obj": "2023-02-06T00:00:00"
+  },
+  {
+    "date": "2023-02-05",
+    "day_of_week": "SUN",
+    "total_revenue": 55601.92,
+    "date_obj": "2023-02-05T00:00:00"
+  },
+  {
+    "date": "2023-02-04",
+    "day_of_week": "SAT",
+    "total_revenue": 49928.63,
+    "date_obj": "2023-02-04T00:00:00"
+  },
+  {
+    "date": "2023-02-03",
+    "day_of_week": "FRI",
+    "total_revenue": 39817.58,
+    "date_obj": "2023-02-03T00:00:00"
+  },
+  {
+    "date": "2023-02-02",
+    "day_of_week": "THU",
+    "total_revenue": 47908.14,
+    "date_obj": "2023-02-02T00:00:00"
+  },
+  {
+    "date": "2023-02-01",
+    "day_of_week": "WED",
+    "total_revenue": 47163.58,
+    "date_obj": "2023-02-01T00:00:00"
+  },
+  {
+    "date": "2023-01-31",
+    "day_of_week": "TUE",
+    "total_revenue": 49396.55,
+    "date_obj": "2023-01-31T00:00:00"
+  },
+  {
+    "date": "2023-01-30",
+    "day_of_week": "MON",
+    "total_revenue": 36823.65,
+    "date_obj": "2023-01-30T00:00:00"
+  },
+  {
+    "date": "2023-01-29",
+    "day_of_week": "SUN",
+    "total_revenue": 33520.76,
+    "date_obj": "2023-01-29T00:00:00"
+  },
+  {
+    "date": "2023-01-28",
+    "day_of_week": "SAT",
+    "total_revenue": 42596.22,
+    "date_obj": "2023-01-28T00:00:00"
+  },
+  {
+    "date": "2023-01-27",
+    "day_of_week": "FRI",
+    "total_revenue": 44398.54,
+    "date_obj": "2023-01-27T00:00:00"
+  },
+  {
+    "date": "2023-01-26",
+    "day_of_week": "THU",
+    "total_revenue": 46702.7,
+    "date_obj": "2023-01-26T00:00:00"
+  },
+  {
+    "date": "2023-01-25",
+    "day_of_week": "WED",
+    "total_revenue": 33729.82,
+    "date_obj": "2023-01-25T00:00:00"
+  },
+  {
+    "date": "2023-01-24",
+    "day_of_week": "TUE",
+    "total_revenue": 46001.6,
+    "date_obj": "2023-01-24T00:00:00"
+  },
+  {
+    "date": "2023-01-23",
+    "day_of_week": "MON",
+    "total_revenue": 36820.13,
+    "date_obj": "2023-01-23T00:00:00"
+  },
+  {
+    "date": "2023-01-22",
+    "day_of_week": "SUN",
+    "total_revenue": 31407.67,
+    "date_obj": "2023-01-22T00:00:00"
+  },
+  {
+    "date": "2023-01-21",
+    "day_of_week": "SAT",
+    "total_revenue": 53306.25,
+    "date_obj": "2023-01-21T00:00:00"
+  },
+  {
+    "date": "2023-01-20",
+    "day_of_week": "FRI",
+    "total_revenue": 39997.66,
+    "date_obj": "2023-01-20T00:00:00"
+  },
+  {
+    "date": "2023-01-19",
+    "day_of_week": "THU",
+    "total_revenue": 46231.73,
+    "date_obj": "2023-01-19T00:00:00"
+  },
+  {
+    "date": "2023-01-18",
+    "day_of_week": "WED",
+    "total_revenue": 44472.36,
+    "date_obj": "2023-01-18T00:00:00"
+  },
+  {
+    "date": "2023-01-17",
+    "day_of_week": "TUE",
+    "total_revenue": 43674.21,
+    "date_obj": "2023-01-17T00:00:00"
+  },
+  {
+    "date": "2023-01-16",
+    "day_of_week": "MON",
+    "total_revenue": 44553.57,
+    "date_obj": "2023-01-16T00:00:00"
+  },
+  {
+    "date": "2023-01-15",
+    "day_of_week": "SUN",
+    "total_revenue": 56518.48,
+    "date_obj": "2023-01-15T00:00:00"
+  },
+  {
+    "date": "2023-01-14",
+    "day_of_week": "SAT",
+    "total_revenue": 67746.21,
+    "date_obj": "2023-01-14T00:00:00"
+  },
+  {
+    "date": "2023-01-13",
+    "day_of_week": "FRI",
+    "total_revenue": 48562.4,
+    "date_obj": "2023-01-13T00:00:00"
+  },
+  {
+    "date": "2023-01-12",
+    "day_of_week": "THU",
+    "total_revenue": 50462.91,
+    "date_obj": "2023-01-12T00:00:00"
+  },
+  {
+    "date": "2023-01-11",
+    "day_of_week": "WED",
+    "total_revenue": 44797.8,
+    "date_obj": "2023-01-11T00:00:00"
+  },
+  {
+    "date": "2023-01-10",
+    "day_of_week": "TUE",
+    "total_revenue": 46186.92,
+    "date_obj": "2023-01-10T00:00:00"
+  },
+  {
+    "date": "2023-01-09",
+    "day_of_week": "MON",
+    "total_revenue": 40654.51,
+    "date_obj": "2023-01-09T00:00:00"
+  },
+  {
+    "date": "2023-01-08",
+    "day_of_week": "SUN",
+    "total_revenue": 79100.43,
+    "date_obj": "2023-01-08T00:00:00"
+  },
+  {
+    "date": "2023-01-07",
+    "day_of_week": "SAT",
+    "total_revenue": 58928.95,
+    "date_obj": "2023-01-07T00:00:00"
+  },
+  {
+    "date": "2023-01-06",
+    "day_of_week": "FRI",
+    "total_revenue": 45405.24,
+    "date_obj": "2023-01-06T00:00:00"
+  },
+  {
+    "date": "2023-01-05",
+    "day_of_week": "THU",
+    "total_revenue": 48090.54,
+    "date_obj": "2023-01-05T00:00:00"
+  },
+  {
+    "date": "2023-01-04",
+    "day_of_week": "WED",
+    "total_revenue": 43395.23,
+    "date_obj": "2023-01-04T00:00:00"
+  },
+  {
+    "date": "2023-01-03",
+    "day_of_week": "TUE",
+    "total_revenue": 40470.66,
+    "date_obj": "2023-01-03T00:00:00"
+  },
+  {
+    "date": "2023-01-02",
+    "day_of_week": "MON",
+    "total_revenue": 67423.93,
+    "date_obj": "2023-01-02T00:00:00"
+  },
+  {
+    "date": "2023-01-01",
+    "day_of_week": "SUN",
+    "total_revenue": 97625.34,
+    "date_obj": "2023-01-01T00:00:00"
+  },
+  {
+    "date": "2022-12-31",
+    "day_of_week": "SAT",
+    "total_revenue": 60499.42,
+    "date_obj": "2022-12-31T00:00:00"
+  },
+  {
+    "date": "2022-12-30",
+    "day_of_week": "FRI",
+    "total_revenue": 88173.53,
+    "date_obj": "2022-12-30T00:00:00"
+  },
+  {
+    "date": "2022-12-29",
+    "day_of_week": "THU",
+    "total_revenue": 94127.97,
+    "date_obj": "2022-12-29T00:00:00"
+  },
+  {
+    "date": "2022-12-28",
+    "day_of_week": "WED",
+    "total_revenue": 63729.94,
+    "date_obj": "2022-12-28T00:00:00"
+  },
+  {
+    "date": "2022-12-27",
+    "day_of_week": "TUE",
+    "total_revenue": 52952.01,
+    "date_obj": "2022-12-27T00:00:00"
+  },
+  {
+    "date": "2022-12-26",
+    "day_of_week": "MON",
+    "total_revenue": 52391.41,
+    "date_obj": "2022-12-26T00:00:00"
+  },
+  {
+    "date": "2022-12-25",
+    "day_of_week": "SUN",
+    "total_revenue": 25703.35,
+    "date_obj": "2022-12-25T00:00:00"
+  },
+  {
+    "date": "2022-12-24",
+    "day_of_week": "SAT",
+    "total_revenue": 39188.22,
+    "date_obj": "2022-12-24T00:00:00"
+  },
+  {
+    "date": "2022-12-23",
+    "day_of_week": "FRI",
+    "total_revenue": 18670.55,
+    "date_obj": "2022-12-23T00:00:00"
+  },
+  {
+    "date": "2022-12-22",
+    "day_of_week": "THU",
+    "total_revenue": 28680.64,
+    "date_obj": "2022-12-22T00:00:00"
+  },
+  {
+    "date": "2022-12-21",
+    "day_of_week": "WED",
+    "total_revenue": 61631.6,
+    "date_obj": "2022-12-21T00:00:00"
+  },
+  {
+    "date": "2022-12-20",
+    "day_of_week": "TUE",
+    "total_revenue": 61127.09,
+    "date_obj": "2022-12-20T00:00:00"
+  },
+  {
+    "date": "2022-12-19",
+    "day_of_week": "MON",
+    "total_revenue": 59742.23,
+    "date_obj": "2022-12-19T00:00:00"
+  },
+  {
+    "date": "2022-12-18",
+    "day_of_week": "SUN",
+    "total_revenue": 103116.18,
+    "date_obj": "2022-12-18T00:00:00"
+  },
+  {
+    "date": "2022-12-17",
+    "day_of_week": "SAT",
+    "total_revenue": 79809.49,
+    "date_obj": "2022-12-17T00:00:00"
+  },
+  {
+    "date": "2022-12-16",
+    "day_of_week": "FRI",
+    "total_revenue": 61765.32,
+    "date_obj": "2022-12-16T00:00:00"
+  },
+  {
+    "date": "2022-12-15",
+    "day_of_week": "THU",
+    "total_revenue": 62514.73,
+    "date_obj": "2022-12-15T00:00:00"
+  },
+  {
+    "date": "2022-12-14",
+    "day_of_week": "WED",
+    "total_revenue": 54364.76,
+    "date_obj": "2022-12-14T00:00:00"
+  },
+  {
+    "date": "2022-12-13",
+    "day_of_week": "TUE",
+    "total_revenue": 53179.65,
+    "date_obj": "2022-12-13T00:00:00"
+  },
+  {
+    "date": "2022-12-12",
+    "day_of_week": "MON",
+    "total_revenue": 47939.81,
+    "date_obj": "2022-12-12T00:00:00"
+  },
+  {
+    "date": "2022-12-11",
+    "day_of_week": "SUN",
+    "total_revenue": 75822.67,
+    "date_obj": "2022-12-11T00:00:00"
+  },
+  {
+    "date": "2022-12-10",
+    "day_of_week": "SAT",
+    "total_revenue": 87759.64,
+    "date_obj": "2022-12-10T00:00:00"
+  },
+  {
+    "date": "2022-12-09",
+    "day_of_week": "FRI",
+    "total_revenue": 49723.56,
+    "date_obj": "2022-12-09T00:00:00"
+  },
+  {
+    "date": "2022-12-08",
+    "day_of_week": "THU",
+    "total_revenue": 58628.58,
+    "date_obj": "2022-12-08T00:00:00"
+  },
+  {
+    "date": "2022-12-07",
+    "day_of_week": "WED",
+    "total_revenue": 51760.68,
+    "date_obj": "2022-12-07T00:00:00"
+  },
+  {
+    "date": "2022-12-06",
+    "day_of_week": "TUE",
+    "total_revenue": 50867.63,
+    "date_obj": "2022-12-06T00:00:00"
+  },
+  {
+    "date": "2022-12-05",
+    "day_of_week": "MON",
+    "total_revenue": 44160.35,
+    "date_obj": "2022-12-05T00:00:00"
+  },
+  {
+    "date": "2022-12-04",
+    "day_of_week": "SUN",
+    "total_revenue": 114691.76,
+    "date_obj": "2022-12-04T00:00:00"
+  },
+  {
+    "date": "2022-12-03",
+    "day_of_week": "SAT",
+    "total_revenue": 81929.42,
+    "date_obj": "2022-12-03T00:00:00"
+  },
+  {
+    "date": "2022-12-02",
+    "day_of_week": "FRI",
+    "total_revenue": 57637.78,
+    "date_obj": "2022-12-02T00:00:00"
+  },
+  {
+    "date": "2022-12-01",
+    "day_of_week": "THU",
+    "total_revenue": 53704.38,
+    "date_obj": "2022-12-01T00:00:00"
+  },
+  {
+    "date": "2022-11-30",
+    "day_of_week": "WED",
+    "total_revenue": 45009.32,
+    "date_obj": "2022-11-30T00:00:00"
+  },
+  {
+    "date": "2022-11-29",
+    "day_of_week": "TUE",
+    "total_revenue": 44498.95,
+    "date_obj": "2022-11-29T00:00:00"
+  },
+  {
+    "date": "2022-11-28",
+    "day_of_week": "MON",
+    "total_revenue": 39527.45,
+    "date_obj": "2022-11-28T00:00:00"
+  },
+  {
+    "date": "2022-11-27",
+    "day_of_week": "SUN",
+    "total_revenue": 48923.58,
+    "date_obj": "2022-11-27T00:00:00"
+  },
+  {
+    "date": "2022-11-26",
+    "day_of_week": "SAT",
+    "total_revenue": 132544.64,
+    "date_obj": "2022-11-26T00:00:00"
+  },
+  {
+    "date": "2022-11-25",
+    "day_of_week": "FRI",
+    "total_revenue": 108708.32,
+    "date_obj": "2022-11-25T00:00:00"
+  },
+  {
+    "date": "2022-11-24",
+    "day_of_week": "THU",
+    "total_revenue": 41656.26,
+    "date_obj": "2022-11-24T00:00:00"
+  },
+  {
+    "date": "2022-11-23",
+    "day_of_week": "WED",
+    "total_revenue": 58657.63,
+    "date_obj": "2022-11-23T00:00:00"
+  },
+  {
+    "date": "2022-11-22",
+    "day_of_week": "TUE",
+    "total_revenue": 53795.82,
+    "date_obj": "2022-11-22T00:00:00"
+  },
+  {
+    "date": "2022-11-21",
+    "day_of_week": "MON",
+    "total_revenue": 54234.39,
+    "date_obj": "2022-11-21T00:00:00"
+  },
+  {
+    "date": "2022-11-20",
+    "day_of_week": "SUN",
+    "total_revenue": 77021.6,
+    "date_obj": "2022-11-20T00:00:00"
+  },
+  {
+    "date": "2022-11-19",
+    "day_of_week": "SAT",
+    "total_revenue": 78959.54,
+    "date_obj": "2022-11-19T00:00:00"
+  },
+  {
+    "date": "2022-11-18",
+    "day_of_week": "FRI",
+    "total_revenue": 82432.03,
+    "date_obj": "2022-11-18T00:00:00"
+  },
+  {
+    "date": "2022-11-17",
+    "day_of_week": "THU",
+    "total_revenue": 50770.87,
+    "date_obj": "2022-11-17T00:00:00"
+  },
+  {
+    "date": "2022-11-16",
+    "day_of_week": "WED",
+    "total_revenue": 55358.83,
+    "date_obj": "2022-11-16T00:00:00"
+  },
+  {
+    "date": "2022-11-15",
+    "day_of_week": "TUE",
+    "total_revenue": 41283.52,
+    "date_obj": "2022-11-15T00:00:00"
+  },
+  {
+    "date": "2022-11-14",
+    "day_of_week": "MON",
+    "total_revenue": 45853.72,
+    "date_obj": "2022-11-14T00:00:00"
+  },
+  {
+    "date": "2022-11-13",
+    "day_of_week": "SUN",
+    "total_revenue": 100694.65,
+    "date_obj": "2022-11-13T00:00:00"
+  },
+  {
+    "date": "2022-11-12",
+    "day_of_week": "SAT",
+    "total_revenue": 63161.84,
+    "date_obj": "2022-11-12T00:00:00"
+  },
+  {
+    "date": "2022-11-11",
+    "day_of_week": "FRI",
+    "total_revenue": 51300.76,
+    "date_obj": "2022-11-11T00:00:00"
+  },
+  {
+    "date": "2022-11-10",
+    "day_of_week": "THU",
+    "total_revenue": 62627.68,
+    "date_obj": "2022-11-10T00:00:00"
+  },
+  {
+    "date": "2022-11-09",
+    "day_of_week": "WED",
+    "total_revenue": 48930.76,
+    "date_obj": "2022-11-09T00:00:00"
+  }
+]

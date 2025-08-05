@@ -7,10 +7,10 @@ Now includes day-specific Lollapalooza multipliers and refined event analysis
 from flask import Flask, render_template, jsonify, send_file, request, send_from_directory
 import csv
 import json
+import os
 import urllib.request
 from datetime import datetime, timedelta
 import io
-import os
 import traceback
 import sys
 
@@ -126,31 +126,56 @@ class EnhancedWebForecaster:
         self.historical_data = self.load_latest_historical_data() if ADVANCED_FEATURES_AVAILABLE else []
     
     def load_latest_historical_data(self):
-        """Load the latest historical booking data using robust CSV reader"""
+        """Load the latest historical booking data - optimized for Heroku"""
         if not ADVANCED_FEATURES_AVAILABLE:
             return []
             
         try:
-            # Use robust CSV reader to get clean, normalized data
-            normalized_data = self.csv_reader.read_csv_robust()
+            # Try to load essential data first (for Heroku)
+            if os.path.exists('essential_historical_data.json'):
+                print("📊 Loading essential historical data (Heroku-optimized)...")
+                with open('essential_historical_data.json', 'r') as f:
+                    essential_data = json.load(f)
+                
+                # Convert to expected format
+                historical_data = []
+                for record in essential_data:
+                    historical_data.append({
+                        'date': record['date'],
+                        'revenue': record['total_revenue'],
+                        'day_of_week': record['day_of_week'],
+                        'date_obj': datetime.fromisoformat(record['date_obj']) if isinstance(record['date_obj'], str) else record['date_obj']
+                    })
+                
+                print(f"✅ Loaded {len(historical_data)} essential historical records")
+                return historical_data
+                
+            # Fallback to full CSV reader (for local development)
+            elif self.csv_reader:
+                print("📊 Loading full historical data (local development)...")
+                normalized_data = self.csv_reader.read_csv_robust()
+                
+                if not normalized_data:
+                    return []
+                
+                # Convert to expected format for model validation
+                historical_data = []
+                for record in normalized_data:
+                    historical_data.append({
+                        'date': record['date_str'],
+                        'revenue': record['total_revenue'],
+                        'day_of_week': record['day_of_week'],
+                        'date_obj': record['date']
+                    })
+                
+                # Sort by date (most recent first for easy access)
+                historical_data.sort(key=lambda x: x['date_obj'], reverse=True)
+                
+                return historical_data
             
-            if not normalized_data:
+            else:
+                print("⚠️ No historical data source available")
                 return []
-            
-            # Convert to expected format for model validation
-            historical_data = []
-            for record in normalized_data:
-                historical_data.append({
-                    'date': record['date_str'],
-                    'revenue': record['total_revenue'],
-                    'day_of_week': record['day_of_week'],
-                    'date_obj': record['date']
-                })
-            
-            # Sort by date (most recent first for easy access)
-            historical_data.sort(key=lambda x: x['date_obj'], reverse=True)
-            
-            return historical_data
             
         except Exception as e:
             print(f"Error loading historical data: {e}")
