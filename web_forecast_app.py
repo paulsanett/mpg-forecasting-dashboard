@@ -658,34 +658,62 @@ def download_file(filename):
 
 @app.route('/health')
 def health_check():
-    """Health check endpoint for Heroku debugging"""
+    """Health check endpoint"""
     try:
-        status = {
-            'status': 'healthy',
-            'timestamp': datetime.now().isoformat(),
-            'python_version': sys.version,
-            'working_directory': os.getcwd(),
-            'advanced_features': {
-                'day_classifier': DAY_CLASSIFIER_AVAILABLE,
-                'departure_model': DEPARTURE_MODEL_AVAILABLE,
-                'csv_reader': CSV_READER_AVAILABLE,
-                'all_features': ADVANCED_FEATURES_AVAILABLE
-            },
-            'files_present': {
-                'day_classifier.py': os.path.exists('day_classifier.py'),
-                'departure_day_revenue_model.py': os.path.exists('departure_day_revenue_model.py'),
-                'robust_csv_reader.py': os.path.exists('robust_csv_reader.py'),
-                'MG Event Calendar 2025.csv': os.path.exists('MG Event Calendar 2025.csv'),
-                'HIstoric Booking Data.csv': os.path.exists('HIstoric Booking Data.csv'),
-                'essential_historical_data.json': os.path.exists('essential_historical_data.json')
-            }
+        # Import test for advanced features
+        from departure_day_revenue_model import DepartureDayRevenueModel
+        from day_classifier import DayClassifier
+        from robust_csv_reader import RobustCSVReader
+        
+        advanced_features = {
+            'departure_model': True,
+            'day_classifier': True,
+            'csv_reader': True,
+            'all_features': True
         }
-        return jsonify(status)
+    except ImportError as e:
+        advanced_features = {
+            'departure_model': False,
+            'day_classifier': False,
+            'csv_reader': False,
+            'all_features': False,
+            'error': str(e)
+        }
+    
+    status = {
+        'status': 'healthy',
+        'timestamp': datetime.now().isoformat(),
+        'python_version': sys.version,
+        'working_directory': os.getcwd(),
+        'advanced_features': advanced_features,
+        'files_present': {
+            'departure_day_revenue_model.py': os.path.exists('departure_day_revenue_model.py'),
+            'day_classifier.py': os.path.exists('day_classifier.py'),
+            'robust_csv_reader.py': os.path.exists('robust_csv_reader.py'),
+            'MG Event Calendar 2025.csv': os.path.exists('MG Event Calendar 2025.csv'),
+            'HIstoric Booking Data.csv': os.path.exists('HIstoric Booking Data.csv'),
+            'essential_historical_data.json': os.path.exists('essential_historical_data.json'),
+            'static_dashboard_data.json': os.path.exists('static_dashboard_data.json')
+        }
+    }
+    return jsonify(status)
+
+@app.route('/api/static-forecast')
+def get_static_forecast():
+    """Serve pre-calculated static dashboard data"""
+    try:
+        if os.path.exists('static_dashboard_data.json'):
+            with open('static_dashboard_data.json', 'r') as f:
+                static_data = json.load(f)
+            return jsonify(static_data)
+        else:
+            return jsonify({
+                'error': 'Static dashboard data not available',
+                'message': 'Please run local forecast to generate static data'
+            }), 404
     except Exception as e:
         return jsonify({
-            'status': 'error',
-            'error': str(e),
-            'traceback': traceback.format_exc()
+            'error': f'Error loading static dashboard data: {str(e)}'
         }), 500
 
 @app.route('/api/download-csv')

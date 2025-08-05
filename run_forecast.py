@@ -613,6 +613,59 @@ class EnhancedForecaster:
         print(f"📊 Latest dashboard data: static_dashboard_data.json")
         
         return dashboard_data
+    
+    def deploy_to_heroku(self):
+        """Automatically deploy static dashboard data to Heroku via Git"""
+        import subprocess
+        import os
+        
+        try:
+            print("\n🚀 DEPLOYING TO HEROKU VIA GIT")
+            print("="*50)
+            
+            # Check if we're in a git repository
+            result = subprocess.run(['git', 'status'], capture_output=True, text=True, cwd='.')
+            if result.returncode != 0:
+                print("❌ Not in a Git repository - skipping deployment")
+                return False
+            
+            # Add the static dashboard data file
+            print("📁 Adding static dashboard data to Git...")
+            subprocess.run(['git', 'add', 'static_dashboard_data.json'], cwd='.')
+            
+            # Check if there are changes to commit
+            result = subprocess.run(['git', 'diff', '--cached', '--quiet'], capture_output=True, cwd='.')
+            if result.returncode == 0:
+                print("ℹ️  No changes to deploy - dashboard data is already up to date")
+                return True
+            
+            # Commit the changes
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            commit_message = f"Auto-deploy: Updated static dashboard data - {timestamp}"
+            print(f"💾 Committing changes: {commit_message}")
+            
+            result = subprocess.run(['git', 'commit', '-m', commit_message], 
+                                  capture_output=True, text=True, cwd='.')
+            if result.returncode != 0:
+                print(f"❌ Git commit failed: {result.stderr}")
+                return False
+            
+            # Push to GitHub (triggers Heroku auto-deploy)
+            print("🚀 Pushing to GitHub (triggers Heroku deployment)...")
+            result = subprocess.run(['git', 'push', 'origin', 'main'], 
+                                  capture_output=True, text=True, cwd='.')
+            if result.returncode != 0:
+                print(f"❌ Git push failed: {result.stderr}")
+                return False
+            
+            print("✅ Successfully deployed to Heroku!")
+            print("🌐 Dashboard will be updated in 2-3 minutes at:")
+            print("   https://mpg-forecasting-dashboard-bb2045216df0.herokuapp.com")
+            return True
+            
+        except Exception as e:
+            print(f"❌ Deployment error: {e}")
+            return False
 
 if __name__ == "__main__":
     forecaster = EnhancedForecaster()
@@ -642,4 +695,12 @@ if __name__ == "__main__":
     print(f"7-Day Total:  ${dashboard_data['forecasts']['7_day']['total_revenue']:,.0f}")
     print(f"14-Day Total: ${dashboard_data['forecasts']['14_day']['total_revenue']:,.0f}")
     print(f"30-Day Total: ${dashboard_data['forecasts']['30_day']['total_revenue']:,.0f}")
-    print(f"\n📊 Static dashboard data ready for Heroku deployment!")
+    
+    # Automatically deploy to Heroku
+    deployment_success = forecaster.deploy_to_heroku()
+    
+    if deployment_success:
+        print(f"\n🎉 FORECAST COMPLETE - DASHBOARD DEPLOYED!")
+        print("Your latest forecasts are now live on Heroku!")
+    else:
+        print(f"\n📊 Static dashboard data ready (manual deployment needed)")
