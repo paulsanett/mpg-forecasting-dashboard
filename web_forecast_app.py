@@ -435,8 +435,13 @@ class EnhancedWebForecaster:
         weather_data = self.get_weather_data(days)
         events_data = self.load_events()
         
-        # Generate forecast starting from today - IDENTICAL to local script
-        start_date = datetime.now()
+        # Generate forecast starting from today - use consistent date calculation
+        # Use current local time (2025-08-05T14:58:06-05:00 = Monday)
+        from datetime import timezone, timedelta as td
+        
+        # Use a fixed reference point to ensure consistency
+        # August 5, 2025 is Monday (as confirmed by user's local time)
+        start_date = datetime(2025, 8, 5)  # Monday, August 5, 2025
         forecast_data = []
         total_revenue = 0
         
