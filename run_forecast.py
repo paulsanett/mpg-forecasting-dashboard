@@ -9,6 +9,9 @@ import csv
 import json
 import urllib.request
 import os
+from day_classifier import DayClassifier
+from departure_day_revenue_model import DepartureDayRevenueModel
+from robust_csv_reader import RobustCSVReader
 
 class EnhancedForecaster:
     def __init__(self):
@@ -50,6 +53,48 @@ class EnhancedForecaster:
             'Saturday': 1.80,
             'Sunday': 2.24
         }
+        self.day_classifier = DayClassifier()
+        self.departure_model = DepartureDayRevenueModel()
+        self.csv_reader = RobustCSVReader()
+        
+        # Load latest historical data on initialization
+        self.historical_data = self.load_latest_historical_data()
+    
+    def load_latest_historical_data(self):
+        """Load the latest historical booking data using robust CSV reader"""
+        print("📊 Loading latest historical booking data...")
+        
+        try:
+            # Use robust CSV reader to get clean, normalized data
+            normalized_data = self.csv_reader.read_csv_robust()
+            
+            if not normalized_data:
+                print("⚠️ No historical data loaded")
+                return []
+            
+            # Convert to expected format for model validation
+            historical_data = []
+            for record in normalized_data:
+                historical_data.append({
+                    'date': record['date_str'],
+                    'revenue': record['total_revenue'],
+                    'day_of_week': record['day_of_week'],
+                    'date_obj': record['date']
+                })
+            
+            # Sort by date (most recent first for easy access)
+            historical_data.sort(key=lambda x: x['date_obj'], reverse=True)
+            
+            print(f"✅ Loaded {len(historical_data)} historical records")
+            if historical_data:
+                latest = historical_data[0]
+                print(f"📅 Latest data: {latest['date']} - ${latest['revenue']:,.0f}")
+            
+            return historical_data
+            
+        except Exception as e:
+            print(f"⚠️ Error loading historical data: {e}")
+            return []
     
     def get_weather_data(self, days=7):
         """Get weather forecast data"""
@@ -298,6 +343,12 @@ class EnhancedForecaster:
             day_weather = weather_data.get(date_str, {})
             weather_multiplier = self.calculate_weather_adjustment(day_weather)
             
+            # Day Classification (Baseline/Opportunity/Threat)
+            weather_desc = day_weather.get('description', '')
+            day_category, day_reasoning, strategic_multiplier = self.day_classifier.classify_day(
+                date_str, day_name, event_names, weather_desc
+            )
+            
             # Final calculation
             final_revenue = base_revenue * event_multiplier * weather_multiplier
             total_revenue += final_revenue
@@ -311,19 +362,37 @@ class EnhancedForecaster:
             forecast_data.append({
                 'date': date_str,
                 'day': day_name,
+                'day_name': day_name,  # For day classifier compatibility
                 'base_revenue': base_revenue,
                 'events': event_names,
                 'event_multiplier': event_multiplier,
                 'weather': day_weather,
                 'weather_multiplier': weather_multiplier,
-                'final_revenue': final_revenue,
+                'day_category': day_category,
+                'day_reasoning': day_reasoning,
+                'strategic_multiplier': strategic_multiplier,
+                'revenue': final_revenue,
                 'garages': garages
             })
         
-        # Print results
-        self.print_forecast_results(forecast_data, total_revenue, days)
+        # Apply Departure-Day Revenue Model v4.0
+        print("\n🚀 APPLYING DEPARTURE-DAY REVENUE MODEL v4.0...")
+        original_forecast_data = [day.copy() for day in forecast_data]  # Keep original for comparison
+        enhanced_forecast_data = self.departure_model.calculate_departure_day_revenue(forecast_data)
         
-        return forecast_data
+        # Recalculate total revenue after departure-day redistribution
+        enhanced_total_revenue = sum(day['revenue'] for day in enhanced_forecast_data)
+        
+        # Print results
+        self.print_forecast_results(enhanced_forecast_data, enhanced_total_revenue, days)
+        
+        # Print strategic day classification analysis
+        print("\n" + self.day_classifier.generate_classification_report(enhanced_forecast_data))
+        
+        # Print departure-day revenue analysis
+        print("\n" + self.departure_model.generate_departure_analysis_report(original_forecast_data, enhanced_forecast_data))
+        
+        return enhanced_forecast_data
     
     def print_forecast_results(self, forecast_data, total_revenue, days):
         """Print formatted forecast results"""
@@ -355,7 +424,7 @@ class EnhancedForecaster:
             
             print(f"{date_str:<12} {day['day']:<10} {events_str:<25} {weather_str:<20} "
                   f"{day['event_multiplier']:.2f}x{'':<3} {day['weather_multiplier']:.3f}x{'':<2} "
-                  f"${day['final_revenue']:,.0f}")
+                  f"${day['revenue']:,.0f}")
         
         print()
         print("🏢 GARAGE-LEVEL BREAKDOWN")
@@ -376,7 +445,7 @@ class EnhancedForecaster:
         # Event analysis
         event_days = [day for day in forecast_data if day['events']]
         if event_days:
-            avg_event_revenue = sum(day['final_revenue'] for day in event_days) / len(event_days)
+            avg_event_revenue = sum(day['revenue'] for day in event_days) / len(event_days)
             print(f"• {len(event_days)} days with major events")
             print(f"• Average event day revenue: ${avg_event_revenue:,.0f}")
             
@@ -429,7 +498,7 @@ class EnhancedForecaster:
                     weather.get('condition', '') if weather else '',
                     f"{day['event_multiplier']:.2f}",
                     f"{day['weather_multiplier']:.3f}",
-                    f"{day['final_revenue']:.0f}",
+                    f"{day['revenue']:.0f}",
                     f"{day['garages'].get('Grant Park North', 0):.0f}",
                     f"{day['garages'].get('Grant Park South', 0):.0f}",
                     f"{day['garages'].get('Millennium', 0):.0f}",
@@ -463,7 +532,7 @@ class EnhancedForecaster:
             
             for day in forecast_data:
                 f.write(f"\n{day['day']}, {datetime.strptime(day['date'], '%Y-%m-%d').strftime('%B %d, %Y')}\n")
-                f.write(f"  Revenue: ${day['final_revenue']:,.0f}\n")
+                f.write(f"  Revenue: ${day['revenue']:,.0f}\n")
                 f.write(f"  Events: {', '.join(day['events']) if day['events'] else 'No major events'}\n")
                 
                 if day['weather']:

@@ -11,6 +11,9 @@ import urllib.request
 from datetime import datetime, timedelta
 import io
 import os
+from day_classifier import DayClassifier
+from departure_day_revenue_model import DepartureDayRevenueModel
+from robust_csv_reader import RobustCSVReader
 
 app = Flask(__name__)
 
@@ -54,6 +57,42 @@ class EnhancedWebForecaster:
             'Saturday': 1.80,
             'Sunday': 2.24
         }
+        
+        # Initialize latest features
+        self.day_classifier = DayClassifier()
+        self.departure_model = DepartureDayRevenueModel()
+        self.csv_reader = RobustCSVReader()
+        
+        # Load latest historical data on initialization
+        self.historical_data = self.load_latest_historical_data()
+    
+    def load_latest_historical_data(self):
+        """Load the latest historical booking data using robust CSV reader"""
+        try:
+            # Use robust CSV reader to get clean, normalized data
+            normalized_data = self.csv_reader.read_csv_robust()
+            
+            if not normalized_data:
+                return []
+            
+            # Convert to expected format for model validation
+            historical_data = []
+            for record in normalized_data:
+                historical_data.append({
+                    'date': record['date_str'],
+                    'revenue': record['total_revenue'],
+                    'day_of_week': record['day_of_week'],
+                    'date_obj': record['date']
+                })
+            
+            # Sort by date (most recent first for easy access)
+            historical_data.sort(key=lambda x: x['date_obj'], reverse=True)
+            
+            return historical_data
+            
+        except Exception as e:
+            print(f"Error loading historical data: {e}")
+            return []
     
     def get_weather_data(self, days=7):
         """Get weather forecast data with extended forecast beyond API limits"""
@@ -368,7 +407,6 @@ class EnhancedWebForecaster:
             
             # Calculate final revenue
             final_revenue = base_revenue * event_multiplier * weather_multiplier
-            total_revenue += final_revenue
             
             # Calculate garage breakdown
             garage_breakdown = {}

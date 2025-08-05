@@ -1,0 +1,74 @@
+{
+  "event_stay_patterns": {
+    "mega_festival": {
+      "1_day": 0.2,
+      "2_day": 0.25,
+      "3_day": 0.3,
+      "4_day": 0.25
+    },
+    "sports": {
+      "1_day": 0.7,
+      "2_day": 0.25,
+      "3_day": 0.05,
+      "4_day": 0.0
+    },
+    "cultural": {
+      "1_day": 0.6,
+      "2_day": 0.3,
+      "3_day": 0.1,
+      "4_day": 0.0
+    },
+    "weekend_event": {
+      "1_day": 0.5,
+      "2_day": 0.4,
+      "3_day": 0.1,
+      "4_day": 0.0
+    },
+    "baseline": {
+      "1_day": 0.95,
+      "2_day": 0.05,
+      "3_day": 0.0,
+      "4_day": 0.0
+    }
+  },
+  "departure_multipliers": {
+    "1_day": 1.0,
+    "2_day": 1.8,
+    "3_day": 2.5,
+    "4_day": 3.2
+  },
+  "spillover_coefficients": {
+    "mega_festival": {
+      "day_1_after": 0.3975955841821727,
+      "day_2_after": 0.07951911683643455,
+      "day_3_after": 0.039759558418217274
+    },
+    "sports": {
+      "day_1_after": 0.5,
+      "day_2_after": 0.1,
+      "day_3_after": 0.05
+    },
+    "cultural": {
+      "day_1_after": 0.5,
+      "day_2_after": 0.1,
+      "day_3_after": 0.05
+    },
+    "weekend_event": {
+      "day_1_after": 0.5,
+      "day_2_after": 0.1,
+      "day_3_after": 0.05
+    },
+    "baseline": {
+      "day_1_after": 0.05,
+      "day_2_after": 0.0,
+      "day_3_after": 0.0
+    }
+  },
+  "model_version": "4.0",
+  "validated_date": "2025-08-05",
+  "validation_data": {
+    "monday_actual": 138165.12,
+    "monday_original_forecast": 52230,
+    "variance_percentage": 164.5
+  }
+}
