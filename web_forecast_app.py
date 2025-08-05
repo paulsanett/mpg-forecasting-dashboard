@@ -45,8 +45,8 @@ except ImportError as e:
     class DepartureDayRevenueModel:
         def __init__(self):
             pass
-        def apply_departure_day_logic(self, *args, **kwargs):
-            return args[0] if args else 0  # Return original revenue
+        def calculate_departure_day_revenue(self, forecast_data):
+            return forecast_data  # Return original forecast data unchanged
     
 try:
     from robust_csv_reader import RobustCSVReader
@@ -500,7 +500,7 @@ class EnhancedWebForecaster:
         # Apply advanced features if available
         if ADVANCED_FEATURES_AVAILABLE:
             # Apply Departure-Day Revenue Model v4.0
-            enhanced_forecast_data = self.departure_model.apply_departure_day_logic(forecast_data)
+            enhanced_forecast_data = self.departure_model.calculate_departure_day_revenue(forecast_data)
             
             # Apply Day Classification Framework
             classified_forecast_data = []
