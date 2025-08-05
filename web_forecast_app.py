@@ -500,7 +500,7 @@ class EnhancedWebForecaster:
         # Apply advanced features if available
         if ADVANCED_FEATURES_AVAILABLE:
             # Apply Departure-Day Revenue Model v4.0
-            enhanced_forecast_data = self.departure_model.apply_departure_day_model(forecast_data)
+            enhanced_forecast_data = self.departure_model.apply_departure_day_logic(forecast_data)
             
             # Apply Day Classification Framework
             classified_forecast_data = []
