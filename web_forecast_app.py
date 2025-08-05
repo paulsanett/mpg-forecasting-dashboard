@@ -675,7 +675,8 @@ def health_check():
                 'departure_day_revenue_model.py': os.path.exists('departure_day_revenue_model.py'),
                 'robust_csv_reader.py': os.path.exists('robust_csv_reader.py'),
                 'MG Event Calendar 2025.csv': os.path.exists('MG Event Calendar 2025.csv'),
-                'HIstoric Booking Data.csv': os.path.exists('HIstoric Booking Data.csv')
+                'HIstoric Booking Data.csv': os.path.exists('HIstoric Booking Data.csv'),
+                'essential_historical_data.json': os.path.exists('essential_historical_data.json')
             }
         }
         return jsonify(status)
