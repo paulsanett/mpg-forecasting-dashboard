@@ -499,20 +499,34 @@ class EnhancedWebForecaster:
         
         # Apply advanced features if available
         if ADVANCED_FEATURES_AVAILABLE:
-            # Apply Departure-Day Revenue Model v4.0
-            enhanced_forecast_data = self.departure_model.calculate_departure_day_revenue(forecast_data)
-            
-            # Apply Day Classification Framework
-            classified_forecast_data = []
-            for day in enhanced_forecast_data:
-                classification = self.day_classifier.classify_day(
-                    day['date'], day['day'], day.get('events', []), day.get('weather', {})
-                )
-                day['day_classification'] = classification
-                classified_forecast_data.append(day)
+            try:
+                # Apply Departure-Day Revenue Model v4.0
+                enhanced_forecast_data = self.departure_model.calculate_departure_day_revenue(forecast_data)
                 
-            # Recalculate total revenue after departure model
-            total_revenue = sum(day['revenue'] for day in classified_forecast_data)
+                # Ensure data structure consistency - normalize to 'revenue' key
+                for day in enhanced_forecast_data:
+                    if 'final_revenue' in day and 'revenue' not in day:
+                        day['revenue'] = day['final_revenue']
+                    elif 'revenue' not in day and 'final_revenue' not in day:
+                        day['revenue'] = day.get('base_revenue', 0)
+                
+                # Apply Day Classification Framework
+                classified_forecast_data = []
+                for day in enhanced_forecast_data:
+                    classification = self.day_classifier.classify_day(
+                        day['date'], day['day'], day.get('events', []), day.get('weather', {})
+                    )
+                    day['day_classification'] = classification
+                    classified_forecast_data.append(day)
+                    
+                # Recalculate total revenue after departure model
+                total_revenue = sum(day.get('revenue', 0) for day in classified_forecast_data)
+                
+            except Exception as e:
+                print(f"Advanced features error: {e}")
+                # Fallback to basic forecast if advanced features fail
+                classified_forecast_data = forecast_data
+                total_revenue = sum(day['final_revenue'] for day in forecast_data)
         else:
             # Fallback to basic forecast without advanced features
             classified_forecast_data = forecast_data
