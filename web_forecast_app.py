@@ -626,22 +626,37 @@ def index():
 
 @app.route('/api/forecast')
 def api_forecast():
-    """API endpoint for forecast data with enhanced error handling"""
+    """API endpoint for forecast data - prioritize static data, fallback to dynamic"""
     try:
-        print(f" API forecast request received")
         days = int(request.args.get('days', 7))
-        days = max(1, min(days, 30))  # Limit between 1 and 30 days
-        print(f" Generating forecast for {days} days")
-        
-        forecast_result = forecaster.generate_forecast(days)
-        print(f" Forecast generated successfully")
-        return jsonify(forecast_result)
-        
+
+        # First, try to serve static dashboard data if available
+        if os.path.exists('static_dashboard_data.json'):
+            with open('static_dashboard_data.json', 'r') as f:
+                static_data = json.load(f)
+
+            # Return appropriate forecast period from static data
+            if days == 7 and '7_day' in static_data.get('forecasts', {}):
+                return jsonify(static_data['forecasts']['7_day'])
+            elif days == 14 and '14_day' in static_data.get('forecasts', {}):
+                return jsonify(static_data['forecasts']['14_day'])
+            elif days == 30 and '30_day' in static_data.get('forecasts', {}):
+                return jsonify(static_data['forecasts']['30_day'])
+
+        # Fallback to dynamic generation if static data not available
+        forecast_data = forecaster.generate_forecast(days)
+        return jsonify(forecast_data)
+
     except Exception as e:
-        error_msg = f'Forecast generation failed: {str(e)}'
-        print(f" API Error: {error_msg}")
-        print(f" Traceback: {traceback.format_exc()}")
-        return jsonify({'error': error_msg, 'traceback': traceback.format_exc()}), 500
+        print(f"Enhanced forecast error: {e}")
+        print(f"Traceback: {traceback.format_exc()}")
+
+        # Enhanced fallback with basic forecast
+        return jsonify({
+            'error': f'Error generating enhanced forecast: {str(e)}',
+            'fallback_used': True,
+            'basic_forecast': forecaster.generate_basic_forecast(days)
+        }), 500
 
 @app.route('/static/<filename>')
 def static_files(filename):
