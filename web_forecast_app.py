@@ -634,14 +634,33 @@ def api_forecast():
         if os.path.exists('static_dashboard_data.json'):
             with open('static_dashboard_data.json', 'r') as f:
                 static_data = json.load(f)
-
-            # Return appropriate forecast period from static data
+            
+            # Return appropriate forecast period from static data with correct structure
             if days == 7 and '7_day' in static_data.get('forecasts', {}):
-                return jsonify(static_data['forecasts']['7_day'])
+                forecast_data = static_data['forecasts']['7_day']
+                # Convert to expected frontend structure
+                return jsonify({
+                    'forecast_data': forecast_data['data'],
+                    'total_revenue': forecast_data['total_revenue'],
+                    'daily_average': forecast_data['daily_average'],
+                    'period': forecast_data['period']
+                })
             elif days == 14 and '14_day' in static_data.get('forecasts', {}):
-                return jsonify(static_data['forecasts']['14_day'])
+                forecast_data = static_data['forecasts']['14_day']
+                return jsonify({
+                    'forecast_data': forecast_data['data'],
+                    'total_revenue': forecast_data['total_revenue'],
+                    'daily_average': forecast_data['daily_average'],
+                    'period': forecast_data['period']
+                })
             elif days == 30 and '30_day' in static_data.get('forecasts', {}):
-                return jsonify(static_data['forecasts']['30_day'])
+                forecast_data = static_data['forecasts']['30_day']
+                return jsonify({
+                    'forecast_data': forecast_data['data'],
+                    'total_revenue': forecast_data['total_revenue'],
+                    'daily_average': forecast_data['daily_average'],
+                    'period': forecast_data['period']
+                })
 
         # Fallback to dynamic generation if static data not available
         forecast_data = forecaster.generate_forecast(days)
