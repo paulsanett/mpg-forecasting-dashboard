@@ -23,7 +23,7 @@ class RobustCSVReader:
     def detect_field_names(self, headers: List[str]) -> Dict[str, str]:
         """
         Detect and map actual field names to standardized names
-        Handles BOM, spaces, and variations in field names
+        Uses column positions as primary method, name validation as backup
         """
         field_mapping = {}
         
@@ -36,7 +36,57 @@ class RobustCSVReader:
             clean_header = clean_header.strip()
             normalized_headers.append(clean_header)
         
-        # Map common variations to standard field names
+        print(f"📋 Total columns detected: {len(headers)}")
+        
+        # PRIMARY METHOD: Map by column positions (Excel columns)
+        # Column positions are 0-indexed, so H=7, N=13, T=19, Z=25, AG=32, AH=33, AI=34, AJ=35
+        column_positions = {
+            7: 'gpn_revenue',      # Column H - Grant Park North
+            13: 'gps_revenue',     # Column N - Grant Park South  
+            19: 'lakeside_revenue', # Column T - Lakeside
+            25: 'millennium_revenue', # Column Z - Millennium Park
+            32: 'flex_daily_revenue', # Column AG - Flex Daily Revenue
+            33: 'transient_revenue',  # Column AH - Transient Revenue
+            34: 'online_revenue',     # Column AI - Online Revenue
+            35: 'total_revenue'       # Column AJ - Total Revenue
+        }
+        
+        # Map by position first
+        for position, field_key in column_positions.items():
+            if position < len(headers):
+                field_mapping[field_key] = headers[position]
+                print(f"📍 Position {position+1} ({chr(65 + position % 26) if position < 26 else 'A' + chr(65 + position - 26)}): {field_key} -> '{headers[position].strip()}'")
+        
+        # BACKUP METHOD: Validate by name and find missing columns
+        name_validations = {
+            'gpn_revenue': ['Grant Park North Total Flex Daily', 'Grant Park North'],
+            'gps_revenue': ['Grant Park South Total Flex Daily', 'Grant Park South'],
+            'lakeside_revenue': ['Lakeside Total Flex Daily', 'Lakeside'],
+            'millennium_revenue': ['Millennium Park Total Flex Daily', 'Millennium'],
+            'flex_daily_revenue': ['Flex Daily Revenue'],
+            'transient_revenue': ['Transient Revenue'],
+            'online_revenue': ['Online Revenue'],
+            'total_revenue': ['Total Revenue']
+        }
+        
+        # Check if position-based mapping is correct by validating names
+        for field_key, validation_terms in name_validations.items():
+            if field_key in field_mapping:
+                header_name = field_mapping[field_key].strip()
+                # Check if any validation term matches
+                is_valid = any(term in header_name for term in validation_terms)
+                if is_valid:
+                    print(f"✅ {field_key}: Position mapping validated - '{header_name}'")
+                else:
+                    print(f"⚠️  {field_key}: Position mapping questionable - '{header_name}'")
+                    # Try to find by name as backup
+                    for i, header in enumerate(headers):
+                        if any(term in header.strip() for term in validation_terms):
+                            field_mapping[field_key] = headers[i]
+                            print(f"🔄 {field_key}: Found by name at position {i+1} - '{header.strip()}'")
+                            break
+        
+        # Find date and day of week fields (these can vary in position)
         for i, header in enumerate(normalized_headers):
             header_lower = header.lower()
             
@@ -44,24 +94,12 @@ class RobustCSVReader:
             if any(date_term in header_lower for date_term in ['date', 'day']):
                 if 'week' not in header_lower:  # Avoid "Day of Week"
                     field_mapping['date'] = headers[i]
+                    print(f"📅 Date field found at position {i+1}: '{header}'")
             
             # Day of week field
             if 'day of week' in header_lower or 'dow' in header_lower:
                 field_mapping['day_of_week'] = headers[i]
-            
-            # Total revenue field variations
-            if any(rev_term in header_lower for rev_term in ['total revenue', 'revenue total', 'total rev']):
-                field_mapping['total_revenue'] = headers[i]
-            
-            # Individual garage revenue fields
-            if 'grant park north' in header_lower and 'total' in header_lower:
-                field_mapping['gpn_revenue'] = headers[i]
-            if 'grant park south' in header_lower and 'total' in header_lower:
-                field_mapping['gps_revenue'] = headers[i]
-            if 'lakeside' in header_lower and 'total' in header_lower:
-                field_mapping['lakeside_revenue'] = headers[i]
-            if 'millennium' in header_lower and 'total' in header_lower:
-                field_mapping['millennium_revenue'] = headers[i]
+                print(f"📅 Day of week field found at position {i+1}: '{header}'")
         
         return field_mapping
     
@@ -224,10 +262,16 @@ class RobustCSVReader:
                         }
                         
                         # Add individual garage revenues if available
-                        for garage_key in ['gpn_revenue', 'gps_revenue', 'lakeside_revenue', 'millennium_revenue']:
+                        for garage_key in ['gpn_revenue', 'gps_revenue', 'lakeside_revenue', 'millennium_revenue', 'online_revenue']:
                             field = self.field_mapping.get(garage_key)
                             if field and row.get(field):
                                 normalized_record[garage_key] = self.clean_currency_value(row[field])
+                        
+                        # Add Flex Daily and Transient revenues if available
+                        for revenue_key in ['flex_daily_revenue', 'transient_revenue']:
+                            field = self.field_mapping.get(revenue_key)
+                            if field and row.get(field):
+                                normalized_record[revenue_key] = self.clean_currency_value(row[field])
                         
                         normalized_data.append(normalized_record)
                         valid_rows += 1

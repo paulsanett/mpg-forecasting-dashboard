@@ -90,12 +90,14 @@ class EnhancedWebForecaster:
         }
         
         # Garage distribution percentages
+        # Updated garage distribution based on actual historical data analysis
+        # Using correct column mappings: H, N, T, Z, AI (positions 8, 14, 20, 26, 35)
         self.garage_distribution = {
-            'Grant Park North': 0.323,
-            'Grant Park South': 0.131,
-            'Millennium': 0.076,
-            'Lakeside': 0.193,
-            'Other': 0.277
+            'Grant Park North': 0.318,  # 31.8% (Column H)
+            'Grant Park South': 0.113,  # 11.3% (Column N)
+            'Millennium': 0.179,        # 17.9% (Column Z) - CORRECTED from 7.6%!
+            'Lakeside': 0.091,          # 9.1% (Column T) - CORRECTED from 19.3%!
+            'Online': 0.289             # 28.9% (Column AI) - Renamed from 'Other'
         }
         
         # Enhanced event multipliers (refined with new data)
@@ -539,8 +541,7 @@ class EnhancedWebForecaster:
             # Calculate garage breakdown
             garage_breakdown = {}
             for garage, percentage in self.garage_distribution.items():
-                if garage != 'Other':  # Only show main garages
-                    garage_breakdown[garage] = final_revenue * percentage
+                garage_breakdown[garage] = final_revenue * percentage
             
             # Store data
             forecast_data.append({
