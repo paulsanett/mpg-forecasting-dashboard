@@ -569,12 +569,12 @@ class EnhancedWebForecaster:
                 # Apply Departure-Day Revenue Model v4.0
                 enhanced_forecast_data = self.departure_model.calculate_departure_day_revenue(forecast_data)
                 
-                # Ensure data structure consistency - normalize to 'revenue' key
+                # Ensure data structure consistency - normalize to 'final_revenue' key for API compatibility
                 for day in enhanced_forecast_data:
-                    if 'final_revenue' in day and 'revenue' not in day:
-                        day['revenue'] = day['final_revenue']
-                    elif 'revenue' not in day and 'final_revenue' not in day:
-                        day['revenue'] = day.get('base_revenue', 0)
+                    if 'revenue' in day:
+                        day['final_revenue'] = day['revenue']  # V4.0 enhanced value
+                    elif 'final_revenue' not in day:
+                        day['final_revenue'] = day.get('base_revenue', 0)
                 
                 # Apply Day Classification Framework
                 classified_forecast_data = []
