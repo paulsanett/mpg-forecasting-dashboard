@@ -435,8 +435,23 @@ class EnhancedWebForecaster:
                 }
             })
         
+        # Apply Departure-Day Revenue Model v4.0
+        enhanced_forecast_data = self.departure_model.apply_departure_day_model(forecast_data)
+        
+        # Apply Day Classification Framework
+        classified_forecast_data = []
+        for day in enhanced_forecast_data:
+            classification = self.day_classifier.classify_day(
+                day['date'], day['day'], day.get('events', []), day.get('weather', {})
+            )
+            day['day_classification'] = classification
+            classified_forecast_data.append(day)
+            
+        # Recalculate total revenue after departure model
+        total_revenue = sum(day['revenue'] for day in classified_forecast_data)
+        
         return {
-            'forecast_data': forecast_data,
+            'forecast_data': classified_forecast_data,
             'total_revenue': total_revenue,
             'average_daily': total_revenue / days,
             'monthly_projection': total_revenue * 30 / days,
@@ -445,7 +460,10 @@ class EnhancedWebForecaster:
                 'day_specific_lollapalooza': True,
                 'refined_event_multipliers': True,
                 'weather_integration': True,
-                'version': '2.0'
+                'departure_day_revenue_model': True,
+                'day_classification_framework': True,
+                'robust_csv_ingestion': True,
+                'version': '4.0'
             }
         }
 
