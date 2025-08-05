@@ -441,33 +441,34 @@ class EnhancedWebForecaster:
         
         # FOOLPROOF DATE/DAY CALCULATION
         # Create explicit day-of-week mapping to ensure accuracy
+        # CORRECTED: August 5, 2025 is TUESDAY (user's current date)
         day_mapping = {
-            '2025-08-05': 'Monday',    # Confirmed by user
-            '2025-08-06': 'Tuesday',
-            '2025-08-07': 'Wednesday', 
-            '2025-08-08': 'Thursday',
-            '2025-08-09': 'Friday',
-            '2025-08-10': 'Saturday',
-            '2025-08-11': 'Sunday',
-            '2025-08-12': 'Monday',
-            '2025-08-13': 'Tuesday',
-            '2025-08-14': 'Wednesday',
-            '2025-08-15': 'Thursday',
-            '2025-08-16': 'Friday',
-            '2025-08-17': 'Saturday',
-            '2025-08-18': 'Sunday',
-            '2025-08-19': 'Monday',
-            '2025-08-20': 'Tuesday',
-            '2025-08-21': 'Wednesday',
-            '2025-08-22': 'Thursday',
-            '2025-08-23': 'Friday',
-            '2025-08-24': 'Saturday',
-            '2025-08-25': 'Sunday',
-            '2025-08-26': 'Monday',
-            '2025-08-27': 'Tuesday',
-            '2025-08-28': 'Wednesday',
-            '2025-08-29': 'Thursday',
-            '2025-08-30': 'Friday'
+            '2025-08-05': 'Tuesday',   # TODAY - Tuesday, August 5, 2025
+            '2025-08-06': 'Wednesday',
+            '2025-08-07': 'Thursday', 
+            '2025-08-08': 'Friday',
+            '2025-08-09': 'Saturday',
+            '2025-08-10': 'Sunday',
+            '2025-08-11': 'Monday',
+            '2025-08-12': 'Tuesday',
+            '2025-08-13': 'Wednesday',
+            '2025-08-14': 'Thursday',
+            '2025-08-15': 'Friday',
+            '2025-08-16': 'Saturday',
+            '2025-08-17': 'Sunday',
+            '2025-08-18': 'Monday',
+            '2025-08-19': 'Tuesday',
+            '2025-08-20': 'Wednesday',
+            '2025-08-21': 'Thursday',
+            '2025-08-22': 'Friday',
+            '2025-08-23': 'Saturday',
+            '2025-08-24': 'Sunday',
+            '2025-08-25': 'Monday',
+            '2025-08-26': 'Tuesday',
+            '2025-08-27': 'Wednesday',
+            '2025-08-28': 'Thursday',
+            '2025-08-29': 'Friday',
+            '2025-08-30': 'Saturday'
         }
         
         # Use explicit base date
