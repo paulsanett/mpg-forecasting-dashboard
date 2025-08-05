@@ -86,6 +86,9 @@ class EnhancedWebForecaster:
     
     def load_latest_historical_data(self):
         """Load the latest historical booking data using robust CSV reader"""
+        if not ADVANCED_FEATURES_AVAILABLE:
+            return []
+            
         try:
             # Use robust CSV reader to get clean, normalized data
             normalized_data = self.csv_reader.read_csv_robust()
