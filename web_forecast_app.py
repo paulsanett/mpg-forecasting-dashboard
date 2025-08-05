@@ -11,9 +11,27 @@ import urllib.request
 from datetime import datetime, timedelta
 import io
 import os
-from day_classifier import DayClassifier
-from departure_day_revenue_model import DepartureDayRevenueModel
-from robust_csv_reader import RobustCSVReader
+# Import advanced features with fallback for Heroku deployment
+try:
+    from day_classifier import DayClassifier
+    from departure_day_revenue_model import DepartureDayRevenueModel
+    from robust_csv_reader import RobustCSVReader
+    ADVANCED_FEATURES_AVAILABLE = True
+except ImportError as e:
+    print(f"Advanced features not available: {e}")
+    ADVANCED_FEATURES_AVAILABLE = False
+    # Create dummy classes for fallback
+    class DayClassifier:
+        def classify_day(self, *args, **kwargs):
+            return {'type': 'baseline', 'indicators': []}
+    
+    class DepartureDayRevenueModel:
+        def apply_departure_day_model(self, forecast_data):
+            return forecast_data
+    
+    class RobustCSVReader:
+        def read_csv_robust(self):
+            return []
 
 app = Flask(__name__)
 
@@ -58,13 +76,13 @@ class EnhancedWebForecaster:
             'Sunday': 2.24
         }
         
-        # Initialize latest features
+        # Initialize latest features with fallback
         self.day_classifier = DayClassifier()
         self.departure_model = DepartureDayRevenueModel()
         self.csv_reader = RobustCSVReader()
         
-        # Load latest historical data on initialization
-        self.historical_data = self.load_latest_historical_data()
+        # Load latest historical data on initialization (with fallback)
+        self.historical_data = self.load_latest_historical_data() if ADVANCED_FEATURES_AVAILABLE else []
     
     def load_latest_historical_data(self):
         """Load the latest historical booking data using robust CSV reader"""
@@ -435,20 +453,26 @@ class EnhancedWebForecaster:
                 }
             })
         
-        # Apply Departure-Day Revenue Model v4.0
-        enhanced_forecast_data = self.departure_model.apply_departure_day_model(forecast_data)
-        
-        # Apply Day Classification Framework
-        classified_forecast_data = []
-        for day in enhanced_forecast_data:
-            classification = self.day_classifier.classify_day(
-                day['date'], day['day'], day.get('events', []), day.get('weather', {})
-            )
-            day['day_classification'] = classification
-            classified_forecast_data.append(day)
+        # Apply advanced features if available
+        if ADVANCED_FEATURES_AVAILABLE:
+            # Apply Departure-Day Revenue Model v4.0
+            enhanced_forecast_data = self.departure_model.apply_departure_day_model(forecast_data)
             
-        # Recalculate total revenue after departure model
-        total_revenue = sum(day['revenue'] for day in classified_forecast_data)
+            # Apply Day Classification Framework
+            classified_forecast_data = []
+            for day in enhanced_forecast_data:
+                classification = self.day_classifier.classify_day(
+                    day['date'], day['day'], day.get('events', []), day.get('weather', {})
+                )
+                day['day_classification'] = classification
+                classified_forecast_data.append(day)
+                
+            # Recalculate total revenue after departure model
+            total_revenue = sum(day['revenue'] for day in classified_forecast_data)
+        else:
+            # Fallback to basic forecast without advanced features
+            classified_forecast_data = forecast_data
+            total_revenue = sum(day['final_revenue'] for day in forecast_data)
         
         return {
             'forecast_data': classified_forecast_data,
@@ -460,10 +484,10 @@ class EnhancedWebForecaster:
                 'day_specific_lollapalooza': True,
                 'refined_event_multipliers': True,
                 'weather_integration': True,
-                'departure_day_revenue_model': True,
-                'day_classification_framework': True,
-                'robust_csv_ingestion': True,
-                'version': '4.0'
+                'departure_day_revenue_model': ADVANCED_FEATURES_AVAILABLE,
+                'day_classification_framework': ADVANCED_FEATURES_AVAILABLE,
+                'robust_csv_ingestion': ADVANCED_FEATURES_AVAILABLE,
+                'version': '4.0' if ADVANCED_FEATURES_AVAILABLE else '2.0'
             }
         }
 
