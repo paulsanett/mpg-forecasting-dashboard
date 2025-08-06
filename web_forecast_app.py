@@ -10,11 +10,29 @@ import json
 import os
 import urllib.request
 from datetime import datetime, timedelta
+import pytz
 import io
 import traceback
 import sys
 
 app = Flask(__name__)
+
+# Timezone configuration for Central Time
+CENTRAL_TZ = pytz.timezone('America/Chicago')
+
+def get_central_time():
+    """Get current time in Central timezone"""
+    return datetime.now(CENTRAL_TZ)
+
+def get_central_date(days_offset=0):
+    """Get date in Central timezone with optional days offset"""
+    central_time = get_central_time() + timedelta(days=days_offset)
+    return central_time.strftime('%Y-%m-%d')
+
+def get_central_day_name(days_offset=0):
+    """Get day name in Central timezone with optional days offset"""
+    central_time = get_central_time() + timedelta(days=days_offset)
+    return central_time.strftime('%A')
 
 # Import working local system components
 try:
@@ -116,7 +134,7 @@ class CleanForecaster:
             for i in range(min(days, len(data['list']))):
                 item = data['list'][i]
                 weather_data.append({
-                    'date': datetime.fromtimestamp(item['dt']).strftime('%Y-%m-%d'),
+                    'date': datetime.fromtimestamp(item['dt'], CENTRAL_TZ).strftime('%Y-%m-%d'),
                     'temp_high': item['main']['temp_max'],
                     'temp_low': item['main']['temp_min'],
                     'condition': item['weather'][0]['description'],
@@ -132,7 +150,7 @@ class CleanForecaster:
         """Fallback weather data"""
         weather_data = []
         for i in range(days):
-            date = (datetime.now() + timedelta(days=i)).strftime('%Y-%m-%d')
+            date = get_central_date(i)
             weather_data.append({
                 'date': date,
                 'temp_high': 75,
@@ -216,7 +234,7 @@ class CleanForecaster:
         total_revenue = 0
         
         for i in range(days):
-            date = datetime.now() + timedelta(days=i)
+            date = get_central_time() + timedelta(days=i)
             date_str = date.strftime('%Y-%m-%d')
             day_name = date.strftime('%A')
             
@@ -343,7 +361,7 @@ def health_check():
     """Health check endpoint"""
     status = {
         'status': 'healthy',
-        'timestamp': datetime.now().isoformat(),
+        'timestamp': get_central_time().isoformat(),
         'python_version': sys.version,
         'working_directory': os.getcwd(),
         'advanced_features': ADVANCED_FEATURES_AVAILABLE,
