@@ -469,13 +469,19 @@
         }
         
         function formatDate(dateStr) {
-            const date = new Date(dateStr);
-            // Force Central Time display
+            // DIRECT DATE PARSING FIX: Parse date string directly without timezone conversion
+            const parts = dateStr.split('-');
+            const year = parseInt(parts[0]);
+            const month = parseInt(parts[1]) - 1; // JavaScript months are 0-indexed
+            const day = parseInt(parts[2]);
+            
+            // Create date object without timezone issues
+            const date = new Date(year, month, day);
+            
             return date.toLocaleDateString('en-US', { 
                 weekday: 'short', 
                 month: 'short', 
-                day: 'numeric',
-                timeZone: 'America/Chicago'
+                day: 'numeric'
             });
         }
         
