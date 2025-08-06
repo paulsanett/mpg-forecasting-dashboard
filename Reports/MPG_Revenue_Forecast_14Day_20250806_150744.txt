@@ -1,0 +1,206 @@
+MILLENNIUM PARKING GARAGES
+Enhanced Revenue Forecast Report
+==================================================
+
+Generated: Wednesday, August 06, 2025 at 03:07 PM
+Forecast Period: 14 days
+Model Version: Enhanced v2.0 with Day-Specific Multipliers
+
+EXECUTIVE SUMMARY
+--------------------
+Total 14-Day Revenue: $1,580,812
+Average Daily Revenue: $112,915
+Monthly Projection: $3,387,453
+
+DAILY FORECAST DETAILS
+-------------------------
+
+Wednesday, August 06, 2025
+  Revenue: $81,748
+  Events: Joshua Bell and Tchaikovsky Romeo & Juliet, Men I Trust, Summer Fireworks, Free Admission Evening
+  Weather: 86°F/75°F, broken clouds
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $25,996
+    Grant Park South: $9,238
+    Millennium: $14,633
+    Lakeside: $7,439
+    Online: $24,443
+
+Thursday, August 07, 2025
+  Revenue: $121,216
+  Events: Millennium Park Summer Music Series Ends:
+Ten City
+Caramelo Haze
+DJ Emmaculate, Wait Wait… Don’t Tell Me!
+  Weather: 87°F/68°F, overcast clouds
+  Multipliers: Event 1.20x, Weather 0.873x
+  Garage Breakdown:
+    Grant Park North: $38,547
+    Grant Park South: $13,697
+    Millennium: $21,698
+    Lakeside: $11,031
+    Online: $36,243
+
+Friday, August 08, 2025
+  Revenue: $93,312
+  Events: Live On the Lake!, Stravinsky Firebird
+  Weather: 91°F/72°F, light rain
+  Multipliers: Event 1.30x, Weather 0.742x
+  Garage Breakdown:
+    Grant Park North: $29,673
+    Grant Park South: $10,544
+    Millennium: $16,703
+    Lakeside: $8,491
+    Online: $27,900
+
+Saturday, August 09, 2025
+  Revenue: $89,416
+  Events: Aerial Arts Society presents
+The Northern Mid-West Regional Aerial Competition, Herb Alpert & The Tijuana Brass & Other Delights, Stravinsky Firebird, Chicago Fire FC vs. Los Angeles Football Club, Jeezy, Summer Fireworks, Millennium Park Summer Workouts
+  Weather: 92°F/76°F, clear sky
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,434
+    Grant Park South: $10,104
+    Millennium: $16,005
+    Lakeside: $8,137
+    Online: $26,735
+
+Sunday, August 10, 2025
+  Revenue: $88,935
+  Events: Preseason: Miami Dolphins vs. Chicago Bears
+  Weather: 86°F/74°F, broken clouds
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,281
+    Grant Park South: $10,050
+    Millennium: $15,919
+    Lakeside: $8,093
+    Online: $26,591
+
+Monday, August 11, 2025
+  Revenue: $146,708
+  Events: Broadway In Chicago Summer Concert 2025
+  Weather: 91°F/74°F, overcast clouds
+  Multipliers: Event 1.40x, Weather 0.873x
+  Garage Breakdown:
+    Grant Park North: $46,653
+    Grant Park South: $16,578
+    Millennium: $26,261
+    Lakeside: $13,350
+    Online: $43,866
+
+Tuesday, August 12, 2025
+  Revenue: $134,661
+  Events: Millennium Park Summer Film Series:
+Wicked, MJ
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $42,822
+    Grant Park South: $15,217
+    Millennium: $24,104
+    Lakeside: $12,254
+    Online: $40,264
+
+Wednesday, August 13, 2025
+  Revenue: $99,464
+  Events: Saint-Saëns Organ Symphony, Goo Goo Dolls & Dashboard Confessional, Summer Fireworks, Free Admission Evening
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.40x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $31,629
+    Grant Park South: $11,239
+    Millennium: $17,804
+    Lakeside: $9,051
+    Online: $29,740
+
+Thursday, August 14, 2025
+  Revenue: $128,244
+  Events: No major events
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.00x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $40,781
+    Grant Park South: $14,492
+    Millennium: $22,956
+    Lakeside: $11,670
+    Online: $38,345
+
+Friday, August 15, 2025
+  Revenue: $90,249
+  Events: Live On the Lake!, Carmina Burana, The Fray
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $28,699
+    Grant Park South: $10,198
+    Millennium: $16,155
+    Lakeside: $8,213
+    Online: $26,984
+
+Saturday, August 16, 2025
+  Revenue: $90,241
+  Events: Millennium Park Outdoor Public Art Walking Tour, Live On the Lake!, Live On the Lake!, Dance for Life, Carmina Burana, Summer Fireworks, The Great American Lobster Fest, Chicago Air & Water Show, Millennium Park Summer Workouts
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,697
+    Grant Park South: $10,197
+    Millennium: $16,153
+    Lakeside: $8,212
+    Online: $26,982
+
+Sunday, August 17, 2025
+  Revenue: $153,611
+  Events: Live On the Lake!, Melissa Etheridge & Indigo Girls, Preseason: Buffalo Bills vs. Chicago Bears, Free Museum Admission Day
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $48,848
+    Grant Park South: $17,358
+    Millennium: $27,496
+    Lakeside: $13,979
+    Online: $45,930
+
+Monday, August 18, 2025
+  Revenue: $161,081
+  Events: No major events
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.00x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $51,224
+    Grant Park South: $18,202
+    Millennium: $28,833
+    Lakeside: $14,658
+    Online: $48,163
+
+Tuesday, August 19, 2025
+  Revenue: $101,927
+  Events: Coheed and Cambria & Taking Back Sunday, Millennium Park Summer Film Series Ends:
+Pride & Prejudice
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $32,413
+    Grant Park South: $11,518
+    Millennium: $18,245
+    Lakeside: $9,275
+    Online: $30,476
+
+
+GARAGE TOTALS (14-DAY PERIOD)
+------------------------------
+Grant Park North: $502,698 (31.8%)
+Grant Park South: $178,632 (11.3%)
+Millennium: $282,965 (17.9%)
+Lakeside: $143,854 (9.1%)
+
+
+MODEL PERFORMANCE NOTES
+-------------------------
+• Enhanced model v2.0 with day-specific Lollapalooza multipliers
+• Backtesting shows <1% error on major events, ~4% on baseline days
+• Weather data integrated from OpenWeather API with seasonal fallbacks
+• Event multipliers historically validated against actual revenue data

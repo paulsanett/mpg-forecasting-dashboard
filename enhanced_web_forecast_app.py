@@ -33,7 +33,7 @@ class EnhancedWebForecaster:
             'Grant Park South': 0.131,
             'Millennium': 0.076,
             'Lakeside': 0.193,
-            'Other': 0.277
+            'Online': 0.277
         }
         
         # Enhanced event multipliers (refined with new data)
@@ -228,11 +228,22 @@ class EnhancedWebForecaster:
             final_revenue = base_revenue * event_multiplier * weather_multiplier
             total_revenue += final_revenue
             
-            # Calculate garage breakdown
+            # Calculate garage breakdown (include ALL garages)
             garage_breakdown = {}
             for garage, percentage in self.garage_distribution.items():
-                if garage != 'Other':  # Only show main garages
-                    garage_breakdown[garage] = final_revenue * percentage
+                garage_breakdown[garage] = final_revenue * percentage
+            
+            # Calculate confidence scores
+            if len(day_events) > 0:
+                # Event days have lower confidence due to variability
+                confidence_score = 32
+                confidence_level = 'LOW'
+                expected_accuracy = '15-30%'
+            else:
+                # Baseline days have higher confidence
+                confidence_score = 40
+                confidence_level = 'LOW'
+                expected_accuracy = '15-30%'
             
             # Store data
             forecast_data.append({
@@ -248,6 +259,9 @@ class EnhancedWebForecaster:
                 'weather_precipitation': weather.get('precipitation', 0),
                 'weather_multiplier': weather_multiplier,
                 'final_revenue': final_revenue,
+                'confidence_score': confidence_score,
+                'confidence_level': confidence_level,
+                'expected_accuracy': expected_accuracy,
                 'garages': garage_breakdown,
                 'enhanced_features': {
                     'lollapalooza_day_specific': any('lollapalooza' in event['name'].lower() for event in day_events),

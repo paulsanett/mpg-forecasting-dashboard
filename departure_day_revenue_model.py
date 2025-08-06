@@ -166,9 +166,25 @@ class DepartureDayRevenueModel:
                     departure_date = enhanced_data[departure_day_index]['date']
                     departure_revenue[departure_date] += stay_revenue
         
+        # Store garage distribution percentages from original forecast
+        garage_distribution = {}
+        if enhanced_data:
+            first_day = enhanced_data[0]
+            if 'garages' in first_day:
+                total_first_day = first_day['revenue']
+                if total_first_day > 0:
+                    for garage, amount in first_day['garages'].items():
+                        garage_distribution[garage] = amount / total_first_day
+        
         # Apply departure revenue to forecast data
         for day in enhanced_data:
-            date_str = day['date']
+            # Store original confidence data before modification
+            original_confidence = {
+                'confidence_score': day.get('confidence_score', 65),
+                'confidence_level': day.get('confidence_level', 'MEDIUM'),
+                'expected_accuracy': day.get('expected_accuracy', '10-20%'),
+                'prediction_notes': day.get('prediction_notes', 'ML model')
+            }
             
             # Store original revenue for comparison
             day['original_revenue'] = day['revenue']
@@ -190,6 +206,18 @@ class DepartureDayRevenueModel:
                 day['revenue_method'] = 'departure_day_with_spillover'
             else:
                 day['spillover_revenue'] = 0
+            
+            # CRITICAL: Recalculate garage distribution to maintain math accuracy
+            if garage_distribution:
+                day['garages'] = {}
+                for garage, percentage in garage_distribution.items():
+                    day['garages'][garage] = day['revenue'] * percentage
+            
+            # CRITICAL: Restore confidence scores that were lost
+            day['confidence_score'] = original_confidence['confidence_score']
+            day['confidence_level'] = original_confidence['confidence_level']
+            day['expected_accuracy'] = original_confidence['expected_accuracy']
+            day['prediction_notes'] = original_confidence['prediction_notes']
         
         return enhanced_data
     

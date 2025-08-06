@@ -1,0 +1,398 @@
+MILLENNIUM PARKING GARAGES
+Enhanced Revenue Forecast Report
+==================================================
+
+Generated: Wednesday, August 06, 2025 at 03:13 PM
+Forecast Period: 30 days
+Model Version: Enhanced v2.0 with Day-Specific Multipliers
+
+EXECUTIVE SUMMARY
+--------------------
+Total 30-Day Revenue: $3,033,177
+Average Daily Revenue: $101,106
+Monthly Projection: $3,033,177
+
+DAILY FORECAST DETAILS
+-------------------------
+
+Wednesday, August 06, 2025
+  Revenue: $79,414
+  Events: Joshua Bell and Tchaikovsky Romeo & Juliet, Men I Trust, Summer Fireworks, Free Admission Evening
+  Weather: 86°F/75°F, broken clouds
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $25,254
+    Grant Park South: $8,974
+    Millennium: $14,215
+    Lakeside: $7,227
+    Online: $23,745
+
+Thursday, August 07, 2025
+  Revenue: $118,881
+  Events: Millennium Park Summer Music Series Ends:
+Ten City
+Caramelo Haze
+DJ Emmaculate, Wait Wait… Don’t Tell Me!
+  Weather: 87°F/68°F, overcast clouds
+  Multipliers: Event 1.20x, Weather 0.873x
+  Garage Breakdown:
+    Grant Park North: $37,804
+    Grant Park South: $13,434
+    Millennium: $21,280
+    Lakeside: $10,818
+    Online: $35,546
+
+Friday, August 08, 2025
+  Revenue: $90,977
+  Events: Live On the Lake!, Stravinsky Firebird
+  Weather: 91°F/72°F, light rain
+  Multipliers: Event 1.30x, Weather 0.742x
+  Garage Breakdown:
+    Grant Park North: $28,931
+    Grant Park South: $10,280
+    Millennium: $16,285
+    Lakeside: $8,279
+    Online: $27,202
+
+Saturday, August 09, 2025
+  Revenue: $87,082
+  Events: Aerial Arts Society presents
+The Northern Mid-West Regional Aerial Competition, Herb Alpert & The Tijuana Brass & Other Delights, Stravinsky Firebird, Chicago Fire FC vs. Los Angeles Football Club, Jeezy, Summer Fireworks, Millennium Park Summer Workouts
+  Weather: 92°F/76°F, clear sky
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $27,692
+    Grant Park South: $9,840
+    Millennium: $15,588
+    Lakeside: $7,924
+    Online: $26,037
+
+Sunday, August 10, 2025
+  Revenue: $86,600
+  Events: Preseason: Miami Dolphins vs. Chicago Bears
+  Weather: 86°F/74°F, broken clouds
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $27,539
+    Grant Park South: $9,786
+    Millennium: $15,501
+    Lakeside: $7,881
+    Online: $25,893
+
+Monday, August 11, 2025
+  Revenue: $144,374
+  Events: Broadway In Chicago Summer Concert 2025
+  Weather: 91°F/74°F, overcast clouds
+  Multipliers: Event 1.40x, Weather 0.873x
+  Garage Breakdown:
+    Grant Park North: $45,911
+    Grant Park South: $16,314
+    Millennium: $25,843
+    Lakeside: $13,138
+    Online: $43,168
+
+Tuesday, August 12, 2025
+  Revenue: $132,327
+  Events: Millennium Park Summer Film Series:
+Wicked, MJ
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $42,080
+    Grant Park South: $14,953
+    Millennium: $23,686
+    Lakeside: $12,042
+    Online: $39,566
+
+Wednesday, August 13, 2025
+  Revenue: $97,130
+  Events: Saint-Saëns Organ Symphony, Goo Goo Dolls & Dashboard Confessional, Summer Fireworks, Free Admission Evening
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.40x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $30,887
+    Grant Park South: $10,976
+    Millennium: $17,386
+    Lakeside: $8,839
+    Online: $29,042
+
+Thursday, August 14, 2025
+  Revenue: $125,909
+  Events: No major events
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.00x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $40,039
+    Grant Park South: $14,228
+    Millennium: $22,538
+    Lakeside: $11,458
+    Online: $37,647
+
+Friday, August 15, 2025
+  Revenue: $87,915
+  Events: Live On the Lake!, Carmina Burana, The Fray
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $27,957
+    Grant Park South: $9,934
+    Millennium: $15,737
+    Lakeside: $8,000
+    Online: $26,286
+
+Saturday, August 16, 2025
+  Revenue: $87,907
+  Events: Millennium Park Outdoor Public Art Walking Tour, Live On the Lake!, Live On the Lake!, Dance for Life, Carmina Burana, Summer Fireworks, The Great American Lobster Fest, Chicago Air & Water Show, Millennium Park Summer Workouts
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $27,954
+    Grant Park South: $9,934
+    Millennium: $15,735
+    Lakeside: $8,000
+    Online: $26,284
+
+Sunday, August 17, 2025
+  Revenue: $151,277
+  Events: Live On the Lake!, Melissa Etheridge & Indigo Girls, Preseason: Buffalo Bills vs. Chicago Bears, Free Museum Admission Day
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $48,106
+    Grant Park South: $17,094
+    Millennium: $27,079
+    Lakeside: $13,766
+    Online: $45,232
+
+Monday, August 18, 2025
+  Revenue: $158,746
+  Events: No major events
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.00x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $50,481
+    Grant Park South: $17,938
+    Millennium: $28,416
+    Lakeside: $14,446
+    Online: $47,465
+
+Tuesday, August 19, 2025
+  Revenue: $99,592
+  Events: Coheed and Cambria & Taking Back Sunday, Millennium Park Summer Film Series Ends:
+Pride & Prejudice
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $31,670
+    Grant Park South: $11,254
+    Millennium: $17,827
+    Lakeside: $9,063
+    Online: $29,778
+
+Wednesday, August 20, 2025
+  Revenue: $89,048
+  Events: Rob Thomas & A Great Big World, Summer Fireworks, Free Admission Evening
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,317
+    Grant Park South: $10,062
+    Millennium: $15,940
+    Lakeside: $8,103
+    Online: $26,625
+
+Thursday, August 21, 2025
+  Revenue: $83,361
+  Events: Roosevelt: Move-In
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $26,509
+    Grant Park South: $9,420
+    Millennium: $14,922
+    Lakeside: $7,586
+    Online: $24,925
+
+Friday, August 22, 2025
+  Revenue: $83,268
+  Events: Live On the Lake!, Above & Beyond
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $26,479
+    Grant Park South: $9,409
+    Millennium: $14,905
+    Lakeside: $7,577
+    Online: $24,897
+
+Saturday, August 23, 2025
+  Revenue: $83,530
+  Events: Chicago House Music Festival, Live On the Lake!, Unbound: Shattered Frames, Endless Visions, 44: The Obama Musical, Summer Fireworks, Millennium Park Summer Workouts, Chicago Triathlon
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $26,562
+    Grant Park South: $9,439
+    Millennium: $14,952
+    Lakeside: $7,601
+    Online: $24,975
+
+Sunday, August 24, 2025
+  Revenue: $151,277
+  Events: Live On the Lake!, Simple Plan
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $48,106
+    Grant Park South: $17,094
+    Millennium: $27,079
+    Lakeside: $13,766
+    Online: $45,232
+
+Monday, August 25, 2025
+  Revenue: $99,453
+  Events: Columbia College Move-In
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $31,626
+    Grant Park South: $11,238
+    Millennium: $17,802
+    Lakeside: $9,050
+    Online: $29,737
+
+Tuesday, August 26, 2025
+  Revenue: $90,085
+  Events: 44: The Obama Musical
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.20x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,647
+    Grant Park South: $10,180
+    Millennium: $16,125
+    Lakeside: $8,198
+    Online: $26,936
+
+Wednesday, August 27, 2025
+  Revenue: $82,838
+  Events: Michael Learns to Rock, Neil Young, Summer Fireworks, Free Admission Evening
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $26,342
+    Grant Park South: $9,361
+    Millennium: $14,828
+    Lakeside: $7,538
+    Online: $24,768
+
+Thursday, August 28, 2025
+  Revenue: $83,483
+  Events: Chicago Jazz Festival, Oasis
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.25x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $26,548
+    Grant Park South: $9,434
+    Millennium: $14,943
+    Lakeside: $7,597
+    Online: $24,961
+
+Friday, August 29, 2025
+  Revenue: $121,890
+  Events: Live On the Lake!, My Chemical Romance
+  Weather: 86°F/70°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $38,761
+    Grant Park South: $13,774
+    Millennium: $21,818
+    Lakeside: $11,092
+    Online: $36,445
+
+Saturday, August 30, 2025
+  Revenue: $92,025
+  Events: Live On the Lake!, The Lumineers, fromis_9, Summer Fireworks, Millennium Park Summer Workouts End, 44: The Obama Musical
+  Weather: 80°F/66°F, partly cloudy
+  Multipliers: Event 1.30x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $29,264
+    Grant Park South: $10,399
+    Millennium: $16,472
+    Lakeside: $8,374
+    Online: $27,515
+
+Sunday, August 31, 2025
+  Revenue: $91,070
+  Events: Bike The Drive, Live On the Lake!, System of A Down & Avenged Sevenfold, Zakir Khan
+  Weather: 83°F/68°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 0.970x
+  Garage Breakdown:
+    Grant Park North: $28,960
+    Grant Park South: $10,291
+    Millennium: $16,302
+    Lakeside: $8,287
+    Online: $27,230
+
+Monday, September 01, 2025
+  Revenue: $84,911
+  Events: Live On the Lake!, Labor Day (Federal)
+  Weather: 79°F/62°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $27,002
+    Grant Park South: $9,595
+    Millennium: $15,199
+    Lakeside: $7,727
+    Online: $25,388
+
+Tuesday, September 02, 2025
+  Revenue: $83,007
+  Events: 44: The Obama Musical
+  Weather: 73°F/58°F, partly cloudy
+  Multipliers: Event 1.20x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $26,396
+    Grant Park South: $9,380
+    Millennium: $14,858
+    Lakeside: $7,554
+    Online: $24,819
+
+Wednesday, September 03, 2025
+  Revenue: $82,944
+  Events: The Black Keys, Free Admission Evening
+  Weather: 76°F/60°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $26,376
+    Grant Park South: $9,373
+    Millennium: $14,847
+    Lakeside: $7,548
+    Online: $24,800
+
+Thursday, September 04, 2025
+  Revenue: $82,857
+  Events: Wait Wait… Don’t Tell Me!
+  Weather: 79°F/62°F, partly cloudy
+  Multipliers: Event 1.10x, Weather 1.000x
+  Garage Breakdown:
+    Grant Park North: $26,348
+    Grant Park South: $9,363
+    Millennium: $14,831
+    Lakeside: $7,540
+    Online: $24,774
+
+
+GARAGE TOTALS (30-DAY PERIOD)
+------------------------------
+Grant Park North: $964,550 (31.8%)
+Grant Park South: $342,749 (11.3%)
+Millennium: $542,939 (17.9%)
+Lakeside: $276,019 (9.1%)
+
+
+MODEL PERFORMANCE NOTES
+-------------------------
+• Enhanced model v2.0 with day-specific Lollapalooza multipliers
+• Backtesting shows <1% error on major events, ~4% on baseline days
+• Weather data integrated from OpenWeather API with seasonal fallbacks
+• Event multipliers historically validated against actual revenue data

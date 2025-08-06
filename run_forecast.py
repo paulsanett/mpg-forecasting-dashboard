@@ -13,6 +13,14 @@ from day_classifier import DayClassifier
 from departure_day_revenue_model import DepartureDayRevenueModel
 from robust_csv_reader import RobustCSVReader
 
+# Import confidence analyzer with fallback
+try:
+    from confidence_analyzer import ConfidenceAnalyzer
+    CONFIDENCE_AVAILABLE = True
+except ImportError:
+    CONFIDENCE_AVAILABLE = False
+    print("⚠️ Confidence analyzer not available - using fallback confidence scoring")
+
 class EnhancedForecaster:
     def __init__(self):
         self.api_key = "db6ca4a5eb88cfbb09ae4bd8713460b7"
@@ -61,6 +69,12 @@ class EnhancedForecaster:
         self.day_classifier = DayClassifier()
         self.departure_model = DepartureDayRevenueModel()
         self.csv_reader = RobustCSVReader()
+        
+        # Initialize confidence analyzer if available
+        if CONFIDENCE_AVAILABLE:
+            self.confidence_analyzer = ConfidenceAnalyzer()
+        else:
+            self.confidence_analyzer = None
         
         # Load latest historical data on initialization
         self.historical_data = self.load_latest_historical_data()
@@ -365,10 +379,10 @@ class EnhancedForecaster:
             final_revenue = base_revenue * event_multiplier * weather_multiplier
             
             # Get confidence indicators
-            if confidence_analyzer:
-                day_confidence = confidence_analyzer.get_day_confidence(day_name)
+            if self.confidence_analyzer:
+                day_confidence = self.confidence_analyzer.get_day_confidence(day_name)
                 is_event = len(day_events) > 0
-                event_multiplier_conf, event_note = confidence_analyzer.get_event_confidence_adjustment(
+                event_multiplier_conf, event_note = self.confidence_analyzer.get_event_confidence_adjustment(
                     is_event, day_events[0] if day_events else None
                 )
                 
@@ -446,10 +460,10 @@ class EnhancedForecaster:
         print()
         
         print("📋 DETAILED DAILY FORECAST")
-        print("-" * 120)
-        print(f"{'Date':<12} {'Day':<10} {'Events':<25} {'Weather':<20} {'Event':<8} {'Weather':<8} {'Total Revenue':<15}")
-        print(f"{'':12} {'':10} {'':25} {'':20} {'Mult.':<8} {'Mult.':<8} {'':15}")
-        print("-" * 120)
+        print("-" * 150)
+        print(f"{'Date':<12} {'Day':<10} {'Events':<25} {'Weather':<20} {'Event':<8} {'Weather':<8} {'Total Revenue':<15} {'Confidence':<12} {'Accuracy':<10}")
+        print(f"{'':12} {'':10} {'':25} {'':20} {'Mult.':<8} {'Mult.':<8} {'':15} {'Score':<12} {'Expected':<10}")
+        print("-" * 150)
         
         for day in forecast_data:
             date_str = datetime.strptime(day['date'], '%Y-%m-%d').strftime('%m/%d')
@@ -463,21 +477,38 @@ class EnhancedForecaster:
             if len(weather_str) > 19:
                 weather_str = weather_str[:16] + '...'
             
+            # Debug: Check if confidence data exists
+            conf_score = day.get('confidence_score', 'N/A')
+            conf_level = day.get('confidence_level', 'N/A')
+            conf_accuracy = day.get('expected_accuracy', 'N/A')
+            
             print(f"{date_str:<12} {day['day']:<10} {events_str:<25} {weather_str:<20} "
                   f"{day['event_multiplier']:.2f}x{'':<3} {day['weather_multiplier']:.3f}x{'':<2} "
-                  f"${day['revenue']:,.0f}")
+                  f"${day['revenue']:,.0f}{'':<3} {conf_score}% ({conf_level}) {conf_accuracy}")
         
         print()
         print("🏢 GARAGE-LEVEL BREAKDOWN")
         print("-" * 80)
         
         garage_totals = {}
-        for garage in ['Grant Park North', 'Grant Park South', 'Millennium', 'Lakeside']:
+        # Include ALL garages including Online to ensure math adds up
+        for garage in ['Grant Park North', 'Grant Park South', 'Millennium', 'Lakeside', 'Online']:
             garage_totals[garage] = sum(day['garages'].get(garage, 0) for day in forecast_data)
         
+        # Calculate and display all garages
+        total_garage_sum = 0
         for garage, total in garage_totals.items():
             percentage = (total / total_revenue) * 100
             print(f"{garage:<20}: ${total:>10,.0f} ({percentage:.1f}%)")
+            total_garage_sum += total
+        
+        # Verification line to ensure math is correct
+        print("-" * 80)
+        print(f"{'TOTAL VERIFICATION':<20}: ${total_garage_sum:>10,.0f} (should equal ${total_revenue:,.0f})")
+        if abs(total_garage_sum - total_revenue) > 1:
+            print(f"⚠️  MATH ERROR: Difference of ${abs(total_garage_sum - total_revenue):,.0f}")
+        else:
+            print("✅ Garage totals correctly sum to total revenue")
         
         print()
         print("🎯 KEY INSIGHTS")
@@ -545,6 +576,7 @@ class EnhancedForecaster:
         headers = [
             'Date', 'Day', 'Day Category', 'Events', 'Weather High', 'Weather Low', 'Weather Condition',
             'Event Multiplier', 'Weather Multiplier', 'Total Revenue',
+            'Confidence Score', 'Confidence Level', 'Expected Accuracy',
             'Grant Park North', 'Grant Park South', 'Millennium', 'Lakeside', 'Online'
         ]
         
@@ -573,6 +605,9 @@ class EnhancedForecaster:
                 day['event_multiplier'],
                 day['weather_multiplier'],
                 day['revenue'],
+                day.get('confidence_score', 'N/A'),
+                day.get('confidence_level', 'N/A'),
+                day.get('expected_accuracy', 'N/A'),
                 day['garages'].get('Grant Park North', 0),
                 day['garages'].get('Grant Park South', 0),
                 day['garages'].get('Millennium', 0),
