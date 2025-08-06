@@ -470,10 +470,18 @@
         
         function formatDate(dateStr) {
             const date = new Date(dateStr);
+            // Force Central Time display
             return date.toLocaleDateString('en-US', { 
                 weekday: 'short', 
                 month: 'short', 
-                day: 'numeric' 
+                day: 'numeric',
+                timeZone: 'America/Chicago'
+            });
+        }
+        
+        function getCentralTime() {
+            return new Date().toLocaleString('en-US', {
+                timeZone: 'America/Chicago'
             });
         }
         
@@ -552,12 +560,12 @@
                         const refreshTime = new Date(staticData.last_updated).toLocaleString();
                         document.getElementById('lastRefreshTime').textContent = refreshTime;
                     } else {
-                        document.getElementById('lastRefreshTime').textContent = new Date().toLocaleString();
+                        document.getElementById('lastRefreshTime').textContent = getCentralTime();
                     }
                 })
                 .catch(() => {
                     // Fallback to current time if static data not available
-                    document.getElementById('lastRefreshTime').textContent = new Date().toLocaleString();
+                    document.getElementById('lastRefreshTime').textContent = getCentralTime();
                 });
         }
         
