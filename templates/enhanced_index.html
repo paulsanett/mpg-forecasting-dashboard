@@ -537,7 +537,26 @@
             displaySummary(data);
             displayChart(data);
             displayTable(data);
+            updateRefreshTimestamp(data);
             document.getElementById('results').style.display = 'block';
+        }
+        
+        function updateRefreshTimestamp(data) {
+            // Try to get timestamp from static data first
+            fetch('/api/static-forecast')
+                .then(response => response.json())
+                .then(staticData => {
+                    if (staticData.last_updated) {
+                        const refreshTime = new Date(staticData.last_updated).toLocaleString();
+                        document.getElementById('lastRefreshTime').textContent = refreshTime;
+                    } else {
+                        document.getElementById('lastRefreshTime').textContent = new Date().toLocaleString();
+                    }
+                })
+                .catch(() => {
+                    // Fallback to current time if static data not available
+                    document.getElementById('lastRefreshTime').textContent = new Date().toLocaleString();
+                });
         }
         
         function displaySummary(data) {
@@ -558,9 +577,9 @@
                     <small>30-day estimate</small>
                 </div>
                 <div class="summary-card enhanced">
-                    <h3>Enhanced v2.0</h3>
-                    <div class="value" style="font-size: 1.2em;">🚀</div>
-                    <small>Day-specific Lollapalooza<br>Refined multipliers</small>
+                    <h3>Last Updated</h3>
+                    <div class="value" id="lastRefreshTime" style="font-size: 0.9em;">Loading...</div>
+                    <small>Data refresh timestamp</small>
                 </div>
             `;
             document.getElementById('summary').innerHTML = summaryHtml;
