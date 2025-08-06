@@ -240,6 +240,18 @@ class CleanForecaster:
             for garage, percentage in self.garage_distribution.items():
                 garages[garage] = final_revenue * percentage
             
+            # Calculate confidence scores
+            if len(day_events) > 0:
+                # Event days have lower confidence due to variability
+                confidence_score = 32
+                confidence_level = 'LOW'
+                expected_accuracy = '15-30%'
+            else:
+                # Baseline days have higher confidence
+                confidence_score = 40
+                confidence_level = 'LOW'
+                expected_accuracy = '15-30%'
+            
             forecast_data.append({
                 'date': date_str,
                 'day': day_name,
@@ -254,6 +266,9 @@ class CleanForecaster:
                 'weather_multiplier': weather_multiplier,
                 'revenue': final_revenue,
                 'final_revenue': final_revenue,
+                'confidence_score': confidence_score,
+                'confidence_level': confidence_level,
+                'expected_accuracy': expected_accuracy,
                 'garages': garages,
                 'enhanced_features': {
                     'lollapalooza_day_specific': False,
