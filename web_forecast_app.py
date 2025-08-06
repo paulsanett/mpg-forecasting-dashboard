@@ -658,6 +658,8 @@ def api_forecast():
                     'forecast_data': enhanced_data,
                     'total_revenue': forecast_data['total_revenue'],
                     'daily_average': forecast_data['daily_average'],
+                    'average_daily': forecast_data['daily_average'],  # Frontend expects this name
+                    'monthly_projection': forecast_data['daily_average'] * 30,  # Calculate 30-day projection
                     'period': forecast_data['period'],
                     'lollapalooza_day_specific': {
                         'Thursday': 2.49,
@@ -685,6 +687,8 @@ def api_forecast():
                     'forecast_data': enhanced_data,
                     'total_revenue': forecast_data['total_revenue'],
                     'daily_average': forecast_data['daily_average'],
+                    'average_daily': forecast_data['daily_average'],  # Frontend expects this name
+                    'monthly_projection': forecast_data['daily_average'] * 30,  # Calculate 30-day projection
                     'period': forecast_data['period'],
                     'lollapalooza_day_specific': {
                         'Thursday': 2.49,
@@ -712,6 +716,8 @@ def api_forecast():
                     'forecast_data': enhanced_data,
                     'total_revenue': forecast_data['total_revenue'],
                     'daily_average': forecast_data['daily_average'],
+                    'average_daily': forecast_data['daily_average'],  # Frontend expects this name
+                    'monthly_projection': forecast_data['daily_average'] * 30,  # Calculate 30-day projection
                     'period': forecast_data['period'],
                     'lollapalooza_day_specific': {
                         'Thursday': 2.49,
