@@ -1,0 +1,516 @@
+{
+  "timestamp": "2025-08-06T16:11:23.865255",
+  "total_predictions": 50,
+  "mean_error_percentage": 241.18054257578012,
+  "median_error_percentage": 40.32367174391139,
+  "detailed_results": [
+    {
+      "date": "2017-01-24",
+      "day_of_week": "TUE",
+      "actual_revenue": 42050.86,
+      "predicted_revenue": 58826.0,
+      "error": 16775.14,
+      "error_percentage": 39.89250160401,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-05-20",
+      "day_of_week": "MON",
+      "actual_revenue": 55544.48,
+      "predicted_revenue": 65326.0,
+      "error": 9781.519999999997,
+      "error_percentage": 17.610246778797816,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2021-03-07",
+      "day_of_week": "SUN",
+      "actual_revenue": 20237.47,
+      "predicted_revenue": 103029.0,
+      "error": 82791.53,
+      "error_percentage": 409.1001987896708,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-09-06",
+      "day_of_week": "FRI",
+      "actual_revenue": 95860.56,
+      "predicted_revenue": 77143.0,
+      "error": 18717.559999999998,
+      "error_percentage": 19.525819586282406,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2017-11-12",
+      "day_of_week": "SUN",
+      "actual_revenue": 76346.95,
+      "predicted_revenue": 103029.0,
+      "error": 26682.050000000003,
+      "error_percentage": 34.948416406942265,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-01-18",
+      "day_of_week": "WED",
+      "actual_revenue": 44472.36,
+      "predicted_revenue": 62597.0,
+      "error": 18124.64,
+      "error_percentage": 40.75484188381277,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-10-29",
+      "day_of_week": "SUN",
+      "actual_revenue": 38092.18,
+      "predicted_revenue": 103029.0,
+      "error": 64936.82,
+      "error_percentage": 170.4728372070068,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-08-26",
+      "day_of_week": "SUN",
+      "actual_revenue": 92956.85,
+      "predicted_revenue": 103029.0,
+      "error": 10072.149999999994,
+      "error_percentage": 10.835296161606157,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-06-21",
+      "day_of_week": "FRI",
+      "actual_revenue": 90450.85,
+      "predicted_revenue": 77143.0,
+      "error": 13307.850000000006,
+      "error_percentage": 14.71279706050303,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-08-29",
+      "day_of_week": "SAT",
+      "actual_revenue": 17465.12,
+      "predicted_revenue": 113978.0,
+      "error": 96512.88,
+      "error_percentage": 552.603589325467,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2017-12-15",
+      "day_of_week": "FRI",
+      "actual_revenue": 59708.07,
+      "predicted_revenue": 77143.0,
+      "error": 17434.93,
+      "error_percentage": 29.20029068097495,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-09-12",
+      "day_of_week": "SAT",
+      "actual_revenue": 15518.89,
+      "predicted_revenue": 113978.0,
+      "error": 98459.11,
+      "error_percentage": 634.4468579904878,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-06-09",
+      "day_of_week": "SUN",
+      "actual_revenue": 142862.29,
+      "predicted_revenue": 103029.0,
+      "error": 39833.29000000001,
+      "error_percentage": 27.882298400788624,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2022-01-19",
+      "day_of_week": "WED",
+      "actual_revenue": 28433.2,
+      "predicted_revenue": 62597.0,
+      "error": 34163.8,
+      "error_percentage": 120.15460799347241,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-02-02",
+      "day_of_week": "FRI",
+      "actual_revenue": 46593.57,
+      "predicted_revenue": 77143.0,
+      "error": 30549.43,
+      "error_percentage": 65.56576368799387,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2021-05-29",
+      "day_of_week": "SAT",
+      "actual_revenue": 58649.74,
+      "predicted_revenue": 113978.0,
+      "error": 55328.26,
+      "error_percentage": 94.33675238799013,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2021-10-25",
+      "day_of_week": "MON",
+      "actual_revenue": 32337.58,
+      "predicted_revenue": 65326.0,
+      "error": 32988.42,
+      "error_percentage": 102.01264287556458,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-03-21",
+      "day_of_week": "SAT",
+      "actual_revenue": 3609.41,
+      "predicted_revenue": 113978.0,
+      "error": 110368.59,
+      "error_percentage": 3057.801413527419,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-11-15",
+      "day_of_week": "WED",
+      "actual_revenue": 55907.86,
+      "predicted_revenue": 62597.0,
+      "error": 6689.139999999999,
+      "error_percentage": 11.964578862435442,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2017-10-15",
+      "day_of_week": "SUN",
+      "actual_revenue": 62670.44,
+      "predicted_revenue": 103029.0,
+      "error": 40358.56,
+      "error_percentage": 64.39807986029777,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2022-11-25",
+      "day_of_week": "FRI",
+      "actual_revenue": 108708.32,
+      "predicted_revenue": 77143.0,
+      "error": 31565.320000000007,
+      "error_percentage": 29.036710345629483,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-04-12",
+      "day_of_week": "THU",
+      "actual_revenue": 58036.62,
+      "predicted_revenue": 70064.0,
+      "error": 12027.379999999997,
+      "error_percentage": 20.72377750461691,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-12-06",
+      "day_of_week": "THU",
+      "actual_revenue": 54589.31,
+      "predicted_revenue": 70064.0,
+      "error": 15474.690000000002,
+      "error_percentage": 28.34747315912218,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2021-11-10",
+      "day_of_week": "WED",
+      "actual_revenue": 37887.73,
+      "predicted_revenue": 62597.0,
+      "error": 24709.269999999997,
+      "error_percentage": 65.21707687422813,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-06-11",
+      "day_of_week": "TUE",
+      "actual_revenue": 63036.31,
+      "predicted_revenue": 58826.0,
+      "error": 4210.309999999998,
+      "error_percentage": 6.6791822046690195,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2022-07-22",
+      "day_of_week": "FRI",
+      "actual_revenue": 73001.73,
+      "predicted_revenue": 77143.0,
+      "error": 4141.270000000004,
+      "error_percentage": 5.672838164246251,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2025-07-08",
+      "day_of_week": "TUE",
+      "actual_revenue": 65019.03,
+      "predicted_revenue": 76473.8,
+      "error": 11454.770000000004,
+      "error_percentage": 17.61756519591265,
+      "events": [
+        "Millennium Park Summer Film Series:\nHarry Potter and the Goblet of Fire",
+        "The Rose"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2021-06-08",
+      "day_of_week": "TUE",
+      "actual_revenue": 28362.93,
+      "predicted_revenue": 58826.0,
+      "error": 30463.07,
+      "error_percentage": 107.40452414471989,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-10-16",
+      "day_of_week": "TUE",
+      "actual_revenue": 48899.47,
+      "predicted_revenue": 58826.0,
+      "error": 9926.529999999999,
+      "error_percentage": 20.299872370804835,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-06-03",
+      "day_of_week": "MON",
+      "actual_revenue": 53077.13,
+      "predicted_revenue": 65326.0,
+      "error": 12248.870000000003,
+      "error_percentage": 23.077491190650292,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-07-05",
+      "day_of_week": "SUN",
+      "actual_revenue": 16374.15,
+      "predicted_revenue": 103029.0,
+      "error": 86654.85,
+      "error_percentage": 529.2173944907065,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2025-01-20",
+      "day_of_week": "MON",
+      "actual_revenue": 41293.95,
+      "predicted_revenue": 71858.6,
+      "error": 30564.65000000001,
+      "error_percentage": 74.01725918687849,
+      "events": [
+        "Black Being",
+        "Coleman, Montgomery & Rachmaninov 2",
+        "Martin Luther King Jr., Day (Federal)",
+        "Free Admission Day"
+      ],
+      "event_multiplier": 1.1
+    },
+    {
+      "date": "2020-10-16",
+      "day_of_week": "FRI",
+      "actual_revenue": 26884.39,
+      "predicted_revenue": 77143.0,
+      "error": 50258.61,
+      "error_percentage": 186.9434642184554,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-04-29",
+      "day_of_week": "MON",
+      "actual_revenue": 40899.83,
+      "predicted_revenue": 65326.0,
+      "error": 24426.17,
+      "error_percentage": 59.72193527454759,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-10-19",
+      "day_of_week": "MON",
+      "actual_revenue": 22310.53,
+      "predicted_revenue": 65326.0,
+      "error": 43015.47,
+      "error_percentage": 192.80344303788394,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-12-13",
+      "day_of_week": "SUN",
+      "actual_revenue": 15081.67,
+      "predicted_revenue": 103029.0,
+      "error": 87947.33,
+      "error_percentage": 583.1405275410482,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-01-06",
+      "day_of_week": "FRI",
+      "actual_revenue": 45405.24,
+      "predicted_revenue": 77143.0,
+      "error": 31737.760000000002,
+      "error_percentage": 69.89889272691875,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-10-22",
+      "day_of_week": "TUE",
+      "actual_revenue": 62976.6,
+      "predicted_revenue": 58826.0,
+      "error": 4150.5999999999985,
+      "error_percentage": 6.590701943261464,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-12-28",
+      "day_of_week": "THU",
+      "actual_revenue": 73992.36,
+      "predicted_revenue": 70064.0,
+      "error": 3928.3600000000006,
+      "error_percentage": 5.309142727708646,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-08-09",
+      "day_of_week": "FRI",
+      "actual_revenue": 74553.25,
+      "predicted_revenue": 77143.0,
+      "error": 2589.75,
+      "error_percentage": 3.4736916231016086,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-01-26",
+      "day_of_week": "FRI",
+      "actual_revenue": 39210.54,
+      "predicted_revenue": 77143.0,
+      "error": 37932.46,
+      "error_percentage": 96.74046825164866,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-02-08",
+      "day_of_week": "THU",
+      "actual_revenue": 39834.59,
+      "predicted_revenue": 70064.0,
+      "error": 30229.410000000003,
+      "error_percentage": 75.88733811493982,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-12-11",
+      "day_of_week": "MON",
+      "actual_revenue": 49636.06,
+      "predicted_revenue": 65326.0,
+      "error": 15689.940000000002,
+      "error_percentage": 31.60996259574189,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2017-05-30",
+      "day_of_week": "TUE",
+      "actual_revenue": 54201.81,
+      "predicted_revenue": 58826.0,
+      "error": 4624.190000000002,
+      "error_percentage": 8.531430961438376,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2022-02-13",
+      "day_of_week": "SUN",
+      "actual_revenue": 34787.96,
+      "predicted_revenue": 103029.0,
+      "error": 68241.04000000001,
+      "error_percentage": 196.16281035162743,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-05-04",
+      "day_of_week": "SAT",
+      "actual_revenue": 68007.83,
+      "predicted_revenue": 113978.0,
+      "error": 45970.17,
+      "error_percentage": 67.59540776407658,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2018-06-05",
+      "day_of_week": "TUE",
+      "actual_revenue": 51896.8,
+      "predicted_revenue": 58826.0,
+      "error": 6929.199999999997,
+      "error_percentage": 13.351882967735962,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2020-05-09",
+      "day_of_week": "SAT",
+      "actual_revenue": 2795.26,
+      "predicted_revenue": 113978.0,
+      "error": 111182.74,
+      "error_percentage": 3977.545559268189,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-09-11",
+      "day_of_week": "MON",
+      "actual_revenue": 52435.58,
+      "predicted_revenue": 65326.0,
+      "error": 12890.419999999998,
+      "error_percentage": 24.583345888421558,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2019-11-25",
+      "day_of_week": "MON",
+      "actual_revenue": 57502.18,
+      "predicted_revenue": 65326.0,
+      "error": 7823.82,
+      "error_percentage": 13.606127628552517,
+      "events": [],
+      "event_multiplier": 1.0
+    }
+  ]
+}

@@ -1,0 +1,1747 @@
+{
+  "last_updated": "2025-08-06 16:43:20",
+  "generated_by": "MPG Revenue Forecasting System V4.0",
+  "model_accuracy": "91.3%",
+  "forecasts": {
+    "7_day": {
+      "period": "7-Day Forecast",
+      "total_revenue": 793074.283748835,
+      "daily_average": 113296.32624983357,
+      "data": [
+        {
+          "date": "2025-08-06",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Joshua Bell and Tchaikovsky Romeo & Juliet",
+            "Men I Trust",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 83.66,
+            "temp_low": 75.43,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 99554.547768,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 31658.346190224,
+            "Grant Park South": 11249.663897784001,
+            "Millennium": 17820.264050472,
+            "Lakeside": 9059.463846888,
+            "Online": 29766.809782632
+          }
+        },
+        {
+          "date": "2025-08-07",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [
+            "Millennium Park Summer Music Series Ends:\nTen City\nCaramelo Haze\nDJ Emmaculate",
+            "Wait Wait\u2026 Don\u2019t Tell Me!"
+          ],
+          "event_multiplier": 1.2,
+          "weather": {
+            "temp_high": 87.42,
+            "temp_low": 67.84,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 95564.5715736,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30389.5337604048,
+            "Grant Park South": 10798.7965878168,
+            "Millennium": 17106.0583116744,
+            "Lakeside": 8696.3760131976,
+            "Online": 28573.8069005064
+          }
+        },
+        {
+          "date": "2025-08-08",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Stravinsky Firebird"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.38,
+            "temp_low": 71.78,
+            "condition": "light rain",
+            "precipitation": 0.83
+          },
+          "weather_multiplier": 0.74205,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 91508.44892143499,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 29099.686757016327,
+            "Grant Park South": 10340.454728122155,
+            "Millennium": 16380.012356936862,
+            "Lakeside": 8327.268851850584,
+            "Online": 27361.02622750906
+          }
+        },
+        {
+          "date": "2025-08-09",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Aerial Arts Society presents\nThe Northern Mid-West Regional Aerial Competition",
+            "Herb Alpert & The Tijuana Brass & Other Delights",
+            "Stravinsky Firebird",
+            "Chicago Fire FC vs. Los Angeles Football Club",
+            "Jeezy",
+            "Summer Fireworks",
+            "Millennium Park Summer Workouts"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.58,
+            "temp_low": 76.19,
+            "condition": "clear sky",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-10",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Preseason: Miami Dolphins vs. Chicago Bears"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86.5,
+            "temp_low": 74.01,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: bears",
+          "strategic_multiplier": 1.45,
+          "revenue": 155405.527771,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 49418.957831178,
+            "Grant Park South": 17560.824638123,
+            "Millennium": 27817.589471008996,
+            "Lakeside": 14141.903027160999,
+            "Online": 46466.252803528994
+          }
+        },
+        {
+          "date": "2025-08-11",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [
+            "Broadway In Chicago Summer Concert 2025"
+          ],
+          "event_multiplier": 1.4,
+          "weather": {
+            "temp_high": 91.8,
+            "temp_low": 73.78,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: concert",
+          "strategic_multiplier": 1.15,
+          "revenue": 97108.4575818,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30880.4895110124,
+            "Grant Park South": 10973.2557067434,
+            "Millennium": 17382.4139071422,
+            "Lakeside": 8836.8696399438,
+            "Online": 29035.4288169582
+          }
+        },
+        {
+          "date": "2025-08-12",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "Millennium Park Summer Film Series:\nWicked",
+            "MJ"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 84244.8112,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 26789.8499616,
+            "Grant Park South": 9519.6636656,
+            "Millennium": 15079.821204799999,
+            "Lakeside": 7666.2778192,
+            "Online": 25189.1985488
+          }
+        }
+      ]
+    },
+    "14_day": {
+      "period": "14-Day Forecast",
+      "total_revenue": 1579383.693540835,
+      "daily_average": 112813.1209672025,
+      "data": [
+        {
+          "date": "2025-08-06",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Joshua Bell and Tchaikovsky Romeo & Juliet",
+            "Men I Trust",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 83.66,
+            "temp_low": 75.43,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 99554.547768,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 31658.346190224,
+            "Grant Park South": 11249.663897784001,
+            "Millennium": 17820.264050472,
+            "Lakeside": 9059.463846888,
+            "Online": 29766.809782632
+          }
+        },
+        {
+          "date": "2025-08-07",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [
+            "Millennium Park Summer Music Series Ends:\nTen City\nCaramelo Haze\nDJ Emmaculate",
+            "Wait Wait\u2026 Don\u2019t Tell Me!"
+          ],
+          "event_multiplier": 1.2,
+          "weather": {
+            "temp_high": 87.42,
+            "temp_low": 67.84,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 95564.5715736,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30389.5337604048,
+            "Grant Park South": 10798.7965878168,
+            "Millennium": 17106.0583116744,
+            "Lakeside": 8696.3760131976,
+            "Online": 28573.8069005064
+          }
+        },
+        {
+          "date": "2025-08-08",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Stravinsky Firebird"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.38,
+            "temp_low": 71.78,
+            "condition": "light rain",
+            "precipitation": 0.83
+          },
+          "weather_multiplier": 0.74205,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 91508.44892143499,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 29099.686757016327,
+            "Grant Park South": 10340.454728122155,
+            "Millennium": 16380.012356936862,
+            "Lakeside": 8327.268851850584,
+            "Online": 27361.02622750906
+          }
+        },
+        {
+          "date": "2025-08-09",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Aerial Arts Society presents\nThe Northern Mid-West Regional Aerial Competition",
+            "Herb Alpert & The Tijuana Brass & Other Delights",
+            "Stravinsky Firebird",
+            "Chicago Fire FC vs. Los Angeles Football Club",
+            "Jeezy",
+            "Summer Fireworks",
+            "Millennium Park Summer Workouts"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.58,
+            "temp_low": 76.19,
+            "condition": "clear sky",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-10",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Preseason: Miami Dolphins vs. Chicago Bears"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86.5,
+            "temp_low": 74.01,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: bears",
+          "strategic_multiplier": 1.45,
+          "revenue": 155405.527771,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 49418.957831178,
+            "Grant Park South": 17560.824638123,
+            "Millennium": 27817.589471008996,
+            "Lakeside": 14141.903027160999,
+            "Online": 46466.252803528994
+          }
+        },
+        {
+          "date": "2025-08-11",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [
+            "Broadway In Chicago Summer Concert 2025"
+          ],
+          "event_multiplier": 1.4,
+          "weather": {
+            "temp_high": 91.8,
+            "temp_low": 73.78,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: concert",
+          "strategic_multiplier": 1.15,
+          "revenue": 97108.4575818,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30880.4895110124,
+            "Grant Park South": 10973.2557067434,
+            "Millennium": 17382.4139071422,
+            "Lakeside": 8836.8696399438,
+            "Online": 29035.4288169582
+          }
+        },
+        {
+          "date": "2025-08-12",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "Millennium Park Summer Film Series:\nWicked",
+            "MJ"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 84244.8112,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 26789.8499616,
+            "Grant Park South": 9519.6636656,
+            "Millennium": 15079.821204799999,
+            "Lakeside": 7666.2778192,
+            "Online": 25189.1985488
+          }
+        },
+        {
+          "date": "2025-08-13",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Saint-Sa\u00ebns Organ Symphony",
+            "Goo Goo Dolls & Dashboard Confessional",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.4,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
+          "strategic_multiplier": 1.25,
+          "revenue": 107212.58990400001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 34093.603589472004,
+            "Grant Park South": 12115.022659152,
+            "Millennium": 19191.053592816,
+            "Lakeside": 9756.345681264,
+            "Online": 32056.564381296
+          }
+        },
+        {
+          "date": "2025-08-14",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [],
+          "event_multiplier": 1.0,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 88485.71441999999,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 40,
+          "prediction_notes": "ML model (13.1% avg error)",
+          "garages": {
+            "Grant Park North": 28138.457185559997,
+            "Grant Park South": 9998.885729459998,
+            "Millennium": 15838.942881179997,
+            "Lakeside": 8052.200012219999,
+            "Online": 26457.228611579994
+          }
+        },
+        {
+          "date": "2025-08-15",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Carmina Burana",
+            "The Fray"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 104346.3729,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 33182.1465822,
+            "Grant Park South": 11791.1401377,
+            "Millennium": 18678.0007491,
+            "Lakeside": 9495.5199339,
+            "Online": 31199.5654971
+          }
+        },
+        {
+          "date": "2025-08-16",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Millennium Park Outdoor Public Art Walking Tour",
+            "Live On the Lake!",
+            "Live On the Lake!",
+            "Dance for Life",
+            "Carmina Burana",
+            "Summer Fireworks",
+            "The Great American Lobster Fest",
+            "Chicago Air & Water Show",
+            "Millennium Park Summer Workouts"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-17",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Live On the Lake!",
+            "Melissa Etheridge & Indigo Girls",
+            "Preseason: Buffalo Bills vs. Chicago Bears",
+            "Free Museum Admission Day"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: bears",
+          "strategic_multiplier": 1.45,
+          "revenue": 155405.527771,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 49418.957831178,
+            "Grant Park South": 17560.824638123,
+            "Millennium": 27817.589471008996,
+            "Lakeside": 14141.903027160999,
+            "Online": 46466.252803528994
+          }
+        },
+        {
+          "date": "2025-08-18",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [],
+          "event_multiplier": 1.0,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 79453.819,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 40,
+          "prediction_notes": "ML model (13.1% avg error)",
+          "garages": {
+            "Grant Park North": 25266.314442000003,
+            "Grant Park South": 8978.281547,
+            "Millennium": 14222.233601,
+            "Lakeside": 7230.297529,
+            "Online": 23756.691881
+          }
+        },
+        {
+          "date": "2025-08-19",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "Coheed and Cambria & Taking Back Sunday",
+            "Millennium Park Summer Film Series Ends:\nPride & Prejudice"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 81717.46686399999,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 25986.154462751998,
+            "Grant Park South": 9234.073755631998,
+            "Millennium": 14627.426568655997,
+            "Lakeside": 7436.289484623999,
+            "Online": 24433.522592335994
+          }
+        }
+      ]
+    },
+    "30_day": {
+      "period": "30-Day Forecast",
+      "total_revenue": 3289698.127690835,
+      "daily_average": 109656.60425636117,
+      "data": [
+        {
+          "date": "2025-08-06",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Joshua Bell and Tchaikovsky Romeo & Juliet",
+            "Men I Trust",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 83.66,
+            "temp_low": 75.43,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 99554.547768,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 31658.346190224,
+            "Grant Park South": 11249.663897784001,
+            "Millennium": 17820.264050472,
+            "Lakeside": 9059.463846888,
+            "Online": 29766.809782632
+          }
+        },
+        {
+          "date": "2025-08-07",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [
+            "Millennium Park Summer Music Series Ends:\nTen City\nCaramelo Haze\nDJ Emmaculate",
+            "Wait Wait\u2026 Don\u2019t Tell Me!"
+          ],
+          "event_multiplier": 1.2,
+          "weather": {
+            "temp_high": 87.42,
+            "temp_low": 67.84,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 95564.5715736,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30389.5337604048,
+            "Grant Park South": 10798.7965878168,
+            "Millennium": 17106.0583116744,
+            "Lakeside": 8696.3760131976,
+            "Online": 28573.8069005064
+          }
+        },
+        {
+          "date": "2025-08-08",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Stravinsky Firebird"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.38,
+            "temp_low": 71.78,
+            "condition": "light rain",
+            "precipitation": 0.83
+          },
+          "weather_multiplier": 0.74205,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 91508.44892143499,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 29099.686757016327,
+            "Grant Park South": 10340.454728122155,
+            "Millennium": 16380.012356936862,
+            "Lakeside": 8327.268851850584,
+            "Online": 27361.02622750906
+          }
+        },
+        {
+          "date": "2025-08-09",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Aerial Arts Society presents\nThe Northern Mid-West Regional Aerial Competition",
+            "Herb Alpert & The Tijuana Brass & Other Delights",
+            "Stravinsky Firebird",
+            "Chicago Fire FC vs. Los Angeles Football Club",
+            "Jeezy",
+            "Summer Fireworks",
+            "Millennium Park Summer Workouts"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 91.58,
+            "temp_low": 76.19,
+            "condition": "clear sky",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-10",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Preseason: Miami Dolphins vs. Chicago Bears"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86.5,
+            "temp_low": 74.01,
+            "condition": "broken clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: bears",
+          "strategic_multiplier": 1.45,
+          "revenue": 155405.527771,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 49418.957831178,
+            "Grant Park South": 17560.824638123,
+            "Millennium": 27817.589471008996,
+            "Lakeside": 14141.903027160999,
+            "Online": 46466.252803528994
+          }
+        },
+        {
+          "date": "2025-08-11",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [
+            "Broadway In Chicago Summer Concert 2025"
+          ],
+          "event_multiplier": 1.4,
+          "weather": {
+            "temp_high": 91.8,
+            "temp_low": 73.78,
+            "condition": "overcast clouds",
+            "precipitation": 0
+          },
+          "weather_multiplier": 0.873,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: concert",
+          "strategic_multiplier": 1.15,
+          "revenue": 97108.4575818,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 30880.4895110124,
+            "Grant Park South": 10973.2557067434,
+            "Millennium": 17382.4139071422,
+            "Lakeside": 8836.8696399438,
+            "Online": 29035.4288169582
+          }
+        },
+        {
+          "date": "2025-08-12",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "Millennium Park Summer Film Series:\nWicked",
+            "MJ"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 84244.8112,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 26789.8499616,
+            "Grant Park South": 9519.6636656,
+            "Millennium": 15079.821204799999,
+            "Lakeside": 7666.2778192,
+            "Online": 25189.1985488
+          }
+        },
+        {
+          "date": "2025-08-13",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Saint-Sa\u00ebns Organ Symphony",
+            "Goo Goo Dolls & Dashboard Confessional",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.4,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
+          "strategic_multiplier": 1.25,
+          "revenue": 107212.58990400001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 34093.603589472004,
+            "Grant Park South": 12115.022659152,
+            "Millennium": 19191.053592816,
+            "Lakeside": 9756.345681264,
+            "Online": 32056.564381296
+          }
+        },
+        {
+          "date": "2025-08-14",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [],
+          "event_multiplier": 1.0,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 88485.71441999999,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 40,
+          "prediction_notes": "ML model (13.1% avg error)",
+          "garages": {
+            "Grant Park North": 28138.457185559997,
+            "Grant Park South": 9998.885729459998,
+            "Millennium": 15838.942881179997,
+            "Lakeside": 8052.200012219999,
+            "Online": 26457.228611579994
+          }
+        },
+        {
+          "date": "2025-08-15",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Carmina Burana",
+            "The Fray"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 104346.3729,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 33182.1465822,
+            "Grant Park South": 11791.1401377,
+            "Millennium": 18678.0007491,
+            "Lakeside": 9495.5199339,
+            "Online": 31199.5654971
+          }
+        },
+        {
+          "date": "2025-08-16",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Millennium Park Outdoor Public Art Walking Tour",
+            "Live On the Lake!",
+            "Live On the Lake!",
+            "Dance for Life",
+            "Carmina Burana",
+            "Summer Fireworks",
+            "The Great American Lobster Fest",
+            "Chicago Air & Water Show",
+            "Millennium Park Summer Workouts"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-17",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Live On the Lake!",
+            "Melissa Etheridge & Indigo Girls",
+            "Preseason: Buffalo Bills vs. Chicago Bears",
+            "Free Museum Admission Day"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: bears",
+          "strategic_multiplier": 1.45,
+          "revenue": 155405.527771,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 49418.957831178,
+            "Grant Park South": 17560.824638123,
+            "Millennium": 27817.589471008996,
+            "Lakeside": 14141.903027160999,
+            "Online": 46466.252803528994
+          }
+        },
+        {
+          "date": "2025-08-18",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [],
+          "event_multiplier": 1.0,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 79453.819,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 40,
+          "prediction_notes": "ML model (13.1% avg error)",
+          "garages": {
+            "Grant Park North": 25266.314442000003,
+            "Grant Park South": 8978.281547,
+            "Millennium": 14222.233601,
+            "Lakeside": 7230.297529,
+            "Online": 23756.691881
+          }
+        },
+        {
+          "date": "2025-08-19",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "Coheed and Cambria & Taking Back Sunday",
+            "Millennium Park Summer Film Series Ends:\nPride & Prejudice"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 81717.46686399999,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 25986.154462751998,
+            "Grant Park South": 9234.073755631998,
+            "Millennium": 14627.426568655997,
+            "Lakeside": 7436.289484623999,
+            "Online": 24433.522592335994
+          }
+        },
+        {
+          "date": "2025-08-20",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Rob Thomas & A Great Big World",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 99554.547768,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 31658.346190224,
+            "Grant Park South": 11249.663897784001,
+            "Millennium": 17820.264050472,
+            "Lakeside": 9059.463846888,
+            "Online": 29766.809782632
+          }
+        },
+        {
+          "date": "2025-08-21",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [
+            "Roosevelt: Move-In"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 100344.62460000001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 31909.590622800002,
+            "Grant Park South": 11338.942579800001,
+            "Millennium": 17961.6878034,
+            "Lakeside": 9131.360838600001,
+            "Online": 30003.0427554
+          }
+        },
+        {
+          "date": "2025-08-22",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "Above & Beyond"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 101215.981713,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 32186.682184734,
+            "Grant Park South": 11437.405933569,
+            "Millennium": 18117.660726627,
+            "Lakeside": 9210.654335883,
+            "Online": 30263.578532187
+          }
+        },
+        {
+          "date": "2025-08-23",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Chicago House Music Festival",
+            "Live On the Lake!",
+            "Unbound: Shattered Frames, Endless Visions",
+            "44: The Obama Musical",
+            "Summer Fireworks",
+            "Millennium Park Summer Workouts",
+            "Chicago Triathlon"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: festival, event: fire",
+          "strategic_multiplier": 1.5499999999999998,
+          "revenue": 169687.918933,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 53960.758220694006,
+            "Grant Park South": 19174.734839429002,
+            "Millennium": 30374.137489007,
+            "Lakeside": 15441.600622903,
+            "Online": 50736.687760967
+          }
+        },
+        {
+          "date": "2025-08-24",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Live On the Lake!",
+            "Simple Plan"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend",
+          "strategic_multiplier": 1.15,
+          "revenue": 135563.9021,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 43109.3208678,
+            "Grant Park South": 15318.7209373,
+            "Millennium": 24265.9384759,
+            "Lakeside": 12336.315091100001,
+            "Online": 40533.6067279
+          }
+        },
+        {
+          "date": "2025-08-25",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 79453.819,
+          "events": [
+            "Columbia College Move-In"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 84777.22487300001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 26959.157509614004,
+            "Grant Park South": 9579.826410649002,
+            "Millennium": 15175.123252267002,
+            "Lakeside": 7714.727463443001,
+            "Online": 25348.390237027004
+          }
+        },
+        {
+          "date": "2025-08-26",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 76586.192,
+          "events": [
+            "44: The Obama Musical"
+          ],
+          "event_multiplier": 1.2,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 89146.327488,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 28348.532141183998,
+            "Grant Park South": 10073.535006144,
+            "Millennium": 15957.192620351998,
+            "Lakeside": 8112.315801407999,
+            "Online": 26654.751918911996
+          }
+        },
+        {
+          "date": "2025-08-27",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 78948.888,
+          "events": [
+            "Michael Learns to Rock",
+            "Neil Young",
+            "Summer Fireworks",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: fire",
+          "strategic_multiplier": 1.15,
+          "revenue": 102633.55440000001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 32637.470299200002,
+            "Grant Park South": 11597.5916472,
+            "Millennium": 18371.4062376,
+            "Lakeside": 9339.653450400001,
+            "Online": 30687.432765600002
+          }
+        },
+        {
+          "date": "2025-08-28",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 91222.386,
+          "events": [
+            "Chicago Jazz Festival",
+            "Oasis"
+          ],
+          "event_multiplier": 1.25,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: festival",
+          "strategic_multiplier": 1.4,
+          "revenue": 110607.143025,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 35173.07148195,
+            "Grant Park South": 12498.607161825,
+            "Millennium": 19798.678601475,
+            "Lakeside": 10065.250015275,
+            "Online": 33071.535764475
+          }
+        },
+        {
+          "date": "2025-08-29",
+          "day": "Friday",
+          "day_name": "Friday",
+          "base_revenue": 94860.33899999999,
+          "events": [
+            "Live On the Lake!",
+            "My Chemical Romance"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Baseline Days",
+          "day_reasoning": "Standard weekday, no events, no disruptions",
+          "strategic_multiplier": 1.0,
+          "revenue": 101215.981713,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 32186.682184734,
+            "Grant Park South": 11437.405933569,
+            "Millennium": 18117.660726627,
+            "Lakeside": 9210.654335883,
+            "Online": 30263.578532187
+          }
+        },
+        {
+          "date": "2025-08-30",
+          "day": "Saturday",
+          "day_name": "Saturday",
+          "base_revenue": 134566.153,
+          "events": [
+            "Live On the Lake!",
+            "The Lumineers",
+            "fromis_9",
+            "Summer Fireworks",
+            "Millennium Park Summer Workouts End",
+            "44: The Obama Musical"
+          ],
+          "event_multiplier": 1.3,
+          "weather": {
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend, event: fire",
+          "strategic_multiplier": 1.2999999999999998,
+          "revenue": 174935.9989,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 55629.6476502,
+            "Grant Park South": 19767.7678757,
+            "Millennium": 31313.5438031,
+            "Lakeside": 15919.1758999,
+            "Online": 52305.8636711
+          }
+        },
+        {
+          "date": "2025-08-31",
+          "day": "Sunday",
+          "day_name": "Sunday",
+          "base_revenue": 123239.911,
+          "events": [
+            "Bike The Drive",
+            "Live On the Lake!",
+            "System of A Down & Avenged Sevenfold",
+            "Zakir Khan"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 0.97,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: weekend",
+          "strategic_multiplier": 1.15,
+          "revenue": 131496.985037,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 41816.041241766005,
+            "Grant Park South": 14859.159309181001,
+            "Millennium": 23537.960321623,
+            "Lakeside": 11966.225638367001,
+            "Online": 39317.598526063
+          }
+        },
+        {
+          "date": "2025-09-01",
+          "day": "Monday",
+          "day_name": "Monday",
+          "base_revenue": 67019.09199999999,
+          "events": [
+            "Live On the Lake!",
+            "Labor Day (Federal)"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 79,
+            "temp_low": 62,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: event: labor, holiday period",
+          "strategic_multiplier": 1.25,
+          "revenue": 73721.0012,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 23443.2783816,
+            "Grant Park South": 8330.4731356,
+            "Millennium": 13196.0592148,
+            "Lakeside": 6708.6111092,
+            "Online": 22042.579358799998
+          }
+        },
+        {
+          "date": "2025-09-02",
+          "day": "Tuesday",
+          "day_name": "Tuesday",
+          "base_revenue": 64600.255999999994,
+          "events": [
+            "44: The Obama Musical"
+          ],
+          "event_multiplier": 1.2,
+          "weather": {
+            "temp_high": 73,
+            "temp_low": 58,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: holiday period",
+          "strategic_multiplier": 1.1,
+          "revenue": 77520.3072,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 52,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 24651.4576896,
+            "Grant Park South": 8759.7947136,
+            "Millennium": 13876.134988799999,
+            "Lakeside": 7054.347955199999,
+            "Online": 23178.571852799996
+          }
+        },
+        {
+          "date": "2025-09-03",
+          "day": "Wednesday",
+          "day_name": "Wednesday",
+          "base_revenue": 66593.184,
+          "events": [
+            "The Black Keys",
+            "Free Admission Evening"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 76,
+            "temp_low": 60,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: holiday period",
+          "strategic_multiplier": 1.1,
+          "revenue": 73252.5024,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 23294.2957632,
+            "Grant Park South": 8277.5327712,
+            "Millennium": 13112.197929599999,
+            "Lakeside": 6665.9777183999995,
+            "Online": 21902.498217599998
+          }
+        },
+        {
+          "date": "2025-09-04",
+          "day": "Thursday",
+          "day_name": "Thursday",
+          "base_revenue": 76945.848,
+          "events": [
+            "Wait Wait\u2026 Don\u2019t Tell Me!"
+          ],
+          "event_multiplier": 1.1,
+          "weather": {
+            "temp_high": 79,
+            "temp_low": 62,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
+          },
+          "weather_multiplier": 1.0,
+          "day_category": "Opportunity Days",
+          "day_reasoning": "Opportunity indicators: holiday period",
+          "strategic_multiplier": 1.1,
+          "revenue": 84640.43280000001,
+          "confidence_level": "LOW",
+          "expected_accuracy": "15-30%",
+          "confidence_score": 32,
+          "prediction_notes": "Unknown event (lower confidence)",
+          "garages": {
+            "Grant Park North": 26915.657630400005,
+            "Grant Park South": 9564.368906400001,
+            "Millennium": 15150.637471200002,
+            "Lakeside": 7702.279384800001,
+            "Online": 25307.489407200002
+          }
+        }
+      ]
+    }
+  }
+}

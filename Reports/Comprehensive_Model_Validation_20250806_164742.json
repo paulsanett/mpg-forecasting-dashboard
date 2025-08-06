@@ -1,0 +1,1015 @@
+{
+  "validation_info": {
+    "model_version": "5.0 Comprehensive",
+    "validation_date": "2025-08-06T16:47:42.178759",
+    "total_tests": 50,
+    "target_accuracy": "2-5%"
+  },
+  "summary_statistics": {
+    "mean_error": 16.562438163346087,
+    "median_error": 9.153372874908587,
+    "std_error": 21.971232405516208
+  },
+  "detailed_results": [
+    {
+      "test_number": 1,
+      "date": "2025-01-15",
+      "year": 2025,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 47235.53,
+      "predicted_revenue": 45068.834702199514,
+      "error_percent": 4.587003253272451,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2025,
+        "month": 1,
+        "day_of_week": "Wednesday",
+        "base_revenue": 63128.18,
+        "seasonal_adjustment": "0.714x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 45068.834702199514
+      }
+    },
+    {
+      "test_number": 2,
+      "date": "2024-07-10",
+      "year": 2024,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 68667.25,
+      "predicted_revenue": 74616.98847203307,
+      "error_percent": 8.664594070729603,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 7,
+        "day_of_week": "Wednesday",
+        "base_revenue": 56369.465,
+        "seasonal_adjustment": "1.324x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 74616.98847203307
+      }
+    },
+    {
+      "test_number": 3,
+      "date": "2024-11-25",
+      "year": 2024,
+      "day_of_week": "Monday",
+      "actual_revenue": 76203.99,
+      "predicted_revenue": 58457.47253888801,
+      "error_percent": 23.28817357347298,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 11,
+        "day_of_week": "Monday",
+        "base_revenue": 56317.36,
+        "seasonal_adjustment": "1.038x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 58457.47253888801
+      }
+    },
+    {
+      "test_number": 4,
+      "date": "2018-09-28",
+      "year": 2018,
+      "day_of_week": "Friday",
+      "actual_revenue": 55415.69,
+      "predicted_revenue": 56589.62784159131,
+      "error_percent": 2.1184214102383434,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 9,
+        "day_of_week": "Friday",
+        "base_revenue": 55264.155,
+        "seasonal_adjustment": "1.024x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 56589.62784159131
+      }
+    },
+    {
+      "test_number": 5,
+      "date": "2018-01-22",
+      "year": 2018,
+      "day_of_week": "Monday",
+      "actual_revenue": 41457.09,
+      "predicted_revenue": 35028.72478454644,
+      "error_percent": 15.506069566034567,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 1,
+        "day_of_week": "Monday",
+        "base_revenue": 46685.41,
+        "seasonal_adjustment": "0.750x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 35028.72478454644
+      }
+    },
+    {
+      "test_number": 6,
+      "date": "2025-01-04",
+      "year": 2025,
+      "day_of_week": "Saturday",
+      "actual_revenue": 70587.33,
+      "predicted_revenue": 74235.72243372671,
+      "error_percent": 5.168622235359672,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2025,
+        "month": 1,
+        "day_of_week": "Saturday",
+        "base_revenue": 103982.41,
+        "seasonal_adjustment": "0.714x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 74235.72243372671
+      }
+    },
+    {
+      "test_number": 7,
+      "date": "2019-01-05",
+      "year": 2019,
+      "day_of_week": "Saturday",
+      "actual_revenue": 66708.99,
+      "predicted_revenue": 48142.403837713915,
+      "error_percent": 27.832209964932897,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 1,
+        "day_of_week": "Saturday",
+        "base_revenue": 69182.715,
+        "seasonal_adjustment": "0.696x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 48142.403837713915
+      }
+    },
+    {
+      "test_number": 8,
+      "date": "2019-08-03",
+      "year": 2019,
+      "day_of_week": "Saturday",
+      "actual_revenue": 81486.27,
+      "predicted_revenue": 90845.93386437788,
+      "error_percent": 11.486185174972263,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 8,
+        "day_of_week": "Saturday",
+        "base_revenue": 69182.715,
+        "seasonal_adjustment": "1.313x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 90845.93386437788
+      }
+    },
+    {
+      "test_number": 9,
+      "date": "2023-01-04",
+      "year": 2023,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 43395.23,
+      "predicted_revenue": 39354.38718716367,
+      "error_percent": 9.311721156533402,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2023,
+        "month": 1,
+        "day_of_week": "Wednesday",
+        "base_revenue": 53104.869999999995,
+        "seasonal_adjustment": "0.741x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 39354.38718716367
+      }
+    },
+    {
+      "test_number": 10,
+      "date": "2017-08-04",
+      "year": 2017,
+      "day_of_week": "Friday",
+      "actual_revenue": 63848.67,
+      "predicted_revenue": 78741.11766829256,
+      "error_percent": 23.324601230209744,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2017,
+        "month": 8,
+        "day_of_week": "Friday",
+        "base_revenue": 58037.32,
+        "seasonal_adjustment": "1.357x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 78741.11766829256
+      }
+    },
+    {
+      "test_number": 11,
+      "date": "2024-12-05",
+      "year": 2024,
+      "day_of_week": "Thursday",
+      "actual_revenue": 58400.0,
+      "predicted_revenue": 78192.24601174936,
+      "error_percent": 33.89083221189959,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 12,
+        "day_of_week": "Thursday",
+        "base_revenue": 65976.84,
+        "seasonal_adjustment": "1.185x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 78192.24601174936
+      }
+    },
+    {
+      "test_number": 12,
+      "date": "2024-01-01",
+      "year": 2024,
+      "day_of_week": "Monday",
+      "actual_revenue": 87388.4,
+      "predicted_revenue": 38409.25413469116,
+      "error_percent": 56.04765147926823,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 1,
+        "day_of_week": "Monday",
+        "base_revenue": 56317.36,
+        "seasonal_adjustment": "0.682x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 38409.25413469116
+      }
+    },
+    {
+      "test_number": 13,
+      "date": "2023-08-15",
+      "year": 2023,
+      "day_of_week": "Tuesday",
+      "actual_revenue": 68178.39,
+      "predicted_revenue": 65878.58745857916,
+      "error_percent": 3.3732133325835925,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2023,
+        "month": 8,
+        "day_of_week": "Tuesday",
+        "base_revenue": 53935.82,
+        "seasonal_adjustment": "1.221x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 65878.58745857916
+      }
+    },
+    {
+      "test_number": 14,
+      "date": "2025-01-11",
+      "year": 2025,
+      "day_of_week": "Saturday",
+      "actual_revenue": 64846.61,
+      "predicted_revenue": 74235.72243372671,
+      "error_percent": 14.478956469315374,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2025,
+        "month": 1,
+        "day_of_week": "Saturday",
+        "base_revenue": 103982.41,
+        "seasonal_adjustment": "0.714x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 74235.72243372671
+      }
+    },
+    {
+      "test_number": 15,
+      "date": "2023-04-13",
+      "year": 2023,
+      "day_of_week": "Thursday",
+      "actual_revenue": 62173.66,
+      "predicted_revenue": 59450.46390244354,
+      "error_percent": 4.379983577541462,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2023,
+        "month": 4,
+        "day_of_week": "Thursday",
+        "base_revenue": 63160.645000000004,
+        "seasonal_adjustment": "0.941x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 59450.46390244354
+      }
+    },
+    {
+      "test_number": 16,
+      "date": "2018-07-02",
+      "year": 2018,
+      "day_of_week": "Monday",
+      "actual_revenue": 74913.92,
+      "predicted_revenue": 68810.30364286553,
+      "error_percent": 8.147506307418523,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 7,
+        "day_of_week": "Monday",
+        "base_revenue": 46685.41,
+        "seasonal_adjustment": "1.474x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 68810.30364286553
+      }
+    },
+    {
+      "test_number": 17,
+      "date": "2019-04-20",
+      "year": 2019,
+      "day_of_week": "Saturday",
+      "actual_revenue": 63186.42,
+      "predicted_revenue": 62335.670181544476,
+      "error_percent": 1.3464124387099672,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 4,
+        "day_of_week": "Saturday",
+        "base_revenue": 69182.715,
+        "seasonal_adjustment": "0.901x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 62335.670181544476
+      }
+    },
+    {
+      "test_number": 18,
+      "date": "2024-10-14",
+      "year": 2024,
+      "day_of_week": "Monday",
+      "actual_revenue": 77342.47,
+      "predicted_revenue": 59696.48576453103,
+      "error_percent": 22.815387503746607,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 10,
+        "day_of_week": "Monday",
+        "base_revenue": 56317.36,
+        "seasonal_adjustment": "1.060x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 59696.48576453103
+      }
+    },
+    {
+      "test_number": 19,
+      "date": "2023-10-02",
+      "year": 2023,
+      "day_of_week": "Monday",
+      "actual_revenue": 47999.29,
+      "predicted_revenue": 46470.67744486607,
+      "error_percent": 3.1846565962411697,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2023,
+        "month": 10,
+        "day_of_week": "Monday",
+        "base_revenue": 52248.020000000004,
+        "seasonal_adjustment": "0.889x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 46470.67744486607
+      }
+    },
+    {
+      "test_number": 20,
+      "date": "2023-07-01",
+      "year": 2023,
+      "day_of_week": "Saturday",
+      "actual_revenue": 44893.46,
+      "predicted_revenue": 108725.81711554124,
+      "error_percent": 142.18631648249266,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2023,
+        "month": 7,
+        "day_of_week": "Saturday",
+        "base_revenue": 87468.175,
+        "seasonal_adjustment": "1.243x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 108725.81711554124
+      }
+    },
+    {
+      "test_number": 21,
+      "date": "2018-11-29",
+      "year": 2018,
+      "day_of_week": "Thursday",
+      "actual_revenue": 49265.03,
+      "predicted_revenue": 51078.28915823228,
+      "error_percent": 3.6806212403245846,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 11,
+        "day_of_week": "Thursday",
+        "base_revenue": 54853.3,
+        "seasonal_adjustment": "0.931x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 51078.28915823228
+      }
+    },
+    {
+      "test_number": 22,
+      "date": "2024-11-28",
+      "year": 2024,
+      "day_of_week": "Thursday",
+      "actual_revenue": 62965.1,
+      "predicted_revenue": 68484.02184517542,
+      "error_percent": 8.765048963910834,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 11,
+        "day_of_week": "Thursday",
+        "base_revenue": 65976.84,
+        "seasonal_adjustment": "1.038x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 68484.02184517542
+      }
+    },
+    {
+      "test_number": 23,
+      "date": "2017-11-12",
+      "year": 2017,
+      "day_of_week": "Sunday",
+      "actual_revenue": 76346.95,
+      "predicted_revenue": 62788.08929587775,
+      "error_percent": 17.759531591140508,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2017,
+        "month": 11,
+        "day_of_week": "Sunday",
+        "base_revenue": 68311.66,
+        "seasonal_adjustment": "0.919x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 62788.08929587775
+      }
+    },
+    {
+      "test_number": 24,
+      "date": "2019-11-11",
+      "year": 2019,
+      "day_of_week": "Monday",
+      "actual_revenue": 34015.08,
+      "predicted_revenue": 44833.54769179166,
+      "error_percent": 31.80491620714006,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 11,
+        "day_of_week": "Monday",
+        "base_revenue": 47229.445,
+        "seasonal_adjustment": "0.949x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 44833.54769179166
+      }
+    },
+    {
+      "test_number": 25,
+      "date": "2024-06-19",
+      "year": 2024,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 49946.15,
+      "predicted_revenue": 65886.1150163502,
+      "error_percent": 31.91430173566972,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 6,
+        "day_of_week": "Wednesday",
+        "base_revenue": 56369.465,
+        "seasonal_adjustment": "1.169x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 65886.1150163502
+      }
+    },
+    {
+      "test_number": 26,
+      "date": "2017-03-02",
+      "year": 2017,
+      "day_of_week": "Thursday",
+      "actual_revenue": 45059.3,
+      "predicted_revenue": 47022.36846580177,
+      "error_percent": 4.356633293907724,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2017,
+        "month": 3,
+        "day_of_week": "Thursday",
+        "base_revenue": 54544.66,
+        "seasonal_adjustment": "0.862x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 47022.36846580177
+      }
+    },
+    {
+      "test_number": 27,
+      "date": "2019-10-11",
+      "year": 2019,
+      "day_of_week": "Friday",
+      "actual_revenue": 48592.73,
+      "predicted_revenue": 54035.49981425001,
+      "error_percent": 11.200790353310069,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 10,
+        "day_of_week": "Friday",
+        "base_revenue": 56989.305,
+        "seasonal_adjustment": "0.948x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 54035.49981425001
+      }
+    },
+    {
+      "test_number": 28,
+      "date": "2022-09-10",
+      "year": 2022,
+      "day_of_week": "Saturday",
+      "actual_revenue": 108647.26,
+      "predicted_revenue": 85918.94522214134,
+      "error_percent": 20.919363063420704,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2022,
+        "month": 9,
+        "day_of_week": "Saturday",
+        "base_revenue": 82938.25,
+        "seasonal_adjustment": "1.036x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 85918.94522214134
+      }
+    },
+    {
+      "test_number": 29,
+      "date": "2024-12-06",
+      "year": 2024,
+      "day_of_week": "Friday",
+      "actual_revenue": 72820.68,
+      "predicted_revenue": 84202.91988352632,
+      "error_percent": 15.63050480100753,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 12,
+        "day_of_week": "Friday",
+        "base_revenue": 71048.51,
+        "seasonal_adjustment": "1.185x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 84202.91988352632
+      }
+    },
+    {
+      "test_number": 30,
+      "date": "2025-07-20",
+      "year": 2025,
+      "day_of_week": "Sunday",
+      "actual_revenue": 119729.96,
+      "predicted_revenue": 102410.8473177418,
+      "error_percent": 14.46514530052311,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2025,
+        "month": 7,
+        "day_of_week": "Sunday",
+        "base_revenue": 80307.72,
+        "seasonal_adjustment": "1.275x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 102410.8473177418
+      }
+    },
+    {
+      "test_number": 31,
+      "date": "2022-06-20",
+      "year": 2022,
+      "day_of_week": "Monday",
+      "actual_revenue": 64751.53,
+      "predicted_revenue": 61760.9166188907,
+      "error_percent": 4.618598790035235,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2022,
+        "month": 6,
+        "day_of_week": "Monday",
+        "base_revenue": 48285.729999999996,
+        "seasonal_adjustment": "1.279x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 61760.9166188907
+      }
+    },
+    {
+      "test_number": 32,
+      "date": "2024-08-06",
+      "year": 2024,
+      "day_of_week": "Tuesday",
+      "actual_revenue": 69431.96,
+      "predicted_revenue": 73302.96121841422,
+      "error_percent": 5.575244049590722,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 8,
+        "day_of_week": "Tuesday",
+        "base_revenue": 54848.49,
+        "seasonal_adjustment": "1.336x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 73302.96121841422
+      }
+    },
+    {
+      "test_number": 33,
+      "date": "2017-05-27",
+      "year": 2017,
+      "day_of_week": "Saturday",
+      "actual_revenue": 134275.2,
+      "predicted_revenue": 76704.07645403997,
+      "error_percent": 42.87547033700939,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2017,
+        "month": 5,
+        "day_of_week": "Saturday",
+        "base_revenue": 74397.075,
+        "seasonal_adjustment": "1.031x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 76704.07645403997
+      }
+    },
+    {
+      "test_number": 34,
+      "date": "2019-05-27",
+      "year": 2019,
+      "day_of_week": "Monday",
+      "actual_revenue": 44280.87,
+      "predicted_revenue": 46793.33082812033,
+      "error_percent": 5.673919297701977,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 5,
+        "day_of_week": "Monday",
+        "base_revenue": 47229.445,
+        "seasonal_adjustment": "0.991x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 46793.33082812033
+      }
+    },
+    {
+      "test_number": 35,
+      "date": "2018-12-12",
+      "year": 2018,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 47862.92,
+      "predicted_revenue": 52168.20142506374,
+      "error_percent": 8.995024593283775,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 12,
+        "day_of_week": "Wednesday",
+        "base_revenue": 47993.665,
+        "seasonal_adjustment": "1.087x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 52168.20142506374
+      }
+    },
+    {
+      "test_number": 36,
+      "date": "2018-11-10",
+      "year": 2018,
+      "day_of_week": "Saturday",
+      "actual_revenue": 51172.75,
+      "predicted_revenue": 66989.98361053415,
+      "error_percent": 30.90948524465492,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 11,
+        "day_of_week": "Saturday",
+        "base_revenue": 71940.97,
+        "seasonal_adjustment": "0.931x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 66989.98361053415
+      }
+    },
+    {
+      "test_number": 37,
+      "date": "2019-03-11",
+      "year": 2019,
+      "day_of_week": "Monday",
+      "actual_revenue": 44463.99,
+      "predicted_revenue": 43401.215662652,
+      "error_percent": 2.3901911127363897,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 3,
+        "day_of_week": "Monday",
+        "base_revenue": 47229.445,
+        "seasonal_adjustment": "0.919x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 43401.215662652
+      }
+    },
+    {
+      "test_number": 38,
+      "date": "2018-07-09",
+      "year": 2018,
+      "day_of_week": "Monday",
+      "actual_revenue": 66238.83,
+      "predicted_revenue": 68810.30364286553,
+      "error_percent": 3.8821241903963735,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 7,
+        "day_of_week": "Monday",
+        "base_revenue": 46685.41,
+        "seasonal_adjustment": "1.474x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 68810.30364286553
+      }
+    },
+    {
+      "test_number": 39,
+      "date": "2017-03-17",
+      "year": 2017,
+      "day_of_week": "Friday",
+      "actual_revenue": 52111.88,
+      "predicted_revenue": 50033.353325653625,
+      "error_percent": 3.988585087213074,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2017,
+        "month": 3,
+        "day_of_week": "Friday",
+        "base_revenue": 58037.32,
+        "seasonal_adjustment": "0.862x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 50033.353325653625
+      }
+    },
+    {
+      "test_number": 40,
+      "date": "2018-01-24",
+      "year": 2018,
+      "day_of_week": "Wednesday",
+      "actual_revenue": 36841.07,
+      "predicted_revenue": 36010.32705264276,
+      "error_percent": 2.25493707798726,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 1,
+        "day_of_week": "Wednesday",
+        "base_revenue": 47993.665,
+        "seasonal_adjustment": "0.750x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 36010.32705264276
+      }
+    },
+    {
+      "test_number": 41,
+      "date": "2024-09-24",
+      "year": 2024,
+      "day_of_week": "Tuesday",
+      "actual_revenue": 49332.06,
+      "predicted_revenue": 59264.946578117415,
+      "error_percent": 20.13474924444148,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 9,
+        "day_of_week": "Tuesday",
+        "base_revenue": 54848.49,
+        "seasonal_adjustment": "1.081x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 59264.946578117415
+      }
+    },
+    {
+      "test_number": 42,
+      "date": "2018-04-30",
+      "year": 2018,
+      "day_of_week": "Monday",
+      "actual_revenue": 50794.55,
+      "predicted_revenue": 44006.69291172874,
+      "error_percent": 13.363357069353437,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 4,
+        "day_of_week": "Monday",
+        "base_revenue": 46685.41,
+        "seasonal_adjustment": "0.943x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 44006.69291172874
+      }
+    },
+    {
+      "test_number": 43,
+      "date": "2019-06-17",
+      "year": 2019,
+      "day_of_week": "Monday",
+      "actual_revenue": 61479.5,
+      "predicted_revenue": 65613.05452810235,
+      "error_percent": 6.723468030973498,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 6,
+        "day_of_week": "Monday",
+        "base_revenue": 47229.445,
+        "seasonal_adjustment": "1.389x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 65613.05452810235
+      }
+    },
+    {
+      "test_number": 44,
+      "date": "2018-07-26",
+      "year": 2018,
+      "day_of_week": "Thursday",
+      "actual_revenue": 79413.91,
+      "predicted_revenue": 80849.07530667922,
+      "error_percent": 1.807196379927925,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 7,
+        "day_of_week": "Thursday",
+        "base_revenue": 54853.3,
+        "seasonal_adjustment": "1.474x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 80849.07530667922
+      }
+    },
+    {
+      "test_number": 45,
+      "date": "2024-02-03",
+      "year": 2024,
+      "day_of_week": "Saturday",
+      "actual_revenue": 60936.32,
+      "predicted_revenue": 79163.90783393684,
+      "error_percent": 29.912518238608506,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2024,
+        "month": 2,
+        "day_of_week": "Saturday",
+        "base_revenue": 99629.83,
+        "seasonal_adjustment": "0.795x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 79163.90783393684
+      }
+    },
+    {
+      "test_number": 46,
+      "date": "2019-09-16",
+      "year": 2019,
+      "day_of_week": "Monday",
+      "actual_revenue": 46989.47,
+      "predicted_revenue": 44647.638657895965,
+      "error_percent": 4.983736445854862,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 9,
+        "day_of_week": "Monday",
+        "base_revenue": 47229.445,
+        "seasonal_adjustment": "0.945x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 44647.638657895965
+      }
+    },
+    {
+      "test_number": 47,
+      "date": "2025-03-07",
+      "year": 2025,
+      "day_of_week": "Friday",
+      "actual_revenue": 51872.69,
+      "predicted_revenue": 71067.84879362621,
+      "error_percent": 37.004363555516804,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2025,
+        "month": 3,
+        "day_of_week": "Friday",
+        "base_revenue": 75202.17,
+        "seasonal_adjustment": "0.945x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 71067.84879362621
+      }
+    },
+    {
+      "test_number": 48,
+      "date": "2018-12-10",
+      "year": 2018,
+      "day_of_week": "Monday",
+      "actual_revenue": 45591.75,
+      "predicted_revenue": 50746.15311190935,
+      "error_percent": 11.305561010291004,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 12,
+        "day_of_week": "Monday",
+        "base_revenue": 46685.41,
+        "seasonal_adjustment": "1.087x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 50746.15311190935
+      }
+    },
+    {
+      "test_number": 49,
+      "date": "2019-05-16",
+      "year": 2019,
+      "day_of_week": "Thursday",
+      "actual_revenue": 52002.97,
+      "predicted_revenue": 53905.728234354196,
+      "error_percent": 3.6589414688318653,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2019,
+        "month": 5,
+        "day_of_week": "Thursday",
+        "base_revenue": 54408.130000000005,
+        "seasonal_adjustment": "0.991x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 53905.728234354196
+      }
+    },
+    {
+      "test_number": 50,
+      "date": "2018-01-23",
+      "year": 2018,
+      "day_of_week": "Tuesday",
+      "actual_revenue": 38240.14,
+      "predicted_revenue": 35781.657553778714,
+      "error_percent": 6.429062357567952,
+      "events": [],
+      "prediction_breakdown": {
+        "year": 2018,
+        "month": 1,
+        "day_of_week": "Tuesday",
+        "base_revenue": 47688.899999999994,
+        "seasonal_adjustment": "0.750x",
+        "event_details": [],
+        "weather_details": "No weather data",
+        "final_revenue": 35781.657553778714
+      }
+    }
+  ]
+}

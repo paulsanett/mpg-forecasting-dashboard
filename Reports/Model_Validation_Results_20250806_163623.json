@@ -1,0 +1,675 @@
+{
+  "timestamp": "2025-08-06T16:36:23.073586",
+  "total_predictions": 50,
+  "mean_error_percentage": 54.7930111317231,
+  "median_error_percentage": 30.25239307283197,
+  "detailed_results": [
+    {
+      "date": "2024-01-03",
+      "day_of_week": "WED",
+      "actual_revenue": 51124.74,
+      "predicted_revenue": 81376.1,
+      "error": 30251.360000000008,
+      "error_percentage": 59.17166522509456,
+      "events": [
+        "Field Museum free days"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-02-07",
+      "day_of_week": "WED",
+      "actual_revenue": 46342.13,
+      "predicted_revenue": 81376.1,
+      "error": 35033.97000000001,
+      "error_percentage": 75.59853204848378,
+      "events": [
+        "Field Museum free days"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-04-29",
+      "day_of_week": "MON",
+      "actual_revenue": 46890.69,
+      "predicted_revenue": 84923.8,
+      "error": 38033.11,
+      "error_percentage": 81.11015214320796,
+      "events": [
+        "Chicago Youth in Music Festival Finale: Shostakovich 4"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-11-26",
+      "day_of_week": "TUE",
+      "actual_revenue": 76353.17,
+      "predicted_revenue": 76473.8,
+      "error": 120.63000000000466,
+      "error_percentage": 0.15798951111002288,
+      "events": [
+        "Mean Girls",
+        "Berliner Philharmoniker"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-08-23",
+      "day_of_week": "FRI",
+      "actual_revenue": 76610.58,
+      "predicted_revenue": 100285.90000000001,
+      "error": 23675.320000000007,
+      "error_percentage": 30.9034600703976,
+      "events": [
+        "Magic Men Australia",
+        "Sandra Delgado\u2019s La Havana Madrid",
+        "Omar Apollo",
+        "2024 AVP Chicago"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-07-23",
+      "day_of_week": "TUE",
+      "actual_revenue": 77535.92,
+      "predicted_revenue": 76473.8,
+      "error": 1062.1199999999953,
+      "error_percentage": 1.369842519441306,
+      "events": [
+        "MP Summer Film Series:\nCoco",
+        "Visiting Masters - Natalie Joachim, composer"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-10-06",
+      "day_of_week": "SUN",
+      "actual_revenue": 147802.63,
+      "predicted_revenue": 133937.7,
+      "error": 13864.929999999993,
+      "error_percentage": 9.380705877831803,
+      "events": [
+        "Bears vs Carolina Panthers",
+        "Leonora"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-01-14",
+      "day_of_week": "SUN",
+      "actual_revenue": 17630.01,
+      "predicted_revenue": 103029.0,
+      "error": 85398.99,
+      "error_percentage": 484.3955845742572,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-06-08",
+      "day_of_week": "SAT",
+      "actual_revenue": 84923.5,
+      "predicted_revenue": 148171.4,
+      "error": 63247.899999999994,
+      "error_percentage": 74.47632280817442,
+      "events": [
+        "American Cancer Society Walk & Roll",
+        "Summer Fireworks",
+        "Walk & Roll Chicago",
+        "Millennium Park Summer Workouts"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-09-27",
+      "day_of_week": "FRI",
+      "actual_revenue": 73701.87,
+      "predicted_revenue": 100285.90000000001,
+      "error": 26584.030000000013,
+      "error_percentage": 36.06968181404355,
+      "events": [
+        "Dane Cook",
+        "Porter Robinson",
+        "Chicago Gourmet: Hamburger Hop"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-02-11",
+      "day_of_week": "SUN",
+      "actual_revenue": 32714.38,
+      "predicted_revenue": 103029.0,
+      "error": 70314.62,
+      "error_percentage": 214.93490018762392,
+      "events": [
+        "Super Bowl"
+      ],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-09-08",
+      "day_of_week": "SUN",
+      "actual_revenue": 176696.46,
+      "predicted_revenue": 133937.7,
+      "error": 42758.75999999998,
+      "error_percentage": 24.198990743787387,
+      "events": [
+        "Gospel Run",
+        "Bears vs Tennessee Titans",
+        "RuPaul's Drag Race All Stars LIVE",
+        "National Louis University Move-Out"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-11-24",
+      "day_of_week": "SUN",
+      "actual_revenue": 151039.79,
+      "predicted_revenue": 133937.7,
+      "error": 17102.089999999997,
+      "error_percentage": 11.322903719609247,
+      "events": [
+        "The Tragedy of Hamlet: Prince of Denmark",
+        "Daniel Bernard Roumain (DBR): Voices of Migration & Innovation",
+        "Bears vs Minnesota Vikings"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-02-02",
+      "day_of_week": "FRI",
+      "actual_revenue": 42356.93,
+      "predicted_revenue": 100285.90000000001,
+      "error": 57928.97000000001,
+      "error_percentage": 136.7638542264513,
+      "events": [
+        "Christian McBride\u2019s The Movement Revisited",
+        "Jazzmeia Horn",
+        "Groundhog Day (observed)"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-03-29",
+      "day_of_week": "FRI",
+      "actual_revenue": 67242.09,
+      "predicted_revenue": 100285.90000000001,
+      "error": 33043.81000000001,
+      "error_percentage": 49.14155702179991,
+      "events": [
+        "Bianca Del Rio",
+        "Good Friday",
+        "The Music of Bach"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-08-21",
+      "day_of_week": "WED",
+      "actual_revenue": 44115.17,
+      "predicted_revenue": 81376.1,
+      "error": 37260.93000000001,
+      "error_percentage": 84.46285030750195,
+      "events": [
+        "Field Museum free days",
+        "Adler free days",
+        "Jazzin' at the Shedd",
+        "Summer Fireworks",
+        "DePaul: Move-In"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-12-22",
+      "day_of_week": "SUN",
+      "actual_revenue": 159497.41,
+      "predicted_revenue": 133937.7,
+      "error": 25559.709999999992,
+      "error_percentage": 16.025156772138175,
+      "events": [
+        "Bears vs Detroit Lions",
+        "Straight No Chaser"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-04-30",
+      "day_of_week": "TUE",
+      "actual_revenue": 51718.32,
+      "predicted_revenue": 76473.8,
+      "error": 24755.480000000003,
+      "error_percentage": 47.86597863194319,
+      "events": [
+        "Death Becomes Her",
+        "Mamma Mia!",
+        "The Simon Garfunkel Story"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-05-24",
+      "day_of_week": "FRI",
+      "actual_revenue": 58613.67,
+      "predicted_revenue": 100285.90000000001,
+      "error": 41672.23000000001,
+      "error_percentage": 71.09643535373235,
+      "events": [
+        "Sofia Ni\u00f1o de Rivera \u2013 Gira 2024",
+        "Bryson Tiller"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-06-25",
+      "day_of_week": "TUE",
+      "actual_revenue": 61552.5,
+      "predicted_revenue": 58826.0,
+      "error": 2726.5,
+      "error_percentage": 4.429552008448073,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-06-20",
+      "day_of_week": "THU",
+      "actual_revenue": 74031.64,
+      "predicted_revenue": 91083.2,
+      "error": 17051.559999999998,
+      "error_percentage": 23.032800570134604,
+      "events": [
+        "Tchaikovsky Path\u00e9tique & Trifonov",
+        "Theatre Communications Group\u2019s 3-day National Conference",
+        "Art Institute free days",
+        "Wait Wait... Don't Tell Me",
+        "Movies In the Park"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-11-20",
+      "day_of_week": "WED",
+      "actual_revenue": 53079.88,
+      "predicted_revenue": 81376.1,
+      "error": 28296.22000000001,
+      "error_percentage": 53.308749002446895,
+      "events": [
+        "Field Museum free days",
+        "Adler free days/Adler At Night",
+        "Amos Lee with Chicago Philharmonic"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-01-30",
+      "day_of_week": "TUE",
+      "actual_revenue": 42631.07,
+      "predicted_revenue": 58826.0,
+      "error": 16194.93,
+      "error_percentage": 37.988560925165615,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-08-25",
+      "day_of_week": "SUN",
+      "actual_revenue": 153149.12,
+      "predicted_revenue": 133937.7,
+      "error": 19211.419999999984,
+      "error_percentage": 12.544257518423862,
+      "events": [
+        "Sinatra by Request",
+        "Sunday in the Park with Lyric",
+        "DePaul: Move-In"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-12-27",
+      "day_of_week": "FRI",
+      "actual_revenue": 94689.09,
+      "predicted_revenue": 77143.0,
+      "error": 17546.089999999997,
+      "error_percentage": 18.53021293160595,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-10-03",
+      "day_of_week": "THU",
+      "actual_revenue": 57356.09,
+      "predicted_revenue": 91083.2,
+      "error": 33727.11,
+      "error_percentage": 58.803014640642346,
+      "events": [
+        "Rex Orange County",
+        "Wait Wait... Don't Tell Me",
+        "Kaleo"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-08-11",
+      "day_of_week": "SUN",
+      "actual_revenue": 169548.18,
+      "predicted_revenue": 133937.7,
+      "error": 35610.47999999998,
+      "error_percentage": 21.003162640849336,
+      "events": [
+        "Metallica: M72 World Tour",
+        "Ellen DeGeneres"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-09-02",
+      "day_of_week": "MON",
+      "actual_revenue": 105925.06,
+      "predicted_revenue": 84923.8,
+      "error": 21001.259999999995,
+      "error_percentage": 19.82652641405159,
+      "events": [
+        "The Wallows",
+        "Labor Day (Federal)"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-05-23",
+      "day_of_week": "THU",
+      "actual_revenue": 71761.62,
+      "predicted_revenue": 91083.2,
+      "error": 19321.58,
+      "error_percentage": 26.924670875601752,
+      "events": [
+        "International Mr. Leather",
+        "Salonen Conducts Mahler Resurrection",
+        "Neil Young & Crazy Horse"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-06-11",
+      "day_of_week": "TUE",
+      "actual_revenue": 67928.08,
+      "predicted_revenue": 76473.8,
+      "error": 8545.720000000001,
+      "error_percentage": 12.58054106637491,
+      "events": [
+        "The Kite Runner",
+        "Ravel Bol\u00e9ro",
+        "Sarah McLachlan"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-03-17",
+      "day_of_week": "SUN",
+      "actual_revenue": 64873.82,
+      "predicted_revenue": 103029.0,
+      "error": 38155.18,
+      "error_percentage": 58.81444934181462,
+      "events": [
+        "St. Patrick's Day (observed)"
+      ],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-01-29",
+      "day_of_week": "MON",
+      "actual_revenue": 40585.18,
+      "predicted_revenue": 84923.8,
+      "error": 44338.62,
+      "error_percentage": 109.2483019663828,
+      "events": [
+        "Mullova Plays Bach"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-11-07",
+      "day_of_week": "THU",
+      "actual_revenue": 62601.52,
+      "predicted_revenue": 91083.2,
+      "error": 28481.68,
+      "error_percentage": 45.49678665949325,
+      "events": [
+        "Silkroad Ensemble: American Railroad",
+        "King Diamond",
+        "Wait Wait... Don't Tell Me"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-01-05",
+      "day_of_week": "FRI",
+      "actual_revenue": 49226.39,
+      "predicted_revenue": 77143.0,
+      "error": 27916.61,
+      "error_percentage": 56.71065865280798,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-06-17",
+      "day_of_week": "MON",
+      "actual_revenue": 60514.98,
+      "predicted_revenue": 65326.0,
+      "error": 4811.019999999997,
+      "error_percentage": 7.950130694912229,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-01-28",
+      "day_of_week": "SUN",
+      "actual_revenue": 34327.11,
+      "predicted_revenue": 133937.7,
+      "error": 99610.59000000001,
+      "error_percentage": 290.1805307816475,
+      "events": [
+        "Civic Fellows Chamber Concert"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-12-13",
+      "day_of_week": "FRI",
+      "actual_revenue": 80284.47,
+      "predicted_revenue": 100285.90000000001,
+      "error": 20001.430000000008,
+      "error_percentage": 24.91319927751906,
+      "events": [
+        "Manual Cinema's Christmas Carol",
+        "Elf in Concert",
+        "Caroling at the Bean/Holiday Sing-A-Long",
+        "Joyce DiDonato + Kings Return present KINGS ReJOYCE! with Craig Terry",
+        "The Moth Mainstage",
+        "Caroling at the Bean/Holiday Sing-A-Long",
+        "Jennifer Hudson's The Gift of Love: An Intimate Live Experience"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-07-18",
+      "day_of_week": "THU",
+      "actual_revenue": 91002.09,
+      "predicted_revenue": 91083.2,
+      "error": 81.11000000000058,
+      "error_percentage": 0.08912982108432958,
+      "events": [
+        "MP20 - Millennium Park 20th Anniversary",
+        "Art Institute free days",
+        "\u00a1S\u00fabelo!",
+        "Wait Wait... Don't Tell Me",
+        "The Basement Yard Experience",
+        "Movies In the Park"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-05-27",
+      "day_of_week": "MON",
+      "actual_revenue": 120632.67,
+      "predicted_revenue": 84923.8,
+      "error": 35708.869999999995,
+      "error_percentage": 29.60132607526634,
+      "events": [
+        "Memorial Day (Federal)",
+        "Memorial Day Ceremony"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-03-05",
+      "day_of_week": "TUE",
+      "actual_revenue": 48990.64,
+      "predicted_revenue": 58826.0,
+      "error": 9835.36,
+      "error_percentage": 20.07599819067479,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-09-21",
+      "day_of_week": "SAT",
+      "actual_revenue": 118373.48,
+      "predicted_revenue": 148171.4,
+      "error": 29797.92,
+      "error_percentage": 25.17280052930775,
+      "events": [
+        "Chicago Live!",
+        "Lang Lang & The Firebird",
+        "Richard Dawkins",
+        "Sigor Ros",
+        "Walk to End Alzheimers",
+        "Chicago Football Classic",
+        "BrainUp 7th Annual 5K Run/Walk",
+        "Jeff Tweedy (Wilco)"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-05-26",
+      "day_of_week": "SUN",
+      "actual_revenue": 141853.67,
+      "predicted_revenue": 133937.7,
+      "error": 7915.970000000001,
+      "error_percentage": 5.580377300072674,
+      "events": [
+        "Western Springs School of Talent Education & Naperville Suzuki School"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-09-13",
+      "day_of_week": "FRI",
+      "actual_revenue": 63262.21,
+      "predicted_revenue": 100285.90000000001,
+      "error": 37023.69000000001,
+      "error_percentage": 58.52418054949394,
+      "events": [
+        "Grito & Fabor Fest",
+        "Bassem Youssef"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-04-17",
+      "day_of_week": "WED",
+      "actual_revenue": 53012.49,
+      "predicted_revenue": 81376.1,
+      "error": 28363.610000000008,
+      "error_percentage": 53.50363659582867,
+      "events": [
+        "Alvin Ailey American Dance Theater",
+        "Field Museum free days",
+        "National Hellenic Museum \u201cTrial Event\u201d"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-05-06",
+      "day_of_week": "MON",
+      "actual_revenue": 50559.29,
+      "predicted_revenue": 65326.0,
+      "error": 14766.71,
+      "error_percentage": 29.206719477271136,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2024-09-30",
+      "day_of_week": "MON",
+      "actual_revenue": 53253.42,
+      "predicted_revenue": 84923.8,
+      "error": 31670.380000000005,
+      "error_percentage": 59.47107246820956,
+      "events": [
+        "Roosevelt Homecoming Week",
+        "Luis Fonsi \u2013 25 A\u00d1OS TOUR"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-08-03",
+      "day_of_week": "SAT",
+      "actual_revenue": 141141.71,
+      "predicted_revenue": 148171.4,
+      "error": 7029.690000000002,
+      "error_percentage": 4.980590075038769,
+      "events": [
+        "Bruckner Symphony No. 4",
+        "Comedy Bang Bang",
+        "Summer Fireworks",
+        "Millennium Park Summer Workouts"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-12-10",
+      "day_of_week": "TUE",
+      "actual_revenue": 61412.57,
+      "predicted_revenue": 76473.8,
+      "error": 15061.230000000003,
+      "error_percentage": 24.52466978665769,
+      "events": [
+        "The Hip Hop Nutcracker",
+        "A Chanticleer Christmas"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-09-10",
+      "day_of_week": "TUE",
+      "actual_revenue": 56503.98,
+      "predicted_revenue": 76473.8,
+      "error": 19969.82,
+      "error_percentage": 35.342324558376234,
+      "events": [
+        "Harry Potter and the Cursed Child",
+        "The Book of Mormon",
+        "Avril Lavigne, Simple Plan & Girlfriends"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2024-10-19",
+      "day_of_week": "SAT",
+      "actual_revenue": 144072.45,
+      "predicted_revenue": 148171.4,
+      "error": 4098.9499999999825,
+      "error_percentage": 2.8450616339209764,
+      "events": [
+        "Carnival of the Animals",
+        "Chicago Fire FC vs. Nashville SC",
+        "Arts In the Dark Parade",
+        "Felipe Esparza",
+        "Step Afrika!",
+        "Kendall College Open House",
+        "Philharmonia Fantastique",
+        "Avatar: The Last Airbender In Concert",
+        "Field Museum Gala"
+      ],
+      "event_multiplier": 1.3
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "timestamp": "2025-08-06T16:43:46.476319",
+  "total_predictions": 50,
+  "mean_error_percentage": 36.86608115323396,
+  "median_error_percentage": 24.913195724546195,
+  "detailed_results": [
+    {
+      "date": "2023-03-14",
+      "day_of_week": "TUE",
+      "actual_revenue": 62953.16,
+      "predicted_revenue": 73153.6,
+      "error": 10200.440000000002,
+      "error_percentage": 16.203221569814765,
+      "events": [
+        "Get (Chick) Lit: Women Writers",
+        "Jay Shetty",
+        "TINA \u2013 The Tina Turner Musical"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-12-08",
+      "day_of_week": "FRI",
+      "actual_revenue": 72348.0,
+      "predicted_revenue": 90608.7,
+      "error": 18260.699999999997,
+      "error_percentage": 25.240089567092383,
+      "events": [
+        "Chicago Gay Men\u2019s Chorus: The Big 4-0, ho ho!",
+        "The Nose",
+        "Home Alone in Concert"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-07-09",
+      "day_of_week": "SUN",
+      "actual_revenue": 78892.1,
+      "predicted_revenue": 90551.0,
+      "error": 11658.899999999994,
+      "error_percentage": 14.778285785268732,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-09-11",
+      "day_of_week": "MON",
+      "actual_revenue": 52435.58,
+      "predicted_revenue": 58379.0,
+      "error": 5943.419999999998,
+      "error_percentage": 11.33470822674222,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-06-07",
+      "day_of_week": "WED",
+      "actual_revenue": 61051.61,
+      "predicted_revenue": 75410.40000000001,
+      "error": 14358.790000000008,
+      "error_percentage": 23.5191012980657,
+      "events": [
+        "Salon Series: Masterclass with Jennifer Gunn",
+        "Dermot Kennedy"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-04",
+      "day_of_week": "WED",
+      "actual_revenue": 67864.82,
+      "predicted_revenue": 75410.40000000001,
+      "error": 7545.580000000002,
+      "error_percentage": 11.118544188284888,
+      "events": [
+        "Chicago Fire FC vs. Inter Miami CF"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-06-23",
+      "day_of_week": "FRI",
+      "actual_revenue": 77089.02,
+      "predicted_revenue": 90608.7,
+      "error": 13519.679999999993,
+      "error_percentage": 17.53775051232976,
+      "events": [
+        "Pride in the Park",
+        "Young the Giant & Milky Chance",
+        "GPMF: Mendelssohn Midsummer Night's Dream",
+        "Muti Conducts Beethoven Missa solemnis"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-07-06",
+      "day_of_week": "THU",
+      "actual_revenue": 89113.75,
+      "predicted_revenue": 67026.0,
+      "error": 22087.75,
+      "error_percentage": 24.786017870418426,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-05-07",
+      "day_of_week": "SUN",
+      "actual_revenue": 82626.72,
+      "predicted_revenue": 117716.3,
+      "error": 35089.58,
+      "error_percentage": 42.467594018012576,
+      "events": [
+        "V\u00edkingur \u00d3lafsson",
+        "Civic Fellows Chamber Music"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-02-04",
+      "day_of_week": "SAT",
+      "actual_revenue": 49928.63,
+      "predicted_revenue": 98873.0,
+      "error": 48944.37,
+      "error_percentage": 98.02866611801687,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-06-06",
+      "day_of_week": "TUE",
+      "actual_revenue": 61205.12,
+      "predicted_revenue": 73153.6,
+      "error": 11948.480000000003,
+      "error_percentage": 19.52202691539532,
+      "events": [
+        "Barenaked Ladies",
+        "Debussy La mer & Ravel La valse"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-03-10",
+      "day_of_week": "FRI",
+      "actual_revenue": 47208.89,
+      "predicted_revenue": 90608.7,
+      "error": 43399.81,
+      "error_percentage": 91.93143494795154,
+      "events": [
+        "Alvin Ailey American Dance Theater",
+        "Maria Schneider Orchestra: Data Lords"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-12-28",
+      "day_of_week": "THU",
+      "actual_revenue": 73992.36,
+      "predicted_revenue": 67026.0,
+      "error": 6966.360000000001,
+      "error_percentage": 9.414972032247654,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-10-13",
+      "day_of_week": "FRI",
+      "actual_revenue": 49683.25,
+      "predicted_revenue": 90608.7,
+      "error": 40925.45,
+      "error_percentage": 82.37273125248448,
+      "events": [
+        "Anoushka Shankar",
+        "Jimmy Carr"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-09-02",
+      "day_of_week": "SAT",
+      "actual_revenue": 118906.33,
+      "predicted_revenue": 128534.90000000001,
+      "error": 9628.570000000007,
+      "error_percentage": 8.097609269414006,
+      "events": [
+        "Millennium Park Summer Workouts"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-07",
+      "day_of_week": "SAT",
+      "actual_revenue": 68356.27,
+      "predicted_revenue": 128534.90000000001,
+      "error": 60178.630000000005,
+      "error_percentage": 88.03673752239554,
+      "events": [
+        "Chicago Sinfonietta: Amplify",
+        "Chicago Fire FC vs. Charlotte FC",
+        "Ben Schwartz",
+        "2023 Walk to End Alzheimer's - Chicago"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-06-24",
+      "day_of_week": "SAT",
+      "actual_revenue": 104394.17,
+      "predicted_revenue": 128534.90000000001,
+      "error": 24140.73000000001,
+      "error_percentage": 23.124595942474578,
+      "events": [
+        "Millennium Park Summer Workouts",
+        "GPMF: Mendelssohn Midsummer Night's Dream",
+        "Muti Conducts Beethoven Missa solemnis"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-07-30",
+      "day_of_week": "SUN",
+      "actual_revenue": 110547.8,
+      "predicted_revenue": 90551.0,
+      "error": 19996.800000000003,
+      "error_percentage": 18.088826733774894,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-10-20",
+      "day_of_week": "FRI",
+      "actual_revenue": 56144.74,
+      "predicted_revenue": 90608.7,
+      "error": 34463.96,
+      "error_percentage": 61.38412966201287,
+      "events": [
+        "Jim Jefferies",
+        "J.S. Bach: Mass in B minor BWV232",
+        "Columbia Weekend 2023"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-04-18",
+      "day_of_week": "TUE",
+      "actual_revenue": 51411.44,
+      "predicted_revenue": 73153.6,
+      "error": 21742.160000000003,
+      "error_percentage": 42.290509660884815,
+      "events": [
+        "CSO Brass Quintet at Symphony Center",
+        "Tax Day (observed)"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-09-10",
+      "day_of_week": "SUN",
+      "actual_revenue": 154515.8,
+      "predicted_revenue": 90551.0,
+      "error": 63964.79999999999,
+      "error_percentage": 41.39693157592944,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-10-10",
+      "day_of_week": "TUE",
+      "actual_revenue": 54354.0,
+      "predicted_revenue": 73153.6,
+      "error": 18799.600000000006,
+      "error_percentage": 34.58733487875779,
+      "events": [
+        "Get Lit: Cinema of Screams",
+        "Free Admission Day"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-06-12",
+      "day_of_week": "MON",
+      "actual_revenue": 70550.58,
+      "predicted_revenue": 75892.7,
+      "error": 5342.119999999995,
+      "error_percentage": 7.572042639479356,
+      "events": [
+        "Negaunee Music Institute Showcase"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-09-01",
+      "day_of_week": "FRI",
+      "actual_revenue": 64259.99,
+      "predicted_revenue": 90608.7,
+      "error": 26348.71,
+      "error_percentage": 41.00328991647836,
+      "events": [
+        "Columbia College Chicago New Student Convocation"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-08-18",
+      "day_of_week": "FRI",
+      "actual_revenue": 66509.48,
+      "predicted_revenue": 90608.7,
+      "error": 24099.22,
+      "error_percentage": 36.23426314564481,
+      "events": [
+        "GPMF: Rachmaninov Symphonic Dances"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-01",
+      "day_of_week": "SUN",
+      "actual_revenue": 119437.04,
+      "predicted_revenue": 117716.3,
+      "error": 1720.7399999999907,
+      "error_percentage": 1.440708845430187,
+      "events": [
+        "Chicago Bears vs. Denver Broncos",
+        "Gregory Alan Isakov",
+        "TwoSet Violin World Tour 2023/24"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-02-09",
+      "day_of_week": "THU",
+      "actual_revenue": 49310.77,
+      "predicted_revenue": 87133.8,
+      "error": 37823.030000000006,
+      "error_percentage": 76.70338548759229,
+      "events": [
+        "Shani Conducts Rachmaninov Symphonic Dances"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-11-17",
+      "day_of_week": "FRI",
+      "actual_revenue": 111297.88,
+      "predicted_revenue": 90608.7,
+      "error": 20689.180000000008,
+      "error_percentage": 18.589015352313996,
+      "events": [
+        "Nimesh Patel",
+        "Tree Lighting Ceremony",
+        "Christkindle Market",
+        "Brad Mehldau Trio",
+        "Millennium Park Holidays",
+        "Skating Ribbon Opens"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-01-10",
+      "day_of_week": "TUE",
+      "actual_revenue": 46186.92,
+      "predicted_revenue": 56272.0,
+      "error": 10085.080000000002,
+      "error_percentage": 21.835359448086173,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-08-04",
+      "day_of_week": "FRI",
+      "actual_revenue": 96027.66,
+      "predicted_revenue": 90608.7,
+      "error": 5418.960000000006,
+      "error_percentage": 5.643124074875932,
+      "events": [
+        "GPMF: Pines of Rome",
+        "Barack Obama Day (observed)"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-03-31",
+      "day_of_week": "FRI",
+      "actual_revenue": 54747.19,
+      "predicted_revenue": 90608.7,
+      "error": 35861.509999999995,
+      "error_percentage": 65.50383681792617,
+      "events": [
+        "Season 60 | Celebrate Giordano",
+        "Danilo P\u00e9rez\u2019s Global Messengers and Children of the Light with John Patitu",
+        "Tedeschi Trucks Band",
+        "Golden-Con: Thank You For Being A Fan 2023"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-01-17",
+      "day_of_week": "TUE",
+      "actual_revenue": 43674.21,
+      "predicted_revenue": 73153.6,
+      "error": 29479.390000000007,
+      "error_percentage": 67.49839321650009,
+      "events": [
+        "Youthful Genius"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-01-23",
+      "day_of_week": "MON",
+      "actual_revenue": 36820.13,
+      "predicted_revenue": 58379.0,
+      "error": 21558.870000000003,
+      "error_percentage": 58.55185736715216,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-09-05",
+      "day_of_week": "TUE",
+      "actual_revenue": 47736.66,
+      "predicted_revenue": 56272.0,
+      "error": 8535.339999999997,
+      "error_percentage": 17.880052772858416,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-10-25",
+      "day_of_week": "WED",
+      "actual_revenue": 48065.6,
+      "predicted_revenue": 58008.0,
+      "error": 9942.400000000001,
+      "error_percentage": 20.685063746213512,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-04-30",
+      "day_of_week": "SUN",
+      "actual_revenue": 55834.7,
+      "predicted_revenue": 117716.3,
+      "error": 61881.600000000006,
+      "error_percentage": 110.83000356409187,
+      "events": [
+        "March for Dimes (Babies)",
+        "National Geographic Live - Coral Kingdom and Empires of Ice",
+        "Jerusalem Quartet with Pinchas Zukerman & Amanda Forsyth",
+        "Breakthrough for Brain Tumors"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-03",
+      "day_of_week": "TUE",
+      "actual_revenue": 51995.95,
+      "predicted_revenue": 73153.6,
+      "error": 21157.65000000001,
+      "error_percentage": 40.69095766112555,
+      "events": [
+        "Free Admission Day",
+        "American Panorama"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-22",
+      "day_of_week": "SUN",
+      "actual_revenue": 101996.05,
+      "predicted_revenue": 117716.3,
+      "error": 15720.25,
+      "error_percentage": 15.412606664669855,
+      "events": [
+        "Jean-Yves Thibaudet, Lisa Batiashvili & Gautier Capu\u00e7on",
+        "Bears vs. Las Vegas Raiders",
+        "Disney Junior Live",
+        "Snow White and The Seven Dwarfs"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-11-05",
+      "day_of_week": "SUN",
+      "actual_revenue": 121117.9,
+      "predicted_revenue": 117716.3,
+      "error": 3401.5999999999913,
+      "error_percentage": 2.808503119687504,
+      "events": [
+        "Allstate Hot Chocolate 15K and 5K",
+        "Chicago Sinfonietta: Depth"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-24",
+      "day_of_week": "TUE",
+      "actual_revenue": 54494.96,
+      "predicted_revenue": 73153.6,
+      "error": 18658.640000000007,
+      "error_percentage": 34.23920303822594,
+      "events": [
+        "Free Admission Day",
+        "Gershwin & Bernstein"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-01-19",
+      "day_of_week": "THU",
+      "actual_revenue": 46231.73,
+      "predicted_revenue": 67026.0,
+      "error": 20794.269999999997,
+      "error_percentage": 44.97835144823695,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-01-15",
+      "day_of_week": "SUN",
+      "actual_revenue": 56518.48,
+      "predicted_revenue": 90551.0,
+      "error": 34032.52,
+      "error_percentage": 60.21485361955947,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-07-02",
+      "day_of_week": "SUN",
+      "actual_revenue": 72417.41,
+      "predicted_revenue": 90551.0,
+      "error": 18133.589999999997,
+      "error_percentage": 25.040373578673965,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-06-09",
+      "day_of_week": "FRI",
+      "actual_revenue": 76967.22,
+      "predicted_revenue": 90608.7,
+      "error": 13641.479999999996,
+      "error_percentage": 17.7237530470764,
+      "events": [
+        "Hr\u016f\u0161a Conducts Mahler 9"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-08-25",
+      "day_of_week": "FRI",
+      "actual_revenue": 61141.62,
+      "predicted_revenue": 69699.0,
+      "error": 8557.379999999997,
+      "error_percentage": 13.995998143326913,
+      "events": [],
+      "event_multiplier": 1.0
+    },
+    {
+      "date": "2023-04-21",
+      "day_of_week": "FRI",
+      "actual_revenue": 51531.47,
+      "predicted_revenue": 90608.7,
+      "error": 39077.229999999996,
+      "error_percentage": 75.83177813479801,
+      "events": [
+        "CSO at Wheaton: Trifonov Plays Rachmaninov Piano Concerto No. 3"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-08-15",
+      "day_of_week": "TUE",
+      "actual_revenue": 68178.39,
+      "predicted_revenue": 73153.6,
+      "error": 4975.210000000006,
+      "error_percentage": 7.297341577001168,
+      "events": [
+        "MP Summer Film Series\nTop Gun: Maverick"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-04-29",
+      "day_of_week": "SAT",
+      "actual_revenue": 64582.56,
+      "predicted_revenue": 128534.90000000001,
+      "error": 63952.34000000001,
+      "error_percentage": 99.02416379901945,
+      "events": [
+        "Kountry Wayne",
+        "PurpleStride Chicago",
+        "Chicago Fire FC vs. New York Red Bulls",
+        "Jurowski, Helmchen & Shostakovich 8"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-08-09",
+      "day_of_week": "WED",
+      "actual_revenue": 74836.62,
+      "predicted_revenue": 75410.40000000001,
+      "error": 573.7800000000134,
+      "error_percentage": 0.766710201502972,
+      "events": [
+        "GPMF: Cirque Returns"
+      ],
+      "event_multiplier": 1.3
+    },
+    {
+      "date": "2023-10-17",
+      "day_of_week": "TUE",
+      "actual_revenue": 48753.71,
+      "predicted_revenue": 73153.6,
+      "error": 24399.890000000007,
+      "error_percentage": 50.04724768638121,
+      "events": [
+        "Free Admission Day"
+      ],
+      "event_multiplier": 1.3
+    }
+  ]
+}

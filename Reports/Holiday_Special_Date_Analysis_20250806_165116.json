@@ -1,0 +1,117 @@
+{
+  "handler_info": {
+    "version": "1.0",
+    "created": "2025-08-06T16:51:16.355323",
+    "purpose": "Handle holidays and special dates for 2-5% accuracy target"
+  },
+  "holiday_patterns": {
+    "new_years_day": {
+      "dates": [
+        "01-01"
+      ],
+      "multiplier": 1.8,
+      "description": "New Year's Day - elevated activity"
+    },
+    "new_years_eve": {
+      "dates": [
+        "12-31"
+      ],
+      "multiplier": 2.2,
+      "description": "New Year's Eve - peak celebration activity"
+    },
+    "july_4th": {
+      "dates": [
+        "07-04"
+      ],
+      "multiplier": 1.9,
+      "description": "Independence Day - fireworks and events"
+    },
+    "july_4th_weekend": {
+      "dates": [
+        "07-03",
+        "07-05"
+      ],
+      "multiplier": 1.4,
+      "description": "July 4th weekend extension"
+    },
+    "memorial_day": {
+      "dates": [],
+      "multiplier": 1.3,
+      "description": "Memorial Day weekend"
+    },
+    "labor_day": {
+      "dates": [],
+      "multiplier": 1.2,
+      "description": "Labor Day weekend"
+    },
+    "thanksgiving": {
+      "dates": [],
+      "multiplier": 0.6,
+      "description": "Thanksgiving - reduced local activity"
+    },
+    "black_friday": {
+      "dates": [],
+      "multiplier": 1.1,
+      "description": "Black Friday - moderate shopping activity"
+    },
+    "christmas_eve": {
+      "dates": [
+        "12-24"
+      ],
+      "multiplier": 0.4,
+      "description": "Christmas Eve - very low activity"
+    },
+    "christmas_day": {
+      "dates": [
+        "12-25"
+      ],
+      "multiplier": 0.2,
+      "description": "Christmas Day - minimal activity"
+    },
+    "christmas_week": {
+      "dates": [
+        "12-26",
+        "12-27",
+        "12-28",
+        "12-29",
+        "12-30"
+      ],
+      "multiplier": 0.5,
+      "description": "Christmas week - low activity period"
+    }
+  },
+  "special_periods": {
+    "lollapalooza_week": {
+      "description": "Lollapalooza festival week - extended high activity",
+      "multiplier": 1.6,
+      "duration_days": 7
+    },
+    "chicago_marathon_weekend": {
+      "description": "Chicago Marathon weekend - high activity",
+      "multiplier": 1.8,
+      "duration_days": 3
+    },
+    "taste_of_chicago": {
+      "description": "Taste of Chicago - extended festival period",
+      "multiplier": 1.4,
+      "duration_days": 5
+    }
+  },
+  "weather_extremes": {
+    "extreme_cold": {
+      "condition": "<function HolidaySpecialDateHandler.__init__.<locals>.<lambda> at 0x100fc6660>",
+      "multiplier": 0.3,
+      "description": "Extreme cold - severely reduced activity"
+    },
+    "extreme_heat": {
+      "condition": "<function HolidaySpecialDateHandler.__init__.<locals>.<lambda> at 0x100fc6700>",
+      "multiplier": 0.7,
+      "description": "Extreme heat - reduced outdoor activity"
+    },
+    "severe_storm": {
+      "condition": "<function HolidaySpecialDateHandler.__init__.<locals>.<lambda> at 0x100fc67a0>",
+      "multiplier": 0.4,
+      "description": "Severe weather - major activity reduction"
+    }
+  }
+}
