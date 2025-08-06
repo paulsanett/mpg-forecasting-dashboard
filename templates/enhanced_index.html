@@ -419,10 +419,12 @@
                                 <th>Weather Mult.</th>
                                 <th>Total Mult.</th>
                                 <th>Total Revenue</th>
+                                <th>Confidence</th>
                                 <th>Grant Park North</th>
-                                <th>Lakeside</th>
                                 <th>Grant Park South</th>
                                 <th>Millennium</th>
+                                <th>Lakeside</th>
+                                <th>Online</th>
                             </tr>
                         </thead>
                         <tbody id="forecastTableBody">
@@ -668,10 +670,12 @@
                     <td><span class="multiplier">${row.weather_multiplier.toFixed(3)}x</span></td>
                     <td><span class="multiplier">${row.enhanced_features.total_multiplier.toFixed(3)}x</span></td>
                     <td class="currency"><strong>${formatCurrency(row.final_revenue)}</strong></td>
+                    <td><span class="confidence-badge">${row.confidence_score || 'N/A'}% (${row.confidence_level || 'N/A'})</span></td>
                     <td class="currency">${formatCurrency(row.garages['Grant Park North'] || 0)}</td>
-                    <td class="currency">${formatCurrency(row.garages['Lakeside'] || 0)}</td>
                     <td class="currency">${formatCurrency(row.garages['Grant Park South'] || 0)}</td>
                     <td class="currency">${formatCurrency(row.garages['Millennium'] || 0)}</td>
+                    <td class="currency">${formatCurrency(row.garages['Lakeside'] || 0)}</td>
+                    <td class="currency">${formatCurrency(row.garages['Online'] || 0)}</td>
                 `;
                 tbody.appendChild(tr);
             });
