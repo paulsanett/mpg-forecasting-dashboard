@@ -651,6 +651,8 @@ def api_forecast():
                         'strategic_classification': True,
                         'total_multiplier': row.get('event_multiplier', 1.0) * row.get('weather_multiplier', 1.0)
                     }
+                    # Add final_revenue field that chart expects
+                    enhanced_row['final_revenue'] = row.get('revenue', 0)
                     enhanced_data.append(enhanced_row)
                 
                 # Convert to expected frontend structure
