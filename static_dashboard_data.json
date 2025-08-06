@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-08-06 09:25:08",
+  "last_updated": "2025-08-06 11:58:01",
   "generated_by": "MPG Revenue Forecasting System V4.0",
   "model_accuracy": "91.3%",
   "forecasts": {
     "7_day": {
       "period": "7-Day Forecast",
-      "total_revenue": 680210.5686499999,
-      "daily_average": 97172.93837857142,
+      "total_revenue": 677362.4732936,
+      "daily_average": 96766.06761337143,
       "data": [
         {
           "date": "2025-08-06",
@@ -21,9 +21,9 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 83.84,
+            "temp_high": 84.29,
             "temp_low": 75.29,
-            "condition": "few clouds",
+            "condition": "scattered clouds",
             "precipitation": 0
           },
           "weather_multiplier": 0.97,
@@ -189,25 +189,25 @@
           ],
           "event_multiplier": 1.4,
           "weather": {
-            "temp_high": 74.48,
+            "temp_high": 80.37,
             "temp_low": 73.89,
             "condition": "light rain",
             "precipitation": 0.47
           },
-          "weather_multiplier": 0.855,
+          "weather_multiplier": 0.82935,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 120204.2068,
+          "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 18408.421206,
-            "Grant Park South": 6541.357220999999,
-            "Millennium": 10361.972942999999,
-            "Lakeside": 5267.818646999999,
-            "Online": 16729.665812999996
+            "Grant Park North": 17856.168569819998,
+            "Grant Park South": 6345.11650437,
+            "Millennium": 10051.113754709999,
+            "Lakeside": 5109.784087589999,
+            "Online": 16227.775838609998
           },
-          "original_revenue": 57888.11699999999,
-          "departure_revenue": 75219.2928,
+          "original_revenue": 56151.47349,
+          "departure_revenue": 74177.306694,
           "revenue_method": "departure_day_with_spillover",
           "spillover_revenue": 44984.914000000004
         },
@@ -231,7 +231,7 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 128448.92798,
+          "revenue": 126642.8187296,
           "garages": {
             "Grant Park North": 16068.063000000002,
             "Grant Park South": 5709.720500000001,
@@ -240,16 +240,16 @@
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
-          "departure_revenue": 90507.88668,
+          "departure_revenue": 89570.0991846,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 37941.0413
+          "spillover_revenue": 37072.719545
         }
       ]
     },
     "14_day": {
       "period": "14-Day Forecast",
-      "total_revenue": 1432253.99586,
-      "daily_average": 102303.85684714284,
+      "total_revenue": 1428711.2430995998,
+      "daily_average": 102050.80307854284,
       "data": [
         {
           "date": "2025-08-06",
@@ -264,9 +264,9 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 83.84,
+            "temp_high": 84.29,
             "temp_low": 75.29,
-            "condition": "few clouds",
+            "condition": "scattered clouds",
             "precipitation": 0
           },
           "weather_multiplier": 0.97,
@@ -432,25 +432,25 @@
           ],
           "event_multiplier": 1.4,
           "weather": {
-            "temp_high": 74.48,
+            "temp_high": 80.37,
             "temp_low": 73.89,
             "condition": "light rain",
             "precipitation": 0.47
           },
-          "weather_multiplier": 0.855,
+          "weather_multiplier": 0.82935,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 120204.2068,
+          "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 18408.421206,
-            "Grant Park South": 6541.357220999999,
-            "Millennium": 10361.972942999999,
-            "Lakeside": 5267.818646999999,
-            "Online": 16729.665812999996
+            "Grant Park North": 17856.168569819998,
+            "Grant Park South": 6345.11650437,
+            "Millennium": 10051.113754709999,
+            "Lakeside": 5109.784087589999,
+            "Online": 16227.775838609998
           },
-          "original_revenue": 57888.11699999999,
-          "departure_revenue": 75219.2928,
+          "original_revenue": 56151.47349,
+          "departure_revenue": 74177.306694,
           "revenue_method": "departure_day_with_spillover",
           "spillover_revenue": 44984.914000000004
         },
@@ -474,7 +474,7 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 128448.92798,
+          "revenue": 126642.8187296,
           "garages": {
             "Grant Park North": 16068.063000000002,
             "Grant Park South": 5709.720500000001,
@@ -483,9 +483,9 @@
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
-          "departure_revenue": 90507.88668,
+          "departure_revenue": 89570.0991846,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 37941.0413
+          "spillover_revenue": 37072.719545
         },
         {
           "date": "2025-08-13",
@@ -509,7 +509,7 @@
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 70547.72954999999,
+          "revenue": 69939.90432149998,
           "garages": {
             "Grant Park North": 20518.635815999998,
             "Grant Park South": 7291.213355999999,
@@ -518,9 +518,9 @@
             "Online": 18647.439467999997
           },
           "original_revenue": 64524.01199999999,
-          "departure_revenue": 57734.001449999996,
+          "departure_revenue": 57299.84057249999,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 12813.7281
+          "spillover_revenue": 12640.063749
         },
         {
           "date": "2025-08-14",
@@ -539,7 +539,7 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 119279.35532999999,
+          "revenue": 119192.52315449998,
           "garages": {
             "Grant Park North": 16495.82388,
             "Grant Park South": 5861.72358,
@@ -550,7 +550,7 @@
           "original_revenue": 51873.659999999996,
           "departure_revenue": 84122.94347999999,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 35156.41185
+          "spillover_revenue": 35069.5796745
         },
         {
           "date": "2025-08-15",
@@ -728,8 +728,8 @@
     },
     "30_day": {
       "period": "30-Day Forecast",
-      "total_revenue": 2726089.4431499997,
-      "daily_average": 90869.64810499999,
+      "total_revenue": 2722546.6903896,
+      "daily_average": 90751.55634632001,
       "data": [
         {
           "date": "2025-08-06",
@@ -744,9 +744,9 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 83.84,
+            "temp_high": 84.29,
             "temp_low": 75.29,
-            "condition": "few clouds",
+            "condition": "scattered clouds",
             "precipitation": 0
           },
           "weather_multiplier": 0.97,
@@ -912,25 +912,25 @@
           ],
           "event_multiplier": 1.4,
           "weather": {
-            "temp_high": 74.48,
+            "temp_high": 80.37,
             "temp_low": 73.89,
             "condition": "light rain",
             "precipitation": 0.47
           },
-          "weather_multiplier": 0.855,
+          "weather_multiplier": 0.82935,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 120204.2068,
+          "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 18408.421206,
-            "Grant Park South": 6541.357220999999,
-            "Millennium": 10361.972942999999,
-            "Lakeside": 5267.818646999999,
-            "Online": 16729.665812999996
+            "Grant Park North": 17856.168569819998,
+            "Grant Park South": 6345.11650437,
+            "Millennium": 10051.113754709999,
+            "Lakeside": 5109.784087589999,
+            "Online": 16227.775838609998
           },
-          "original_revenue": 57888.11699999999,
-          "departure_revenue": 75219.2928,
+          "original_revenue": 56151.47349,
+          "departure_revenue": 74177.306694,
           "revenue_method": "departure_day_with_spillover",
           "spillover_revenue": 44984.914000000004
         },
@@ -954,7 +954,7 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 128448.92798,
+          "revenue": 126642.8187296,
           "garages": {
             "Grant Park North": 16068.063000000002,
             "Grant Park South": 5709.720500000001,
@@ -963,9 +963,9 @@
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
-          "departure_revenue": 90507.88668,
+          "departure_revenue": 89570.0991846,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 37941.0413
+          "spillover_revenue": 37072.719545
         },
         {
           "date": "2025-08-13",
@@ -989,7 +989,7 @@
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 70547.72954999999,
+          "revenue": 69939.90432149998,
           "garages": {
             "Grant Park North": 20518.635815999998,
             "Grant Park South": 7291.213355999999,
@@ -998,9 +998,9 @@
             "Online": 18647.439467999997
           },
           "original_revenue": 64524.01199999999,
-          "departure_revenue": 57734.001449999996,
+          "departure_revenue": 57299.84057249999,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 12813.7281
+          "spillover_revenue": 12640.063749
         },
         {
           "date": "2025-08-14",
@@ -1019,7 +1019,7 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 119279.35532999999,
+          "revenue": 119192.52315449998,
           "garages": {
             "Grant Park North": 16495.82388,
             "Grant Park South": 5861.72358,
@@ -1030,7 +1030,7 @@
           "original_revenue": 51873.659999999996,
           "departure_revenue": 84122.94347999999,
           "revenue_method": "departure_day_with_spillover",
-          "spillover_revenue": 35156.41185
+          "spillover_revenue": 35069.5796745
         },
         {
           "date": "2025-08-15",
