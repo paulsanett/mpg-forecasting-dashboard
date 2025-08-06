@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-06 15:38:54",
+  "last_updated": "2025-08-06 15:57:28",
   "generated_by": "MPG Revenue Forecasting System V4.0",
   "model_accuracy": "91.3%",
   "forecasts": {
@@ -21,7 +21,7 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 85.73,
+            "temp_high": 86.16,
             "temp_low": 75.43,
             "condition": "broken clouds",
             "precipitation": 0
@@ -292,7 +292,7 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 85.73,
+            "temp_high": 86.16,
             "temp_low": 75.43,
             "condition": "broken clouds",
             "precipitation": 0
@@ -828,7 +828,7 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 85.73,
+            "temp_high": 86.16,
             "temp_low": 75.43,
             "condition": "broken clouds",
             "precipitation": 0
