@@ -234,9 +234,13 @@ class CleanForecaster:
         total_revenue = 0
         
         for i in range(days):
-            date = get_central_time() + timedelta(days=i)
-            date_str = date.strftime('%Y-%m-%d')
-            day_name = date.strftime('%A')
+            # Get Central Time date with proper timezone handling
+            central_date = get_central_time() + timedelta(days=i)
+            date_str = central_date.strftime('%Y-%m-%d')
+            day_name = central_date.strftime('%A')
+            
+            # Debug: Ensure we're using the right timezone
+            print(f"DEBUG: Day {i}: {date_str} = {day_name} (Central Time)")
             
             # Base revenue
             base_revenue = self.base_daily_revenue.get(day_name, 50000)
