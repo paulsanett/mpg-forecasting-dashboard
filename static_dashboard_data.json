@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-06 12:27:02",
+  "last_updated": "2025-08-06 12:29:49",
   "generated_by": "MPG Revenue Forecasting System V4.0",
   "model_accuracy": "91.3%",
   "forecasts": {
@@ -32,10 +32,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 35949.0924,
           "garages": {
-            "Grant Park North": 19053.018972,
-            "Grant Park South": 6770.412402000001,
-            "Millennium": 10724.812566,
-            "Lakeside": 5452.279014,
+            "Grant Park North": 19324.8166748816,
+            "Grant Park South": 6866.994604596292,
+            "Millennium": 10877.805612590588,
+            "Lakeside": 5530.057601931527,
             "Online": 17315.479506
           },
           "original_revenue": 59915.154,
@@ -65,10 +65,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 121447.73256,
           "garages": {
-            "Grant Park North": 19794.988656,
-            "Grant Park South": 7034.068296,
-            "Millennium": 11142.462168,
-            "Lakeside": 5664.603672,
+            "Grant Park North": 20077.370805158345,
+            "Grant Park South": 7134.411638310985,
+            "Millennium": 11301.413126174039,
+            "Lakeside": 5745.411142356634,
             "Online": 17989.785288
           },
           "original_revenue": 62248.392,
@@ -98,10 +98,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 95492.06612999999,
           "garages": {
-            "Grant Park North": 22028.023134000003,
-            "Grant Park South": 7827.567969000001,
-            "Millennium": 12399.421827,
-            "Lakeside": 6303.616683,
+            "Grant Park North": 22342.260268579175,
+            "Grant Park South": 7939.230850155494,
+            "Millennium": 12576.303736087022,
+            "Lakeside": 6393.539888178318,
             "Online": 20019.178257
           },
           "original_revenue": 69270.513,
@@ -136,10 +136,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 102460.81481999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -168,10 +168,10 @@
           "strategic_multiplier": 1.45,
           "revenue": 76207.72795999999,
           "garages": {
-            "Grant Park North": 28610.405304000004,
-            "Grant Park South": 10166.590564000002,
-            "Millennium": 16104.599212000001,
-            "Lakeside": 8187.254348,
+            "Grant Park North": 29018.542326881605,
+            "Grant Park South": 10311.620386596294,
+            "Millennium": 16334.33671859059,
+            "Lakeside": 8304.048275931527,
             "Online": 26001.280292
           },
           "original_revenue": 89969.82800000001,
@@ -200,10 +200,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 17856.168569819998,
-            "Grant Park South": 6345.11650437,
-            "Millennium": 10051.113754709999,
-            "Lakeside": 5109.784087589999,
+            "Grant Park North": 18110.892800487905,
+            "Grant Park South": 6435.631718412369,
+            "Millennium": 10194.496261909859,
+            "Lakeside": 5182.676870579871,
             "Online": 16227.775838609998
           },
           "original_revenue": 56151.47349,
@@ -233,10 +233,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 126642.8187296,
           "garages": {
-            "Grant Park North": 16068.063000000002,
-            "Grant Park South": 5709.720500000001,
-            "Millennium": 9044.6015,
-            "Lakeside": 4598.093500000001,
+            "Grant Park North": 16297.279305278178,
+            "Grant Park South": 5791.171577032812,
+            "Millennium": 9173.625772467905,
+            "Lakeside": 4663.686845221114,
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
@@ -275,10 +275,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 35949.0924,
           "garages": {
-            "Grant Park North": 19053.018972,
-            "Grant Park South": 6770.412402000001,
-            "Millennium": 10724.812566,
-            "Lakeside": 5452.279014,
+            "Grant Park North": 19324.8166748816,
+            "Grant Park South": 6866.994604596292,
+            "Millennium": 10877.805612590588,
+            "Lakeside": 5530.057601931527,
             "Online": 17315.479506
           },
           "original_revenue": 59915.154,
@@ -308,10 +308,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 121447.73256,
           "garages": {
-            "Grant Park North": 19794.988656,
-            "Grant Park South": 7034.068296,
-            "Millennium": 11142.462168,
-            "Lakeside": 5664.603672,
+            "Grant Park North": 20077.370805158345,
+            "Grant Park South": 7134.411638310985,
+            "Millennium": 11301.413126174039,
+            "Lakeside": 5745.411142356634,
             "Online": 17989.785288
           },
           "original_revenue": 62248.392,
@@ -341,10 +341,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 95492.06612999999,
           "garages": {
-            "Grant Park North": 22028.023134000003,
-            "Grant Park South": 7827.567969000001,
-            "Millennium": 12399.421827,
-            "Lakeside": 6303.616683,
+            "Grant Park North": 22342.260268579175,
+            "Grant Park South": 7939.230850155494,
+            "Millennium": 12576.303736087022,
+            "Lakeside": 6393.539888178318,
             "Online": 20019.178257
           },
           "original_revenue": 69270.513,
@@ -379,10 +379,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 102460.81481999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -411,10 +411,10 @@
           "strategic_multiplier": 1.45,
           "revenue": 76207.72795999999,
           "garages": {
-            "Grant Park North": 28610.405304000004,
-            "Grant Park South": 10166.590564000002,
-            "Millennium": 16104.599212000001,
-            "Lakeside": 8187.254348,
+            "Grant Park North": 29018.542326881605,
+            "Grant Park South": 10311.620386596294,
+            "Millennium": 16334.33671859059,
+            "Lakeside": 8304.048275931527,
             "Online": 26001.280292
           },
           "original_revenue": 89969.82800000001,
@@ -443,10 +443,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 17856.168569819998,
-            "Grant Park South": 6345.11650437,
-            "Millennium": 10051.113754709999,
-            "Lakeside": 5109.784087589999,
+            "Grant Park North": 18110.892800487905,
+            "Grant Park South": 6435.631718412369,
+            "Millennium": 10194.496261909859,
+            "Lakeside": 5182.676870579871,
             "Online": 16227.775838609998
           },
           "original_revenue": 56151.47349,
@@ -476,10 +476,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 126642.8187296,
           "garages": {
-            "Grant Park North": 16068.063000000002,
-            "Grant Park South": 5709.720500000001,
-            "Millennium": 9044.6015,
-            "Lakeside": 4598.093500000001,
+            "Grant Park North": 16297.279305278178,
+            "Grant Park South": 5791.171577032812,
+            "Millennium": 9173.625772467905,
+            "Lakeside": 4663.686845221114,
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
@@ -511,10 +511,10 @@
           "strategic_multiplier": 1.25,
           "revenue": 69939.90432149998,
           "garages": {
-            "Grant Park North": 20518.635815999998,
-            "Grant Park South": 7291.213355999999,
-            "Millennium": 11549.798147999998,
-            "Lakeside": 5871.685091999999,
+            "Grant Park North": 20811.341034487872,
+            "Grant Park South": 7395.224958796005,
+            "Millennium": 11714.559890482167,
+            "Lakeside": 5955.44664823395,
             "Online": 18647.439467999997
           },
           "original_revenue": 64524.01199999999,
@@ -541,10 +541,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 119192.52315449998,
           "garages": {
-            "Grant Park North": 16495.82388,
-            "Grant Park South": 5861.72358,
-            "Millennium": 9285.385139999999,
-            "Lakeside": 4720.503059999999,
+            "Grant Park North": 16731.142337631954,
+            "Grant Park South": 5945.3430319258205,
+            "Millennium": 9417.844271811698,
+            "Lakeside": 4787.842618630528,
             "Online": 14991.487739999999
           },
           "original_revenue": 51873.659999999996,
@@ -575,10 +575,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 84657.0186,
           "garages": {
-            "Grant Park North": 19215.563400000003,
-            "Grant Park South": 6828.1719,
-            "Millennium": 10816.3077,
-            "Lakeside": 5498.7933,
+            "Grant Park North": 19489.679853637663,
+            "Grant Park South": 6925.578061198289,
+            "Millennium": 10970.605955349502,
+            "Lakeside": 5577.235429814551,
             "Online": 17463.2007
           },
           "original_revenue": 60426.3,
@@ -615,10 +615,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 58931.76959999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -650,10 +650,10 @@
           "strategic_multiplier": 1.45,
           "revenue": 178258.84388,
           "garages": {
-            "Grant Park North": 28610.405304000004,
-            "Grant Park South": 10166.590564000002,
-            "Millennium": 16104.599212000001,
-            "Lakeside": 8187.254348,
+            "Grant Park North": 29018.542326881605,
+            "Grant Park South": 10311.620386596294,
+            "Millennium": 16334.33671859059,
+            "Lakeside": 8304.048275931527,
             "Online": 26001.280292
           },
           "original_revenue": 89969.82800000001,
@@ -680,10 +680,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 164486.4075,
           "garages": {
-            "Grant Park North": 15378.798,
-            "Grant Park South": 5464.793000000001,
-            "Millennium": 8656.618999999999,
-            "Lakeside": 4400.851,
+            "Grant Park North": 15598.181708987162,
+            "Grant Park South": 5542.750104136948,
+            "Millennium": 8780.108572039944,
+            "Lakeside": 4463.630614835949,
             "Online": 13976.329
           },
           "original_revenue": 48361.0,
@@ -713,10 +713,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 75882.30275,
           "garages": {
-            "Grant Park North": 15586.021110000001,
-            "Grant Park South": 5538.428885,
-            "Millennium": 8773.263455,
-            "Lakeside": 4460.150695,
+            "Grant Park North": 15808.36092611983,
+            "Grant Park South": 5617.436429721827,
+            "Millennium": 8898.416999293868,
+            "Lakeside": 4523.77623986448,
             "Online": 14164.654405
           },
           "original_revenue": 49012.645000000004,
@@ -755,10 +755,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 35949.0924,
           "garages": {
-            "Grant Park North": 19053.018972,
-            "Grant Park South": 6770.412402000001,
-            "Millennium": 10724.812566,
-            "Lakeside": 5452.279014,
+            "Grant Park North": 19324.8166748816,
+            "Grant Park South": 6866.994604596292,
+            "Millennium": 10877.805612590588,
+            "Lakeside": 5530.057601931527,
             "Online": 17315.479506
           },
           "original_revenue": 59915.154,
@@ -788,10 +788,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 121447.73256,
           "garages": {
-            "Grant Park North": 19794.988656,
-            "Grant Park South": 7034.068296,
-            "Millennium": 11142.462168,
-            "Lakeside": 5664.603672,
+            "Grant Park North": 20077.370805158345,
+            "Grant Park South": 7134.411638310985,
+            "Millennium": 11301.413126174039,
+            "Lakeside": 5745.411142356634,
             "Online": 17989.785288
           },
           "original_revenue": 62248.392,
@@ -821,10 +821,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 95492.06612999999,
           "garages": {
-            "Grant Park North": 22028.023134000003,
-            "Grant Park South": 7827.567969000001,
-            "Millennium": 12399.421827,
-            "Lakeside": 6303.616683,
+            "Grant Park North": 22342.260268579175,
+            "Grant Park South": 7939.230850155494,
+            "Millennium": 12576.303736087022,
+            "Lakeside": 6393.539888178318,
             "Online": 20019.178257
           },
           "original_revenue": 69270.513,
@@ -859,10 +859,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 102460.81481999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -891,10 +891,10 @@
           "strategic_multiplier": 1.45,
           "revenue": 76207.72795999999,
           "garages": {
-            "Grant Park North": 28610.405304000004,
-            "Grant Park South": 10166.590564000002,
-            "Millennium": 16104.599212000001,
-            "Lakeside": 8187.254348,
+            "Grant Park North": 29018.542326881605,
+            "Grant Park South": 10311.620386596294,
+            "Millennium": 16334.33671859059,
+            "Lakeside": 8304.048275931527,
             "Online": 26001.280292
           },
           "original_revenue": 89969.82800000001,
@@ -923,10 +923,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 119162.220694,
           "garages": {
-            "Grant Park North": 17856.168569819998,
-            "Grant Park South": 6345.11650437,
-            "Millennium": 10051.113754709999,
-            "Lakeside": 5109.784087589999,
+            "Grant Park North": 18110.892800487905,
+            "Grant Park South": 6435.631718412369,
+            "Millennium": 10194.496261909859,
+            "Lakeside": 5182.676870579871,
             "Online": 16227.775838609998
           },
           "original_revenue": 56151.47349,
@@ -956,10 +956,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 126642.8187296,
           "garages": {
-            "Grant Park North": 16068.063000000002,
-            "Grant Park South": 5709.720500000001,
-            "Millennium": 9044.6015,
-            "Lakeside": 4598.093500000001,
+            "Grant Park North": 16297.279305278178,
+            "Grant Park South": 5791.171577032812,
+            "Millennium": 9173.625772467905,
+            "Lakeside": 4663.686845221114,
             "Online": 14602.7365
           },
           "original_revenue": 50528.50000000001,
@@ -991,10 +991,10 @@
           "strategic_multiplier": 1.25,
           "revenue": 69939.90432149998,
           "garages": {
-            "Grant Park North": 20518.635815999998,
-            "Grant Park South": 7291.213355999999,
-            "Millennium": 11549.798147999998,
-            "Lakeside": 5871.685091999999,
+            "Grant Park North": 20811.341034487872,
+            "Grant Park South": 7395.224958796005,
+            "Millennium": 11714.559890482167,
+            "Lakeside": 5955.44664823395,
             "Online": 18647.439467999997
           },
           "original_revenue": 64524.01199999999,
@@ -1021,10 +1021,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 119192.52315449998,
           "garages": {
-            "Grant Park North": 16495.82388,
-            "Grant Park South": 5861.72358,
-            "Millennium": 9285.385139999999,
-            "Lakeside": 4720.503059999999,
+            "Grant Park North": 16731.142337631954,
+            "Grant Park South": 5945.3430319258205,
+            "Millennium": 9417.844271811698,
+            "Lakeside": 4787.842618630528,
             "Online": 14991.487739999999
           },
           "original_revenue": 51873.659999999996,
@@ -1055,10 +1055,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 84657.0186,
           "garages": {
-            "Grant Park North": 19215.563400000003,
-            "Grant Park South": 6828.1719,
-            "Millennium": 10816.3077,
-            "Lakeside": 5498.7933,
+            "Grant Park North": 19489.679853637663,
+            "Grant Park South": 6925.578061198289,
+            "Millennium": 10970.605955349502,
+            "Lakeside": 5577.235429814551,
             "Online": 17463.2007
           },
           "original_revenue": 60426.3,
@@ -1095,10 +1095,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 58931.76959999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -1130,10 +1130,10 @@
           "strategic_multiplier": 1.45,
           "revenue": 178258.84388,
           "garages": {
-            "Grant Park North": 28610.405304000004,
-            "Grant Park South": 10166.590564000002,
-            "Millennium": 16104.599212000001,
-            "Lakeside": 8187.254348,
+            "Grant Park North": 29018.542326881605,
+            "Grant Park South": 10311.620386596294,
+            "Millennium": 16334.33671859059,
+            "Lakeside": 8304.048275931527,
             "Online": 26001.280292
           },
           "original_revenue": 89969.82800000001,
@@ -1160,10 +1160,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 164486.4075,
           "garages": {
-            "Grant Park North": 15378.798,
-            "Grant Park South": 5464.793000000001,
-            "Millennium": 8656.618999999999,
-            "Lakeside": 4400.851,
+            "Grant Park North": 15598.181708987162,
+            "Grant Park South": 5542.750104136948,
+            "Millennium": 8780.108572039944,
+            "Lakeside": 4463.630614835949,
             "Online": 13976.329
           },
           "original_revenue": 48361.0,
@@ -1193,10 +1193,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 75882.30275,
           "garages": {
-            "Grant Park North": 15586.021110000001,
-            "Grant Park South": 5538.428885,
-            "Millennium": 8773.263455,
-            "Lakeside": 4460.150695,
+            "Grant Park North": 15808.36092611983,
+            "Grant Park South": 5617.436429721827,
+            "Millennium": 8898.416999293868,
+            "Lakeside": 4523.77623986448,
             "Online": 14164.654405
           },
           "original_revenue": 49012.645000000004,
@@ -1227,10 +1227,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 68279.658,
           "garages": {
-            "Grant Park North": 19053.018972,
-            "Grant Park South": 6770.412402000001,
-            "Millennium": 10724.812566,
-            "Lakeside": 5452.279014,
+            "Grant Park North": 19324.8166748816,
+            "Grant Park South": 6866.994604596292,
+            "Millennium": 10877.805612590588,
+            "Lakeside": 5530.057601931527,
             "Online": 17315.479506
           },
           "original_revenue": 59915.154,
@@ -1259,10 +1259,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 64272.63156,
           "garages": {
-            "Grant Park North": 18706.6044,
-            "Grant Park South": 6647.3154,
-            "Millennium": 10529.8182,
-            "Lakeside": 5353.1478,
+            "Grant Park North": 18973.4603828816,
+            "Grant Park South": 6742.141582596293,
+            "Millennium": 10680.029586590586,
+            "Lakeside": 5429.512247931527,
             "Online": 17000.6562
           },
           "original_revenue": 58825.8,
@@ -1292,10 +1292,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 63918.44745,
           "garages": {
-            "Grant Park North": 18639.096498,
-            "Grant Park South": 6623.326743,
-            "Millennium": 10491.818469,
-            "Lakeside": 5333.829501,
+            "Grant Park North": 18904.989458028533,
+            "Grant Park South": 6717.810719362341,
+            "Millennium": 10641.487776689019,
+            "Lakeside": 5409.918366920115,
             "Online": 16939.304678999997
           },
           "original_revenue": 58613.511,
@@ -1330,10 +1330,10 @@
           "strategic_multiplier": 1.5499999999999998,
           "revenue": 55451.77853999999,
           "garages": {
-            "Grant Park North": 30048.384131999996,
-            "Grant Park South": 10677.570462,
-            "Millennium": 16914.027545999998,
-            "Lakeside": 8598.751434,
+            "Grant Park North": 30477.03440492439,
+            "Grant Park South": 10829.889584139799,
+            "Millennium": 17155.31181912411,
+            "Lakeside": 8721.415505811696,
             "Online": 27308.122685999995
           },
           "original_revenue": 94491.77399999999,
@@ -1363,10 +1363,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 189838.62428,
           "garages": {
-            "Grant Park North": 24957.5304,
-            "Grant Park South": 8868.556400000001,
-            "Millennium": 14048.4212,
-            "Lakeside": 7141.9348,
+            "Grant Park North": 25313.55793780314,
+            "Grant Park South": 8995.069330099857,
+            "Millennium": 14248.826637945793,
+            "Lakeside": 7243.816894151212,
             "Online": 22681.5292
           },
           "original_revenue": 78482.8,
@@ -1395,10 +1395,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 93080.84055,
           "garages": {
-            "Grant Park North": 16409.177466,
-            "Grant Park South": 5830.934131000001,
-            "Millennium": 9236.612473000001,
-            "Lakeside": 4695.708017,
+            "Grant Park North": 16643.259883489303,
+            "Grant Park South": 5914.114361114124,
+            "Millennium": 9368.37584636662,
+            "Lakeside": 4762.6938660299575,
             "Online": 14912.743043
           },
           "original_revenue": 51601.187000000005,
@@ -1427,10 +1427,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 62743.67788,
           "garages": {
-            "Grant Park North": 17002.932119999998,
-            "Grant Park South": 6041.92242,
-            "Millennium": 9570.832859999999,
-            "Lakeside": 4865.618939999999,
+            "Grant Park North": 17245.484646676177,
+            "Grant Park South": 6128.112468787447,
+            "Millennium": 9707.363999229672,
+            "Lakeside": 4935.028625306704,
             "Online": 15452.350259999997
           },
           "original_revenue": 53468.34,
@@ -1462,10 +1462,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 66165.3576,
           "garages": {
-            "Grant Park North": 19642.287600000003,
-            "Grant Park South": 6979.806600000001,
-            "Millennium": 11056.5078,
-            "Lakeside": 5620.9062,
+            "Grant Park North": 19922.49141740371,
+            "Grant Park South": 7079.375881027106,
+            "Millennium": 11214.232590299574,
+            "Lakeside": 5701.090311269615,
             "Online": 17851.0098
           },
           "original_revenue": 61768.200000000004,
@@ -1495,10 +1495,10 @@
           "strategic_multiplier": 1.4,
           "revenue": 41068.5855,
           "garages": {
-            "Grant Park North": 20619.77985,
-            "Grant Park South": 7327.154475,
-            "Millennium": 11606.731424999998,
-            "Lakeside": 5900.628825,
+            "Grant Park North": 20913.927922039944,
+            "Grant Park South": 7431.678789907276,
+            "Millennium": 11772.305339764622,
+            "Lakeside": 5984.803273288159,
             "Online": 18739.359674999996
           },
           "original_revenue": 64842.075,
@@ -1528,10 +1528,10 @@
           "strategic_multiplier": 1.0,
           "revenue": 134790.16695,
           "garages": {
-            "Grant Park North": 18639.096498,
-            "Grant Park South": 6623.326743,
-            "Millennium": 10491.818469,
-            "Lakeside": 5333.829501,
+            "Grant Park North": 18904.989458028533,
+            "Grant Park South": 6717.810719362341,
+            "Millennium": 10641.487776689019,
+            "Lakeside": 5409.918366920115,
             "Online": 16939.304678999997
           },
           "original_revenue": 58613.511,
@@ -1565,10 +1565,10 @@
           "strategic_multiplier": 1.2999999999999998,
           "revenue": 123444.10779,
           "garages": {
-            "Grant Park North": 30977.7156,
-            "Grant Park South": 11007.8046,
-            "Millennium": 17437.141799999998,
-            "Lakeside": 8864.6922,
+            "Grant Park North": 31419.623097860196,
+            "Grant Park South": 11164.834622824537,
+            "Millennium": 17685.888473323823,
+            "Lakeside": 8991.15000599144,
             "Online": 28152.703799999996
           },
           "original_revenue": 97414.2,
@@ -1600,10 +1600,10 @@
           "strategic_multiplier": 1.15,
           "revenue": 89201.99195000001,
           "garages": {
-            "Grant Park North": 24208.804488,
-            "Grant Park South": 8602.499708000001,
-            "Millennium": 13626.968564,
-            "Lakeside": 6927.676756000001,
+            "Grant Park North": 24554.15119966905,
+            "Grant Park South": 8725.217250196863,
+            "Millennium": 13821.361838807421,
+            "Lakeside": 7026.502387326677,
             "Online": 22001.083324
           },
           "original_revenue": 76128.316,
@@ -1633,10 +1633,10 @@
           "strategic_multiplier": 1.25,
           "revenue": 61195.209240000004,
           "garages": {
-            "Grant Park North": 16916.6778,
-            "Grant Park South": 6011.2723000000005,
-            "Millennium": 9522.2809,
-            "Lakeside": 4840.936100000001,
+            "Grant Park North": 17157.99987988588,
+            "Grant Park South": 6097.025114550644,
+            "Millennium": 9658.11942924394,
+            "Lakeside": 4909.993676319544,
             "Online": 15373.9619
           },
           "original_revenue": 53197.100000000006,
@@ -1665,10 +1665,10 @@
           "strategic_multiplier": 1.1,
           "revenue": 59813.494,
           "garages": {
-            "Grant Park North": 17528.796,
-            "Grant Park South": 6228.786,
-            "Millennium": 9866.838,
-            "Lakeside": 5016.102,
+            "Grant Park North": 17778.850151212555,
+            "Grant Park South": 6317.64172039943,
+            "Millennium": 10007.591751783168,
+            "Lakeside": 5087.65837660485,
             "Online": 15930.257999999998
           },
           "original_revenue": 55122.0,
@@ -1698,10 +1698,10 @@
           "strategic_multiplier": 1.1,
           "revenue": 57369.21,
           "garages": {
-            "Grant Park North": 16620.3972,
-            "Grant Park South": 5905.9902,
-            "Millennium": 9355.5066,
-            "Lakeside": 4756.1514,
+            "Grant Park North": 16857.49273780314,
+            "Grant Park South": 5990.241130099857,
+            "Millennium": 9488.966037945793,
+            "Lakeside": 4823.999494151212,
             "Online": 15104.7006
           },
           "original_revenue": 52265.4,
@@ -1730,10 +1730,10 @@
           "strategic_multiplier": 1.1,
           "revenue": 63201.666,
           "garages": {
-            "Grant Park North": 18706.6044,
-            "Grant Park South": 6647.3154,
-            "Millennium": 10529.8182,
-            "Lakeside": 5353.1478,
+            "Grant Park North": 18973.4603828816,
+            "Grant Park South": 6742.141582596293,
+            "Millennium": 10680.029586590586,
+            "Lakeside": 5429.512247931527,
             "Online": 17000.6562
           },
           "original_revenue": 58825.8,
