@@ -39,16 +39,24 @@ class RobustCSVReader:
         print(f"📋 Total columns detected: {len(headers)}")
         
         # PRIMARY METHOD: Map by column positions (Excel columns)
-        # Column positions are 0-indexed, so H=7, N=13, T=19, Z=25, AG=32, AH=33, AI=34, AJ=35
+        # Column positions are 0-indexed, so H=7, N=13, T=19, Z=25, AB=27, AJ=35
+        # CORRECTED MAPPINGS per user specification 2025-08-06
         column_positions = {
-            7: 'gpn_revenue',      # Column H - Grant Park North
-            13: 'gps_revenue',     # Column N - Grant Park South  
-            19: 'lakeside_revenue', # Column T - Lakeside
-            25: 'millennium_revenue', # Column Z - Millennium Park
-            32: 'flex_daily_revenue', # Column AG - Flex Daily Revenue
-            33: 'transient_revenue',  # Column AH - Transient Revenue
-            34: 'online_revenue',     # Column AI - Online Revenue
-            35: 'total_revenue'       # Column AJ - Total Revenue
+            6: 'gpn_units',        # Column G - Grant Park North Units
+            7: 'gpn_revenue',      # Column H - Grant Park North Revenue
+            12: 'gps_units',       # Column M - Grant Park South Units  
+            13: 'gps_revenue',     # Column N - Grant Park South Revenue
+            18: 'lakeside_units',  # Column S - Lakeside Units
+            19: 'lakeside_revenue', # Column T - Lakeside Revenue
+            24: 'millennium_units', # Column Y - Millennium Park Units
+            25: 'millennium_revenue', # Column Z - Millennium Park Revenue
+            26: 'online_units',    # Column AA - Online Units
+            27: 'online_revenue',  # Column AB - Online Revenue (CORRECTED from AI)
+            31: 'total_units',     # Column AF - Total Units
+            35: 'total_revenue',   # Column AJ - Total Revenue
+            39: 'avg_reservation_value', # Column AN - Average Reservation Value
+            44: 'gas_price',       # Column AS - Gas Price (predictor) - "$ of Gas"
+            45: 'notes'            # Column AT - Notes (temperature, events)
         }
         
         # Map by position first

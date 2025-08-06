@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPG Precision Forecasting Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .accuracy-badge {
+            display: inline-block;
+            background: #27ae60;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .dashboard-content {
+            padding: 30px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 5px solid #3498db;
+        }
+        
+        .stat-card.excellent {
+            border-left-color: #27ae60;
+        }
+        
+        .stat-card.good {
+            border-left-color: #f39c12;
+        }
+        
+        .stat-card.performance {
+            border-left-color: #e74c3c;
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        
+        .forecast-section {
+            margin-top: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        
+        .forecast-controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        .btn.primary {
+            background: #27ae60;
+        }
+        
+        .btn.primary:hover {
+            background: #229954;
+        }
+        
+        .forecast-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .forecast-table th {
+            background: #34495e;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .forecast-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .forecast-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .confidence-badge {
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .confidence-excellent {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+        
+        .confidence-good {
+            background: #fef9e7;
+            color: #f39c12;
+        }
+        
+        .confidence-fair {
+            background: #fdedec;
+            color: #e74c3c;
+        }
+        
+        .confidence-low {
+            background: #eaecee;
+            color: #7f8c8d;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+        
+        .error {
+            background: #fdedec;
+            color: #e74c3c;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        
+        .learning-section {
+            margin-top: 30px;
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        .feedback-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
+            gap: 15px;
+            align-items: end;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .form-group input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        
+        .performance-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .metric-item {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #3498db;
+        }
+        
+        .metric-label {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .forecast-controls {
+                flex-direction: column;
+            }
+            
+            .feedback-form {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 MPG Precision Forecasting</h1>
+            <div class="subtitle">Advanced ML System with Confidence Scoring & Continuous Learning</div>
+            <div class="accuracy-badge">Target: 2-5% MAPE Accuracy</div>
+        </div>
+        
+        <div class="dashboard-content">
+            <!-- Summary Statistics -->
+            <div class="stats-grid">
+                <div class="stat-card excellent">
+                    <div class="stat-value" id="total-revenue">$0</div>
+                    <div class="stat-label">7-Day Total Revenue</div>
+                </div>
+                <div class="stat-card good">
+                    <div class="stat-value" id="daily-average">$0</div>
+                    <div class="stat-label">Daily Average</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="high-confidence-days">0</div>
+                    <div class="stat-label">High Confidence Days</div>
+                </div>
+                <div class="stat-card performance">
+                    <div class="stat-value" id="confidence-rate">0%</div>
+                    <div class="stat-label">High Confidence Rate</div>
+                </div>
+            </div>
+            
+            <!-- Forecast Section -->
+            <div class="forecast-section">
+                <h2 class="section-title">🚀 Precision Forecast</h2>
+                
+                <div class="forecast-controls">
+                    <button class="btn primary" onclick="generateForecast()">Generate Precision Forecast</button>
+                    <button class="btn" onclick="refreshData()">Refresh Data</button>
+                    <button class="btn" onclick="showModelPerformance()">Model Performance</button>
+                </div>
+                
+                <div id="loading" class="loading" style="display: none;">
+                    🔄 Generating precision forecast with confidence scoring...
+                </div>
+                
+                <div id="error" class="error" style="display: none;"></div>
+                
+                <table class="forecast-table" id="forecast-table" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Day</th>
+                            <th>Revenue Prediction</th>
+                            <th>Confidence Score</th>
+                            <th>Confidence Level</th>
+                            <th>Expected Error</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="forecast-body">
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Continuous Learning Section -->
+            <div class="learning-section">
+                <h2 class="section-title">🧠 Continuous Learning System</h2>
+                
+                <div class="feedback-form">
+                    <div class="form-group">
+                        <label for="actual-revenue">Actual Revenue (for feedback)</label>
+                        <input type="number" id="actual-revenue" placeholder="Enter actual revenue">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-feedback">User Feedback</label>
+                        <input type="text" id="user-feedback" placeholder="Optional feedback">
+                    </div>
+                    <button class="btn" onclick="submitFeedback()">Submit Feedback</button>
+                </div>
+                
+                <div class="performance-metrics" id="performance-metrics">
+                    <!-- Performance metrics will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentForecastData = null;
+        
+        async function generateForecast() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const table = document.getElementById('forecast-table');
+            
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            table.style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/precision_forecast?days=7');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                currentForecastData = data;
+                displayForecast(data);
+                updateSummaryStats(data);
+                
+            } catch (err) {
+                error.textContent = 'Error generating forecast: ' + err.message;
+                error.style.display = 'block';
+            } finally {
+                loading.style.display = 'none';
+            }
+        }
+        
+        function displayForecast(data) {
+            const tbody = document.getElementById('forecast-body');
+            const table = document.getElementById('forecast-table');
+            
+            tbody.innerHTML = '';
+            
+            data.forecast_data.forEach(day => {
+                const row = document.createElement('tr');
+                
+                const confidenceClass = getConfidenceClass(day.confidence);
+                const statusIcon = day.is_high_confidence ? '🎯' : '📈';
+                
+                row.innerHTML = `
+                    <td>${day.date}</td>
+                    <td>${day.day}</td>
+                    <td>$${Math.round(day.revenue).toLocaleString()}</td>
+                    <td>${(day.confidence * 100).toFixed(1)}%</td>
+                    <td><span class="confidence-badge ${confidenceClass}">${day.confidence_level}</span></td>
+                    <td>${day.expected_error}</td>
+                    <td>${statusIcon}</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+            
+            table.style.display = 'table';
+        }
+        
+        function getConfidenceClass(confidence) {
+            if (confidence >= 0.8) return 'confidence-excellent';
+            if (confidence >= 0.6) return 'confidence-good';
+            if (confidence >= 0.4) return 'confidence-fair';
+            return 'confidence-low';
+        }
+        
+        function updateSummaryStats(data) {
+            document.getElementById('total-revenue').textContent = '$' + Math.round(data.total_revenue).toLocaleString();
+            document.getElementById('daily-average').textContent = '$' + Math.round(data.daily_average).toLocaleString();
+            document.getElementById('high-confidence-days').textContent = data.high_confidence_days;
+            document.getElementById('confidence-rate').textContent = data.high_confidence_rate.toFixed(1) + '%';
+        }
+        
+        async function submitFeedback() {
+            const actualRevenue = document.getElementById('actual-revenue').value;
+            const userFeedback = document.getElementById('user-feedback').value;
+            
+            if (!actualRevenue && !userFeedback) {
+                alert('Please provide actual revenue or feedback');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/record_feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        prediction_data: currentForecastData,
+                        actual_revenue: actualRevenue ? parseFloat(actualRevenue) : null,
+                        user_feedback: userFeedback
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.error) {
+                    throw new Error(result.error);
+                }
+                
+                alert('Feedback recorded successfully! The system will learn from this data.');
+                document.getElementById('actual-revenue').value = '';
+                document.getElementById('user-feedback').value = '';
+                
+                // Refresh performance metrics
+                loadModelPerformance();
+                
+            } catch (err) {
+                alert('Error recording feedback: ' + err.message);
+            }
+        }
+        
+        async function loadModelPerformance() {
+            try {
+                const response = await fetch('/api/model_performance');
+                const data = await response.json();
+                
+                displayPerformanceMetrics(data.performance);
+                
+            } catch (err) {
+                console.error('Error loading performance metrics:', err);
+            }
+        }
+        
+        function displayPerformanceMetrics(performance) {
+            const container = document.getElementById('performance-metrics');
+            
+            if (!performance) {
+                container.innerHTML = '<div class="metric-item">No performance data available yet</div>';
+                return;
+            }
+            
+            container.innerHTML = `
+                <div class="metric-item">
+                    <div class="metric-value">${performance.recent_mape?.toFixed(1) || 'N/A'}%</div>
+                    <div class="metric-label">Recent MAPE</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">${performance.excellent_rate?.toFixed(1) || 'N/A'}%</div>
+                    <div class="metric-label">Excellent Rate (≤5%)</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">${performance.good_rate?.toFixed(1) || 'N/A'}%</div>
+                    <div class="metric-label">Good Rate (≤10%)</div>
+                </div>
+                <div class="metric-item">
+                    <div class="metric-value">${performance.total_predictions || 0}</div>
+                    <div class="metric-label">Total Predictions</div>
+                </div>
+            `;
+        }
+        
+        function refreshData() {
+            generateForecast();
+            loadModelPerformance();
+        }
+        
+        function showModelPerformance() {
+            loadModelPerformance();
+            document.querySelector('.learning-section').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            generateForecast();
+            loadModelPerformance();
+        });
+    </script>
+</body>
+</html>

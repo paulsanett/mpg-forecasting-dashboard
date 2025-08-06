@@ -1,0 +1,13 @@
+CALIBRATED BASELINE DAILY REVENUE VALUES
+==================================================
+
+Monday: 58731.49
+Tuesday: 57325.1
+Wednesday: 59195.89
+Thursday: 67684.945
+Friday: 74862.02
+Saturday: 105463.56
+Sunday: 96516.43
+
+Total Weekly: 519779.435
+Daily Average: 74254
