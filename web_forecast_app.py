@@ -648,7 +648,8 @@ def api_forecast():
                                                         for event in row.get('events', [])),
                         'departure_day_model': True,
                         'weather_integration': True,
-                        'strategic_classification': True
+                        'strategic_classification': True,
+                        'total_multiplier': row.get('event_multiplier', 1.0) * row.get('weather_multiplier', 1.0)
                     }
                     enhanced_data.append(enhanced_row)
                 
