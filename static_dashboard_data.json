@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-07 09:56:48",
+  "last_updated": "2025-08-07 14:16:10",
   "generated_by": "MPG Revenue Forecasting System V4.0",
   "model_accuracy": "91.3%",
   "forecasts": {
@@ -19,10 +19,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.97,
-            "temp_low": 78.4,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0,
           "day_category": "Baseline Days",
@@ -52,10 +52,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 88.05,
-            "temp_low": 71.55,
-            "condition": "moderate rain",
-            "precipitation": 6.45
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -90,10 +90,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.5,
-            "temp_low": 76.51,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -122,10 +122,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 89.8,
-            "temp_low": 73.78,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -154,10 +154,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 81.54,
-            "temp_low": 73.58,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -187,10 +187,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 73.62,
-            "temp_low": 72.32,
-            "condition": "moderate rain",
-            "precipitation": 5.73
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
@@ -262,10 +262,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.97,
-            "temp_low": 78.4,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0,
           "day_category": "Baseline Days",
@@ -295,10 +295,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 88.05,
-            "temp_low": 71.55,
-            "condition": "moderate rain",
-            "precipitation": 6.45
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -333,10 +333,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.5,
-            "temp_low": 76.51,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -365,10 +365,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 89.8,
-            "temp_low": 73.78,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -397,10 +397,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 81.54,
-            "temp_low": 73.58,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -430,10 +430,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 73.62,
-            "temp_low": 72.32,
-            "condition": "moderate rain",
-            "precipitation": 5.73
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
@@ -741,10 +741,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.97,
-            "temp_low": 78.4,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0,
           "day_category": "Baseline Days",
@@ -774,10 +774,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 88.05,
-            "temp_low": 71.55,
-            "condition": "moderate rain",
-            "precipitation": 6.45
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -812,10 +812,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 90.5,
-            "temp_low": 76.51,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -844,10 +844,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 89.8,
-            "temp_low": 73.78,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 80,
+            "temp_low": 66,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -876,10 +876,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 81.54,
-            "temp_low": 73.58,
-            "condition": "broken clouds",
-            "precipitation": 0
+            "temp_high": 83,
+            "temp_low": 68,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
@@ -909,10 +909,10 @@
           ],
           "event_multiplier": 1.3,
           "weather": {
-            "temp_high": 73.62,
-            "temp_low": 72.32,
-            "condition": "moderate rain",
-            "precipitation": 5.73
+            "temp_high": 86,
+            "temp_low": 70,
+            "condition": "partly cloudy",
+            "precipitation": 0.1
           },
           "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
