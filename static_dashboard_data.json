@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-08-07 09:12:53",
+  "last_updated": "2025-08-07 09:40:00",
   "generated_by": "MPG Revenue Forecasting System V4.0",
   "model_accuracy": "91.3%",
   "forecasts": {
     "7_day": {
       "period": "7-Day Forecast",
-      "total_revenue": 1077450.412546349,
-      "daily_average": 153921.48750662128,
+      "total_revenue": 791473.4506709334,
+      "daily_average": 113067.63581013333,
       "data": [
         {
           "date": "2025-08-07",
@@ -28,17 +28,17 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 147772.14466408506,
+          "revenue": 105954.70079999999,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 46991.54200317905,
-            "Grant Park South": 16698.252347041613,
-            "Millennium": 26451.213894871224,
-            "Lakeside": 13447.265164431741,
-            "Online": 44183.87125456143
+            "Grant Park North": 33693.5948544,
+            "Grant Park South": 11972.8811904,
+            "Millennium": 18965.8914432,
+            "Lakeside": 9641.877772799999,
+            "Online": 31680.455539199997
           }
         },
         {
@@ -57,21 +57,21 @@
             "condition": "moderate rain",
             "precipitation": 6.45
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -95,21 +95,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -127,21 +127,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -159,21 +159,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 127094.73679246093,
+          "revenue": 92685.42713386667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 40416.12630000258,
-            "Grant Park South": 14361.705257548085,
-            "Millennium": 22749.957885850505,
-            "Lakeside": 11565.621048113944,
-            "Online": 38001.32630094582
+            "Grant Park North": 29473.965828569602,
+            "Grant Park South": 10473.453266126935,
+            "Millennium": 16590.691456962133,
+            "Lakeside": 8434.373869181867,
+            "Online": 27712.942713026136
           }
         },
         {
@@ -192,21 +192,21 @@
             "condition": "moderate rain",
             "precipitation": 5.73
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -227,29 +227,29 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         }
       ]
     },
     "14_day": {
       "period": "14-Day Forecast",
-      "total_revenue": 2091470.0062950335,
-      "daily_average": 149390.71473535954,
+      "total_revenue": 1537460.0541546666,
+      "daily_average": 109818.5752967619,
       "data": [
         {
           "date": "2025-08-07",
@@ -271,17 +271,17 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 147772.14466408506,
+          "revenue": 105954.70079999999,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 46991.54200317905,
-            "Grant Park South": 16698.252347041613,
-            "Millennium": 26451.213894871224,
-            "Lakeside": 13447.265164431741,
-            "Online": 44183.87125456143
+            "Grant Park North": 33693.5948544,
+            "Grant Park South": 11972.8811904,
+            "Millennium": 18965.8914432,
+            "Lakeside": 9641.877772799999,
+            "Online": 31680.455539199997
           }
         },
         {
@@ -300,21 +300,21 @@
             "condition": "moderate rain",
             "precipitation": 6.45
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -338,21 +338,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -370,21 +370,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -402,21 +402,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 127094.73679246093,
+          "revenue": 92685.42713386667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 40416.12630000258,
-            "Grant Park South": 14361.705257548085,
-            "Millennium": 22749.957885850505,
-            "Lakeside": 11565.621048113944,
-            "Online": 38001.32630094582
+            "Grant Park North": 29473.965828569602,
+            "Grant Park South": 10473.453266126935,
+            "Millennium": 16590.691456962133,
+            "Lakeside": 8434.373869181867,
+            "Online": 27712.942713026136
           }
         },
         {
@@ -435,21 +435,21 @@
             "condition": "moderate rain",
             "precipitation": 5.73
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -470,21 +470,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         },
         {
@@ -500,21 +500,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 113670.88051083466,
+          "revenue": 81856.79833599999,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 48,
           "prediction_notes": "ML model (13.1% avg error)",
           "garages": {
-            "Grant Park North": 36147.340002445424,
-            "Grant Park South": 12844.809497724316,
-            "Millennium": 20347.0876114394,
-            "Lakeside": 10344.050126485954,
-            "Online": 33987.59327273956
+            "Grant Park North": 26030.461870847997,
+            "Grant Park South": 9249.818211967999,
+            "Millennium": 14652.366902143998,
+            "Lakeside": 7448.968648575999,
+            "Online": 24475.182702463997
           }
         },
         {
@@ -534,21 +534,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -574,21 +574,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -609,21 +609,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -639,21 +639,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 97765.18214804686,
+          "revenue": 71296.48241066666,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 48,
           "prediction_notes": "ML model (13.1% avg error)",
           "garages": {
-            "Grant Park North": 31089.327923078905,
-            "Grant Park South": 11047.465582729295,
-            "Millennium": 17499.967604500387,
-            "Lakeside": 8896.631575472264,
-            "Online": 29231.78946226601
+            "Grant Park North": 22672.281406592,
+            "Grant Park South": 8056.502512405334,
+            "Millennium": 12762.070351509332,
+            "Lakeside": 6487.979899370666,
+            "Online": 21317.64824078933
           }
         },
         {
@@ -672,21 +672,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -706,29 +706,29 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         }
       ]
     },
     "30_day": {
       "period": "30-Day Forecast",
-      "total_revenue": 4304000.232315326,
-      "daily_average": 143466.67441051087,
+      "total_revenue": 3329267.4786032666,
+      "daily_average": 110975.5826201089,
       "data": [
         {
           "date": "2025-08-07",
@@ -750,17 +750,17 @@
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 147772.14466408506,
+          "revenue": 105954.70079999999,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 46991.54200317905,
-            "Grant Park South": 16698.252347041613,
-            "Millennium": 26451.213894871224,
-            "Lakeside": 13447.265164431741,
-            "Online": 44183.87125456143
+            "Grant Park North": 33693.5948544,
+            "Grant Park South": 11972.8811904,
+            "Millennium": 18965.8914432,
+            "Lakeside": 9641.877772799999,
+            "Online": 31680.455539199997
           }
         },
         {
@@ -779,21 +779,21 @@
             "condition": "moderate rain",
             "precipitation": 6.45
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -817,21 +817,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -849,21 +849,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -881,21 +881,21 @@
             "condition": "broken clouds",
             "precipitation": 0
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: concert",
           "strategic_multiplier": 1.15,
-          "revenue": 127094.73679246093,
+          "revenue": 92685.42713386667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 40416.12630000258,
-            "Grant Park South": 14361.705257548085,
-            "Millennium": 22749.957885850505,
-            "Lakeside": 11565.621048113944,
-            "Online": 38001.32630094582
+            "Grant Park North": 29473.965828569602,
+            "Grant Park South": 10473.453266126935,
+            "Millennium": 16590.691456962133,
+            "Lakeside": 8434.373869181867,
+            "Online": 27712.942713026136
           }
         },
         {
@@ -914,21 +914,21 @@
             "condition": "moderate rain",
             "precipitation": 5.73
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -949,21 +949,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         },
         {
@@ -979,21 +979,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 113670.88051083466,
+          "revenue": 81856.79833599999,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 48,
           "prediction_notes": "ML model (13.1% avg error)",
           "garages": {
-            "Grant Park North": 36147.340002445424,
-            "Grant Park South": 12844.809497724316,
-            "Millennium": 20347.0876114394,
-            "Lakeside": 10344.050126485954,
-            "Online": 33987.59327273956
+            "Grant Park North": 26030.461870847997,
+            "Grant Park South": 9249.818211967999,
+            "Millennium": 14652.366902143998,
+            "Lakeside": 7448.968648575999,
+            "Online": 24475.182702463997
           }
         },
         {
@@ -1013,21 +1013,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -1053,21 +1053,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -1088,21 +1088,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -1118,21 +1118,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 97765.18214804686,
+          "revenue": 71296.48241066666,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 48,
           "prediction_notes": "ML model (13.1% avg error)",
           "garages": {
-            "Grant Park North": 31089.327923078905,
-            "Grant Park South": 11047.465582729295,
-            "Millennium": 17499.967604500387,
-            "Lakeside": 8896.631575472264,
-            "Online": 29231.78946226601
+            "Grant Park North": 22672.281406592,
+            "Grant Park South": 8056.502512405334,
+            "Millennium": 12762.070351509332,
+            "Lakeside": 6487.979899370666,
+            "Online": 21317.64824078933
           }
         },
         {
@@ -1151,21 +1151,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -1185,21 +1185,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         },
         {
@@ -1217,21 +1217,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 147772.14466408506,
+          "revenue": 106413.8378368,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 46991.54200317905,
-            "Grant Park South": 16698.252347041613,
-            "Millennium": 26451.213894871224,
-            "Lakeside": 13447.265164431741,
-            "Online": 44183.87125456143
+            "Grant Park North": 33839.6004321024,
+            "Grant Park South": 12024.7636755584,
+            "Millennium": 19048.0769727872,
+            "Lakeside": 9683.659243148799,
+            "Online": 31817.7375132032
           }
         },
         {
@@ -1250,21 +1250,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -1288,21 +1288,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: festival, event: fire",
           "strategic_multiplier": 1.5499999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -1321,21 +1321,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend",
           "strategic_multiplier": 1.15,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -1353,21 +1353,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 127094.73679246093,
+          "revenue": 92685.42713386667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 40416.12630000258,
-            "Grant Park South": 14361.705257548085,
-            "Millennium": 22749.957885850505,
-            "Lakeside": 11565.621048113944,
-            "Online": 38001.32630094582
+            "Grant Park North": 29473.965828569602,
+            "Grant Park South": 10473.453266126935,
+            "Millennium": 16590.691456962133,
+            "Lakeside": 8434.373869181867,
+            "Online": 27712.942713026136
           }
         },
         {
@@ -1385,21 +1385,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 121144.39341088325,
+          "revenue": 89340.24830293332,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 38523.917104660875,
-            "Grant Park South": 13689.316455429807,
-            "Millennium": 21684.8464205481,
-            "Lakeside": 11024.139800390376,
-            "Online": 36222.17362985409
+            "Grant Park North": 28410.198960332797,
+            "Grant Park South": 10095.448058231466,
+            "Millennium": 15991.904446225064,
+            "Lakeside": 8129.962595566933,
+            "Online": 26712.734242577062
           }
         },
         {
@@ -1420,21 +1420,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 133339.3730690613,
+          "revenue": 92096.4089344,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 42401.92063596149,
-            "Grant Park South": 15067.349156803926,
-            "Millennium": 23867.74777936197,
-            "Lakeside": 12133.882949284576,
-            "Online": 39868.472547649326
+            "Grant Park North": 29286.6580411392,
+            "Grant Park South": 10406.894209587199,
+            "Millennium": 16485.257199257598,
+            "Lakeside": 8380.7732130304,
+            "Online": 27536.8262713856
           }
         },
         {
@@ -1453,21 +1453,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: festival",
           "strategic_multiplier": 1.4,
-          "revenue": 147772.14466408506,
+          "revenue": 106413.8378368,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data)",
           "garages": {
-            "Grant Park North": 46991.54200317905,
-            "Grant Park South": 16698.252347041613,
-            "Millennium": 26451.213894871224,
-            "Lakeside": 13447.265164431741,
-            "Online": 44183.87125456143
+            "Grant Park North": 33839.6004321024,
+            "Grant Park South": 12024.7636755584,
+            "Millennium": 19048.0769727872,
+            "Lakeside": 9683.659243148799,
+            "Online": 31817.7375132032
           }
         },
         {
@@ -1486,21 +1486,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 158842.0607283937,
+          "revenue": 110657.6266432,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 50511.7753116292,
-            "Grant Park South": 17949.15286230849,
-            "Millennium": 28432.72887038247,
-            "Lakeside": 14454.627526283826,
-            "Online": 47493.77615778971
+            "Grant Park North": 35189.125272537596,
+            "Grant Park South": 12504.3118106816,
+            "Millennium": 19807.7151691328,
+            "Lakeside": 10069.8440245312,
+            "Online": 33086.6303663168
           }
         },
         {
@@ -1523,21 +1523,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 219631.69791383325,
+          "revenue": 156975.73163306667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 69842.87993659897,
-            "Grant Park South": 24818.38186426316,
-            "Millennium": 39314.07392657615,
-            "Lakeside": 19986.484510158825,
-            "Online": 65669.87767623614
+            "Grant Park North": 49918.2826593152,
+            "Grant Park South": 17738.257674536533,
+            "Millennium": 28098.65596231893,
+            "Lakeside": 14284.791578609067,
+            "Online": 46935.74375828693
           }
         },
         {
@@ -1558,21 +1558,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend",
           "strategic_multiplier": 1.15,
-          "revenue": 169626.00596763147,
+          "revenue": 143763.3072234667,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 53941.06989770681,
-            "Grant Park South": 19167.738674342356,
-            "Millennium": 30363.05506820603,
-            "Lakeside": 15435.966543054463,
-            "Online": 50718.17578432181
+            "Grant Park North": 45716.73169706241,
+            "Grant Park South": 16245.253716251736,
+            "Millennium": 25733.631993000537,
+            "Lakeside": 13082.460957335468,
+            "Online": 42985.22885981654
           }
         },
         {
@@ -1591,21 +1591,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: labor, holiday period",
           "strategic_multiplier": 1.25,
-          "revenue": 93867.8832,
+          "revenue": 105185.76434599998,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 29849.9868576,
-            "Grant Park South": 10607.0708016,
-            "Millennium": 16802.3510928,
-            "Lakeside": 8541.977371199999,
-            "Online": 28066.4970768
+            "Grant Park North": 33449.073062027994,
+            "Grant Park South": 11885.991371097998,
+            "Millennium": 18828.251817933997,
+            "Lakeside": 9571.904555485999,
+            "Online": 31450.543539453993
           }
         },
         {
@@ -1623,21 +1623,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 74560.967,
+          "revenue": 84491.18877333333,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 23710.387506000003,
-            "Grant Park South": 8425.389271,
-            "Millennium": 13346.413093000001,
-            "Lakeside": 6785.047997000001,
-            "Online": 22293.729133
+            "Grant Park North": 26868.19802992,
+            "Grant Park South": 9547.504331386666,
+            "Millennium": 15123.922790426665,
+            "Lakeside": 7688.698178373333,
+            "Online": 25262.865443226663
           }
         },
         {
@@ -1656,21 +1656,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 82066.634,
+          "revenue": 87097.75516,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 26097.189612000002,
-            "Grant Park South": 9273.529642000001,
-            "Millennium": 14689.927486,
-            "Lakeside": 7468.063694,
-            "Online": 24537.923566
+            "Grant Park North": 27697.08614088,
+            "Grant Park South": 9842.046333080001,
+            "Millennium": 15590.498173639999,
+            "Lakeside": 7925.89571956,
+            "Online": 26042.22879284
           }
         },
         {
@@ -1688,21 +1688,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 90949.599,
+          "revenue": 100638.08677,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 28921.972482,
-            "Grant Park South": 10277.304687,
-            "Millennium": 16279.978221,
-            "Lakeside": 8276.413509,
-            "Online": 27193.930100999998
+            "Grant Park North": 32002.91159286,
+            "Grant Park South": 11372.10380501,
+            "Millennium": 18014.21753183,
+            "Lakeside": 9158.065896069998,
+            "Online": 30090.787944229996
           }
         },
         {
@@ -1723,21 +1723,21 @@
             "condition": "partly cloudy",
             "precipitation": 0.1
           },
-          "weather_multiplier": 1.0,
+          "weather_multiplier": 1.0043333333333333,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 97762.821,
+          "revenue": 104651.538355,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading)",
           "garages": {
-            "Grant Park North": 31088.577078,
-            "Grant Park South": 11047.198773,
-            "Millennium": 17499.544959,
-            "Lakeside": 8896.416711,
-            "Online": 29231.083478999997
+            "Grant Park North": 33279.18919689,
+            "Grant Park South": 11825.623834115,
+            "Millennium": 18732.625365545,
+            "Lakeside": 9523.289990305,
+            "Online": 31290.809968144997
           }
         }
       ]
