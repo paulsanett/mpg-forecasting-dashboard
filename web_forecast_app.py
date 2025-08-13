@@ -188,37 +188,66 @@ class CleanForecaster:
             if period_key in self.static_data.get('forecasts', {}):
                 forecast_data = self.static_data['forecasts'][period_key]
                 
-                # Convert to frontend-compatible format
+                # Convert to frontend-compatible format (support both 'data' and 'days' keys)
+                rows = (
+                    forecast_data.get('data')
+                    or forecast_data.get('days')
+                    or []
+                )
                 enhanced_data = []
-                for row in forecast_data['data']:
+                for row in rows:
                     enhanced_row = row.copy()
                     
                     # Add all fields frontend expects
                     enhanced_row['final_revenue'] = row.get('revenue', 0)
-                    enhanced_row['event_count'] = len(row.get('events', []))
-                    enhanced_row['weather_high'] = row.get('weather', {}).get('temp_high', 75)
-                    enhanced_row['weather_low'] = row.get('weather', {}).get('temp_low', 65)
-                    enhanced_row['weather_condition'] = row.get('weather', {}).get('condition', 'partly cloudy')
+                    events_list = row.get('events', []) or []
+                    if not isinstance(events_list, list):
+                        events_list = []
+                    enhanced_row['event_count'] = len(events_list)
+                    weather_info = row.get('weather', {}) or {}
+                    enhanced_row['weather_high'] = weather_info.get('temp_high', row.get('weather_high', 75))
+                    enhanced_row['weather_low'] = weather_info.get('temp_low', row.get('weather_low', 65))
+                    enhanced_row['weather_condition'] = weather_info.get('condition', row.get('weather_condition', 'partly cloudy'))
+                    
+                    # Ensure garages breakdown exists
+                    if 'garages' not in enhanced_row:
+                        garages = {}
+                        for garage, pct in self.garage_distribution.items():
+                            garages[garage] = enhanced_row['final_revenue'] * pct
+                        enhanced_row['garages'] = garages
                     
                     # Enhanced features
+                    e_mult = row.get('event_multiplier', 1.0)
+                    w_mult = row.get('weather_multiplier', 1.0)
                     enhanced_row['enhanced_features'] = {
-                        'lollapalooza_day_specific': any('lollapalooza' in event.lower() or 'lolla' in event.lower() 
-                                                        for event in row.get('events', [])),
+                        'lollapalooza_day_specific': any(
+                            isinstance(ev, str) and (
+                                'lollapalooza' in ev.lower() or 'lolla' in ev.lower()
+                            ) for ev in events_list
+                        ),
                         'departure_day_model': True,
                         'weather_integration': True,
                         'strategic_classification': True,
-                        'total_multiplier': row.get('event_multiplier', 1.0) * row.get('weather_multiplier', 1.0)
+                        'total_multiplier': e_mult * w_mult
                     }
                     
                     enhanced_data.append(enhanced_row)
                 
+                # Robust metrics with fallbacks
+                total_revenue = forecast_data.get('total_revenue')
+                if total_revenue is None:
+                    total_revenue = sum(r.get('revenue', 0) for r in rows)
+                days_count = len(rows) or max(1, days)
+                daily_avg = forecast_data.get('daily_average', (total_revenue / days_count if total_revenue else 0))
+                period_label = forecast_data.get('period', f"{days}-Day Forecast")
+                
                 return {
                     'forecast_data': enhanced_data,
-                    'total_revenue': forecast_data['total_revenue'],
-                    'daily_average': forecast_data['daily_average'],
-                    'average_daily': forecast_data['daily_average'],
-                    'monthly_projection': forecast_data['daily_average'] * 30,
-                    'period': forecast_data['period'],
+                    'total_revenue': total_revenue or 0,
+                    'daily_average': daily_avg,
+                    'average_daily': daily_avg,
+                    'monthly_projection': daily_avg * 30,
+                    'period': period_label,
                     'lollapalooza_day_specific': self.lollapalooza_day_multipliers
                 }
         
@@ -353,7 +382,11 @@ def get_static_forecast():
     """Serve pre-calculated static dashboard data"""
     try:
         if forecaster.static_data:
-            return jsonify(forecaster.static_data)
+            # Include a normalized 'last_updated' field for frontend timestamp
+            payload = dict(forecaster.static_data)
+            if 'last_updated' not in payload and 'generated_at' in payload:
+                payload['last_updated'] = payload['generated_at']
+            return jsonify(payload)
         else:
             return jsonify({
                 'error': 'Static dashboard data not available',
@@ -387,10 +420,31 @@ def health_check():
 @app.route('/api/multipliers')
 def api_multipliers():
     """API endpoint to get current multiplier information"""
+    # Compute optional analytics if static data present
+    total_records = 0
+    lolla_samples = 0
+    try:
+        if forecaster.static_data:
+            # Count days across available forecast blocks
+            forecasts = forecaster.static_data.get('forecasts', {})
+            for _, block in forecasts.items():
+                rows = block.get('data') or block.get('days') or []
+                total_records += len(rows)
+                for r in rows:
+                    for ev in (r.get('events') or []):
+                        if isinstance(ev, str) and ('lollapalooza' in ev.lower() or 'lolla' in ev.lower()):
+                            lolla_samples += 1
+    except Exception:
+        pass
+    
     return jsonify({
-        'event_multipliers': forecaster.event_multipliers,
+        'standard_multipliers': forecaster.event_multipliers,
         'lollapalooza_day_specific': forecaster.lollapalooza_day_multipliers,
-        'garage_distribution': forecaster.garage_distribution
+        'garage_distribution': forecaster.garage_distribution,
+        'enhanced_features': {
+            'total_historical_records': total_records,
+            'lollapalooza_samples': lolla_samples
+        }
     })
 
 if __name__ == '__main__':
