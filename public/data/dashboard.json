@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-08-13T09:23:20.327091",
+  "generated_at": "2025-08-13T10:27:04.435215",
   "forecasts": {
     "7_day": {
-      "total_revenue": 727631.2653882639,
+      "total_revenue": 733870.9262509092,
       "days": [
         {
           "date": "2025-08-13",
@@ -40,22 +40,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9377622298519149,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire, event: symphony, event: fire, event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 93512.57294600632,
+          "revenue": 93438.05191220445,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29736.99819683001,
-            "Grant Park South": 10566.920742898714,
-            "Millennium": 16738.75055733513,
-            "Lakeside": 8509.644138086574,
-            "Online": 27960.259310855887
+            "Grant Park North": 29713.300508081014,
+            "Grant Park South": 10558.499866079103,
+            "Millennium": 16725.411292284596,
+            "Lakeside": 8502.862724010605,
+            "Online": 27937.97752174913
           }
         },
         {
@@ -82,22 +82,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9222511137922196,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 102466.8088920523,
+          "revenue": 103412.49199904362,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32584.445227672633,
-            "Grant Park South": 11578.74940480191,
-            "Millennium": 18341.558791677362,
-            "Lakeside": 9324.479609176758,
-            "Online": 30637.575858723638
+            "Grant Park North": 32885.17245569587,
+            "Grant Park South": 11685.611595891929,
+            "Millennium": 18510.836067828808,
+            "Lakeside": 9410.536771912968,
+            "Online": 30920.33510771404
           }
         },
         {
@@ -133,22 +133,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8881535769452154,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 104768.30620953637,
+          "revenue": 106654.39440198935,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33316.321374632564,
-            "Grant Park South": 11838.81860167761,
-            "Millennium": 18753.52681150701,
-            "Lakeside": 9533.91586506781,
-            "Online": 31325.723556651374
+            "Grant Park North": 33916.097419832615,
+            "Grant Park South": 12051.946567424797,
+            "Millennium": 19091.136597956094,
+            "Lakeside": 9705.549890581031,
+            "Online": 31889.663926194815
           }
         },
         {
@@ -202,22 +202,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.855606041552501,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show, event: fire, event: fest, event: show, event: fire, event: fest, event: show",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 139069.79883836163,
+          "revenue": 142941.05195421286,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 44224.196030599,
-            "Grant Park South": 15714.887268734865,
-            "Millennium": 24893.49399206673,
-            "Lakeside": 12655.351694290908,
-            "Online": 41581.86985267013
+            "Grant Park North": 45455.25452143969,
+            "Grant Park South": 16152.338870826054,
+            "Millennium": 25586.448299804102,
+            "Lakeside": 13007.63572783337,
+            "Online": 42739.374534309645
           }
         },
         {
@@ -262,22 +262,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8395616823412454,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fest, event: show, event: bears, event: fest, event: show, event: bears, event: fest, event: show, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 115144.58249620025,
+          "revenue": 114644.47512681024,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 36615.97723379168,
-            "Grant Park South": 13011.337822070629,
-            "Millennium": 20610.880266819844,
-            "Lakeside": 10478.157007154223,
-            "Online": 34428.23016636387
+            "Grant Park North": 36456.94309032566,
+            "Grant Park South": 12954.825689329558,
+            "Millennium": 20521.361047699032,
+            "Lakeside": 10432.647236539731,
+            "Online": 34278.69806291626
           }
         },
         {
@@ -301,22 +301,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9346042316056467,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 86750.95286204736,
+          "revenue": 88301.66204050224,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27586.80301013106,
-            "Grant Park South": 9802.857673411352,
-            "Millennium": 15528.420562306477,
-            "Lakeside": 7894.33671044631,
-            "Online": 25938.53490575216
+            "Grant Park North": 28079.928528879715,
+            "Grant Park South": 9978.087810576753,
+            "Millennium": 15805.997505249901,
+            "Lakeside": 8035.451245685704,
+            "Online": 26402.19695011017
           }
         },
         {
@@ -346,28 +346,28 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9283770803330407,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 85918.2431440596,
+          "revenue": 84478.79881614646,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27322.001319810952,
-            "Grant Park South": 9708.761475278734,
-            "Millennium": 15379.365522786667,
-            "Lakeside": 7818.560126109423,
-            "Online": 25689.55470007382
+            "Grant Park North": 26864.258023534574,
+            "Grant Park South": 9546.10426622455,
+            "Millennium": 15121.704988090216,
+            "Lakeside": 7687.570692269328,
+            "Online": 25259.16084602779
           }
         }
       ]
     },
     "14_day": {
-      "total_revenue": 1479708.1465066816,
+      "total_revenue": 1494423.8756064593,
       "days": [
         {
           "date": "2025-08-13",
@@ -405,22 +405,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9377622298519149,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire, event: symphony, event: fire, event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 93512.57294600632,
+          "revenue": 93438.05191220445,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29736.99819683001,
-            "Grant Park South": 10566.920742898714,
-            "Millennium": 16738.75055733513,
-            "Lakeside": 8509.644138086574,
-            "Online": 27960.259310855887
+            "Grant Park North": 29713.300508081014,
+            "Grant Park South": 10558.499866079103,
+            "Millennium": 16725.411292284596,
+            "Lakeside": 8502.862724010605,
+            "Online": 27937.97752174913
           }
         },
         {
@@ -447,22 +447,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9222511137922196,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 102466.8088920523,
+          "revenue": 103412.49199904362,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32584.445227672633,
-            "Grant Park South": 11578.74940480191,
-            "Millennium": 18341.558791677362,
-            "Lakeside": 9324.479609176758,
-            "Online": 30637.575858723638
+            "Grant Park North": 32885.17245569587,
+            "Grant Park South": 11685.611595891929,
+            "Millennium": 18510.836067828808,
+            "Lakeside": 9410.536771912968,
+            "Online": 30920.33510771404
           }
         },
         {
@@ -498,22 +498,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8881535769452154,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 104768.30620953637,
+          "revenue": 106654.39440198935,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33316.321374632564,
-            "Grant Park South": 11838.81860167761,
-            "Millennium": 18753.52681150701,
-            "Lakeside": 9533.91586506781,
-            "Online": 31325.723556651374
+            "Grant Park North": 33916.097419832615,
+            "Grant Park South": 12051.946567424797,
+            "Millennium": 19091.136597956094,
+            "Lakeside": 9705.549890581031,
+            "Online": 31889.663926194815
           }
         },
         {
@@ -567,22 +567,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.855606041552501,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show, event: fire, event: fest, event: show, event: fire, event: fest, event: show",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 139069.79883836163,
+          "revenue": 142941.05195421286,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 44224.196030599,
-            "Grant Park South": 15714.887268734865,
-            "Millennium": 24893.49399206673,
-            "Lakeside": 12655.351694290908,
-            "Online": 41581.86985267013
+            "Grant Park North": 45455.25452143969,
+            "Grant Park South": 16152.338870826054,
+            "Millennium": 25586.448299804102,
+            "Lakeside": 13007.63572783337,
+            "Online": 42739.374534309645
           }
         },
         {
@@ -627,22 +627,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8395616823412454,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fest, event: show, event: bears, event: fest, event: show, event: bears, event: fest, event: show, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 115144.58249620025,
+          "revenue": 114644.47512681024,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 36615.97723379168,
-            "Grant Park South": 13011.337822070629,
-            "Millennium": 20610.880266819844,
-            "Lakeside": 10478.157007154223,
-            "Online": 34428.23016636387
+            "Grant Park North": 36456.94309032566,
+            "Grant Park South": 12954.825689329558,
+            "Millennium": 20521.361047699032,
+            "Lakeside": 10432.647236539731,
+            "Online": 34278.69806291626
           }
         },
         {
@@ -666,22 +666,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9346042316056467,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 86750.95286204736,
+          "revenue": 88301.66204050224,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27586.80301013106,
-            "Grant Park South": 9802.857673411352,
-            "Millennium": 15528.420562306477,
-            "Lakeside": 7894.33671044631,
-            "Online": 25938.53490575216
+            "Grant Park North": 28079.928528879715,
+            "Grant Park South": 9978.087810576753,
+            "Millennium": 15805.997505249901,
+            "Lakeside": 8035.451245685704,
+            "Online": 26402.19695011017
           }
         },
         {
@@ -711,22 +711,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9283770803330407,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 85918.2431440596,
+          "revenue": 84478.79881614646,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27322.001319810952,
-            "Grant Park South": 9708.761475278734,
-            "Millennium": 15379.365522786667,
-            "Lakeside": 7818.560126109423,
-            "Online": 25689.55470007382
+            "Grant Park North": 26864.258023534574,
+            "Grant Park South": 9546.10426622455,
+            "Millennium": 15121.704988090216,
+            "Lakeside": 7687.570692269328,
+            "Online": 25259.16084602779
           }
         },
         {
@@ -759,22 +759,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9338222179005202,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 93273.64485807424,
+          "revenue": 93045.47154424991,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29661.01906486761,
-            "Grant Park South": 10539.92186896239,
-            "Millennium": 16695.98242959529,
-            "Lakeside": 8487.901682084756,
-            "Online": 27888.819812564197
+            "Grant Park North": 29588.459951071472,
+            "Grant Park South": 10514.13828450024,
+            "Millennium": 16655.139406420734,
+            "Lakeside": 8467.137910526742,
+            "Online": 27820.595991730723
           }
         },
         {
@@ -801,22 +801,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9183762718601637,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 102307.42955741782,
+          "revenue": 103235.301680711,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32533.76259925887,
-            "Grant Park South": 11560.739539988215,
-            "Millennium": 18313.02989077779,
-            "Lakeside": 9309.976089725022,
-            "Online": 30589.92143766793
+            "Grant Park North": 32828.8259344661,
+            "Grant Park South": 11665.589089920342,
+            "Millennium": 18479.119000847266,
+            "Lakeside": 9394.4124529447,
+            "Online": 30867.355202532588
           }
         },
         {
@@ -849,22 +849,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8956640385599226,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 105049.36439077399,
+          "revenue": 107056.6161346427,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33405.69787626613,
-            "Grant Park South": 11870.578176157462,
-            "Millennium": 18803.836225948544,
-            "Lakeside": 9559.492159560432,
-            "Online": 31409.75995284142
+            "Grant Park North": 34044.003930816376,
+            "Grant Park South": 12097.397623214625,
+            "Millennium": 19163.134288101042,
+            "Lakeside": 9742.152068252484,
+            "Online": 32009.928224258165
           }
         },
         {
@@ -912,22 +912,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8520112091716588,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: festival, event: fire, event: festival, event: fire, event: festival, event: fire",
           "strategic_multiplier": 1.5499999999999998,
-          "revenue": 157873.46600298383,
+          "revenue": 162400.1144585985,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 50203.76218894886,
-            "Grant Park South": 17839.701658337173,
-            "Millennium": 28259.350414534103,
-            "Lakeside": 14366.485406271528,
-            "Online": 47204.166334892165
+            "Grant Park North": 51643.23639783432,
+            "Grant Park South": 18351.21293382163,
+            "Millennium": 29069.620488089127,
+            "Lakeside": 14778.410415732462,
+            "Online": 48557.63422312095
           }
         },
         {
@@ -966,22 +966,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8360342604030853,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend",
           "strategic_multiplier": 1.15,
-          "revenue": 120271.36057528251,
+          "revenue": 121643.2204939849,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 38246.292662939835,
-            "Grant Park South": 13590.663745006925,
-            "Millennium": 21528.57354297557,
-            "Lakeside": 10944.693812350708,
-            "Online": 35961.13681200947
+            "Grant Park North": 38682.5441170872,
+            "Grant Park South": 13745.683915820295,
+            "Millennium": 21774.136468423298,
+            "Lakeside": 11069.533064952626,
+            "Online": 36371.32292770148
           }
         },
         {
@@ -1008,22 +1008,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9425074922450508,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 87484.54187010003,
+          "revenue": 89048.36425562033,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27820.08431469181,
-            "Grant Park South": 9885.753231321303,
-            "Millennium": 15659.732994747905,
-            "Lakeside": 7961.093310179102,
-            "Online": 26157.878019159907
+            "Grant Park North": 28317.379833287265,
+            "Grant Park South": 10062.465160885096,
+            "Millennium": 15939.657201756037,
+            "Lakeside": 8103.401147261449,
+            "Online": 26625.460912430477
           }
         },
         {
@@ -1053,28 +1053,28 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9244765001268079,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 85817.07386378534,
+          "revenue": 84123.86078774279,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27289.829488683736,
-            "Grant Park South": 9697.329346607743,
-            "Millennium": 15361.256221617574,
-            "Lakeside": 7809.353721604465,
-            "Online": 25659.305085271815
+            "Grant Park North": 26751.387730502207,
+            "Grant Park South": 9505.996269014935,
+            "Millennium": 15058.171081005958,
+            "Lakeside": 7655.271331684593,
+            "Online": 25153.03437553509
           }
         }
       ]
     },
     "30_day": {
-      "total_revenue": 2759015.6137489206,
+      "total_revenue": 2787018.241169909,
       "days": [
         {
           "date": "2025-08-13",
@@ -1112,22 +1112,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9377622298519149,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: symphony, event: fire, event: symphony, event: fire, event: symphony, event: fire",
           "strategic_multiplier": 1.25,
-          "revenue": 93512.57294600632,
+          "revenue": 93438.05191220445,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29736.99819683001,
-            "Grant Park South": 10566.920742898714,
-            "Millennium": 16738.75055733513,
-            "Lakeside": 8509.644138086574,
-            "Online": 27960.259310855887
+            "Grant Park North": 29713.300508081014,
+            "Grant Park South": 10558.499866079103,
+            "Millennium": 16725.411292284596,
+            "Lakeside": 8502.862724010605,
+            "Online": 27937.97752174913
           }
         },
         {
@@ -1154,22 +1154,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9222511137922196,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 102466.8088920523,
+          "revenue": 103412.49199904362,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32584.445227672633,
-            "Grant Park South": 11578.74940480191,
-            "Millennium": 18341.558791677362,
-            "Lakeside": 9324.479609176758,
-            "Online": 30637.575858723638
+            "Grant Park North": 32885.17245569587,
+            "Grant Park South": 11685.611595891929,
+            "Millennium": 18510.836067828808,
+            "Lakeside": 9410.536771912968,
+            "Online": 30920.33510771404
           }
         },
         {
@@ -1205,22 +1205,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8881535769452154,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 104768.30620953637,
+          "revenue": 106654.39440198935,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33316.321374632564,
-            "Grant Park South": 11838.81860167761,
-            "Millennium": 18753.52681150701,
-            "Lakeside": 9533.91586506781,
-            "Online": 31325.723556651374
+            "Grant Park North": 33916.097419832615,
+            "Grant Park South": 12051.946567424797,
+            "Millennium": 19091.136597956094,
+            "Lakeside": 9705.549890581031,
+            "Online": 31889.663926194815
           }
         },
         {
@@ -1274,22 +1274,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.855606041552501,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fire, event: fest, event: show, event: fire, event: fest, event: show, event: fire, event: fest, event: show",
           "strategic_multiplier": 1.2999999999999998,
-          "revenue": 139069.79883836163,
+          "revenue": 142941.05195421286,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 44224.196030599,
-            "Grant Park South": 15714.887268734865,
-            "Millennium": 24893.49399206673,
-            "Lakeside": 12655.351694290908,
-            "Online": 41581.86985267013
+            "Grant Park North": 45455.25452143969,
+            "Grant Park South": 16152.338870826054,
+            "Millennium": 25586.448299804102,
+            "Lakeside": 13007.63572783337,
+            "Online": 42739.374534309645
           }
         },
         {
@@ -1334,22 +1334,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8395616823412454,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: fest, event: show, event: bears, event: fest, event: show, event: bears, event: fest, event: show, event: bears",
           "strategic_multiplier": 1.45,
-          "revenue": 115144.58249620025,
+          "revenue": 114644.47512681024,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 36615.97723379168,
-            "Grant Park South": 13011.337822070629,
-            "Millennium": 20610.880266819844,
-            "Lakeside": 10478.157007154223,
-            "Online": 34428.23016636387
+            "Grant Park North": 36456.94309032566,
+            "Grant Park South": 12954.825689329558,
+            "Millennium": 20521.361047699032,
+            "Lakeside": 10432.647236539731,
+            "Online": 34278.69806291626
           }
         },
         {
@@ -1373,22 +1373,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9346042316056467,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 86750.95286204736,
+          "revenue": 88301.66204050224,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27586.80301013106,
-            "Grant Park South": 9802.857673411352,
-            "Millennium": 15528.420562306477,
-            "Lakeside": 7894.33671044631,
-            "Online": 25938.53490575216
+            "Grant Park North": 28079.928528879715,
+            "Grant Park South": 9978.087810576753,
+            "Millennium": 15805.997505249901,
+            "Lakeside": 8035.451245685704,
+            "Online": 26402.19695011017
           }
         },
         {
@@ -1418,22 +1418,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9283770803330407,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 85918.2431440596,
+          "revenue": 84478.79881614646,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27322.001319810952,
-            "Grant Park South": 9708.761475278734,
-            "Millennium": 15379.365522786667,
-            "Lakeside": 7818.560126109423,
-            "Online": 25689.55470007382
+            "Grant Park North": 26864.258023534574,
+            "Grant Park South": 9546.10426622455,
+            "Millennium": 15121.704988090216,
+            "Lakeside": 7687.570692269328,
+            "Online": 25259.16084602779
           }
         },
         {
@@ -1466,22 +1466,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9338222179005202,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 93273.64485807424,
+          "revenue": 93045.47154424991,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29661.01906486761,
-            "Grant Park South": 10539.92186896239,
-            "Millennium": 16695.98242959529,
-            "Lakeside": 8487.901682084756,
-            "Online": 27888.819812564197
+            "Grant Park North": 29588.459951071472,
+            "Grant Park South": 10514.13828450024,
+            "Millennium": 16655.139406420734,
+            "Lakeside": 8467.137910526742,
+            "Online": 27820.595991730723
           }
         },
         {
@@ -1508,22 +1508,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9183762718601637,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 102307.42955741782,
+          "revenue": 103235.301680711,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32533.76259925887,
-            "Grant Park South": 11560.739539988215,
-            "Millennium": 18313.02989077779,
-            "Lakeside": 9309.976089725022,
-            "Online": 30589.92143766793
+            "Grant Park North": 32828.8259344661,
+            "Grant Park South": 11665.589089920342,
+            "Millennium": 18479.119000847266,
+            "Lakeside": 9394.4124529447,
+            "Online": 30867.355202532588
           }
         },
         {
@@ -1556,22 +1556,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8956640385599226,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 105049.36439077399,
+          "revenue": 107056.6161346427,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33405.69787626613,
-            "Grant Park South": 11870.578176157462,
-            "Millennium": 18803.836225948544,
-            "Lakeside": 9559.492159560432,
-            "Online": 31409.75995284142
+            "Grant Park North": 34044.003930816376,
+            "Grant Park South": 12097.397623214625,
+            "Millennium": 19163.134288101042,
+            "Lakeside": 9742.152068252484,
+            "Online": 32009.928224258165
           }
         },
         {
@@ -1619,22 +1619,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8520112091716588,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: festival, event: fire, event: festival, event: fire, event: festival, event: fire",
           "strategic_multiplier": 1.5499999999999998,
-          "revenue": 157873.46600298383,
+          "revenue": 162400.1144585985,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 50203.76218894886,
-            "Grant Park South": 17839.701658337173,
-            "Millennium": 28259.350414534103,
-            "Lakeside": 14366.485406271528,
-            "Online": 47204.166334892165
+            "Grant Park North": 51643.23639783432,
+            "Grant Park South": 18351.21293382163,
+            "Millennium": 29069.620488089127,
+            "Lakeside": 14778.410415732462,
+            "Online": 48557.63422312095
           }
         },
         {
@@ -1673,22 +1673,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8360342604030853,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend",
           "strategic_multiplier": 1.15,
-          "revenue": 120271.36057528251,
+          "revenue": 121643.2204939849,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 38246.292662939835,
-            "Grant Park South": 13590.663745006925,
-            "Millennium": 21528.57354297557,
-            "Lakeside": 10944.693812350708,
-            "Online": 35961.13681200947
+            "Grant Park North": 38682.5441170872,
+            "Grant Park South": 13745.683915820295,
+            "Millennium": 21774.136468423298,
+            "Lakeside": 11069.533064952626,
+            "Online": 36371.32292770148
           }
         },
         {
@@ -1715,22 +1715,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9425074922450508,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 87484.54187010003,
+          "revenue": 89048.36425562033,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27820.08431469181,
-            "Grant Park South": 9885.753231321303,
-            "Millennium": 15659.732994747905,
-            "Lakeside": 7961.093310179102,
-            "Online": 26157.878019159907
+            "Grant Park North": 28317.379833287265,
+            "Grant Park South": 10062.465160885096,
+            "Millennium": 15939.657201756037,
+            "Lakeside": 8103.401147261449,
+            "Online": 26625.460912430477
           }
         },
         {
@@ -1760,22 +1760,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9244765001268079,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Baseline Days",
           "day_reasoning": "Standard weekday, no events, no disruptions",
           "strategic_multiplier": 1.0,
-          "revenue": 85817.07386378534,
+          "revenue": 84123.86078774279,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 27289.829488683736,
-            "Grant Park South": 9697.329346607743,
-            "Millennium": 15361.256221617574,
-            "Lakeside": 7809.353721604465,
-            "Online": 25659.305085271815
+            "Grant Park North": 26751.387730502207,
+            "Grant Park South": 9505.996269014935,
+            "Millennium": 15058.171081005958,
+            "Lakeside": 7655.271331684593,
+            "Online": 25153.03437553509
           }
         },
         {
@@ -1817,22 +1817,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9298987599259044,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: fire, event: fire, event: fire",
           "strategic_multiplier": 1.15,
-          "revenue": 93152.89064077972,
+          "revenue": 92654.54060436189,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 29622.61922376795,
-            "Grant Park South": 10526.27664240811,
-            "Millennium": 16674.36742469957,
-            "Lakeside": 8476.913048310955,
-            "Online": 27852.714301593136
+            "Grant Park North": 29464.14391218708,
+            "Grant Park South": 10469.963088292894,
+            "Millennium": 16585.162768180777,
+            "Lakeside": 8431.563194996932,
+            "Online": 27703.707640704204
           }
         },
         {
@@ -1868,22 +1868,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9261423045787248,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: festival, event: festival, event: festival",
           "strategic_multiplier": 1.4,
-          "revenue": 102744.52506562923,
+          "revenue": 103724.05754133732,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 32672.758970870098,
-            "Grant Park South": 11610.131332416104,
-            "Millennium": 18391.269986747633,
-            "Lakeside": 9349.75178097226,
-            "Online": 30720.61299462314
+            "Grant Park North": 32984.25029814526,
+            "Grant Park South": 11720.818502171118,
+            "Millennium": 18566.60629989938,
+            "Lakeside": 9438.889236261695,
+            "Online": 31013.493204859857
           }
         },
         {
@@ -1922,22 +1922,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8919009023362363,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: festival, event: festival, event: festival",
           "strategic_multiplier": 1.4,
-          "revenue": 104824.14622558227,
+          "revenue": 106767.89392450966,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33334.078499735166,
-            "Grant Park South": 11845.128523490797,
-            "Millennium": 18763.522174379224,
-            "Lakeside": 9538.997306527986,
-            "Online": 31342.419721449096
+            "Grant Park North": 33952.19026799407,
+            "Grant Park South": 12064.772013469592,
+            "Millennium": 19111.45301248723,
+            "Lakeside": 9715.878347130378,
+            "Online": 31923.600283428386
           }
         },
         {
@@ -1982,22 +1982,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8484314804941787,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: festival, event: fire, event: festival, event: fire, event: festival, event: fire",
           "strategic_multiplier": 1.5499999999999998,
-          "revenue": 137903.64909808637,
+          "revenue": 142515.243393909,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 43853.36041319147,
-            "Grant Park South": 15583.112348083761,
-            "Millennium": 24684.75318855746,
-            "Lakeside": 12549.23206792586,
-            "Online": 41233.19108032782
+            "Grant Park North": 45319.84739926307,
+            "Grant Park South": 16104.222503511719,
+            "Millennium": 25510.228567509712,
+            "Lakeside": 12968.887148845719,
+            "Online": 42612.05777477879
           }
         },
         {
@@ -2042,22 +2042,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8431039872885345,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, event: festival, event: festival, event: festival",
           "strategic_multiplier": 1.5499999999999998,
-          "revenue": 106393.33949039254,
+          "revenue": 107606.90153347266,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33833.08195794483,
-            "Grant Park South": 12022.447362414357,
-            "Millennium": 19044.407768780264,
-            "Lakeside": 9681.79389362572,
-            "Online": 31811.608507627367
+            "Grant Park North": 34218.99468764431,
+            "Grant Park South": 12159.579873282411,
+            "Millennium": 19261.635374491605,
+            "Lakeside": 9792.228039546011,
+            "Online": 32174.463558508323
           }
         },
         {
@@ -2084,22 +2084,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9487345375306335,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: labor, event: labor, event: labor, holiday period",
           "strategic_multiplier": 1.25,
-          "revenue": 65040.022035300855,
+          "revenue": 66202.6393416195,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 20682.727007225672,
-            "Grant Park South": 7349.522489988997,
-            "Millennium": 11642.163944318852,
-            "Lakeside": 5918.642005212378,
-            "Online": 19446.966588554955
+            "Grant Park North": 21052.439310635003,
+            "Grant Park South": 7480.898245603004,
+            "Millennium": 11850.272442149892,
+            "Lakeside": 6024.440180087375,
+            "Online": 19794.589163144232
           }
         },
         {
@@ -2120,22 +2120,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9285137890776656,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 53702.4800848561,
+          "revenue": 52001.98119081779,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 17077.38866698424,
-            "Grant Park South": 6068.380249588739,
-            "Millennium": 9612.74393518924,
-            "Lakeside": 4886.925687721905,
-            "Online": 16057.041545371972
+            "Grant Park North": 16536.630018680058,
+            "Grant Park South": 5876.22387456241,
+            "Millennium": 9308.354633156383,
+            "Lakeside": 4732.180288364419,
+            "Online": 15548.592376054517
           }
         },
         {
@@ -2162,22 +2162,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9500546509418841,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 58779.75822294426,
+          "revenue": 58262.32870232242,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 18691.963114896276,
-            "Grant Park South": 6642.112679192702,
-            "Millennium": 10521.576721907022,
-            "Lakeside": 5348.957998287928,
-            "Online": 17575.147708660334
+            "Grant Park North": 18527.42052733853,
+            "Grant Park South": 6583.643143362434,
+            "Millennium": 10428.956837715712,
+            "Lakeside": 5301.87191191134,
+            "Online": 17420.436281994404
           }
         },
         {
@@ -2198,22 +2198,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9322612268355319,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 64130.974358151376,
+          "revenue": 64718.79281992535,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 20393.649845892138,
-            "Grant Park South": 7246.800102471106,
-            "Millennium": 11479.444410109096,
-            "Lakeside": 5835.918666591775,
-            "Online": 19175.16133308726
+            "Grant Park North": 20580.57611673626,
+            "Grant Park South": 7313.223588651565,
+            "Millennium": 11584.663914766637,
+            "Lakeside": 5889.410146613207,
+            "Online": 19350.91905315768
           }
         },
         {
@@ -2243,22 +2243,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8957959301252263,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.951957142857143,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.96808,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 78127.14416610965,
+          "revenue": 80091.80961499474,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 24844.43184482287,
-            "Grant Park South": 8828.36729077039,
-            "Millennium": 13984.758805733627,
-            "Lakeside": 7109.570119115978,
-            "Online": 23360.016105666782
+            "Grant Park North": 25469.195457568327,
+            "Grant Park South": 9050.374486494406,
+            "Millennium": 14336.433921084057,
+            "Lakeside": 7288.354674964521,
+            "Online": 23947.451074883425
           }
         },
         {
@@ -2297,22 +2297,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8668215388449713,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, holiday period",
           "strategic_multiplier": 1.25,
-          "revenue": 104622.28873660929,
+          "revenue": 107736.33916107457,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 33269.887818241754,
-            "Grant Park South": 11822.31862723685,
-            "Millennium": 18727.389683853064,
-            "Lakeside": 9520.628275031446,
-            "Online": 31282.064332246176
+            "Grant Park North": 34260.15585322172,
+            "Grant Park South": 12174.206325201427,
+            "Millennium": 19284.804709832348,
+            "Lakeside": 9804.006863657785,
+            "Online": 32213.165409161298
           }
         },
         {
@@ -2342,22 +2342,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.8486742843445245,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9671285714285714,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97816,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: weekend, holiday period",
           "strategic_multiplier": 1.25,
-          "revenue": 79526.13550170002,
+          "revenue": 80433.24021276536,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 25289.311089540606,
-            "Grant Park South": 8986.453311692103,
-            "Millennium": 14235.178254804303,
-            "Lakeside": 7236.878330654701,
-            "Online": 23778.314515008304
+            "Grant Park North": 25577.770387659384,
+            "Grant Park South": 9088.956144042486,
+            "Millennium": 14397.549998085,
+            "Lakeside": 7319.424859361648,
+            "Online": 24049.538823616844
           }
         },
         {
@@ -2378,22 +2378,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9426462817722742,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9494285714285715,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9664,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: event: bears, event: bears, event: bears, holiday period",
           "strategic_multiplier": 1.4000000000000001,
-          "revenue": 53852.20392062122,
+          "revenue": 54814.83434881409,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 52,
           "prediction_notes": "Major event (high confidence - comprehensive model with real event data) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 17125.00084675755,
-            "Grant Park South": 6085.299043030198,
-            "Millennium": 9639.544501791199,
-            "Lakeside": 4900.550556776531,
-            "Online": 16101.808972265744
+            "Grant Park North": 17431.11732292288,
+            "Grant Park South": 6194.0762814159925,
+            "Millennium": 9811.85534843772,
+            "Lakeside": 4988.149925742082,
+            "Online": 16389.635470295412
           }
         },
         {
@@ -2423,22 +2423,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9405464785434292,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9646,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.97648,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 54368.17945479221,
+          "revenue": 52675.879304808266,
           "confidence_level": "MEDIUM",
           "expected_accuracy": "10-18%",
           "confidence_score": 71,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 17289.081066623923,
-            "Grant Park South": 6143.60427839152,
-            "Millennium": 9731.904122407805,
-            "Lakeside": 4947.504330386091,
-            "Online": 16256.08565698287
+            "Grant Park North": 16750.92961892903,
+            "Grant Park South": 5952.374361443334,
+            "Millennium": 9428.982395560679,
+            "Lakeside": 4793.505016737552,
+            "Online": 15750.087912137671
           }
         },
         {
@@ -2465,22 +2465,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9439579237009762,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9570142857142857,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9714400000000001,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 58411.42706772185,
+          "revenue": 57888.44544606339,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 18574.83380753555,
-            "Grant Park South": 6600.49125865257,
-            "Millennium": 10455.64544512221,
-            "Lakeside": 5315.439863162688,
-            "Online": 17465.016693248832
+            "Grant Park North": 18408.52565184816,
+            "Grant Park South": 6541.3943354051635,
+            "Millennium": 10362.031734845346,
+            "Lakeside": 5267.848535591768,
+            "Online": 17308.645188372953
           }
         },
         {
@@ -2504,22 +2504,22 @@
             "precipitation": 0.1
           },
           "weather_multiplier": 0.9262786842400555,
-          "gas_price": 3.509857142857143,
-          "fuel_multiplier": 0.9620714285714286,
+          "gas_price": 3.425,
+          "fuel_multiplier": 0.9748,
           "day_category": "Opportunity Days",
           "day_reasoning": "Opportunity indicators: holiday period",
           "strategic_multiplier": 1.1,
-          "revenue": 63728.303172962114,
+          "revenue": 64499.438422653795,
           "confidence_level": "LOW",
           "expected_accuracy": "15-30%",
           "confidence_score": 44,
           "prediction_notes": "Event detected (good confidence - improved event loading) | Blended ML \u03b1=0.45 (CV 22.50% MAPE)",
           "garages": {
-            "Grant Park North": 20265.600409001952,
-            "Grant Park South": 7201.298258544719,
-            "Millennium": 11407.366267960218,
-            "Lakeside": 5799.275588739552,
-            "Online": 19054.76264871567
+            "Grant Park North": 20510.821418403906,
+            "Grant Park South": 7288.436541759879,
+            "Millennium": 11545.399477655028,
+            "Lakeside": 5869.448896461495,
+            "Online": 19285.332088373485
           }
         }
       ]
