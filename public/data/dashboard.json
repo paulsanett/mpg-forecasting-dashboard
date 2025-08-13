@@ -1,5 +1,6 @@
 {
-  "generated_at": "2025-08-13T10:27:04.435215",
+  "generated_at": "2025-08-13T11:52:53.033230",
+  "default_variant_label": "Weather+Seasonal+Temp+Event+Fuel+Residual",
   "forecasts": {
     "7_day": {
       "total_revenue": 733870.9262509092,
